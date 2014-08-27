@@ -1,0 +1,6 @@
+This project will be used to execute tests by running a commandPrompt/shell script tests. The scope is restricted to simply running the tests in parallel and aggregating results
+
+
+TestExecutorProject <TestType> <commaSeparatedTests> - The test type will correspond to a shell-script/batch-file/someOtherExecutable and that script will take in a single test argument that this application will provide to it.
+The test will be run in parallel for each commaSeparatedTest and then once the test completes the shell-script is expected to provide a completion code to this application, then the post-test phase will aggregate the test results, which in case of MS-Test will be aggregation of .trx files
+TO DO - The application follows Plugin model so test-execution and post-test phases will need to be extended to run any kind of scripts
