@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="3263" started-at="2014-08-29T21:15:27Z" finished-at="2014-08-29T21:15:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3263" started-at="2014-08-29T21:15:27Z" finished-at="2014-08-29T21:15:30Z">
+      <class name="TestIntegerAggregator">
+        <test-method status="PASS" signature="testAggregateIntegers()[pri:0, instance:TestIntegerAggregator@5ff6670f]" name="testAggregateIntegers" duration-ms="21" started-at="2014-08-30T02:45:27Z" finished-at="2014-08-30T02:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAggregateIntegers -->
+      </class> <!-- TestIntegerAggregator -->
+      <class name="TestTrxAggregator">
+        <test-method status="PASS" signature="testPerformMerge()[pri:0, instance:TestTrxAggregator@3eb94bd7]" name="testPerformMerge" duration-ms="3227" started-at="2014-08-30T02:45:27Z" finished-at="2014-08-30T02:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPerformMerge -->
+      </class> <!-- TestTrxAggregator -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

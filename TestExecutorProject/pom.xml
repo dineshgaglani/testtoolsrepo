@@ -8,9 +8,7 @@
     <artifactId>TestExecutorProject</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>TrxAggregator</module>
-    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -36,6 +34,16 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>TrxAggregator</groupId>
+            <artifactId>TrxAggregator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+            <version>0.7.0</version>
         </dependency>
     </dependencies>
 

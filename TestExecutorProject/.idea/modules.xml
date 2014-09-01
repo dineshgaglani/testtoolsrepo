@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestExecutorProject.iml" filepath="$PROJECT_DIR$/TestExecutorProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TrxAggregator/TrxAggregator.iml" filepath="$PROJECT_DIR$/../TrxAggregator/TrxAggregator.iml" />
     </modules>
   </component>
 </project>

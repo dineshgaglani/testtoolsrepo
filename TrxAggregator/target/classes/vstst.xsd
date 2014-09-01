@@ -1125,6 +1125,7 @@
                     </xs:complexType>
                   </xs:element>
                 </xs:sequence>
+                <xs:attribute name="percentage"/>
                 <xs:attribute name="name" type="xs:string" use="required"/>
                 <xs:attribute name="path" type="xs:string" use="required"/>
                 <xs:attribute name="type" type="xs:string" use="required"/>
@@ -1703,6 +1704,8 @@
                 <xs:attribute name="type" type="WebTestErrorType" use="optional"/>
                 <xs:attribute name="subType" type="xs:string" use="optional"/>
                 <xs:attribute name="text" type="xs:string" use="required"/>
+                <xs:attribute name="stackTrace" type="xs:string" use="optional"/>
+                <xs:attribute name="exceptionText" type="xs:string" use="optional"/>
                 <xs:attribute name="time" type="xs:string" use="optional"/>
               </xs:complexType>
             </xs:element>

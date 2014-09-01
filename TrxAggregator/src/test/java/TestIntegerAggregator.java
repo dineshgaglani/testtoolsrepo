@@ -12,7 +12,7 @@ import java.util.List;
 public class TestIntegerAggregator {
 
     @Test
-    public void testAggregateIntegers() {
+    public void testAggregateIntegers() throws Exception {
         List<Integer> integerList = new ArrayList<Integer>();
         integerList.add(1);
         integerList.add(2);

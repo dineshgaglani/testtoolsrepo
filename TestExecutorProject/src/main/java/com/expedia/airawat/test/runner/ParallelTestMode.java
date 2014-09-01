@@ -1,5 +1,6 @@
 package com.expedia.airawat.test.runner;
 
+import com.expedia.airawat.test.executor.engine.TestExecutor;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
@@ -7,10 +8,14 @@ import com.google.common.util.concurrent.MoreExecutors;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.Callable;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by dgaglani on 8/21/14.
@@ -21,41 +26,23 @@ public class ParallelTestMode implements TestMode<List<String>> {
     String executorFilePath;
     ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(100));
 
-    private class ParallelTestModeRunner implements Callable<String> {
-
-        String testName;
-        String testResultsFileName;
-
-        ParallelTestModeRunner(String testName, String testResultsFileName) {
-            this.testName = testName;
-            this.testResultsFileName = testResultsFileName;
-        }
-
-        @Override
-        public String call() {
-            //Will return testResults file
-            testRunner.executeTest(executorFilePath, testName, testResultsFileName);
-            String resultsDirectory = executorFilePath.substring(0, executorFilePath.lastIndexOf(System.getProperty("file.separator")) + 1);
-            if(new File(resultsDirectory + testResultsFileName).exists()) {
-                return resultsDirectory + testResultsFileName;
-            }
-            System.out.print("Results file not created for testName " + testName);
-            return null;
-        }
-    }
-
     @Override
-    public List<String> runTest(TestRunner testRunner, String[] testNames, String executorFilePath, String testResultFileNamePart) {
+    public List<String> runTest(TestRunner testRunner, List<String> testNames, String executorFilePath, String testResultFileNamePart, TestExecutor.CompletedThreadsTracker completedThreadsTracker) {
         this.testRunner = testRunner;
         this.executorFilePath = executorFilePath;
-        List<ListenableFuture<String>> futureTestResultsFileNames = new ArrayList<ListenableFuture<String>>();
-        List<String> resultsFiles = null;
+        List<ListenableFuture<List<String>>> futureSerialTestResultsFileNames = new ArrayList<ListenableFuture<List<String>>>();
+        List<String> resultsFiles = new ArrayList<String>();
         for(String testName : testNames) {
-            String testResultFileName = testResultFileNamePart + "-" + testName;
-            futureTestResultsFileNames.add(executorService.submit(new ParallelTestModeRunner(testName, testResultFileName)));
+            String[] serialTestsList = testName.split(",");
+            futureSerialTestResultsFileNames.add(executorService.submit(new SerialTestRunner(testRunner, executorFilePath, Arrays.asList(serialTestsList), testResultFileNamePart, completedThreadsTracker)));
         }
+        //Thread t = new Thread(this.new CompletedChecker(this), "completionChecker");
+        //t.start();
         try {
-            resultsFiles = Futures.allAsList(futureTestResultsFileNames).get();
+            List<List<String>> serialTestResults = Futures.allAsList(futureSerialTestResultsFileNames).get();
+            for(List<String> serialTestResult : serialTestResults) {
+                resultsFiles.addAll(serialTestResult);
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
@@ -64,5 +51,27 @@ public class ParallelTestMode implements TestMode<List<String>> {
         return resultsFiles;
     }
 
+    //For testing completion of threads
+    /*public class CompletedChecker implements Runnable {
+
+        ParallelTestMode testMode;
+
+        public CompletedChecker(ParallelTestMode testMode) {
+            this.testMode = testMode;
+        }
+
+        @Override
+        public void run() {
+            while (testMode.getThreadsTracker().getCompletedThreadsCount() != 3) {
+                System.out.print("completed threads " + testMode.getThreadsTracker().getCompletedThreadsCount());
+                try{
+                    Thread.sleep(1*100);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }*/
 
 }
