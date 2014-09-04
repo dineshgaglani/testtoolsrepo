@@ -10,7 +10,7 @@ import org.hibernate.validator.constraints.NotEmpty;
  */
 public class TestExecutorDropwizardServiceConfiguration extends Configuration {
 
-    @NotEmpty
+   /* @NotEmpty
     private int portNumber;
 
     @JsonProperty
@@ -21,5 +21,5 @@ public class TestExecutorDropwizardServiceConfiguration extends Configuration {
     @JsonProperty
     public void setPortNumber(int portNumber) {
         this.portNumber = portNumber;
-    }
+    }*/
 }

@@ -12,10 +12,10 @@ import java.util.List;
 /**
  * Created by dgaglani on 8/31/14.
  */
-@Path("/testexecutorservice/json")
-@Produces("application/json")
+@Path("/testexecutorservice")
 public class ExecutorServiceResource {
 
+    @Path("/json")
     @POST
     @Produces("application/json")
     @Consumes("application/json")
@@ -36,6 +36,7 @@ public class ExecutorServiceResource {
         return response;
     }
 
+    @Path("/json")
     @GET
     @Produces("application/xml")
     public TestExecutorResponse getProgressForToken(@QueryParam("token") String token) {

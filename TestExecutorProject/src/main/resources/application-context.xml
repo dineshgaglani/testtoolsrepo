@@ -7,6 +7,7 @@
 
     <!-- load functional test properties    NOTE: this should be done BEFORE any other spring wirings because they may need this information -->
     <bean id="myProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean" >
+
         <property name="locations" >
             <list>
                 <value>classpath*:executor.config</value>

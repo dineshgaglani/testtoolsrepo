@@ -106,6 +106,51 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestTestExecutorServiceResource.java" line="27" class="com.expedia.airawat.test.runner.test.TestTestExecutorServiceResource" package="com.expedia.airawat.test.runner.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ServiceUtils.java" line="27" class="com.expedia.airawat.test.executor.service.ServiceUtils" package="com.expedia.airawat.test.executor.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java" line="26" class="com.expedia.airawat.test.executor.service.ExecutorServiceResource" package="com.expedia.airawat.test.executor.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -116,117 +161,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ZipFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/util/zip/ZipFile.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="315" column="31" selection-start="11038" selection-end="11038" vertical-scroll-proportion="0.0" vertical-offset="4003" max-vertical-offset="11145">
-              <folding>
-                <element signature="e#0#26683#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#16282#16283#0" expanded="false" />
-                <element signature="e#16309#16310#0" expanded="false" />
-                <element signature="e#25146#25337#0" expanded="false" />
-                <element signature="e#25321#25322#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelAggregator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TrxAggregator/src/main/java/com/expedia/aggregator/trx/ParallelAggregator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerialTestRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/SerialTestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="795">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1187#1195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestExecutorResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutorResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="15" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="720">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutorServiceResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="55" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="780">
+            <state line="6" column="42" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestParallelTestMode.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestParallelTestMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="88" selection-start="863" selection-end="863" vertical-scroll-proportion="0.1789976" vertical-offset="135" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestExecutorDropwizardServiceConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorDropwizardServiceConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#413#414#0" expanded="false" />
-                <element signature="e#446#447#0" expanded="false" />
-                <element signature="e#513#514#0" expanded="false" />
-                <element signature="e#557#558#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestExecutorServiceApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="30" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestExecutionRequest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutionRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="570">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -234,11 +173,77 @@
       <file leaf-file-name="ServiceUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ServiceUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="52" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="945">
+            <state line="27" column="87" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="960">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#435#457#0" expanded="true" />
-                <element signature="e#573#595#0" expanded="true" />
+                <element signature="e#412#434#0" expanded="true" />
+                <element signature="e#547#563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestExecutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/engine/TestExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="3207" selection-end="3207" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1860">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutorServiceResource.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.61290324" vertical-offset="0" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testBatchFile.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/testBatchFile.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionalResourceMethodDispatchAdapter.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jersey/0.7.0/dropwizard-jersey-0.7.0.jar!/io/dropwizard/jersey/guava/OptionalResourceMethodDispatchAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="889" selection-end="889" vertical-scroll-proportion="-5.44" vertical-offset="104" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonblockingServletHolder.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jetty/0.7.0/dropwizard-jetty-0.7.0.jar!/io/dropwizard/jetty/NonblockingServletHolder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="16" selection-start="626" selection-end="626" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletHandler.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.0.7.v20131107/jetty-servlet-9.0.7.v20131107.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="169" column="20" selection-start="10442" selection-end="10442" vertical-scroll-proportion="-9.04" vertical-offset="2294" max-vertical-offset="2670">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTestExecutorServiceResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestTestExecutorServiceResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="555">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#683#691#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,7 +261,6 @@
       <list>
         <option value="$PROJECT_DIR$/readme" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/java/executor/runner/test/TestParallelTestMode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestShellTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testBatchFile.bat" />
@@ -265,10 +269,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/BatchTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/ShellTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestCommandLineExecutionTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/CommandLineExecutionTestRunner.java" />
         <option value="$PROJECT_DIR$/../TrxAggregator/src/main/java/com/expedia/aggregator/trx/TrxAggregator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/com/expedia/airawat/test/executor/service/TestExecutorDropwizardService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/com/expedia/airawat/test/executor/service/TestExecutorDropwizardServiceConfiguration.java" />
@@ -276,17 +278,26 @@
         <option value="$PROJECT_DIR$/../TrxAggregator/src/main/java/com/expedia/aggregator/trx/ParallelAggregator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutionRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/TestMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/engine/TestExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutorResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ServiceUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorServiceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/SerialTestMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/RunnableSerialTestMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/ParallelTestMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/SerialTestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestParallelTestMode.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testBatchFile.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/HealthCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceHealthCheck.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestCommandLineExecutionTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configs.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorDropwizardServiceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorServiceApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ServiceUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestTestExecutorServiceApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestTestExecutorServiceResource.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/engine/TestExecutor.java" />
       </list>
     </option>
   </component>
@@ -657,44 +668,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestExecutorProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestExecutorProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="executor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -736,7 +709,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestParallelTestMode.testRunTest">
+  <component name="RunManager" selected="Application.Run">
     <configuration default="false" name="TestParallelTestMode.testRunTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -775,82 +748,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestParallelTestMode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.expedia.airawat.test.runner.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TestExecutorProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.expedia.airawat.test.runner.test" />
-      <option name="MAIN_CLASS_NAME" value="com.expedia.airawat.test.runner.test.TestParallelTestMode" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53072" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestParallelTestMode.testRunTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.expedia.airawat.test.runner.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TestExecutorProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.expedia.airawat.test.runner.test" />
-      <option name="MAIN_CLASS_NAME" value="com.expedia.airawat.test.runner.test.TestParallelTestMode" />
-      <option name="METHOD_NAME" value="testRunTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -922,6 +819,84 @@
       <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCommandLineExecutionTestRunner.testExecuteTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.expedia.airawat.test.runner.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TestExecutorProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.expedia.airawat.test.runner.test" />
+      <option name="MAIN_CLASS_NAME" value="com.expedia.airawat.test.runner.test.TestCommandLineExecutionTestRunner" />
+      <option name="METHOD_NAME" value="testExecuteTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50478" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTestExecutorServiceResource.testCreateTestExecution" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.expedia.airawat.test.runner.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TestExecutorProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.expedia.airawat.test.runner.test" />
+      <option name="MAIN_CLASS_NAME" value="com.expedia.airawat.test.runner.test.TestTestExecutorServiceResource" />
+      <option name="METHOD_NAME" value="testCreateTestExecution" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53790" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -1157,6 +1132,29 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Run" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.expedia.airawat.test.executor.service.TestExecutorServiceApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="server" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestExecutorProject" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="TrxAggregatorBuild" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1195,6 +1193,7 @@
             </option>
             <option name="goals">
               <list>
+                <option value="-X" />
                 <option value="clean" />
                 <option value="install" />
               </list>
@@ -1211,22 +1210,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Maven.TrxAggregatorBuild" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.TestExecutorInstall" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (2)" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (3)" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (4)" />
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Application.Run" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.TrxAggregatorBuild" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.TestExecutorInstall" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (3)" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (4)" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.TestCommandLineExecutionTestRunner.testExecuteTest" />
+      <item index="7" class="java.lang.String" itemvalue="TestNG.TestTestExecutorServiceResource.testCreateTestExecution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (4)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (3)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (2)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestTestExecutorServiceResource.testCreateTestExecution" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestCommandLineExecutionTestRunner.testExecuteTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (4)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestParallelTestMode.testRunTest (3)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1244,12 +1244,12 @@
       <workItem from="1409039846118" duration="2285000" />
       <workItem from="1409076514846" duration="11680000" />
       <workItem from="1409515880645" duration="140000" />
-      <workItem from="1409516377250" duration="24504000" />
+      <workItem from="1409516377250" duration="36002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75623000" />
+    <option name="totallyTimeSpent" value="87121000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1327,18 +1327,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testBatchFile.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/CommandLineExecutionTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/ParallelTestMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="31" selection-start="1711" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1110">
@@ -1382,13 +1370,6 @@
         <state line="5" column="94" selection-start="792" selection-end="792" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1590" column="0" selection-start="62974" selection-end="62974" vertical-scroll-proportion="0.0" vertical-offset="23219" max-vertical-offset="46140">
@@ -1399,11 +1380,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="31" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/executor.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="68" selection-start="160" selection-end="160" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/ShellTestRunner.java">
@@ -1428,13 +1404,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar!/org/apache/commons/exec/DefaultExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="41" selection-start="325" selection-end="341" vertical-scroll-proportion="-0.92167103" vertical-offset="458" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
@@ -1488,61 +1457,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="369" column="0" selection-start="13691" selection-end="13691" vertical-scroll-proportion="-1.5690377" vertical-offset="5535" max-vertical-offset="10905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ServiceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="945">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#457#0" expanded="true" />
-            <element signature="e#573#595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorDropwizardServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-            <element signature="e#446#447#0" expanded="false" />
-            <element signature="e#513#514#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/engine/TestExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="69" selection-start="3096" selection-end="3103" vertical-scroll-proportion="0.40497738" vertical-offset="766" max-vertical-offset="1770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="16" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/CommandLineExecutionTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="269" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
@@ -1570,23 +1487,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="15" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configs.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <folding>
+            <marker date="1409816519000" expanded="true" signature="-1:-1" placeholder="server:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/CommandLineExecutionTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestCommandLineExecutionTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutionRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.43956044" vertical-offset="115" max-vertical-offset="570">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestParallelTestMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="83" selection-start="1286" selection-end="1305" vertical-scroll-proportion="0.6356383" vertical-offset="31" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestShellTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="144" selection-start="463" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/TestExecutorDropwizardServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/executor.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="68" selection-start="160" selection-end="160" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="0" selection-start="8759" selection-end="8759" vertical-scroll-proportion="0.0" vertical-offset="3291" max-vertical-offset="6825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/util/zip/ZipFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="31" selection-start="11038" selection-end="11038" vertical-scroll-proportion="0.0" vertical-offset="4003" max-vertical-offset="11145">
-          <folding>
-            <element signature="e#0#26683#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#16282#16283#0" expanded="false" />
-            <element signature="e#16309#16310#0" expanded="false" />
-            <element signature="e#25146#25337#0" expanded="false" />
-            <element signature="e#25321#25322#0" expanded="false" />
-          </folding>
+        <state line="763" column="30" selection-start="25835" selection-end="25835" vertical-scroll-proportion="0.0" vertical-offset="10633" max-vertical-offset="11145">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/SerialTestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="795">
+        <state line="31" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="795">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1187#1195#0" expanded="true" />
@@ -1594,67 +1599,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestCommandLineExecutionTestRunner.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="90" selection-start="615" selection-end="615" vertical-scroll-proportion="0.4787234" vertical-offset="0" max-vertical-offset="376">
+        <state line="354" column="0" selection-start="12942" selection-end="12942" vertical-scroll-proportion="0.0" vertical-offset="4453" max-vertical-offset="10905">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestShellTestRunner.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="122" selection-end="122" vertical-scroll-proportion="0.20491803" vertical-offset="0" max-vertical-offset="366">
+        <state line="6" column="42" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutionRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ServiceUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="570">
+        <state line="27" column="87" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="960">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#412#434#0" expanded="true" />
+            <element signature="e#547#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/objects/TestExecutorResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestTestExecutorServiceResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="15" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="720">
+        <state line="27" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="555">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#683#691#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testBatchFile.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/engine/TestExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="102" selection-end="102" vertical-scroll-proportion="0.16556291" vertical-offset="0" max-vertical-offset="453">
+        <state line="78" column="0" selection-start="3207" selection-end="3207" vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1860">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jersey/0.7.0/dropwizard-jersey-0.7.0.jar!/io/dropwizard/jersey/guava/OptionalResourceMethodDispatchAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="780">
+        <state line="17" column="20" selection-start="889" selection-end="889" vertical-scroll-proportion="-5.44" vertical-offset="104" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jetty/0.7.0/dropwizard-jetty-0.7.0.jar!/io/dropwizard/jetty/NonblockingServletHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="626" selection-end="626" vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.0.7.v20131107/jetty-servlet-9.0.7.v20131107.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="20" selection-start="10442" selection-end="10442" vertical-scroll-proportion="-9.04" vertical-offset="2294" max-vertical-offset="2670">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/runner/ParallelTestMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="44" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.67741936" vertical-offset="90" max-vertical-offset="1020">
+        <state line="42" column="0" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.3324468" vertical-offset="280" max-vertical-offset="1020">
           <folding>
             <element signature="e#1388#1420#0" expanded="true" />
             <element signature="e#1473#1481#0" expanded="true" />
@@ -1662,9 +1672,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/expedia/airawat/test/runner/test/TestParallelTestMode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testBatchFile.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="88" selection-start="863" selection-end="863" vertical-scroll-proportion="0.1789976" vertical-offset="135" max-vertical-offset="585">
+        <state line="2" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/expedia/airawat/test/executor/service/ExecutorServiceResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.61290324" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>

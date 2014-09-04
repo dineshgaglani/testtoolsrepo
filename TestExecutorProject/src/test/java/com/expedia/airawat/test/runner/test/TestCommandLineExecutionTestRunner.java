@@ -18,6 +18,6 @@ public class TestCommandLineExecutionTestRunner {
         TestRunner testRunner = new CommandLineExecutionTestRunner();
         String executionFilePath = "/Users/dgaglani/Desktop/tasks/Airawat/TestExecutorProject/src/main/resources/";
         testRunner.executeTest(executionFilePath + "testBatchFile.sh", "regression", "regressionresult.trx");
-        Assert.assertTrue("File " + executionFilePath + "regression.trx not found!!", new File(executionFilePath + "regressionresult").exists());
+        Assert.assertTrue("File " + executionFilePath + "regression.trx not found!!", new File(executionFilePath + "regressionresult.trx").exists());
     }
 }
