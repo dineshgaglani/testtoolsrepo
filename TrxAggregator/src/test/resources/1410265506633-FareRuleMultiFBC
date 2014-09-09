@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="554b193a-ccbc-478d-a2a7-9a2d0cde5864" name="dgaglani@DEL507A1EA296 2014-09-09 17:56:28" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="74d9d016-8474-4542-af6d-f4113fc06955">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-09 17_56_28" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-09T17:56:28.7716000+05:30" queuing="2014-09-09T17:56:29.5420730+05:30" start="2014-09-09T17:56:29.6556370+05:30" finish="2014-09-09T17:57:48.5924070+05:30" />
+  <ResultSummary outcome="Warning">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-09T17:56:29.5175980+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FareRuleMultiFBC" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="02e15baa-6ea2-f013-1d0c-f9cfa131c541">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="151e54a1-4eb8-4bdc-8807-851170e978fa" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleMultiFBC" />
+      <DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleMultiFBC.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" executionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" testName="FareRuleMultiFBC" computerName="DEL507A1EA296" duration="00:01:15.6006992" startTime="2014-09-09T17:56:29.6634690+05:30" endTime="2014-09-09T17:57:46.1899410+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="4a8eca7c-2eac-44e6-9469-9823a28915d2" parentExecutionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" testName="FareRuleMultiFBC" computerName="DEL507A1EA296" duration="00:00:31.9202442" startTime="2014-09-09T17:56:30.5514220+05:30" endTime="2014-09-09T17:57:02.5657010+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2175
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8609
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EWR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = LON
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:56:34Z; CRSLogID at 914425.
+ &gt; Transaction took 2525ms.
+
+Total AirProducts returned: 961
+Total Published fares returned: 735
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 3
+Total Package Net fares returned: 222
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:56:50Z; CRSLogID at 914436.
+ &gt; Transaction took 2630ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:56:57Z; CRSLogID at 914439.
+ &gt; Transaction took 2197ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c35a7f0d-1f64-4f46-a753-95553cb0c5d5" parentExecutionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" testName="FareRuleMultiFBC" computerName="DEL507A1EA296" duration="00:00:18.6700598" startTime="2014-09-09T17:57:02.5657010+05:30" endTime="2014-09-09T17:57:21.2890760+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2176
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8111
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = SEA
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:04Z; CRSLogID at 914446.
+ &gt; Transaction took 1595ms.
+
+Total AirProducts returned: 724
+Total Published fares returned: 723
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:11Z; CRSLogID at 914452.
+ &gt; Transaction took 535ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:17Z; CRSLogID at 914456.
+ &gt; Transaction took 674ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="2cd5e3d8-67b5-4d39-b919-5ad449f32e71" parentExecutionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" testName="FareRuleMultiFBC" computerName="DEL507A1EA296" duration="00:00:24.8122115" startTime="2014-09-09T17:57:21.2890760+05:30" endTime="2014-09-09T17:57:46.1713400+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2177
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8836
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = CDG
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:23Z; CRSLogID at 914460.
+ &gt; Transaction took 1710ms.
+
+Total AirProducts returned: 785
+Total Published fares returned: 611
+Total Web fares returned: 150
+Total Naked Net fares returned: 18
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 6
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:33Z; CRSLogID at 914466.
+ &gt; Transaction took 4087ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:42Z; CRSLogID at 914478.
+ &gt; Transaction took 3029ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

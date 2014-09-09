@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="981dc5b8-c52e-4d97-b468-c9f1e087b787" name="dgaglani@DEL507A1EA296 2014-09-09 17:56:28" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="29fae207-2603-4f0a-8a10-4a25d72381be">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-09 17_56_28[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-09T17:56:28.7500620+05:30" queuing="2014-09-09T17:56:29.5469680+05:30" start="2014-09-09T17:56:29.6458470+05:30" finish="2014-09-09T17:58:12.9577590+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-09T17:56:29.5401150+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FareRuleUseBFS" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="94a010ce-5c52-54d4-9628-e4138591c9d1">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="7f16e6fd-cba8-4b47-8778-0b643fb4a357" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleUseBFS" />
+      <DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleUseBFS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="DEL507A1EA296" duration="00:01:35.2299384" startTime="2014-09-09T17:56:29.6634690+05:30" endTime="2014-09-09T17:58:05.9863000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="8724f7aa-add6-4a55-bff6-fa5ef06d7d99" parentExecutionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="DEL507A1EA296" duration="00:00:46.6203540" startTime="2014-09-09T17:56:30.6317000+05:30" endTime="2014-09-09T17:57:17.3877610+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2175
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8999
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EWR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = LON
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:56:34Z; CRSLogID at 914425.
+ &gt; Transaction took 2197ms.
+
+Total AirProducts returned: 961
+Total Published fares returned: 735
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 3
+Total Package Net fares returned: 222
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:56:49Z; CRSLogID at 914436.
+ &gt; Transaction took 672ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914439.
+   FareRules message found at 914436.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request FAILED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:07Z; CRSLogID at 914450.
+ &gt; Transaction took 655ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914450.
+   FareRules message found at 914439.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request FAILED.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at FareRule.FareRuleCases.FareRuleUseBFS() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\FareRule.cs:line 56
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="cd4453d2-5875-4058-9ac2-a8fd021ec50e" parentExecutionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="DEL507A1EA296" duration="00:00:24.7368504" startTime="2014-09-09T17:57:17.3877610+05:30" endTime="2014-09-09T17:57:42.1946420+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2176
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8079
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = SEA
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:19Z; CRSLogID at 914456.
+ &gt; Transaction took 1677ms.
+
+Total AirProducts returned: 724
+Total Published fares returned: 723
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:26Z; CRSLogID at 914464.
+ &gt; Transaction took 538ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914464.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:34Z; CRSLogID at 914471.
+ &gt; Transaction took 679ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914471.
+   FareRules message found at 914464.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="aec69908-9655-4dfd-994a-c60d91a2d8bd" parentExecutionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="DEL507A1EA296" duration="00:00:23.6944921" startTime="2014-09-09T17:57:42.1946420+05:30" endTime="2014-09-09T17:58:05.9559510+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2177
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8106
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = CDG
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:44Z; CRSLogID at 914478.
+ &gt; Transaction took 1703ms.
+
+Total AirProducts returned: 785
+Total Published fares returned: 611
+Total Web fares returned: 150
+Total Naked Net fares returned: 18
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 6
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:51Z; CRSLogID at 914482.
+ &gt; Transaction took 538ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914482.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request FAILED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:59Z; CRSLogID at 914484.
+ &gt; Transaction took 626ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914484.
+   FareRules message found at 914482.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request FAILED.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at FareRule.FareRuleCases.FareRuleUseBFS() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\FareRule.cs:line 56
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

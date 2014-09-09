@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e6e59fd4-a84b-40d3-99ab-653b94945964" name="dgaglani@DEL507A1EA296 2014-09-09 17:55:08" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="526b0746-ee9f-402a-aa64-cf9422db1e0a">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-09 17_55_08[2]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-09T17:55:08.8930320+05:30" queuing="2014-09-09T17:55:10.5113190+05:30" start="2014-09-09T17:55:11.0908870+05:30" finish="2014-09-09T17:55:48.4456110+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-09T17:55:10.4271250+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OldSearchNewPrice" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="d8935cd7-6dc4-d40c-1213-5821399caccb">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="3916f93c-1bd6-48ee-9886-2554d80a53a2" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Compatibility.CompatibilityCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OldSearchNewPrice" />
+      <DataSource connectionString="|DataDirectory|\TestData\Compatibility\TestData_Compatibility.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d8935cd7-6dc4-d40c-1213-5821399caccb" executionId="3916f93c-1bd6-48ee-9886-2554d80a53a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3916f93c-1bd6-48ee-9886-2554d80a53a2" testId="d8935cd7-6dc4-d40c-1213-5821399caccb" testName="OldSearchNewPrice" computerName="DEL507A1EA296" duration="00:00:35.8527519" startTime="2014-09-09T17:55:10.8618010+05:30" endTime="2014-09-09T17:55:48.4044930+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3916f93c-1bd6-48ee-9886-2554d80a53a2" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="e8dde85d-61dd-483a-af28-5ca4eaed07ce" parentExecutionId="3916f93c-1bd6-48ee-9886-2554d80a53a2" testId="d8935cd7-6dc4-d40c-1213-5821399caccb" testName="OldSearchNewPrice" computerName="DEL507A1EA296" duration="00:00:35.6675598" startTime="2014-09-09T17:55:12.6200850+05:30" endTime="2014-09-09T17:55:48.3927450+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3916f93c-1bd6-48ee-9886-2554d80a53a2" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 1951
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8399
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/09/2014 17:55:13.
+BFSHistory response received: 09/09/2014 17:55:26.  Using number 34.
+Market: EWR - MCO from 04/04/2015 00:00:00 to 04/11/2015 00:00:00
+Sending request to end point : http://chelairtvapn02/airinterface/rest/v1_0_0/ProcessMsg</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at Compatibility.CompatibilityCases.OldSearchNewPrice() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\Compatibility.cs:line 66
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

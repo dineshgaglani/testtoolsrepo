@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c91258c1-b554-4d31-b660-63b3bc788661" name="dgaglani@DEL507A1EA296 2014-09-09 17:55:08" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="38d0b36d-910e-48f7-864e-0e01f8556ee9">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-09 17_55_08[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-09T17:55:08.6913580+05:30" queuing="2014-09-09T17:55:10.0825170+05:30" start="2014-09-09T17:55:10.4329990+05:30" finish="2014-09-09T17:55:14.3695580+05:30" />
+  <ResultSummary outcome="Warning">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-09T17:55:10.0237770+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FareRuleToGDS" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="673db015-1a9f-18df-5de9-1d50304030bc">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="85583caf-e0aa-4dfb-b020-6b7dba7ca728" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleToGDS" />
+      <DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleToGDS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="DEL507A1EA296" duration="00:00:02.0924298" startTime="2014-09-09T17:55:10.2802750+05:30" endTime="2014-09-09T17:55:14.3392090+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="73bdb233-34d4-40a6-864e-013652fceb1d" parentExecutionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="DEL507A1EA296" duration="00:00:01.6178866" startTime="2014-09-09T17:55:12.6122530+05:30" endTime="2014-09-09T17:55:14.2403300+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2175</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1451dafd-1e18-4785-b432-6847be6f9388" parentExecutionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="DEL507A1EA296" duration="00:00:00.0391714" startTime="2014-09-09T17:55:14.2403300+05:30" endTime="2014-09-09T17:55:14.2804690+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2176</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="3ff26b30-ba0a-4499-adc1-5f827d8bf9c5" parentExecutionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="DEL507A1EA296" duration="00:00:00.0393247" startTime="2014-09-09T17:55:14.2804690+05:30" endTime="2014-09-09T17:55:14.3196290+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2177</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

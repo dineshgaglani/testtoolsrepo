@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="41fd8467-102c-4866-8e94-07f8264c43f2" name="dgaglani@DEL507A1EA296 2014-09-09 17:55:08" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="f87dfd00-87c4-4a5f-a942-66b881c55b55">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-09 17_55_08" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-09T17:55:08.4123430+05:30" queuing="2014-09-09T17:55:10.1911860+05:30" start="2014-09-09T17:55:10.6023660+05:30" finish="2014-09-09T17:56:27.4225380+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-09T17:55:10.1060130+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NewSearchOldPrice" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="8312bfc7-cb34-771d-5b71-bf9fa9f906d8">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="d6b52f30-258f-43bb-8ece-61e4c835eec8" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Compatibility.CompatibilityCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewSearchOldPrice" />
+      <DataSource connectionString="|DataDirectory|\TestData\Compatibility\TestData_Compatibility.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" executionId="d6b52f30-258f-43bb-8ece-61e4c835eec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d6b52f30-258f-43bb-8ece-61e4c835eec8" testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" testName="NewSearchOldPrice" computerName="DEL507A1EA296" duration="00:01:14.9850885" startTime="2014-09-09T17:55:10.4594320+05:30" endTime="2014-09-09T17:56:27.3823990+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6b52f30-258f-43bb-8ece-61e4c835eec8" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="d92b8769-a9cd-4bae-b22d-890dfb04b5cb" parentExecutionId="d6b52f30-258f-43bb-8ece-61e4c835eec8" testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" testName="NewSearchOldPrice" computerName="DEL507A1EA296" duration="00:01:14.5404697" startTime="2014-09-09T17:55:12.6102950+05:30" endTime="2014-09-09T17:56:27.3657560+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6b52f30-258f-43bb-8ece-61e4c835eec8" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 1951
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8399
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/09/2014 17:55:14.
+BFSHistory response received: 09/09/2014 17:55:27.  Using number 98.
+Market: TPA - HNL from 06/13/2015 00:00:00 to 06/27/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:55:47Z; CRSLogID at 914405.
+ &gt; Transaction took 18346ms.
+
+Verifying the GDS.
+There are 462 Air Product(s) with the All FareTypes
+offer Token:b311bd8a4609c22971d38585649081fc-216-1
+Sending request to end point : http://chelairtvapn02/airinterface/rest/v1_0_0/ProcessMsg</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at Compatibility.CompatibilityCases.NewSearchOldPrice() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\Compatibility.cs:line 101
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>
