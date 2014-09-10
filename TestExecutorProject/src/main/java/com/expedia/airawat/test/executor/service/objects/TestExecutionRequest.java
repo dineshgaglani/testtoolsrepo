@@ -12,8 +12,10 @@ import java.util.List;
 public class TestExecutionRequest {
 
     private String testRunnerType;
-    private List<String> testsList;
+    private List<List<String>> testsList;
     private String resultFileType;
+    private String executorLocation;
+    private String resultFileLocation;
 
     @XmlElement
     public String getTestRunnerType() {
@@ -25,11 +27,11 @@ public class TestExecutionRequest {
     }
 
     @XmlElement
-    public List<String> getTestsList() {
+    public List<List<String>> getTestsList() {
         return testsList;
     }
 
-    public void setTestsList(List<String> testsList) {
+    public void setTestsList(List<List<String>> testsList) {
         this.testsList = testsList;
     }
 
@@ -40,5 +42,23 @@ public class TestExecutionRequest {
 
     public void setResultFileType(String resultFileType) {
         this.resultFileType = resultFileType;
+    }
+
+    @XmlElement
+    public String getExecutorLocation() {
+        return executorLocation;
+    }
+
+    public void setExecutorLocation(String executorLocation) {
+        this.executorLocation = executorLocation;
+    }
+
+    @XmlElement
+    public String getResultFileLocation() {
+        return resultFileLocation;
+    }
+
+    public void setResultFileLocation(String resultFileLocation) {
+        this.resultFileLocation = resultFileLocation;
     }
 }

@@ -6,16 +6,10 @@ import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by dgaglani on 8/21/14.
@@ -27,27 +21,28 @@ public class ParallelTestMode implements TestMode<List<String>> {
     ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(100));
 
     @Override
-    public List<String> runTest(TestRunner testRunner, List<String> testNames, String executorFilePath, String testResultFileNamePart, TestExecutor.CompletedThreadsTracker completedThreadsTracker) {
+    public List<String> runTest(TestRunner testRunner, List<List<String>> testNames, String executorFilePath, String testResultFileNamePart, TestExecutor.CompletedThreadsTracker completedThreadsTracker) {
         this.testRunner = testRunner;
         this.executorFilePath = executorFilePath;
-        List<ListenableFuture<List<String>>> futureSerialTestResultsFileNames = new ArrayList<ListenableFuture<List<String>>>();
+        List<ListenableFuture<String>> futureSerialTestResultsFileNames = new ArrayList<ListenableFuture<String>>();
         List<String> resultsFiles = new ArrayList<String>();
-        for(String testName : testNames) {
-            String[] serialTestsList = testName.split(",");
-            futureSerialTestResultsFileNames.add(executorService.submit(new SerialTestRunner(testRunner, executorFilePath, Arrays.asList(serialTestsList), testResultFileNamePart, completedThreadsTracker)));
+        for(List<String> parallelTestSet : testNames) {
+            futureSerialTestResultsFileNames.clear();
+            for(String parallelTest : parallelTestSet) {
+                futureSerialTestResultsFileNames.add(executorService.submit(new ParallelTestExecutor(testRunner, executorFilePath, parallelTest, testResultFileNamePart, completedThreadsTracker)));
+            }
+            try {
+                List<String> serialTestResults = Futures.allAsList(futureSerialTestResultsFileNames).get();
+                resultsFiles.addAll(serialTestResults);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+
         }
         //Thread t = new Thread(this.new CompletedChecker(this), "completionChecker");
         //t.start();
-        try {
-            List<List<String>> serialTestResults = Futures.allAsList(futureSerialTestResultsFileNames).get();
-            for(List<String> serialTestResult : serialTestResults) {
-                resultsFiles.addAll(serialTestResult);
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
         return resultsFiles;
     }
 

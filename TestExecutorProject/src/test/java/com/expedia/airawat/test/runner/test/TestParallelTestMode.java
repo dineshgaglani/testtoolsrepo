@@ -8,6 +8,7 @@ import junit.framework.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -23,16 +24,28 @@ public class TestParallelTestMode {
         String testTimeStamp = new Long(System.currentTimeMillis()).toString();
         //String[] testsToRun = "Regression,baingan:aggression:rompShomp,gattacurry,batatavada,plainchutney".split(":");
         String[] testsToRun = "Regression,gattacurry:aggression:rompShomp".split(":");
+        List<List<String>> tests = new ArrayList();
+        List<String> set1 = new ArrayList<String>();
+        set1.add("rompShomp");
+        tests.add(set1);
+        List<String> set2 = new ArrayList<String>();
+        set2.add("aggression2");
+        set2.add("regression2");
+        tests.add(set2);
+        List<String> set3 = new ArrayList<String>();
+        set3.add("Regression");
+        set3.add("aggression");
+        set3.add("rompShomp2");
+        tests.add(set3);
         String scriptDirectorypath = "/Users/dgaglani/Desktop/tasks/Airawat/TestExecutorProject/src/main/resources/";
         TestExecutor.CompletedThreadsTracker completedThreadsTracker = new TestExecutor().new CompletedThreadsTracker();
-        List<String> resultsFileList = parallelTestMode.runTest(commandLineExecutor, Arrays.asList(testsToRun), scriptDirectorypath + "testBatchFile.sh", testTimeStamp, completedThreadsTracker);
-        Assert.assertTrue("Threads tracker shows incomplete tests, expected: all tests completed, actual: " + completedThreadsTracker.getCompletedThreadsCount(), completedThreadsTracker.getCompletedThreadsCount() == 4);
-        Assert.assertTrue("3 tests run, but the results does not have 3 files.. actual number of files " + resultsFileList.size(), resultsFileList.size() == 4);
-        for(String testName : testsToRun) {
-            String[] serialTestgroups = testName.split(",");
-            for(String individualTest : serialTestgroups) {
-                Assert.assertTrue(" resulting files does not contain results for " + testName, resultsFileList.contains(scriptDirectorypath + testTimeStamp + "-" + individualTest));
-                Assert.assertTrue(" File for test " + testName + " not created ", new File(scriptDirectorypath + testTimeStamp + "-" + individualTest).exists());
+        List<String> resultsFileList = parallelTestMode.runTest(commandLineExecutor, tests, scriptDirectorypath + "testBatchFile.sh", testTimeStamp, completedThreadsTracker);
+        Assert.assertTrue("Threads tracker shows incomplete tests, expected: all tests completed, actual: " + completedThreadsTracker.getCompletedThreadsCount(), completedThreadsTracker.getCompletedThreadsCount() == 6);
+        Assert.assertTrue("6 tests run, but the results does not have 6 files.. actual number of files " + resultsFileList.size(), resultsFileList.size() == 6);
+        for(List<String> serialTestSet : tests) {
+            for(String individualTest : serialTestSet) {
+                Assert.assertTrue(" resulting files does not contain results for " + individualTest, resultsFileList.contains(scriptDirectorypath + testTimeStamp + "-" + individualTest));
+                Assert.assertTrue(" File for test " + individualTest + " not created ", new File(scriptDirectorypath + testTimeStamp + "-" + individualTest).exists());
             }
         }
         System.out.print("Time taken: ");

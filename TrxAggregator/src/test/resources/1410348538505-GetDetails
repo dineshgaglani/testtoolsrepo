@@ -1,0 +1,3316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c447fffa-e0e9-4408-aebc-d04f73d0a676" name="dgaglani@DEL507A1EA296 2014-09-10 17:06:37" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="59c3fffe-babe-4176-a8b6-b59feee69fe0">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-10 17_06_37[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-10T17:06:37.7691536+05:30" queuing="2014-09-10T17:06:42.7945478+05:30" start="2014-09-10T17:06:42.8827298+05:30" finish="2014-09-10T17:46:55.5624665+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="37" executed="37" passed="2" error="0" failed="35" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-10T17:06:40.9084328+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetDetails" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="be336277-66b8-969f-d21e-21ed1dddba3b">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="9b3fa406-75fe-4618-b65a-bf164ef20e35" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PriceCheck.PriceCheckCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDetails" />
+      <DataSource connectionString="|DataDirectory|\TestData\PriceCheck\TestData_GetDetails.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+    <UnitTest name="TFNoDPCinGetDetails" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="960c9873-37a0-76eb-4b89-564e9ad83ffd">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="d20b5bdc-f062-4050-abc3-5b41f4d65724" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFNoDPCinGetDetails" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_TFNoDPCTest.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+    <UnitTest name="BFSUnsupportedSearchV4GetDetailsV2" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="1921224c-04fa-4e1f-813d-dc143e238306" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BFSUnsupportedSearchV4GetDetailsV2" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV4GetDetailsV2\TestData_SearchV4GetDetailsV2.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="BFSUnsupported" />
+    </UnitTest>
+    <UnitTest name="SearchV3GetDetailsV1" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="4481888d-2ac0-c5ba-0e24-d6d592d76359">
+      <Execution timeOut="2000000" id="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchV3GetDetailsV1" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV3GetDetailsV1\TestData_SearchV3GetDetailsV1.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+    <UnitTest name="SearchV4GetDetailsV2" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="d1cab80e-4b1e-4853-4ac7-29f394c06625">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="14cd7a7d-76fc-4bce-9262-f320c8c06c54" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchV4GetDetailsV2" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV4GetDetailsV2\TestData_SearchV4GetDetailsV2.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="960c9873-37a0-76eb-4b89-564e9ad83ffd" executionId="d20b5bdc-f062-4050-abc3-5b41f4d65724" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be336277-66b8-969f-d21e-21ed1dddba3b" executionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" executionId="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" executionId="1921224c-04fa-4e1f-813d-dc143e238306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" executionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d20b5bdc-f062-4050-abc3-5b41f4d65724" testId="960c9873-37a0-76eb-4b89-564e9ad83ffd" testName="TFNoDPCinGetDetails" computerName="DEL507A1EA296" duration="00:00:21.3611405" startTime="2014-09-10T17:06:42.9415178+05:30" endTime="2014-09-10T17:07:07.0671332+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d20b5bdc-f062-4050-abc3-5b41f4d65724" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="3c340f0a-80c1-453e-afb4-26ec05c28aca" parentExecutionId="d20b5bdc-f062-4050-abc3-5b41f4d65724" testId="960c9873-37a0-76eb-4b89-564e9ad83ffd" testName="TFNoDPCinGetDetails" computerName="DEL507A1EA296" duration="00:00:19.4306391" startTime="2014-09-10T17:06:47.4770120+05:30" endTime="2014-09-10T17:07:06.9828704+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d20b5bdc-f062-4050-abc3-5b41f4d65724" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3400
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8435
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = EasyJet
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = MAD
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:06:57Z; CRSLogID at 921821.
+ &gt; Transaction took 5659ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at LCCBook.TFCases.TFNoDPCinGetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 143
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:12:05.9893133" startTime="2014-09-10T17:07:07.1043656+05:30" endTime="2014-09-10T17:19:12.6936755+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" resultType="DataDrivenTest">
+      <Counters error="0" failed="12" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="bdbd06f3-18c5-4bca-b04f-e56d4c424600" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:01:12.7254553" startTime="2014-09-10T17:07:07.2278204+05:30" endTime="2014-09-10T17:08:20.1922176+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5848
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8924
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:07:08.
+BFSHistory response received: 09/10/2014 17:07:10.  Using number 15.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:07:26Z; CRSLogID at 922418.
+ &gt; Transaction took 15635ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:08:10 and 09/10/2014 17:10:10
+BFSGUID is null, verify failed!
+There are 4 Air Product(s) with the Published FareTypes
+offer Token:06d61a734fc55921522477a27c13b201-3-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:08:04Z; CRSLogID at 922445.
+ &gt; Transaction took 16878ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 922542.
+Price check MSTerrorId is 241, and GetDetails error ID(s) is/are:241 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e21d3592-c0c8-4799-993d-a08d2e14b9cb" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:32.2189833" startTime="2014-09-10T17:08:20.1922176+05:30" endTime="2014-09-10T17:08:52.5021546+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5849
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8366
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:08:20.
+BFSHistory response received: 09/10/2014 17:08:21.  Using number 72.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:08:30Z; CRSLogID at 922614.
+ &gt; Transaction took 8655ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:09:21 and 09/10/2014 17:11:21
+BFSGUID is null, verify failed!
+There are 60 Air Product(s) with the Published FareTypes
+offer Token:965bc0954e356bcd736c6d8489101ba8-20-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:08:39Z; CRSLogID at 922687.
+ &gt; Transaction took 897ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 922702.
+Price check MSTerrorId is 241, and GetDetails error ID(s) is/are:241 241 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d1bcd7a4-2806-4194-8cf8-1377b97077ab" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:59.4913627" startTime="2014-09-10T17:08:52.5021546+05:30" endTime="2014-09-10T17:09:52.1614356+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5850
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8746
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:08:52.
+BFSHistory response received: 09/10/2014 17:08:53.  Using number 0.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:09:04Z; CRSLogID at 922740.
+ &gt; Transaction took 10848ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:09:53 and 09/10/2014 17:11:53
+BFSGUID is null, verify failed!
+There are 41 Air Product(s) with the Published FareTypes
+offer Token:6dc7002d4cc519735af5bc82fb662760-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:09:31Z; CRSLogID at 922817.
+ &gt; Transaction took 18842ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 922863.
+ERROR: Mismatch for AirPair/TimeSetArr/@LocBegin: PriceCheck='02/01/2015 20:15:00', Air Message='02/01/2015 21:15:00'
+ERROR: Mismatch for AirPair/TimeSetDep/@LocBegin: PriceCheck='02/01/2015 23:15:00', Air Message='02/01/2015 23:00:00'
+ERROR: Mismatch for AirPair/TimeSetArr/@LocBegin: PriceCheck='02/02/2015 03:20:00', Air Message='02/02/2015 03:05:00'
+... Starting additional validation.
+=====VerifyPriceCheck() FAILED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="22643cb7-1ea5-46e5-86ff-e5c7ae2ccf1f" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:50.4406014" startTime="2014-09-10T17:09:52.1614356+05:30" endTime="2014-09-10T17:10:42.7444076+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5851
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8888
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:09:52.
+BFSHistory response received: 09/10/2014 17:09:53.  Using number 48.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:10:02Z; CRSLogID at 922907.
+ &gt; Transaction took 8569ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:10:53 and 09/10/2014 17:12:53
+BFSGUID is null, verify failed!
+There are 58 Air Product(s) with the Published FareTypes
+offer Token:1f65ada44fbc18dd69a6ad9f604542b9-50-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:10:29Z; CRSLogID at 922960.
+ &gt; Transaction took 19255ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 922988.
+Price check MSTerrorId is 241, and GetDetails error ID(s) is/are:241 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="aa9db432-83d8-4478-8d54-841f65c4ed62" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:37.3557541" startTime="2014-09-10T17:10:42.7444076+05:30" endTime="2014-09-10T17:11:17.7801130+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5852
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8813
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:10:42.
+BFSHistory response received: 09/10/2014 17:10:43.  Using number 54.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:10:55Z; CRSLogID at 923016.
+ &gt; Transaction took 11629ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:11:43 and 09/10/2014 17:13:43
+BFSGUID is null, verify failed!
+There are 57 Air Product(s) with the Published FareTypes
+offer Token:9066bf554f01dca4f8cfe1a4c8866a55-32-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:11:07Z; CRSLogID at 923052.
+ &gt; Transaction took 4154ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 923083.
+Price check MSTerrorId is 1805, and GetDetails error ID(s) is/are:1805 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="998b3e43-1287-4f2f-addb-ba1b9950b004" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:01:03.3412069" startTime="2014-09-10T17:11:17.7801130+05:30" endTime="2014-09-10T17:12:21.2995910+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5853
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8622
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:11:17.
+BFSHistory response received: 09/10/2014 17:11:23.  Using number 56.
+Market: ORD - MCO from 06/08/2015 00:00:00 to 06/12/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:11:46Z; CRSLogID at 923094.
+ &gt; Transaction took 22834ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:12:23 and 09/10/2014 17:14:23
+BFSGUID is null, verify failed!
+There are 462 Air Product(s) with the Published FareTypes
+offer Token:9a67b006444d3709024fa7b0e5e590ab-358-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:12:07Z; CRSLogID at 923145.
+ &gt; Transaction took 10203ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 923160.
+Price check MSTerrorId is 241, and GetDetails error ID(s) is/are:241 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="982910c8-afd8-47b1-8a5d-e545077beb3a" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:01:03.3096347" startTime="2014-09-10T17:12:21.2995910+05:30" endTime="2014-09-10T17:13:24.7717876+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5854
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8327
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:12:21.
+BFSHistory response received: 09/10/2014 17:12:24.  Using number 33.
+Market: BCN - VIE from 01/30/2015 00:00:00 to 02/06/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:12:49Z; CRSLogID at 923194.
+ &gt; Transaction took 24894ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:13:24 and 09/10/2014 17:15:24
+BFSGUID is null, verify failed!
+There are 653 Air Product(s) with the Published FareTypes
+offer Token:f6297b4d4762d955179c3dbab74ebf08-237-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:13:10Z; CRSLogID at 923261.
+ &gt; Transaction took 10257ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 923291.
+Price check MSTerrorId is 1805, and GetDetails error ID(s) is/are:1805 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="33616195-db89-49eb-a6ae-518caa6422ff" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:01:48.1766296" startTime="2014-09-10T17:13:24.7717876+05:30" endTime="2014-09-10T17:15:13.2094750+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5855
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8477
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:13:24.
+BFSHistory response received: 09/10/2014 17:13:26.  Using number 56.
+Market: EMA - BRU from 07/05/2015 00:00:00 to 07/12/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:13:32Z; CRSLogID at 923311.
+ &gt; Transaction took 5775ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:14:26 and 09/10/2014 17:16:26
+BFSGUID is null, verify failed!
+There are 1 Air Product(s) with the Published FareTypes
+offer Token:5413914f4742070945f122948de936ea-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:14:57Z; CRSLogID at 923346.
+ &gt; Transaction took 78836ms.
+
+=====VerifyPriceCheck()=====
+warning: Too many BFS PC responses found.  Checked range 919103 through 923431.
+BFS PriceCheck message found at CRSLogID 923431.
+Price check MSTerrorId is 143, and GetDetails error ID(s) is/are:143 131 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e5aaba1c-bf95-4f68-86c9-e048584fd4ba" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:46.7120631" startTime="2014-09-10T17:15:13.2094750+05:30" endTime="2014-09-10T17:16:00.0345064+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5856
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8463
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:15:13.
+BFSHistory response received: 09/10/2014 17:15:17.  Using number 99.
+Market: BOS - PDL from 07/24/2015 00:00:00 to 08/02/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:15:22Z; CRSLogID at 923433.
+ &gt; Transaction took 5374ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:16:17 and 09/10/2014 17:18:17
+BFSGUID is null, verify failed!
+There are 4 Air Product(s) with the Published FareTypes
+offer Token:99b551d543397497747f7f9d581ffe59-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:15:46Z; CRSLogID at 923469.
+ &gt; Transaction took 16404ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 923499.
+Price check MSTerrorId is 241, and GetDetails error ID(s) is/are:241 
+Verified an ERROR CASE.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="19459cff-3b7a-4c6c-a8cf-976b040426be" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:23.7163255" startTime="2014-09-10T17:16:00.0345064+05:30" endTime="2014-09-10T17:16:23.8076362+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5857
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8488
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = ASA
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:16:00.
+BFSHistory response received: 09/10/2014 17:16:01.  Using number 34.
+Market: EWR - HYD from 07/06/2015 00:00:00 to 07/27/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:16:15Z; CRSLogID at 923535.
+ &gt; Transaction took 14121ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:17:01 and 09/10/2014 17:19:01
+BFSGUID is null, verify failed!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. In search response, no flights found with fare type - AirNet</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="540f4476-ca9c-43ff-b855-eff97da64d62" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:00:55.0567013" startTime="2014-09-10T17:16:23.8076362+05:30" endTime="2014-09-10T17:17:18.9977404+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="10" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5858
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8894
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:16:23.
+BFSHistory response received: 09/10/2014 17:16:26.  Using number 55.
+Market: LHR - MIA from 03/28/2015 00:00:00 to 04/11/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:16:43Z; CRSLogID at 923592.
+ &gt; Transaction took 17309ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:17:26 and 09/10/2014 17:19:26
+BFSGUID is null, verify failed!
+There are 68 Air Product(s) with the Published FareTypes
+offer Token:ebc90b7440b2c221a8520dae44cf1d18-30-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:17:06Z; CRSLogID at 923658.
+ &gt; Transaction took 13816ms.
+
+=====VerifyPriceCheck()=====
+warning: Too many BFS PC responses found.  Checked range 919426 through 923738.
+BFS PriceCheck message found at CRSLogID 923725.
+ERROR: Mismatch in MSTError results.
+Verified an ERROR CASE.
+=====VerifyPriceCheck() FAILED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="61941149-35f1-498b-b179-8f1c52c0867b" parentExecutionId="9b3fa406-75fe-4618-b65a-bf164ef20e35" testId="be336277-66b8-969f-d21e-21ed1dddba3b" testName="GetDetails" computerName="DEL507A1EA296" duration="00:01:53.4127799" startTime="2014-09-10T17:17:18.9977404+05:30" endTime="2014-09-10T17:19:12.6760625+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3fa406-75fe-4618-b65a-bf164ef20e35" dataRowInfo="11" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5859
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8035
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:17:18.
+BFSHistory response received: 09/10/2014 17:17:20.  Using number 68.
+Market: LHR - LAX from 02/24/2015 00:00:00 to 03/10/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:17:47Z; CRSLogID at 923765.
+ &gt; Transaction took 26147ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:18:20 and 09/10/2014 17:20:20
+BFSGUID is null, verify failed!
+There are 1 Air Product(s) with the AirNet FareTypes
+offer Token:3133528b487d12e32ceba19dcfd572bf-88-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:18:58Z; CRSLogID at 923880.
+ &gt; Transaction took 59511ms.
+
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 923930.
+... Starting additional validation.
+=====VerifyPriceCheck() PASSED=====</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. PriceCheck Verification failed.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.GetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 124
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="DEL507A1EA296" duration="00:07:03.0342565" startTime="2014-09-10T17:19:12.7328155+05:30" endTime="2014-09-10T17:26:16.7971025+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" resultType="DataDrivenTest">
+      <Counters error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="e75ddaae-4f5f-4e46-86a0-595b1dd16f3f" parentExecutionId="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="DEL507A1EA296" duration="00:04:06.3520216" startTime="2014-09-10T17:19:12.8795905+05:30" endTime="2014-09-10T17:23:19.8070010+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8807
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT;CNN;INF;SRC
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+using fare finder ODs, origin: VIE, destination: PEK
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+TUID: 8807
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:22:02Z; CRSLogID at 924138.
+ &gt; Transaction took 10496ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 924150.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:59129518187845368A00151AB9A615D2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:22:41Z; CRSLogID at 924178.
+ &gt; Transaction took 19480ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:59129518187845368A00151AB9A615D2
+BFS PC message found at CRSLogID 924207.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:59129518187845368A00151AB9A615D2
+AirSegmentData message found at CRSLogID 924197.
+ASD Error: DepartureTerminalString mismatch. Expected:  	Actual: 3
+EtsFlightPrice message found at CRSLogID 924194.
+stop cout : 0
+stop cout : 0</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.IsTrue failed. Details Response Verificaiton failed.</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 202
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="72f79442-a700-44e8-a3c8-e766190d9971" parentExecutionId="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="DEL507A1EA296" duration="00:01:02.4712545" startTime="2014-09-10T17:23:19.8070010+05:30" endTime="2014-09-10T17:24:22.4241515+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8257
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT
+	departurefrom = LHR;EWR;SEA
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EWR;SEA;LHR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+TUID: 8257
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:23:53Z; CRSLogID at 924272.
+ &gt; Transaction took 33364ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:24:14Z; CRSLogID at 924313.
+ &gt; Transaction took 11772ms.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.IsTrue failed. Error:Found Unhandled Error string in Amadeus Pricing Process.
+
+</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 202
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="f8d81aa1-d0e7-4f69-bbb2-e1ad4fbbba2b" parentExecutionId="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="DEL507A1EA296" duration="00:01:54.1004890" startTime="2014-09-10T17:24:22.4241515+05:30" endTime="2014-09-10T17:26:16.7892745+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc4f39d8-54ea-41b7-bbfc-178069fe5c3e" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8480
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT;SRC
+	departurefrom = FRA;LHR;MAD
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = LHR;MAD;FRA
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+TUID: 8480
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:24:48Z; CRSLogID at 924350.
+ &gt; Transaction took 25572ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:26:12Z; CRSLogID at 924376.
+ &gt; Transaction took 79190ms.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.IsTrue failed. Error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+ID 924386.
+</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 202
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="1921224c-04fa-4e1f-813d-dc143e238306" testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" testName="BFSUnsupportedSearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:03:11.4514595" startTime="2014-09-10T17:26:16.8029735+05:30" endTime="2014-09-10T17:29:26.7532030+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1921224c-04fa-4e1f-813d-dc143e238306" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="8494a9d7-3a93-4785-b7d5-de4070b9d747" parentExecutionId="1921224c-04fa-4e1f-813d-dc143e238306" testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" testName="BFSUnsupportedSearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:46.3740798" startTime="2014-09-10T17:26:16.8166725+05:30" endTime="2014-09-10T17:28:01.4309385+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1921224c-04fa-4e1f-813d-dc143e238306" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9745
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8823
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CAI
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:26:38Z; CRSLogID at 924427.
+ &gt; Transaction took 21136ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:27:16 and 09/10/2014 17:29:16
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 924442
+Verifying the result count by fare.
+Total AirOffers returned: 189
+   Total Published fares returned: 189
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 918110 through 924456.
+There are 189 Air Product(s) with the Published FareTypes
+offer Token:ba5a4aaa4ab6edd50b47d398c4186788-77-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:27:27Z; CRSLogID at 924457.
+ &gt; Transaction took 23769ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+AirSegmentData message found at CRSLogID 918337.
+AirSegmentData message found at CRSLogID 918349.
+AirSegmentData message found at CRSLogID 921001.
+AirSegmentData message found at CRSLogID 922465.
+AirSegmentData message found at CRSLogID 922480.
+AirSegmentData message found at CRSLogID 924467.
+Flight Price message found at CRSLogID 924464.
+--------------------------------------------------------------------
+Code: baseNet Amount:127.00
+Code: baseGross Amount:127.00
+Code: taxNet Amount:265.96
+Code: taxGross Amount:265.96
+Code: GB Amount:69.00000
+Code: UB Amount:44.96000
+Code: TR Amount:8.00000
+Code: EQ Amount:0.60000
+Code: JK Amount:4.30000
+Code: QH Amount:15.30000
+Code: YR Amount:123.80000
+Code: baseNet Amount:127.00
+Code: baseGross Amount:127.00
+Code: taxNet Amount:265.96
+Code: taxGross Amount:265.96
+Code: GB Amount:69.00000
+Code: UB Amount:44.96000
+Code: TR Amount:8.00000
+Code: EQ Amount:0.60000
+Code: JK Amount:4.30000
+Code: QH Amount:15.30000
+Code: YR Amount:123.80000</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.BFSUnsupportedSearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 105
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="3eb6a463-2a96-412a-9ace-14c384064aab" parentExecutionId="1921224c-04fa-4e1f-813d-dc143e238306" testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" testName="BFSUnsupportedSearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:25.0666220" startTime="2014-09-10T17:28:01.4309385+05:30" endTime="2014-09-10T17:29:26.6915575+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1921224c-04fa-4e1f-813d-dc143e238306" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9746
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8011
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = BLR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:28:19Z; CRSLogID at 924481.
+ &gt; Transaction took 18253ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:29:01 and 09/10/2014 17:31:01
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 924496
+Verifying the result count by fare.
+Total AirOffers returned: 63
+   Total Published fares returned: 63
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 918447 through 924506.
+There are 63 Air Product(s) with the Published FareTypes
+offer Token:5221792e4d831aed002d9b9edc40b9ad-42-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:28:58Z; CRSLogID at 924507.
+ &gt; Transaction took 15442ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+AirSegmentData message found at CRSLogID 918613.
+AirSegmentData message found at CRSLogID 918696.
+AirSegmentData message found at CRSLogID 920249.
+AirSegmentData message found at CRSLogID 922814.
+AirSegmentData message found at CRSLogID 922837.
+AirSegmentData message found at CRSLogID 924517.
+Flight Price message found at CRSLogID 924514.
+--------------------------------------------------------------------
+Code: baseNet Amount:255.00
+Code: baseGross Amount:255.00
+Code: taxNet Amount:370.86
+Code: taxGross Amount:370.86
+Code: GB Amount:85.00000
+Code: UB Amount:44.96000
+Code: YQ Amount:235.00000
+Code: IN Amount:3.90000
+Code: WO Amount:1.50000
+Code: YR Amount:0.50000
+Code: baseNet Amount:255.00
+Code: baseGross Amount:255.00
+Code: taxNet Amount:370.86
+Code: taxGross Amount:370.86
+Code: GB Amount:85.00000
+Code: UB Amount:44.96000
+Code: YQ Amount:235.00000
+Code: IN Amount:3.90000
+Code: WO Amount:1.50000
+Code: YR Amount:0.50000</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.BFSUnsupportedSearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 105
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:17:22.9831660" startTime="2014-09-10T17:29:26.7708160+05:30" endTime="2014-09-10T17:46:50.1963725+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" resultType="DataDrivenTest">
+      <Counters error="0" failed="12" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="78b3ef8c-3a6d-416e-9fbf-27d9fade0947" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:00:56.5440059" startTime="2014-09-10T17:29:26.8686660+05:30" endTime="2014-09-10T17:30:23.5433860+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9747
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8486
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT;CNN;INF;SRC
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:29:26.
+BFSHistory response received: 09/10/2014 17:29:29.  Using number 42.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:29:47Z; CRSLogID at 924530.
+ &gt; Transaction took 17886ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:30:29 and 09/10/2014 17:32:29
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 26
+   Total Published fares returned: 26
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 918773 through 924549.
+There are 26 Air Product(s) with the Published FareTypes
+offer Token:dc49aeca4d8d67e490f592b7e35f010a-31-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:30:20Z; CRSLogID at 924550.
+ &gt; Transaction took 17583ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR: Error in response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="bb93d489-d052-40c1-8ceb-7426d10fe65b" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:01.0803096" startTime="2014-09-10T17:30:23.5433860+05:30" endTime="2014-09-10T17:31:24.7642170+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9748
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8071
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Web
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:30:23.
+BFSHistory response received: 09/10/2014 17:30:25.  Using number 15.
+Market: DCA - SDF from 04/14/2015 00:00:00 to 04/19/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:30:47Z; CRSLogID at 924563.
+ &gt; Transaction took 21651ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:31:25 and 09/10/2014 17:33:25
+BFSGUID is null, verify failed!
+ There are 60 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 420
+   Total Published fares returned: 240
+   Total Web fares returned: 120
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 60
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 918904 through 924582.
+There are 120 Air Product(s) with the Web FareTypes
+offer Token:2eff873c4c953dfc203787a6862e3c6a-332-2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:31:19Z; CRSLogID at 924583.
+ &gt; Transaction took 17273ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR: Error in response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c309e8ed-ce61-49ec-a9a0-2477409605b6" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:00:42.8377893" startTime="2014-09-10T17:31:24.7642170+05:30" endTime="2014-09-10T17:32:07.7007970+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9749
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8600
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CHD;INS
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = ASA
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:31:24.
+BFSHistory response received: 09/10/2014 17:31:26.  Using number 15.
+Market: JFK - DEL from 07/06/2015 00:00:00 to 07/27/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:31:52Z; CRSLogID at 924598.
+ &gt; Transaction took 25962ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:32:26 and 09/10/2014 17:34:26
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 188
+   Total Published fares returned: 188
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919045 through 924618.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. In search response, no flights found with fare type - AirNet</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c11f3ceb-82a2-486f-a642-d03a809520b5" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:09.4105591" startTime="2014-09-10T17:32:07.7007970+05:30" endTime="2014-09-10T17:33:17.2721470+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9750
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8749
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;INF
+	departurefrom = US
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:32:07.
+BFSHistory response received: 09/10/2014 17:32:11.  Using number 60.
+Market: BUR - LGW from 04/04/2015 00:00:00 to 04/11/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:32:33Z; CRSLogID at 924619.
+ &gt; Transaction took 22122ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:33:11 and 09/10/2014 17:35:11
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 88
+   Total Published fares returned: 88
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919176 through 924638.
+There are 88 Air Product(s) with the Published FareTypes
+offer Token:1ddf21094f3de1ee08bc589811a62c8f-86-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:33:13Z; CRSLogID at 924639.
+ &gt; Transaction took 17057ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR: Error in response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1a8816e7-8818-4de7-adf8-1749e776f04b" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:00:54.7484120" startTime="2014-09-10T17:33:17.2721470+05:30" endTime="2014-09-10T17:34:12.1464270+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9751
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8396
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT
+	departurefrom = SEA;SFO;DEN
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = SFO;DEN;SEA
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:34:04Z; CRSLogID at 924651.
+ &gt; Transaction took 47566ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 241 - Error String: The service provider could not obtain a session to the host
+Error Number 241 - Error String: The service provider could not obtain a session to the host
+Error Number 241 - Error String: The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="804d7b54-bacb-4784-b0c4-869071ad89d2" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:26.5813862" startTime="2014-09-10T17:34:12.1464270+05:30" endTime="2014-09-10T17:35:38.9286135+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9752
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8541
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Web
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:34:12.
+BFSHistory response received: 09/10/2014 17:34:13.  Using number 21.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:34:24Z; CRSLogID at 924662.
+ &gt; Transaction took 11196ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:35:13 and 09/10/2014 17:37:13
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 16
+   Total Published fares returned: 13
+   Total Web fares returned: 2
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 1
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919338 through 924684.
+There are 2 Air Product(s) with the Web FareTypes
+offer Token:49b112bc413bc82d41f9e9abc0fba28e-2-2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:34:57Z; CRSLogID at 924685.
+ &gt; Transaction took 8422ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 34.79, Search response it is 34.94
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 34.79, Search response it is 34.94
+Pass the case when Fare Type not changed.
+AirSegmentData message found at CRSLogID 919372.
+AirSegmentData message found at CRSLogID 920422.
+AirSegmentData message found at CRSLogID 923512.
+AirSegmentData message found at CRSLogID 924696.
+Flight Price message found at CRSLogID 919370.
+EXCEPTION while parsing EtsFlightPrice TO Response:Data at the root level is invalid. Line 1, position 21.
+EXCEPTION while parsing EtsFlightPrice TO Response:Data at the root level is invalid. Line 1, position 21.
+Flight Price message found at CRSLogID 924694.
+--------------------------------------------------------------------
+Code: baseNet Amount:4.00
+Code: baseGross Amount:4.00
+Code: taxNet Amount:34.79
+Code: taxGross Amount:34.79
+Code: YQ Amount:9.50
+Code: GB Amount:13.00
+Code: UB Amount:12.29
+Code: baseNet Amount:4.00
+Code: baseGross Amount:4.00
+Code: taxNet Amount:34.79
+Code: taxGross Amount:34.79
+Code: YQ Amount:9.50
+Code: GB Amount:13.00
+Code: UB Amount:12.29</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a00655e8-fe24-4b01-a106-6af2b05a5536" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:07.6249521" startTime="2014-09-10T17:35:38.9286135+05:30" endTime="2014-09-10T17:36:44.6545830+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9753
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8275
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;SRC;CHD;INF
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:35:38.
+BFSHistory response received: 09/10/2014 17:35:41.  Using number 8.
+Market: LHR - PMO from 06/08/2015 00:00:00 to 06/28/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:36:06Z; CRSLogID at 924730.
+ &gt; Transaction took 24800ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:36:41 and 09/10/2014 17:38:41
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 177
+   Total Published fares returned: 177
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919445 through 924752.
+There are 177 Air Product(s) with the Published FareTypes
+offer Token:586f2fea49a67cd10c71a2a8309ff8de-156-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:36:30Z; CRSLogID at 924753.
+ &gt; Transaction took 6570ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR: Error in response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a9759318-d7d7-429b-9865-58c13e7124a3" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:14.9276355" startTime="2014-09-10T17:36:44.6545830+05:30" endTime="2014-09-10T17:37:59.7554365+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9754
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8645
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INF;INF
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:36:44.
+BFSHistory response received: 09/10/2014 17:36:46.  Using number 42.
+Market: LHR - SEA from 02/02/2015 00:00:00 to 02/09/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:37:03Z; CRSLogID at 924780.
+ &gt; Transaction took 17354ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:37:46 and 09/10/2014 17:39:46
+BFSGUID is null, verify failed!
+ There are 149 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 184
+   Total Published fares returned: 35
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 149
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919544 through 924802.
+There are 149 Air Product(s) with the AirNet FareTypes
+offer Token:9b89034144837a2afeb893b22c972d1d-73-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:37:52Z; CRSLogID at 924803.
+ &gt; Transaction took 32416ms.
+
+
+ Response returned an error:Error pricing itinerary.
+
+ Response returned an error:Error pricing itinerary.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR: Error in response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8d546f3f-8432-4dc3-907d-820e73b4ee6f" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:24.5741058" startTime="2014-09-10T17:37:59.7554365+05:30" endTime="2014-09-10T17:39:24.5238700+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9755
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8990
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;INS
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:37:59.
+BFSHistory response received: 09/10/2014 17:38:01.  Using number 45.
+Market: NCL - JFK from 04/03/2015 00:00:00 to 04/08/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:38:23Z; CRSLogID at 924828.
+ &gt; Transaction took 21901ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:39:01 and 09/10/2014 17:41:01
+BFSGUID is null, verify failed!
+ There are 83 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 206
+   Total Published fares returned: 123
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 83
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919700 through 924849.
+There are 123 Air Product(s) with the Published FareTypes
+offer Token:a10f65f14c1f8ce7461b0ba639cbd4a9-45-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:38:52Z; CRSLogID at 924850.
+ &gt; Transaction took 13902ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+
+ AirBookingCode verification in GetDetails failed, GetDetails response it is V, Search response it is Q
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 1042.00, Search response it is 608.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 1042.00, Search response it is 608.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 1150.55, Search response it is 1017.95
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 1150.55, Search response it is 1017.95
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 379.00, Search response it is 221.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 379.00, Search response it is 221.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 386.41, Search response it is 342.21
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 386.41, Search response it is 342.21
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 284.00, Search response it is 166.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 284.00, Search response it is 166.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 377.73, Search response it is 333.53
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 377.73, Search response it is 333.53
+Pass the case when Fare Type not changed.
+AirSegmentData message found at CRSLogID 919751.
+AirSegmentData message found at CRSLogID 920587.
+AirSegmentData message found at CRSLogID 923975.
+AirSegmentData message found at CRSLogID 924860.
+EXCEPTION while parsing EtsFlightPrice TO Response:Data at the root level is invalid. Line 1, position 21.
+EXCEPTION while parsing EtsFlightPrice TO Response:Data at the root level is invalid. Line 1, position 21.
+Flight Price message found at CRSLogID 923972.
+Flight Price message found at CRSLogID 924857.
+--------------------------------------------------------------------
+Code: baseNet Amount:1042.00
+Code: baseGross Amount:1042.00
+Code: taxNet Amount:1150.55
+Code: taxGross Amount:1150.55
+Code: YQ Amount:639.00
+Code: GB Amount:213.00
+Code: UB Amount:188.45
+Code: YC Amount:9.60
+Code: US Amount:61.80
+Code: XA Amount:8.70
+Code: XY Amount:12.30
+Code: AY Amount:9.90
+Code: XF Amount:7.80
+Code: baseNet Amount:379.00
+Code: baseGross Amount:379.00
+Code: taxNet Amount:386.41
+Code: taxGross Amount:386.41
+Code: YQ Amount:213.00
+Code: GB Amount:71.00
+Code: UB Amount:65.71
+Code: YC Amount:3.20
+Code: US Amount:20.60
+Code: XA Amount:2.90
+Code: XY Amount:4.10
+Code: AY Amount:3.30
+Code: XF Amount:2.60
+Code: baseNet Amount:284.00
+Code: baseGross Amount:284.00
+Code: taxNet Amount:377.73
+Code: taxGross Amount:377.73
+Code: YQ Amount:213.00
+Code: GB Amount:71.00
+Code: UB Amount:57.03
+Code: YC Amount:3.20
+Code: US Amount:20.60
+Code: XA Amount:2.90
+Code: XY Amount:4.10
+Code: AY Amount:3.30
+Code: XF Amount:2.60</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e3bb81db-7dd9-4ff5-8bff-d809436c3d68" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:02:06.9030673" startTime="2014-09-10T17:39:24.5238700+05:30" endTime="2014-09-10T17:41:31.7200635+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9756
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8873
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT
+	departurefrom = LON;FCO;MUC
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = FCO;MUC;LON
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:40:32Z; CRSLogID at 924921.
+ &gt; Transaction took 67775ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 196
+   Total Published fares returned: 183
+   Total Web fares returned: 13
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919761 through 924940.
+There are 183 Air Product(s) with the Published FareTypes
+offer Token:c9a3f28e4291bf1880cecdaabce9a66f-60-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:40:57Z; CRSLogID at 924941.
+ &gt; Transaction took 12006ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+
+ AirBookingCode verification in GetDetails failed, GetDetails response it is O, Search response it is Q
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 29.00, Search response it is 84.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 29.00, Search response it is 84.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 180.39, Search response it is 201.61
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 180.39, Search response it is 201.61
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 29.00, Search response it is 84.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 29.00, Search response it is 84.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 180.39, Search response it is 201.61
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 180.39, Search response it is 201.61
+Pass the case when Fare Type not changed.
+AirSegmentData message found at CRSLogID 919877.
+AirSegmentData message found at CRSLogID 920635.
+AirSegmentData message found at CRSLogID 924070.
+AirSegmentData message found at CRSLogID 924950.
+EXCEPTION while parsing EtsFlightPrice TO Response:Data at the root level is invalid. Line 1, position 21.
+Flight Price message found at CRSLogID 920632.
+Flight Price message found at CRSLogID 924067.
+Flight Price message found at CRSLogID 924948.
+--------------------------------------------------------------------
+Code: baseNet Amount:29.00
+Code: baseGross Amount:29.00
+Code: taxNet Amount:180.39
+Code: taxGross Amount:180.39
+Code: YR Amount:71.20
+Code: GB Amount:13.00
+Code: UB Amount:36.69
+Code: MJ Amount:1.40
+Code: EX Amount:1.60
+Code: HB Amount:11.80
+Code: IT Amount:17.10
+Code: VT Amount:2.00
+Code: OY Amount:5.90
+Code: RA Amount:15.30
+Code: DE Amount:4.40
+Code: baseNet Amount:29.00
+Code: baseGross Amount:29.00
+Code: taxNet Amount:180.39
+Code: taxGross Amount:180.39
+Code: YR Amount:71.20
+Code: GB Amount:13.00
+Code: UB Amount:36.69
+Code: MJ Amount:1.40
+Code: EX Amount:1.60
+Code: HB Amount:11.80
+Code: IT Amount:17.10
+Code: VT Amount:2.00
+Code: OY Amount:5.90
+Code: RA Amount:15.30
+Code: DE Amount:4.40</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="39a60dc8-ce5f-416d-bdc8-513a12dc037a" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:04.2381255" startTime="2014-09-10T17:41:31.7200635+05:30" endTime="2014-09-10T17:42:36.1063420+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="10" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9757
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8498
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Web
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:41:31.
+BFSHistory did not return a response. 09/10/2014 17:41:33.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:41:53Z; CRSLogID at 925028.
+ &gt; Transaction took 19922ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:42:33 and 09/10/2014 17:44:33
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 60
+   Total Published fares returned: 56
+   Total Web fares returned: 4
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919883 through 925050.
+There are 4 Air Product(s) with the Web FareTypes
+offer Token:30f8b0864a6af9ed9b6639b5d20512db-12-2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:42:22Z; CRSLogID at 925051.
+ &gt; Transaction took 14255ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+AirSegmentData message found at CRSLogID 925062.
+Flight Price message found at CRSLogID 925060.
+--------------------------------------------------------------------
+Code: baseNet Amount:2.00
+Code: baseGross Amount:2.00
+Code: taxNet Amount:36.20
+Code: taxGross Amount:36.20
+Code: FR Amount:13.60000
+Code: IZ Amount:0.90000
+Code: QX Amount:9.80000
+Code: YR Amount:11.90000
+Code: baseNet Amount:2.00
+Code: baseGross Amount:2.00
+Code: taxNet Amount:36.20
+Code: taxGross Amount:36.20
+Code: FR Amount:13.60000
+Code: IZ Amount:0.90000
+Code: QX Amount:9.80000
+Code: YR Amount:11.90000</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="5efd4d33-8186-42e8-9074-93f6a56ce6bf" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:00:50.9369295" startTime="2014-09-10T17:42:36.1063420+05:30" endTime="2014-09-10T17:43:27.1605580+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="11" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9758
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8161
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;CHD;INF;INF
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:42:36.
+BFSHistory response received: 09/10/2014 17:42:37.  Using number 41.
+Market: EMA - BRU from 07/05/2015 00:00:00 to 07/12/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:43:02Z; CRSLogID at 925076.
+ &gt; Transaction took 25053ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:43:37 and 09/10/2014 17:45:37
+BFSGUID is null, verify failed!
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 5
+   Total Published fares returned: 5
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919906 through 925103.
+There are 5 Air Product(s) with the Published FareTypes
+offer Token:d4e6bd3f4e21b2c914a241b2493f0b87-5-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:43:23Z; CRSLogID at 925104.
+ &gt; Transaction took 6995ms.
+
+
+ Response returned an error:ER101 - UNABLE TO PRICE AS BOOKED OR BY 
+
+ Response returned an error:ID 925115.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. ERROR: Error in response.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a753432c-ff3d-400f-860c-8b17e17d368e" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:01:16.8389175" startTime="2014-09-10T17:43:27.1605580+05:30" endTime="2014-09-10T17:44:44.1773145+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="12" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9759
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8820
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;INS
+	departurefrom = EUR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CA
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/10/2014 17:43:27.
+BFSHistory response received: 09/10/2014 17:43:28.  Using number 11.
+Market: LHR - YYZ from 07/04/2015 00:00:00 to 07/18/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:43:58Z; CRSLogID at 925119.
+ &gt; Transaction took 30351ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:44:28 and 09/10/2014 17:46:28
+BFSGUID is null, verify failed!
+ There are 156 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 256
+   Total Published fares returned: 100
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 156
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 919961 through 925146.
+There are 100 Air Product(s) with the Published FareTypes
+offer Token:f8ccc2214546ebb2b5a500bacc575d82-243-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:44:21Z; CRSLogID at 925147.
+ &gt; Transaction took 8621ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+
+ AirBookingCode verification in GetDetails failed, GetDetails response it is N, Search response it is V
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 2159.00, Search response it is 2255.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 2159.00, Search response it is 2255.00
+Pass the case when Fare Type not changed.
+AirSegmentData message found at CRSLogID 920055.
+AirSegmentData message found at CRSLogID 920792.
+AirSegmentData message found at CRSLogID 924312.
+AirSegmentData message found at CRSLogID 925156.
+Flight Price message found at CRSLogID 925154.
+--------------------------------------------------------------------
+Code: baseNet Amount:2159.00
+Code: baseGross Amount:2159.00
+Code: taxNet Amount:1078.38
+Code: taxGross Amount:1078.38
+Code: GB Amount:213.00000
+Code: UB Amount:134.88000
+Code: CA Amount:43.80000
+Code: SQ Amount:42.30000
+Code: RC Amount:5.40000
+Code: YR Amount:639.00000
+Code: baseNet Amount:785.00
+Code: baseGross Amount:785.00
+Code: taxNet Amount:359.46
+Code: taxGross Amount:359.46
+Code: GB Amount:71.00000
+Code: UB Amount:44.96000
+Code: CA Amount:14.60000
+Code: SQ Amount:14.10000
+Code: RC Amount:1.80000
+Code: YR Amount:213.00000
+Code: baseNet Amount:589.00
+Code: baseGross Amount:589.00
+Code: taxNet Amount:359.46
+Code: taxGross Amount:359.46
+Code: GB Amount:71.00000
+Code: UB Amount:44.96000
+Code: CA Amount:14.60000
+Code: SQ Amount:14.10000
+Code: RC Amount:1.80000
+Code: YR Amount:213.00000</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 77
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="9aa0ea7d-3c9f-4ac9-ab37-ee09bb8fa654" parentExecutionId="14cd7a7d-76fc-4bce-9262-f320c8c06c54" testId="d1cab80e-4b1e-4853-4ac7-29f394c06625" testName="SearchV4GetDetailsV2" computerName="DEL507A1EA296" duration="00:02:05.6992224" startTime="2014-09-10T17:44:44.1773145+05:30" endTime="2014-09-10T17:46:50.1670175+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cd7a7d-76fc-4bce-9262-f320c8c06c54" dataRowInfo="13" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9760
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8907
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT
+	departurefrom = FRA;LHR;BER
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = LHR;BER;FRA
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:45:46Z; CRSLogID at 925172.
+ &gt; Transaction took 62531ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+ There are 0 Product with AirMarketReferenceMarkupContext
+Verifying the result count by fare.
+Total AirOffers returned: 182
+   Total Published fares returned: 182
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 920061 through 925197.
+There are 182 Air Product(s) with the Published FareTypes
+offer Token:983e93334f4d9c3a0a4033ac78a5f070-48-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:46:23Z; CRSLogID at 925198.
+ &gt; Transaction took 22016ms.
+
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+
+ AirBookingCode verification in GetDetails failed, GetDetails response it is V, Search response it is G
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 148.00, Search response it is 145.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 148.00, Search response it is 145.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 236.68, Search response it is 235.08
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 236.68, Search response it is 235.08
+Pass the case when Fare Type not changed.
+AirSegmentData message found at CRSLogID 920179.
+AirSegmentData message found at CRSLogID 920833.
+AirSegmentData message found at CRSLogID 924426.
+AirSegmentData message found at CRSLogID 925208.
+Flight Price message found at CRSLogID 925205.
+--------------------------------------------------------------------
+Code: baseNet Amount:148.00
+Code: baseGross Amount:148.00
+Code: taxNet Amount:236.68
+Code: taxGross Amount:236.68
+Code: GB Amount:13.00000
+Code: UB Amount:32.18000
+Code: DE Amount:11.00000
+Code: OY Amount:12.00000
+Code: RA Amount:32.30000
+Code: CJ Amount:17.10000
+Code: RN Amount:15.90000
+Code: VV Amount:4.80000
+Code: YR Amount:98.40000
+Code: baseNet Amount:148.00
+Code: baseGross Amount:148.00
+Code: taxNet Amount:236.68
+Code: taxGross Amount:236.68
+Code: GB Amount:13.00000
+Code: UB Amount:32.18000
+Code: DE Amount:11.00000
+Code: OY Amount:12.00000
+Code: RA Amount:32.30000
+Code: CJ Amount:17.10000
+Code: RN Amount:15.90000
+Code: VV Amount:4.80000
+Code: YR Amount:98.40000</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

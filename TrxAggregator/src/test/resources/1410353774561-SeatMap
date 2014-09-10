@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="00082fe9-70a5-46ca-a543-e83ab05040ff" name="dgaglani@DEL507A1EA296 2014-09-10 18:26:21" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="70f88682-675d-4b57-91ac-532bf0f62c2d">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-10 18_26_21[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-10T18:26:21.7729585+05:30" queuing="2014-09-10T18:26:28.9365570+05:30" start="2014-09-10T18:26:29.2721825+05:30" finish="2014-09-10T18:30:30.3276145+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-10T18:26:28.6381145+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SeatMap" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="63f79f3b-c36f-2a8b-07c9-11213ce7f5df">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="a5707676-d594-4612-ba5b-f775b84760ee" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SeatMap.SeatMapCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SeatMap" />
+      <DataSource connectionString="|DataDirectory|\TestData\SeatMap\TestData_SeatMap.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" executionId="a5707676-d594-4612-ba5b-f775b84760ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:03:51.9440046" startTime="2014-09-10T18:26:29.3044730+05:30" endTime="2014-09-10T18:30:27.2287050+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" resultType="DataDrivenTest">
+      <Counters error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="afa81a54-290b-4dbe-b3fe-947396fbd849" parentExecutionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:01:09.3948923" startTime="2014-09-10T18:26:36.0619940+05:30" endTime="2014-09-10T18:27:45.6216020+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 22114
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8095
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = VX,FJ
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = VX,FJ
+	passengerlist = ADT
+	departurefrom = SEA
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = NAN
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 18:26:50Z; CRSLogID at 925273.
+ &gt; Transaction took 9136ms.
+
+29 flights found.
+Found a flight on VX and FJ on Sabre
+Looking at seatmap on VX flight number 796 SEA to LAX on 12/09/2014 15:05:00
+Looking at seatmap on FJ flight number 811 LAX to NAN on 12/09/2014 21:30:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSeatMap transaction at 2014-09-10 18:27:32Z; CRSLogID at 925449.
+ &gt; Transaction took 32040ms.
+
+AirSeatMapResponse returned an error:WrappedLegacyMSTError: Error Number 241 - Error String: The service provider could not obtain a session to the host
+Error Number 241 - Error String: The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at SeatMap.SeatMapCases.SeatMap() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SeatMap.cs:line 63
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="31764ed5-6282-4c90-82f7-58d5e9e6eb07" parentExecutionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:00:42.3419269" startTime="2014-09-10T18:27:45.6216020+05:30" endTime="2014-09-10T18:28:28.0601255+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 22115
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8243
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = UA,
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = UA,
+	passengerlist = ADT
+	departurefrom = SFO
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CDG
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 18:28:01Z; CRSLogID at 925605.
+ &gt; Transaction took 15923ms.
+
+74 flights found.
+Found a flight on B6 on Sabre
+Found a flight on AC on Sabre
+Found a flight on AF on Sabre
+Found a flight on AF on Sabre
+Found a flight on AM on Sabre
+Found a flight on BA on Sabre
+Found a flight on KL on Sabre
+Found a flight on LH on Sabre
+Found a flight on LX on Sabre
+Found a flight on SK on Sabre
+Found a flight on SK on Sabre
+Found a flight on SN on Sabre
+Found a flight on UA on Sabre
+Looking at seatmap on UA flight number 990 SFO to CDG on 12/09/2014 14:05:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSeatMap transaction at 2014-09-10 18:28:22Z; CRSLogID at 925642.
+ &gt; Transaction took 16264ms.
+
+AirSeatMapResponse returned an error:WrappedLegacyMSTError: Error Number 241 - Error String: The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at SeatMap.SeatMapCases.SeatMap() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SeatMap.cs:line 63
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0ed4a332-48ac-47a3-9818-1609365176da" parentExecutionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:00:40.5499886" startTime="2014-09-10T18:28:28.0601255+05:30" endTime="2014-09-10T18:29:08.7021230+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 22116
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8657
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = BA,VS
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = BA,VS
+	passengerlist = ADT
+	departurefrom = MAN
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = BGI
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 18:28:36Z; CRSLogID at 925679.
+ &gt; Transaction took 8677ms.
+
+42 flights found.
+Found a flight on VS and VS on Amadeus
+Found a flight on VS and VS on Amadeus
+Found a flight on VS and VS on Amadeus
+Found a flight on BA and VS on Amadeus
+Looking at seatmap on BA flight number 1405 MAN to LHR on 12/09/2014 19:00:00
+Looking at seatmap on VS flight number 29 LGW to BGI on 12/10/2014 10:30:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSeatMap transaction at 2014-09-10 18:28:43Z; CRSLogID at 925792.
+ &gt; Transaction took 1909ms.
+
+Seat status for airline BA: 
+
+1   AR  BR  CR     DR  ER  FR  
+2   AR  BR  CR     DR  ER  FR  
+3   AR  BR  CR     DR  ER  FR  
+4   AR  BR  CR     DR  ER  FR  
+5   AA  BA  CA     DAH EA  FA  
+6   AA  BA  CA     DAH EA  FA  
+7   AA  BA  CA     DAH EA  FA  
+8   AA  BA  CA     DA  EA  FA  
+9   AR  BA  CR     DR  EA  FA  
+10  AA  BA  CA     DAH EA  FA  
+11  AA  BA  CAH    DAH EA  FA  
+12  AA  BA  CAH    DAH EA  FA  
+13  AA  BA  CAH    DAH EA  FA  
+14  AA  BA  CAH    DAH EA  FA  
+15  AA  BA  CAH    DAH EA  FA  
+16  AA  BA  CAH    DAH EA  FA  
+17  AA  BA  CAH    DAH EA  FA  
+18  AA  BA  CAH    DAH EA  FA  
+19  AA  BA  CAH    DAH EA  FA  
+20  AA  BA  CAH    DAH EA  FA  
+21  AA  BA  CAH    DR  ER  FR  
+22  AA  BA  CAH    DR  ER  FR  
+
+ Seat map is unavailable for VS, response: CAPI_PoweredAirErrorInformation errorDetails
+  Error at Application Level
+  Error Number 102
+  Error TextSEAT MAP NOT AVAILABLE FOR THIS CARRIER
+CAPI_PoweredAirWarningInformation warningDetails
+    SeatMapReply_warningInformation: none or empty
+. 
+
+
+ Seat map is unavailable for VS, response: CAPI_PoweredAirErrorInformation errorDetails
+  Error at Application Level
+  Error Number 102
+  Error TextSEAT MAP NOT AVAILABLE FOR THIS CARRIER
+CAPI_PoweredAirWarningInformation warningDetails
+    SeatMapReply_warningInformation: none or empty
+. 
+
+Error: no XP message found between 09/10/2014 18:29:28 and 09/10/2014 18:31:28
+BFSGUID is null, verify failed!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at SeatMap.SeatMapCases.SeatMap() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SeatMap.cs:line 63
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="28b19984-9205-41a7-a6b7-8638339ba6aa" parentExecutionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:00:25.3574699" startTime="2014-09-10T18:29:08.7021230+05:30" endTime="2014-09-10T18:29:34.1176820+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 22117
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8795
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = UA,
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = UA,
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = SFO
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 18:29:20Z; CRSLogID at 925837.
+ &gt; Transaction took 11810ms.
+
+60 flights found.
+Found a flight on FI on Amadeus
+Found a flight on AC on Amadeus
+Found a flight on AF on Amadeus
+Found a flight on BA on Amadeus
+Found a flight on KL on Amadeus
+Found a flight on LH on Amadeus
+Found a flight on LX on Amadeus
+Found a flight on UA on Amadeus
+Looking at seatmap on UA flight number 931 LHR to SFO on 12/09/2014 13:35:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSeatMap transaction at 2014-09-10 18:29:27Z; CRSLogID at 925867.
+ &gt; Transaction took 3324ms.
+
+Seat status for airline UA: 
+
+19              DA  EA  GR  
+20  AR  BR        DAP EAP GAP       JR  KR  
+21  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+22  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+23  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+24  AR  BAP CAP    DAP EAP GAP    HAP JAP KAP 
+25  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+26  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+27  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+28  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+29  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+30  AAP BAP CAP    DAP EAP GAP    HAP JAP KAP 
+31  AAP BAP                      JAP KAP 
+33  AR  BR  CR                 HR  JR  KR  
+34  AR  BA  CR     DR  ER  GR     HA  JA  KA  
+35  AA  BA  CA     DA  EA  GR     HR  JR  KA  
+36  AA  BA  CA     DA  EA  GR     HA  JA  KA  
+37  AA  BA  CA     DA  EA  GA     HR  JR  KR  
+38  AA  BA  CR     DR  ER  GR     HR  JA  KA  
+39  AA  BA  CA     DA  EA  GA     HA  JA  KA  
+40  AR  BA  CA     DA  EA  GA     HA  JA  KA  
+41  AA  BA  CA     DA  EA  GA     HA  JA  KA  
+42  AA  BA  CA     DA  EA  GA     HA  JA  KA  
+43  AA  BA  CA     DA  EA  GA     HA  JA  KA  
+44  AA  BA  CA     DA  EA  GA     HA  JA  KA  
+45  AA  BA  CA     DA  EA  GA     HA  JA  KA  
+46              DA  EA  GA  
+Error: no XP message found between 09/10/2014 18:30:08 and 09/10/2014 18:32:08
+BFSGUID is null, verify failed!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at SeatMap.SeatMapCases.SeatMap() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SeatMap.cs:line 63
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7597d7a1-3fbc-46a0-8763-98d6750ce637" parentExecutionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:00:31.0998807" startTime="2014-09-10T18:29:34.1176820+05:30" endTime="2014-09-10T18:30:05.2897565+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 22118
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8979
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = LH,DE
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = LH,DE
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CUN
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 18:29:41Z; CRSLogID at 925877.
+ &gt; Transaction took 7649ms.
+
+36 flights found.
+Found a flight on BA and AB on TravelPort
+Found a flight on BA and AB on TravelPort
+Found a flight on BA and AB on TravelPort
+Found a flight on BA and AB on TravelPort
+Found a flight on AB and AB on TravelPort
+Found a flight on AB and AB on TravelPort
+Found a flight on AB and AB on TravelPort
+Found a flight on AB and AB on TravelPort
+Found a flight on LH and DE on TravelPort
+Looking at seatmap on LH flight number 925 LHR to FRA on 12/09/2014 08:20:00
+Looking at seatmap on DE flight number 2156 FRA to CUN on 12/09/2014 12:05:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSeatMap transaction at 2014-09-10 18:29:47Z; CRSLogID at 925903.
+ &gt; Transaction took 2719ms.
+
+Seat status for airline LH: 
+
+7   AR  BR  CR     DR  ER  FR  
+8   AR  BR  CR     DR  ER  FR  
+9   AR  BR  CR     DR  ER  FR  
+10  AR  BR  CR     DR  ER  FR  
+11  AR  BR  CR     DR  ER  FR  
+12  AR  BR  CR     DR  ER  FR  
+13  
+14  AA  BA  CA     DA  EA  FA  
+15  AA  BA  CA     DA  EA  FA  
+16  AA  BA  CA     DA  EA  FA  
+17  
+18  AA  BA  CA     DA  EA  FA  
+19  AA  BA  CA     DA  EA  FA  
+20  AR  BA  CA     DA  EA  FR  
+21  AA  BA  CA     DA  EA  FA  
+22  AA  BA  CA     DA  EA  FA  
+23  AA  BA  CA     DA  EA  FA  
+24  AR  BR  CR     DR  ER  FR  
+25  AR  BR  CR     DR  ER  FR  
+26  AR  BR  CR     DR  ER  FR  
+27  AA  BA  CA     DA  EA  FA  
+28  AA  BA  CA     DA  EA  FA  
+29  AR  BR  CR     DR  ER  FR  
+30  AR  BR  CR     DR  ER  FR  
+
+ Seat map is unavailable for DE, response: ?? \0MS2NMW25906OK0OCB647B696410003140910085746CEA41FA\0
+OPERATES AS LH FLIGHT 0925\0&amp;LH 925M\0&#x3;09DEC\0&#x5;320\0&#x3;LHRFRA AS\0&#x2;64\0&#x2;N\0&#x2;7\0&#x17;A B C\0&#x3;D E F\0&#x7;A B C\0&#x3;D E F\0&#x1C;07 B B B\0&#x3;B B B\0&#x4;19 . . .\0&#x3;. . .\0&#x1C;08 B B B\0&#x3;B B B\0&#x4;20 B . .\0&#x3;. . B\0&#x1C;09 B B B W B B B\0&#x4;21 . . .\0&#x3;. . .\0&#x1C;10 B B B W B B B\0&#x4;22 . . .\0&#x3;. . .\0&#x1C;11 B B B W B B B\0&#x4;23 . . .\0&#x3;. . .\0&#x1C;12 B B B W B B B\0&#x4;24 B B B\0&#x3;B B B\0&#x1C;13\0&#x7;W\0
+25 B B B\0&#x3;B B B\0&#x1C;14 . . . W . . .\0&#x4;26 B B B\0&#x3;B B B\0&#x1C;15 . . . W . . .\0&#x4;27 . . .\0&#x3;. . .\0&#x1C;16 . . . W . . .\0&#x4;28 . . .\0&#x3;. . .\0&#x1A;)&gt;\0?07 B B B\0&#x3;B B B\0&#x4;19 . . .\0&#x3;. . .\0&#x1C;08 B B B\0&#x3;B B B\0&#x4;20 B . .\0&#x3;. . B\0&#x1C;09 B B B W B B B\0&#x4;21 . . .\0&#x3;. . .\0&#x1C;10 B B B W B B B\0&#x4;22 . . .\0&#x3;. . .\0&#x1C;11 B B B W B B B\0&#x4;23 . . .\0&#x3;. . .\0&#x1C;12 B B B W B B B\0&#x4;24 B B B\0&#x3;B B B\0&#x1C;13\0&#x7;W\0
+25 B B B\0&#x3;B B B\0&#x1C;14 . . . W . . .\0&#x4;26 B B B\0&#x3;B B B\0&#x1C;15 . . . W . . .\0&#x4;27 . . .\0&#x3;. . .\0&#x1C;16 . . . W . . .\0&#x4;28 . . .\0&#x3;. . .\0&#x1C;17\0&#x7;W\0
+29 B B B\0&#x3;B B B\0&#x1C;18 . . . W . . .\0&#x4;30 B B B\0&#x3;B B B\0&#x1A;&gt;\0?07 B B B\0&#x3;B B B\0&#x4;19 . . .\0&#x3;. . .\0&#x1C;08 B B B\0&#x3;B B B\0&#x4;20 B . .\0&#x3;. . B\0&#x1C;09 B B B W B B B\0&#x4;21 . . .\0&#x3;. . .\0&#x1C;10 B B B W B B B\0&#x4;22 . . .\0&#x3;. . .\0&#x1C;11 B B B W B B B\0&#x4;23 . . .\0&#x3;. . .\0&#x1C;12 B B B W B B B\0&#x4;24 B B B\0&#x3;B B B\0&#x1C;13\0&#x7;W\0
+25 B B B\0&#x3;B B B\0&#x1C;14 . . . W . . .\0&#x4;26 B B B\0&#x3;B B B\0&#x1C;15 . . . W . . .\0&#x4;27 . . .\0&#x3;. . .\0&#x1C;16 . . . W . . .\0&#x4;28 . . .\0&#x3;. . .\0&#x1C;17\0&#x7;W\0
+29 B B B\0&#x3;B B B\0&#x1C;18 . . . W . . .\0&#x4;30 B B B\0&#x3;B B B\0&#x1A;&gt;\0?.
+
+Error: no XP message found between 09/10/2014 18:30:34 and 09/10/2014 18:32:34
+BFSGUID is null, verify failed!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at SeatMap.SeatMapCases.SeatMap() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SeatMap.cs:line 63
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="337ed986-af6a-4d15-99d0-9346b13010bb" parentExecutionId="a5707676-d594-4612-ba5b-f775b84760ee" testId="63f79f3b-c36f-2a8b-07c9-11213ce7f5df" testName="SeatMap" computerName="DEL507A1EA296" duration="00:00:21.8715246" startTime="2014-09-10T18:30:05.2897565+05:30" endTime="2014-09-10T18:30:27.2120705+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5707676-d594-4612-ba5b-f775b84760ee" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 22119
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8630
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = EI,
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = EI,
+	passengerlist = ADT
+	departurefrom = DUB
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = LHR
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 18:30:13Z; CRSLogID at 925908.
+ &gt; Transaction took 8540ms.
+
+51 flights found.
+Found a flight on EI on TravelPort
+Looking at seatmap on EI flight number 186 DUB to LHR on 12/09/2014 20:50:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSeatMap transaction at 2014-09-10 18:30:20Z; CRSLogID at 925931.
+ &gt; Transaction took 2690ms.
+
+Seat status for airline EI: 
+
+1   AR  BR  CR     DR  ER  FR  
+2   AR  BR  CR     DR  ER  FR  
+3   AR  BR  CR     DR  ER  FR  
+4   AR  BR  CR     DR  ER  FR  
+5   AR  BR  CR     DR  ER  FR  
+6   AR  BR  CR     DR  ER  FR  
+7   AR  BR  CR     DR  ER  FR  
+8   AR  BR  CR     DR  ER  FR  
+9   AR  BR  CR     DR  ER  FR  
+10  AR  BR  CR     DR  ER  FR  
+11  AR  BR  CR     DR  ER  FR  
+12  AR  BR  CR     DR  ER  FR  
+13  AR  BR  CR     DR  ER  FR  
+14  AR  BR  CR     DR  ER  FR  
+15  AR  BR  CR     DR  ER  FR  
+16  AR  BR  CR     DR  ER  FR  
+17  AR  BR  CR     DR  ER  FR  
+18  AR  BR  CR     DR  ER  FR  
+19  AR  BR  CR     DR  ER  FR  
+20  AR  BR  CR     DR  ER  FR  
+Error: no XP message found between 09/10/2014 18:31:05 and 09/10/2014 18:33:05
+BFSGUID is null, verify failed!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. </Message>
+              <StackTrace>   at SeatMap.SeatMapCases.SeatMap() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SeatMap.cs:line 63
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

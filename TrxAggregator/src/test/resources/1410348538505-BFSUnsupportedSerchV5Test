@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bf7ad371-7d34-4162-bced-52472fc829ca" name="dgaglani@DEL507A1EA296 2014-09-10 17:47:01" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ff412748-d7f9-4251-8d68-2ff5ed2efbca">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-10 17_47_01" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-10T17:47:01.0440235+05:30" queuing="2014-09-10T17:47:23.2735865+05:30" start="2014-09-10T17:47:23.3577375+05:30" finish="2014-09-10T17:48:50.7387660+05:30" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-10T17:47:23.2647800+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BFSUnsupportedSerchV5Test" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="c04c5728-002e-06d8-797c-c577e20633e7">
+      <Execution timeOut="7200000" id="16d0cace-d49b-4687-bfc9-90814aef0807" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV5.SearchV5Cases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BFSUnsupportedSerchV5Test" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV5\TestData_BFSUnsupportedSearchV5.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c04c5728-002e-06d8-797c-c577e20633e7" executionId="16d0cace-d49b-4687-bfc9-90814aef0807" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="16d0cace-d49b-4687-bfc9-90814aef0807" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="DEL507A1EA296" duration="00:01:24.0446436" startTime="2014-09-10T17:47:23.3704580+05:30" endTime="2014-09-10T17:48:48.3923230+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16d0cace-d49b-4687-bfc9-90814aef0807" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="9eaf3aa2-e285-42d8-bf3e-4c0a0478a1e6" parentExecutionId="16d0cace-d49b-4687-bfc9-90814aef0807" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="DEL507A1EA296" duration="00:01:23.6714388" startTime="2014-09-10T17:47:24.5055180+05:30" endTime="2014-09-10T17:48:48.3747100+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16d0cace-d49b-4687-bfc9-90814aef0807" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8316
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CAI
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:47:48Z; CRSLogID at 925224.
+ &gt; Transaction took 22999ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 925236.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:3FDDFF8E051646F296A6DE051BB07E5B
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 925239
+Verifying the result count total and by fare.
+Total AirOffers returned: 193
+   Total Published fares returned: 193
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+There are 193 Air Product(s) with the Published FareTypes
+offer Token:v5-15e117be4d467481df09e193d5c71138-41-42-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-09-10 17:48:33Z; CRSLogID at 925249.
+ &gt; Transaction took 11184ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:3FDDFF8E051646F296A6DE051BB07E5B
+BFS PC message found at CRSLogID 925268.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:3FDDFF8E051646F296A6DE051BB07E5B</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

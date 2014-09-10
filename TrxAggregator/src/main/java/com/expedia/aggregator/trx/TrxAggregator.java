@@ -1,12 +1,16 @@
 package com.expedia.aggregator.trx;
 
 import com.expedia.aggregator.data.*;
+import com.google.common.io.Files;
+import sun.misc.IOUtils;
 
 import javax.xml.bind.JAXB;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.Marshaller;
 import java.io.File;
+import java.io.StringReader;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -32,7 +36,28 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
 
     public TestRunType getTestRunFromFile(File trxFile) throws Exception{
         JAXBContext jaxbContext = JAXBContext.newInstance(TestRunType.class);
-        return (TestRunType)jaxbContext.createUnmarshaller().unmarshal(trxFile);
+        String trxContents = Files.toString(trxFile, Charset.defaultCharset());
+        String trxContentsFiltered = removeInvalidCharsFromString(trxContents);
+        StringReader trxContentsStringReader = new StringReader(trxContentsFiltered);
+        JAXBElement<TestRunType> testRunTypeJAXBElement = (JAXBElement<TestRunType>)jaxbContext.createUnmarshaller().unmarshal(trxContentsStringReader);
+        return testRunTypeJAXBElement.getValue();
+    }
+
+
+    private static String removeInvalidCharsFromString(String stringToRemoveInvalidCharsFrom) {
+        //TODO - remove hacky
+        List<String> blackListList = new ArrayList<String>();
+        blackListList.add("&#");
+        for(String toBlackListString : blackListList) {
+            stringToRemoveInvalidCharsFrom = stringToRemoveInvalidCharsFrom.replaceAll(toBlackListString, "");
+        }
+        if (stringToRemoveInvalidCharsFrom.startsWith("\uFEFF")) {
+            //Some UTF-8 Problem
+            stringToRemoveInvalidCharsFrom = stringToRemoveInvalidCharsFrom.substring(1);
+        }
+        stringToRemoveInvalidCharsFrom = "aaa" + stringToRemoveInvalidCharsFrom;
+        stringToRemoveInvalidCharsFrom = stringToRemoveInvalidCharsFrom.trim().substring(stringToRemoveInvalidCharsFrom.indexOf("<?xml"), stringToRemoveInvalidCharsFrom.length());
+        return stringToRemoveInvalidCharsFrom;
     }
 
     @Override
@@ -47,15 +72,15 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
     }
 
     public void mergeTestDefinitions(TestRunType elementToMerge1, TestRunType elementToMerge2) {
+        if(getTestEntries(elementToMerge1).getTestEntry().size() < getTestEntries(elementToMerge2).getTestEntry().size()) {
+            //Merging the smaller with the bigger
+            TestRunType temp = elementToMerge1;
+            elementToMerge1 = elementToMerge2;
+            elementToMerge2 = temp;
+        }
         int testDefinitionUnitTestPosition = 0;
         TestRunType.TestDefinitions definitions1 = getTestDefinitions(elementToMerge1);
         TestRunType.TestDefinitions definitions2 = getTestDefinitions(elementToMerge2);
-        if(definitions1.getUnitTestOrUnitTestElementOrManualTest().size() < definitions2.getUnitTestOrUnitTestElementOrManualTest().size()) {
-            //Merging the smaller with the bigger
-            TestRunType.TestDefinitions temp = definitions1;
-            definitions1 = definitions2;
-            definitions2 = temp;
-        }
         for(Object unitTestFromSecondTrx : definitions2.getUnitTestOrUnitTestElementOrManualTest()) {
             definitions1.getUnitTestOrUnitTestElementOrManualTest().add(unitTestFromSecondTrx);
             UnitTestType unitTest = ((JAXBElement<UnitTestType>)unitTestFromSecondTrx).getValue();
@@ -138,16 +163,8 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
     }
 
     public void aggregateTrxFromFileList(List<String> filesList, String mergedFileLocation) throws Exception {
-        List<File> trxFilesFromPaths = getTrxFilesFromPaths(filesList);
+        List<File> trxFilesFromPaths = getFilesFromPaths(filesList);
         aggregateTrxFiles(trxFilesFromPaths, mergedFileLocation);
-    }
-
-    public static List<File> getTrxFilesFromPaths(List<String> filePaths) {
-        ArrayList<File> files = new ArrayList<File>();
-        for (String filePath : filePaths) {
-            files.add(new File(filePath));
-        }
-        return files;
     }
 
 }

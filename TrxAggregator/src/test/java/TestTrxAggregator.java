@@ -15,10 +15,10 @@ import java.util.List;
  */
 public class TestTrxAggregator {
 
-    //@Test
+    @Test
     public void testAggregateTrx() throws Exception {
-        String folderPath = "";
-        String mergedFileLocation = "/Users/dgaglani/Desktop/tasks/Airawat/TrxAggregator/src/test/resources";
+        String folderPath = "/Users/dgaglani/Desktop/tasks/Airawat/TrxAggregator/src/test/resources/";
+        String mergedFileLocation = folderPath + "mergedTrx.trx";
         TrxAggregator trxAggregator = new TrxAggregator();
         trxAggregator.aggregateTrxFiles(Utils.getTrxFilesFromFolder(folderPath), mergedFileLocation);
      }

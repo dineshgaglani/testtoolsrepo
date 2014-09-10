@@ -10,5 +10,5 @@ import java.util.List;
 public interface TestMode<T> {
 
     /* returns the test results in the form the caller desires */
-    public T runTest(TestRunner testRunner, List<String> testNames, String executorFilePath, String testResultsFileNamePart, TestExecutor.CompletedThreadsTracker threadsTracker);
+    public T runTest(TestRunner testRunner, List<List<String>> testNames, String executorFilePath, String testResultsFileNamePart, TestExecutor.CompletedThreadsTracker threadsTracker);
 }

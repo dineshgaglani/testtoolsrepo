@@ -54,6 +54,17 @@ public abstract class ParallelAggregator<T> {
         return mergeElements(mergedElements);
     }
 
+
+    public List<File> getFilesFromPaths(List<String> filePaths) {
+        ArrayList<File> files = new ArrayList<File>();
+        for (String filePath : filePaths) {
+            if(filePath != null) {
+                files.add(new File(filePath));
+            }
+        }
+        return files;
+    }
+
     public class RunnableMergeElements implements Callable<T> {
 
         T elementToMerge1;

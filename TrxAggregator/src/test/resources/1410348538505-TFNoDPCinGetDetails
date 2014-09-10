@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="227885f6-6537-4651-8638-3e2a651d72c0" name="dgaglani@DEL507A1EA296 2014-09-10 16:59:07" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="66503655-163b-4ebb-9204-366a7e12b85d">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-10 16_59_07" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-10T16:59:07.9180669+05:30" queuing="2014-09-10T16:59:16.0132012+05:30" start="2014-09-10T16:59:16.8049350+05:30" finish="2014-09-10T17:00:19.5375599+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-10T16:59:11.7126918+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TFNoDPCinGetDetails" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="960c9873-37a0-76eb-4b89-564e9ad83ffd">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="d950265d-5945-4102-a9fb-52eb6ec65e82" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFNoDPCinGetDetails" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_TFNoDPCTest.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="960c9873-37a0-76eb-4b89-564e9ad83ffd" executionId="d950265d-5945-4102-a9fb-52eb6ec65e82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d950265d-5945-4102-a9fb-52eb6ec65e82" testId="960c9873-37a0-76eb-4b89-564e9ad83ffd" testName="TFNoDPCinGetDetails" computerName="DEL507A1EA296" duration="00:00:54.9305568" startTime="2014-09-10T16:59:17.0220233+05:30" endTime="2014-09-10T17:00:18.1829682+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d950265d-5945-4102-a9fb-52eb6ec65e82" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="c1530fb0-736f-42de-a652-a8a840795789" parentExecutionId="d950265d-5945-4102-a9fb-52eb6ec65e82" testId="960c9873-37a0-76eb-4b89-564e9ad83ffd" testName="TFNoDPCinGetDetails" computerName="DEL507A1EA296" duration="00:00:54.6096819" startTime="2014-09-10T16:59:23.1466638+05:30" endTime="2014-09-10T17:00:18.0994727+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d950265d-5945-4102-a9fb-52eb6ec65e82" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3400
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8990
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = EasyJet
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = MAD
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 16:59:37Z; CRSLogID at 921791.
+ &gt; Transaction took 7126ms.
+
+Total AirProducts returned: 36
+Total Published fares returned: 0
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 36
+
+TravelFusion results found: 36.
+AirVerifyRequestFactory: Choosing product number 33 from Search Response.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-09-10 16:59:58Z; CRSLogID at 921821.
+ &gt; Transaction took 9782ms.
+
+
+ CostTransactionRecord base looks good.
+ Request Base-Total Amount 48.98
+ Response Base-Total Amount 48.98
+
+ CostTransactionRecord tax looks good.
+ Request Tax-Total Amount 25
+ Response Tax-Total Amount 25
+CostTransaction Base Amount for adult looks good.
+ Base Amount 48.98 for PTC = adult
+CostTransaction Tax Amount for adult looks good.
+ Tax Amount 25.000 for PTC = adult
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode: Y 
+ Response AirBookingCode: Y 
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode: Y 
+ Response AirBookingCode: Y 
+
+=====VerifyTravelFusionResponseMapping.  Will call "GetDetails Validation"
+
+ERROR: No TravelFusion TVA XML GetDetails found.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Unrecognized Guid format.</Message>
+              <StackTrace>   at LCCBook.TFCases.TFNoDPCinGetDetails() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 143
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><testRunType xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" id="554b193a-ccbc-478d-a2a7-9a2d0cde5864" name="dgaglani@DEL507A1EA296 2014-09-09 17:56:28" runUser="SEA\dgaglani"><TestSettings id="74d9d016-8474-4542-af6d-f4113fc06955" name="Default Test Settings"><Deployment userDeploymentRoot="c:\" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-09 17_56_28" useDefaultDeploymentRoot="false"/><Execution><TestTypeSpecific/><AgentRule name="Execution Agents"/></Execution></TestSettings><Times creation="2014-09-09T17:56:28.7716000+05:30" queuing="2014-09-09T17:56:29.5420730+05:30" start="2014-09-09T17:56:29.6556370+05:30" finish="2014-09-09T17:57:48.5924070+05:30"/><ResultSummary outcome="Warning"><Counters total="34" error="0" failed="24" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" executed="34" disconnected="0" warning="0" passed="9" completed="0" inProgress="0" pending="0"/><RunInfos><RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-09T17:56:29.5175980+05:30"><Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text></RunInfo></RunInfos></ResultSummary><TestDefinitions><UnitTest id="02e15baa-6ea2-f013-1d0c-f9cfa131c541" name="FareRuleMultiFBC" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><Execution id="151e54a1-4eb8-4bdc-8807-851170e978fa"/><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleMultiFBC" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleMultiFBC.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test"/></UnitTest><UnitTest id="673db015-1a9f-18df-5de9-1d50304030bc" name="FareRuleToGDS" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><Execution id="85583caf-e0aa-4dfb-b020-6b7dba7ca728"/><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleToGDS" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleToGDS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test"/></UnitTest><UnitTest id="94a010ce-5c52-54d4-9628-e4138591c9d1" name="FareRuleUseBFS" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><Execution id="7f16e6fd-cba8-4b47-8778-0b643fb4a357"/><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleUseBFS" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleUseBFS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test"/></UnitTest><UnitTest id="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" name="NewSearchOldPrice" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><Execution id="d6b52f30-258f-43bb-8ece-61e4c835eec8"/><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="Compatibility.CompatibilityCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewSearchOldPrice" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\Compatibility\TestData_Compatibility.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test"/></UnitTest><UnitTest id="d8935cd7-6dc4-d40c-1213-5821399caccb" name="OldSearchNewPrice" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><Execution id="3916f93c-1bd6-48ee-9886-2554d80a53a2"/><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="Compatibility.CompatibilityCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OldSearchNewPrice" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\Compatibility\TestData_Compatibility.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test"/></UnitTest><UnitTest id="176f7b83-6e6b-a3e1-b49b-61bdfd25452f" name="CharterBookingTest" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><Execution id="59f474ca-204b-4cf3-a566-a6ad05b4dc23" timeOut="7200000"/><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="SearchToTicket.SearchToTicketMSTests, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CharterBookingTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\SearchToTicket\TestData_SearchToTicketSabre.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Charter"/></UnitTest><UnitTest id="c4fd1cab-2c37-5b40-a523-1456cdfac63d" name="SabreMSTests" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll"><Execution id="229b3952-d882-4fdd-9d47-736608034d8c" timeOut="7200000"/><DeploymentItems><DeploymentItem filename="TestData" outputDirectory="TestData"/></DeploymentItems><TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" className="SearchToTicket.SearchToTicketMSTests, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SabreMSTests" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/><DataSource connectionString="|DataDirectory|\TestData\SearchToTicket\TestData_SearchToTicketSabre.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test"/></UnitTest></TestDefinitions><TestLists><TestList id="8c84fa94-04c1-424b-9868-57a2d4851a1d" name="Results Not in a List"/><TestList id="19431567-8539-422a-85d7-44ee4e166bda" name="All Loaded Results"/></TestLists><TestEntries><TestEntry testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" executionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/><TestEntry testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/><TestEntry testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/><TestEntry testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" executionId="d6b52f30-258f-43bb-8ece-61e4c835eec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/><TestEntry testId="d8935cd7-6dc4-d40c-1213-5821399caccb" executionId="3916f93c-1bd6-48ee-9886-2554d80a53a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/><TestEntry testId="176f7b83-6e6b-a3e1-b49b-61bdfd25452f" executionId="59f474ca-204b-4cf3-a566-a6ad05b4dc23" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd"/><TestEntry testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd"/></TestEntries><Results><UnitTestResult resultType="DataDrivenTest" testName="FareRuleMultiFBC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" executionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" startTime="2014-09-09T17:56:29.6634690+05:30" endTime="2014-09-09T17:57:46.1899410+05:30" duration="00:01:15.6006992"><Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0"/><InnerResults><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="0" testName="FareRuleMultiFBC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" executionId="4a8eca7c-2eac-44e6-9469-9823a28915d2" parentExecutionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" startTime="2014-09-09T17:56:30.5514220+05:30" endTime="2014-09-09T17:57:02.5657010+05:30" duration="00:00:31.9202442"><Output><StdOut>TUID: 2175
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8609
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EWR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = LON
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:56:34Z; CRSLogID at 914425.
+ &gt; Transaction took 2525ms.
+
+Total AirProducts returned: 961
+Total Published fares returned: 735
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 3
+Total Package Net fares returned: 222
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:56:50Z; CRSLogID at 914436.
+ &gt; Transaction took 2630ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:56:57Z; CRSLogID at 914439.
+ &gt; Transaction took 2197ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Summary request PASSED.</StdOut></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="1" testName="FareRuleMultiFBC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" executionId="c35a7f0d-1f64-4f46-a753-95553cb0c5d5" parentExecutionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" startTime="2014-09-09T17:57:02.5657010+05:30" endTime="2014-09-09T17:57:21.2890760+05:30" duration="00:00:18.6700598"><Output><StdOut>TUID: 2176
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8111
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = SEA
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:04Z; CRSLogID at 914446.
+ &gt; Transaction took 1595ms.
+
+Total AirProducts returned: 724
+Total Published fares returned: 723
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:11Z; CRSLogID at 914452.
+ &gt; Transaction took 535ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:17Z; CRSLogID at 914456.
+ &gt; Transaction took 674ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Summary request PASSED.</StdOut></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="2" testName="FareRuleMultiFBC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="02e15baa-6ea2-f013-1d0c-f9cfa131c541" executionId="2cd5e3d8-67b5-4d39-b919-5ad449f32e71" parentExecutionId="151e54a1-4eb8-4bdc-8807-851170e978fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="151e54a1-4eb8-4bdc-8807-851170e978fa" startTime="2014-09-09T17:57:21.2890760+05:30" endTime="2014-09-09T17:57:46.1713400+05:30" duration="00:00:24.8122115"><Output><StdOut>TUID: 2177
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8836
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = CDG
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:23Z; CRSLogID at 914460.
+ &gt; Transaction took 1710ms.
+
+Total AirProducts returned: 785
+Total Published fares returned: 611
+Total Web fares returned: 150
+Total Naked Net fares returned: 18
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 6
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:33Z; CRSLogID at 914466.
+ &gt; Transaction took 4087ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:42Z; CRSLogID at 914478.
+ &gt; Transaction took 3029ms.
+
+Checking response for errors and malformation.
+Check airfareRuleResponse whether has multi fareBasisCodes
+ AirFareRuleRespnose has multi airFareBasisCode as expected!
+Checking GDS.
+Summary request PASSED.</StdOut></Output></UnitTestResult></InnerResults></UnitTestResult><UnitTestResult resultType="DataDrivenTest" testName="FareRuleToGDS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" startTime="2014-09-09T17:55:10.2802750+05:30" endTime="2014-09-09T17:55:14.3392090+05:30" duration="00:00:02.0924298"><Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0"/><InnerResults><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="0" testName="FareRuleToGDS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="73bdb233-34d4-40a6-864e-013652fceb1d" parentExecutionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" startTime="2014-09-09T17:55:12.6122530+05:30" endTime="2014-09-09T17:55:14.2403300+05:30" duration="00:00:01.6178866"><Output><StdOut>TUID: 2175</StdOut></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="1" testName="FareRuleToGDS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="1451dafd-1e18-4785-b432-6847be6f9388" parentExecutionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" startTime="2014-09-09T17:55:14.2403300+05:30" endTime="2014-09-09T17:55:14.2804690+05:30" duration="00:00:00.0391714"><Output><StdOut>TUID: 2176</StdOut></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="2" testName="FareRuleToGDS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="3ff26b30-ba0a-4499-adc1-5f827d8bf9c5" parentExecutionId="85583caf-e0aa-4dfb-b020-6b7dba7ca728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="85583caf-e0aa-4dfb-b020-6b7dba7ca728" startTime="2014-09-09T17:55:14.2804690+05:30" endTime="2014-09-09T17:55:14.3196290+05:30" duration="00:00:00.0393247"><Output><StdOut>TUID: 2177</StdOut></Output></UnitTestResult></InnerResults></UnitTestResult><UnitTestResult resultType="DataDrivenTest" testName="FareRuleUseBFS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" startTime="2014-09-09T17:56:29.6634690+05:30" endTime="2014-09-09T17:58:05.9863000+05:30" duration="00:01:35.2299384"><Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0"/><InnerResults><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="0" testName="FareRuleUseBFS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="8724f7aa-add6-4a55-bff6-fa5ef06d7d99" parentExecutionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" startTime="2014-09-09T17:56:30.6317000+05:30" endTime="2014-09-09T17:57:17.3877610+05:30" duration="00:00:46.6203540"><Output><StdOut>TUID: 2175
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8999
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = EWR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = LON
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:56:34Z; CRSLogID at 914425.
+ &gt; Transaction took 2197ms.
+
+Total AirProducts returned: 961
+Total Published fares returned: 735
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 3
+Total Package Net fares returned: 222
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:56:49Z; CRSLogID at 914436.
+ &gt; Transaction took 672ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914439.
+   FareRules message found at 914436.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request FAILED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:07Z; CRSLogID at 914450.
+ &gt; Transaction took 655ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914450.
+   FareRules message found at 914439.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request FAILED.</StdOut><ErrorInfo><Message>Assert.Fail failed. </Message><StackTrace>   at FareRule.FareRuleCases.FareRuleUseBFS() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\FareRule.cs:line 56
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="1" testName="FareRuleUseBFS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="cd4453d2-5875-4058-9ac2-a8fd021ec50e" parentExecutionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="DEL507A1EA296" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" startTime="2014-09-09T17:57:17.3877610+05:30" endTime="2014-09-09T17:57:42.1946420+05:30" duration="00:00:24.7368504"><Output><StdOut>TUID: 2176
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8079
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = SEA
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:19Z; CRSLogID at 914456.
+ &gt; Transaction took 1677ms.
+
+Total AirProducts returned: 724
+Total Published fares returned: 723
+Total Web fares returned: 0
+Total Naked Net fares returned: 1
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:26Z; CRSLogID at 914464.
+ &gt; Transaction took 538ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914464.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:34Z; CRSLogID at 914471.
+ &gt; Transaction took 679ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914471.
+   FareRules message found at 914464.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request PASSED.</StdOut></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="2" testName="FareRuleUseBFS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="aec69908-9655-4dfd-994a-c60d91a2d8bd" parentExecutionId="7f16e6fd-cba8-4b47-8778-0b643fb4a357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="7f16e6fd-cba8-4b47-8778-0b643fb4a357" startTime="2014-09-09T17:57:42.1946420+05:30" endTime="2014-09-09T17:58:05.9559510+05:30" duration="00:00:23.6944921"><Output><StdOut>TUID: 2177
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8106
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LHR
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = CDG
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:57:44Z; CRSLogID at 914478.
+ &gt; Transaction took 1703ms.
+
+Total AirProducts returned: 785
+Total Published fares returned: 611
+Total Web fares returned: 150
+Total Naked Net fares returned: 18
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 6
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:51Z; CRSLogID at 914482.
+ &gt; Transaction took 538ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914482.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request FAILED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-09-09 17:57:59Z; CRSLogID at 914484.
+ &gt; Transaction took 626ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 914484.
+   FareRules message found at 914482.
+Checking whether no GDS call made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'TRVC' have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+     Error: fare rule GDS call 'far' or 'fqd','fmd','fqn'have made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request FAILED.</StdOut><ErrorInfo><Message>Assert.Fail failed. </Message><StackTrace>   at FareRule.FareRuleCases.FareRuleUseBFS() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\FareRule.cs:line 56
+</StackTrace></ErrorInfo></Output></UnitTestResult></InnerResults></UnitTestResult><UnitTestResult resultType="DataDrivenTest" testName="NewSearchOldPrice" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" executionId="d6b52f30-258f-43bb-8ece-61e4c835eec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="d6b52f30-258f-43bb-8ece-61e4c835eec8" startTime="2014-09-09T17:55:10.4594320+05:30" endTime="2014-09-09T17:56:27.3823990+05:30" duration="00:01:14.9850885"><Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0"/><InnerResults><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="0" testName="NewSearchOldPrice" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" executionId="d92b8769-a9cd-4bae-b22d-890dfb04b5cb" parentExecutionId="d6b52f30-258f-43bb-8ece-61e4c835eec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="d6b52f30-258f-43bb-8ece-61e4c835eec8" startTime="2014-09-09T17:55:12.6102950+05:30" endTime="2014-09-09T17:56:27.3657560+05:30" duration="00:01:14.5404697"><Output><StdOut>TUID: 1951
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8399
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/09/2014 17:55:14.
+BFSHistory response received: 09/09/2014 17:55:27.  Using number 98.
+Market: TPA - HNL from 06/13/2015 00:00:00 to 06/27/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-09 17:55:47Z; CRSLogID at 914405.
+ &gt; Transaction took 18346ms.
+
+Verifying the GDS.
+There are 462 Air Product(s) with the All FareTypes
+offer Token:b311bd8a4609c22971d38585649081fc-216-1
+Sending request to end point : http://chelairtvapn02/airinterface/rest/v1_0_0/ProcessMsg</StdOut><ErrorInfo><Message>Assert.Fail failed. </Message><StackTrace>   at Compatibility.CompatibilityCases.NewSearchOldPrice() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\Compatibility.cs:line 101
+</StackTrace></ErrorInfo></Output></UnitTestResult></InnerResults></UnitTestResult><UnitTestResult resultType="DataDrivenTest" testName="OldSearchNewPrice" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="d8935cd7-6dc4-d40c-1213-5821399caccb" executionId="3916f93c-1bd6-48ee-9886-2554d80a53a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="3916f93c-1bd6-48ee-9886-2554d80a53a2" startTime="2014-09-09T17:55:10.8618010+05:30" endTime="2014-09-09T17:55:48.4044930+05:30" duration="00:00:35.8527519"><Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0"/><InnerResults><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="0" testName="OldSearchNewPrice" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="d8935cd7-6dc4-d40c-1213-5821399caccb" executionId="e8dde85d-61dd-483a-af28-5ca4eaed07ce" parentExecutionId="3916f93c-1bd6-48ee-9886-2554d80a53a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="3916f93c-1bd6-48ee-9886-2554d80a53a2" startTime="2014-09-09T17:55:12.6200850+05:30" endTime="2014-09-09T17:55:48.3927450+05:30" duration="00:00:35.6675598"><Output><StdOut>TUID: 1951
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8399
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/1/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 10/11/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+BFSHistory Request sent:        09/09/2014 17:55:13.
+BFSHistory response received: 09/09/2014 17:55:26.  Using number 34.
+Market: EWR - MCO from 04/04/2015 00:00:00 to 04/11/2015 00:00:00
+Sending request to end point : http://chelairtvapn02/airinterface/rest/v1_0_0/ProcessMsg</StdOut><ErrorInfo><Message>Assert.Fail failed. </Message><StackTrace>   at Compatibility.CompatibilityCases.OldSearchNewPrice() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\Compatibility.cs:line 66
+</StackTrace></ErrorInfo></Output></UnitTestResult></InnerResults></UnitTestResult><UnitTestResult testName="CharterBookingTest" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="176f7b83-6e6b-a3e1-b49b-61bdfd25452f" executionId="59f474ca-204b-4cf3-a566-a6ad05b4dc23" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Aborted" computerName="DEL507A1EA296" relativeResultsDirectory="59f474ca-204b-4cf3-a566-a6ad05b4dc23" startTime="2014-08-13T18:43:50.0865939+05:30" endTime="2014-08-13T18:46:24.2088795+05:30" duration="00:02:34.1222856"/><UnitTestResult resultType="DataDrivenTest" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.5662586+05:30" endTime="2014-08-26T16:48:18.1616796+05:30" duration="00:00:00.0802790"><Counters error="0" failed="16" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0"/><InnerResults><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="0" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="d543bcb0-bca0-411e-97f3-b007a156f060" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8551842+05:30" endTime="2014-08-26T16:48:17.8873955+05:30" duration="00:00:00.0288426"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="1" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="36fd560d-1f9d-4a37-a21c-313d4e9687db" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8873955+05:30" endTime="2014-08-26T16:48:17.8903238+05:30" duration="00:00:00.0025656"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="2" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="210c70d8-edb8-48bc-a277-007e1f38e4b9" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8903238+05:30" endTime="2014-08-26T16:48:17.8912999+05:30" duration="00:00:00.0014142"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="3" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="0f2976b2-44aa-49ee-a3b8-6b971e978ba9" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8912999+05:30" endTime="2014-08-26T16:48:17.8932521+05:30" duration="00:00:00.0015238"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="4" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="8300c21c-1c81-4c42-b9da-1273722b37cf" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8932521+05:30" endTime="2014-08-26T16:48:17.8952043+05:30" duration="00:00:00.0019360"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="5" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="ec782028-e097-41f3-a907-93a348e183a7" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8952043+05:30" endTime="2014-08-26T16:48:17.8961804+05:30" duration="00:00:00.0014332"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="6" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="52d2637d-e856-4f9b-a875-d07934c9c04f" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8961804+05:30" endTime="2014-08-26T16:48:17.8981326+05:30" duration="00:00:00.0015210"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="7" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="91c099ed-3dcc-4d1c-859f-be87f3599dbd" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8981326+05:30" endTime="2014-08-26T16:48:17.8991087+05:30" duration="00:00:00.0014766"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="8" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="c4e8aeea-4591-4210-baaf-d12142ff5603" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.8991087+05:30" endTime="2014-08-26T16:48:17.9010609+05:30" duration="00:00:00.0014465"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="9" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="045aceb0-0339-4537-9459-69b181ee3bd7" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9010609+05:30" endTime="2014-08-26T16:48:17.9020370+05:30" duration="00:00:00.0015182"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="10" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="f812cd7b-6cc1-47eb-a209-58e982e96eef" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9020370+05:30" endTime="2014-08-26T16:48:17.9039892+05:30" duration="00:00:00.0013987"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="11" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="46ebf21d-5985-4923-8954-cb869ed8e19a" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9039892+05:30" endTime="2014-08-26T16:48:17.9049653+05:30" duration="00:00:00.0013270"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="12" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="e6af44f4-7bcd-42e9-9bae-65a6fc8f1712" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9049653+05:30" endTime="2014-08-26T16:48:17.9069175+05:30" duration="00:00:00.0014312"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="13" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="75d43098-50d8-458f-ba7c-76bd869915fd" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9069175+05:30" endTime="2014-08-26T16:48:17.9078936+05:30" duration="00:00:00.0016739"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="14" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="2f17ff2d-47f3-4b79-9b80-9300a3afc741" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9078936+05:30" endTime="2014-08-26T16:48:17.9098458+05:30" duration="00:00:00.0017330"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult><UnitTestResult resultType="DataDrivenDataRow" dataRowInfo="15" testName="SabreMSTests" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="889e67c1-43df-4632-a219-7071d3495c34" parentExecutionId="229b3952-d882-4fdd-9d47-736608034d8c" testListId="1ea10c4b-ae26-4404-9c26-2c88dd2ae4bd" outcome="Failed" computerName="DEL507A1EA296" relativeResultsDirectory="229b3952-d882-4fdd-9d47-736608034d8c" startTime="2014-08-26T16:48:17.9098458+05:30" endTime="2014-08-26T16:48:17.9117980+05:30" duration="00:00:00.0018648"><Output><ErrorInfo><Message>Assert.Fail failed. Assert.Fail failed. </Message><StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 455
+</StackTrace></ErrorInfo></Output></UnitTestResult></InnerResults></UnitTestResult></Results></testRunType>

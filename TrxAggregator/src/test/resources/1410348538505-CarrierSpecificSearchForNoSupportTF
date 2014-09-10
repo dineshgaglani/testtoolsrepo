@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ddfcd52-66ce-40c8-9807-b9670b947792" name="dgaglani@DEL507A1EA296 2014-09-10 16:59:07" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="a069e304-1410-4c7b-a8e0-cf24f8e60484">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-10 16_59_07[6]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-10T16:59:07.8905625+05:30" queuing="2014-09-10T16:59:16.1458117+05:30" start="2014-09-10T16:59:16.8285102+05:30" finish="2014-09-10T17:00:40.8947265+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-10T16:59:11.7048334+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CarrierSpecificSearchForNoSupportTF" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="0f0ce647-e2a3-067e-c2d1-f4da454f65d0">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CarrierSpecificSearchForNoSupportTF" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_CarrierSpecificSearchForNoSupportTF.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f0ce647-e2a3-067e-c2d1-f4da454f65d0" executionId="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" testId="0f0ce647-e2a3-067e-c2d1-f4da454f65d0" testName="CarrierSpecificSearchForNoSupportTF" computerName="DEL507A1EA296" duration="00:01:14.2904005" startTime="2014-09-10T16:59:17.0200587+05:30" endTime="2014-09-10T17:00:36.7238807+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="f10f5783-6cfe-4dc5-80f9-c386a6aebe5e" parentExecutionId="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" testId="0f0ce647-e2a3-067e-c2d1-f4da454f65d0" testName="CarrierSpecificSearchForNoSupportTF" computerName="DEL507A1EA296" duration="00:00:44.6315553" startTime="2014-09-10T16:59:22.5896997+05:30" endTime="2014-09-10T17:00:07.5014380+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3400
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8226
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = 
+	airlinecodes = BA
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = BA
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = MAD
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 16:59:44Z; CRSLogID at 921821.
+ &gt; Transaction took 12292ms.
+
+Error: no XP message found between 09/10/2014 17:00:23 and 09/10/2014 17:02:23
+BFSGUID is null, verify failed!
+&lt;&lt;&lt;Verify no TF results exist in  search response</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. StartIndex cannot be less than zero.
+Parameter name: startIndex</Message>
+              <StackTrace>   at LCCBook.TFCases.CarrierSpecificSearchForNoSupportTF() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 204
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="783eaceb-f9b5-4e2f-b199-410e69984646" parentExecutionId="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" testId="0f0ce647-e2a3-067e-c2d1-f4da454f65d0" testName="CarrierSpecificSearchForNoSupportTF" computerName="DEL507A1EA296" duration="00:00:29.0273525" startTime="2014-09-10T17:00:07.5014380+05:30" endTime="2014-09-10T17:00:36.7081639+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f11bc9b0-604e-48c6-b6e0-1fcfbcf0962f" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3401
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8738
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = 
+	airlinecodes = AB
+	Flight Number = 
+	tpid = WWTEUK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = AB
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CGN
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:00:17Z; CRSLogID at 921931.
+ &gt; Transaction took 9678ms.
+
+Error: no XP message found between 09/10/2014 17:01:07 and 09/10/2014 17:03:07
+BFSGUID is null, verify failed!
+&lt;&lt;&lt;Verify no TF results exist in  search response</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. StartIndex cannot be less than zero.
+Parameter name: startIndex</Message>
+              <StackTrace>   at LCCBook.TFCases.CarrierSpecificSearchForNoSupportTF() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 204
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7b437614-c5f4-4ad9-9a3a-25a2ce4d1235" name="dgaglani@DEL507A1EA296 2014-09-10 16:59:07" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="06d70598-1296-41e1-9866-9465dca9d959">
+    <Deployment userDeploymentRoot="c:\" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_DEL507A1EA296 2014-09-10 16_59_07[5]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-10T16:59:07.8109962+05:30" queuing="2014-09-10T16:59:13.8501766+05:30" start="2014-09-10T16:59:14.3275744+05:30" finish="2014-09-10T17:00:40.8996380+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DEL507A1EA296" outcome="Warning" timestamp="2014-09-10T16:59:11.6930458+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NoAirlineSpecificSearch" storage="c:\tfs\code\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="d934b214-7768-032f-2f6b-921333a4ace1">
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <Execution id="824b8f9a-d76b-4146-bdf6-29d9832c227e" />
+      <TestMethod codeBase="C:/TFS/Code/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoAirlineSpecificSearch" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_CarrierSpecificSearchForNoSupportTF.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d934b214-7768-032f-2f6b-921333a4ace1" executionId="824b8f9a-d76b-4146-bdf6-29d9832c227e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="824b8f9a-d76b-4146-bdf6-29d9832c227e" testId="d934b214-7768-032f-2f6b-921333a4ace1" testName="NoAirlineSpecificSearch" computerName="DEL507A1EA296" duration="00:01:18.0675858" startTime="2014-09-10T16:59:15.1301135+05:30" endTime="2014-09-10T17:00:38.9311088+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="824b8f9a-d76b-4146-bdf6-29d9832c227e" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="79460d86-b400-41b2-b314-0681b83a3332" parentExecutionId="824b8f9a-d76b-4146-bdf6-29d9832c227e" testId="d934b214-7768-032f-2f6b-921333a4ace1" testName="NoAirlineSpecificSearch" computerName="DEL507A1EA296" duration="00:00:53.8701178" startTime="2014-09-10T16:59:21.4954175+05:30" endTime="2014-09-10T17:00:15.7026607+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="824b8f9a-d76b-4146-bdf6-29d9832c227e" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3400
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8247
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = 
+	airlinecodes = BA
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = BA
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = MAD
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 16:59:59Z; CRSLogID at 921821.
+ &gt; Transaction took 27545ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:00:23 and 09/10/2014 17:02:23
+BFSGUID is null, verify failed!
+
+ Search Response returned TF and non-TravelFusion flight as expected!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at LCCBook.TFCases.NoAirlineSpecificSearch() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 231
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="5e2b34e0-11e4-4d56-bcee-a65e28461124" parentExecutionId="824b8f9a-d76b-4146-bdf6-29d9832c227e" testId="d934b214-7768-032f-2f6b-921333a4ace1" testName="NoAirlineSpecificSearch" computerName="DEL507A1EA296" duration="00:00:23.0699331" startTime="2014-09-10T17:00:15.7026607+05:30" endTime="2014-09-10T17:00:38.9144097+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="824b8f9a-d76b-4146-bdf6-29d9832c227e" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3401
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+TUID: 8161
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = 
+	airlinecodes = AB
+	Flight Number = 
+	tpid = WWTEUK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = AB
+	passengerlist = ADT
+	departurefrom = LON
+	departurefromdate = 10/2/2014 12:00:00 AM
+	arrivalto = CGN
+	arrivaltodate = 10/12/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+End of Test Data construction
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-09-10 17:00:28Z; CRSLogID at 921975.
+ &gt; Transaction took 12780ms.
+
+Verifying the GDS.
+Error: no XP message found between 09/10/2014 17:01:15 and 09/10/2014 17:03:15
+BFSGUID is null, verify failed!
+
+ Search Response returned TF and non-TravelFusion flight as expected!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Fail failed. </Message>
+              <StackTrace>   at LCCBook.TFCases.NoAirlineSpecificSearch() in C:\TFS\Code\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 231
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,5 +1,7 @@
 package com.expedia.airawat.test.executor.engine;
 
+import com.expedia.aggregator.trx.FileContentAggregator;
+import com.expedia.aggregator.trx.ParallelAggregator;
 import com.expedia.aggregator.trx.TrxAggregator;
 import com.expedia.airawat.test.runner.ParallelTestMode;
 import com.expedia.airawat.test.runner.TestMode;
@@ -10,6 +12,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.test.context.ContextConfiguration;
 
 import javax.annotation.Resource;
+import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -33,18 +37,20 @@ public class TestExecutor {
         String executorFilePath = argsString[2];
         String resultsFileExtension = argsString[3];
         String resultsFilePath = argsString[4];
-        testExecutor.executeTests(testType, Arrays.asList(testNames), executorFilePath, resultsFileExtension, resultsFilePath);
+        List<List<String>> tests = new ArrayList<List<String>>();
+        tests.add(Arrays.asList(testNames));
+        testExecutor.executeTests(testType, tests, executorFilePath, resultsFileExtension, resultsFilePath);
     }
 
     public class RunnableExecutor implements Runnable {
 
         private String testType;
-        private List<String> testNames;
+        private List<List<String>> testNames;
         private String executorFilePath;
         private String resultsFileExtension;
         private String resultsFilePath;
 
-        public RunnableExecutor(String testType, List<String> testNames, String executorFilePath, String resultsFileExtension, String resultsFilePath) {
+        public RunnableExecutor(String testType, List<List<String>> testNames, String executorFilePath, String resultsFileExtension, String resultsFilePath) {
             this.testType = testType;
             this.testNames = testNames;
             this.executorFilePath = executorFilePath;
@@ -63,7 +69,7 @@ public class TestExecutor {
         }
     }
 
-    public void executeTests(String testType, List<String> testNames, String executorFilePath, String resultsFileExtension, String resultsFilePath) throws Exception {
+    public void executeTests(String testType, List<List<String>> testNames, String executorFilePath, String resultsFileExtension, String resultsFilePath) throws Exception {
        TestRunner testRunner = getTestRuntime(testType);
         String testExecutionMode = "Parallel";
         if(env != null) {
@@ -105,6 +111,10 @@ public class TestExecutor {
         if(testResultFileExtension.equals(".trx")) {
             TrxAggregator trxAggregator = new TrxAggregator();
             trxAggregator.aggregateTrxFromFileList(testResultFiles, mergedFileLocation);
+        }
+        else if(testResultFileExtension.equals(".txt")) {
+            FileContentAggregator fileContentAggregator = new FileContentAggregator();
+            fileContentAggregator.aggregateFilesFromFileList(testResultFiles, mergedFileLocation);
         }
     }
 
