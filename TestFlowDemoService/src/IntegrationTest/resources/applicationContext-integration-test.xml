@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<beans 
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+>
+
+    <!-- load integration test properties    NOTE: this should be done BEFORE any other spring wirings because they may need this information -->
+    <bean id="com_expedia_air_supply_flights_atc_service_integration_test_propertiesPlaceholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+        <property name="systemPropertiesModeName"       value="SYSTEM_PROPERTIES_MODE_OVERRIDE"                    />
+        <property name="searchSystemEnvironment"        value="true"                                               />
+        <property name="ignoreResourceNotFound"         value="false"                                              />
+        <property name="ignoreUnresolvablePlaceholders" value="false"                                              />
+        <property name="order"                          value="0"                                                  />
+        <property name="locations" >
+            <list>
+                <value>classpath*:config.properties</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
+
