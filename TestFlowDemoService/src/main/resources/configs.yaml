@@ -5,11 +5,11 @@ server:
 
    - type: http
 
-     port: 8080
+     port: 1234
   # The port on which the HTTP server listens for administrative requests.
   adminConnectors:
     - type: http
-      port: 8081
+      port: 1235
 
   # The minimum number of threads to keep running to process
   # incoming HTTP requests. Min value can be 8
