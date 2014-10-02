@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="54cf0e69-28a5-4da8-803a-461e804e4ed4" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="270cd7c5-9867-44ff-b0c0-026760e6b16f">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.4688077-07:00" queuing="2014-10-01T04:28:52.2658082-07:00" start="2014-10-01T04:28:52.5000167-07:00" finish="2014-10-01T04:33:19.2345671-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="3" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:51.7345462-07:00">
+        <Text>Warning: Test Run deployment issue: Failed to copy file 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\AirTestFramework.dll' to 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll': System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll' because it is being used by another process.</Text>
+        <Exception>System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentHelper.CopyFileOverwrite(String source, String destination)</Exception>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2500405-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2500405-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PriceChangeTest" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="980806de-d474-d84e-cda9-c4e990c80c0b">
+      <Execution timeOut="2147483647" id="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PriceScheduleChange.PriceScheduleChangeTestCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PriceChangeTest" />
+      <DataSource connectionString="|DataDirectory|\TestData\PriceScheduleChange\TestData_PriceScheduleChange.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="980806de-d474-d84e-cda9-c4e990c80c0b" executionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:04:25.3150255" startTime="2014-10-01T04:28:53.1562750-07:00" endTime="2014-10-01T04:33:18.9375464-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" resultType="DataDrivenTest">
+      <Counters error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="56422014-caa1-4984-b44b-27d22784ccb8" parentExecutionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:01:10.2642224" startTime="2014-10-01T04:28:53.7500289-07:00" endTime="2014-10-01T04:30:04.0158189-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 6504
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 6505
+BFSHistory Request sent:        10/01/2014 04:28:54.
+BFSHistory response received: 10/01/2014 04:28:58.  Using number 41.
+Market: RNO - OGG from 03/02/2015 00:00:00 to 03/09/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:13Z; CRSLogID at 92420607.
+ &gt; Transaction took 14398ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92420690.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:168187B15F8044A0ABA13DC9DC668277
+ There are 17 Product with AirMarketReferenceMarkupContext
+Search Offer Token: e2be62534003252dc73937a8a968eaaf-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:24Z; CRSLogID at 92421223.
+ &gt; Transaction took 9813ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:168187B15F8044A0ABA13DC9DC668277
+BFS PC message found at CRSLogID 92421369.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:168187B15F8044A0ABA13DC9DC668277
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:29:30Z; CRSLogID at 92421991.
+ &gt; Transaction took 85ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:29:32Z; CRSLogID at 92422055.
+ &gt; Transaction took 163ms.
+
+ARL: 100027849
+baseNet amount 522.98 and now changed to 512.98 in purchase request.
+baseGross amount 522.98 and now changed to 512.98 in purchase request.
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:29:49Z; CRSLogID at 92422206.
+ &gt; Transaction took 15287ms.
+
+BFS PC message found at CRSLogID 92421369.
+BFS PC message found at CRSLogID 92422421.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:168187B15F8044A0ABA13DC9DC668277, in clientProfile:168187B15F8044A0ABA13DC9DC668277
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:168187B15F8044A0ABA13DC9DC668277
+=====PurchaseV2ResponseValidation
+The purchase failed becauase of: PriceChange
+=====PurchaseV2ResponseValidation PASSED
+&gt;&gt;&gt;&gt;&gt;&gt;Verify AirFareDetails in Purchase Response
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:30:02Z; CRSLogID at 92422670.
+ &gt; Transaction took 6621ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:168187B15F8044A0ABA13DC9DC668277
+Start verify GetDetails cache update for price change/ schedule change.
+Validtions for price change/ schedule change passed!</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b5c88f89-0d73-4458-a194-32194f820805" parentExecutionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:00:10.0198779" startTime="2014-10-01T04:30:04.0158189-07:00" endTime="2014-10-01T04:30:14.0313334-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 6505
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 6506
+BFSHistory Request sent:        10/01/2014 04:30:04.
+BFSHistory response received: 10/01/2014 04:30:05.  Using number 2.
+Market: SJU - DCA from 04/06/2015 00:00:00 to 04/13/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:30:11Z; CRSLogID at 92422833.
+ &gt; Transaction took 5824ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92422857.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:694EF9FA09804DCBBDF35B6C6C0C1DB7
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 01a162324a3a6ee692a5bbba3c29321b-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:30:13Z; CRSLogID at 92422941.
+ &gt; Transaction took 473ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at PriceScheduleChange.PriceScheduleChangeTestCases.PriceChangeTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceScheduleChange.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="4da336fa-d923-4d48-91b8-6f4d5400f474" parentExecutionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:00:18.5970867" startTime="2014-10-01T04:30:14.0313334-07:00" endTime="2014-10-01T04:30:32.6408620-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 6506
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 6507
+BFSHistory Request sent:        10/01/2014 04:30:14.
+BFSHistory response received: 10/01/2014 04:30:15.  Using number 3.
+Market: FAR - SFO from 03/27/2015 00:00:00 to 03/29/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:30:25Z; CRSLogID at 92422965.
+ &gt; Transaction took 9675ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92422981.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:10D11EFE90DE430E92ED3D3CC2A999F1
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 3eb70ae4455542099fb106888d91ec31-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:30:31Z; CRSLogID at 92423074.
+ &gt; Transaction took 5420ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEAMLESS TIME OUT         
+
+ Response returned an error:ID 92423085.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at PriceScheduleChange.PriceScheduleChangeTestCases.PriceChangeTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceScheduleChange.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="14fd7d7e-ed85-4a8a-8e64-7fc3d83adab5" parentExecutionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:01:29.7814604" startTime="2014-10-01T04:30:32.6408620-07:00" endTime="2014-10-01T04:32:02.4219009-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 6507
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:IAD:CLE:SEA:IND
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:KWI:LAS:PVR:PHL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 6508
+BFSHistory Request sent:        10/01/2014 04:30:32.
+BFSHistory response received: 10/01/2014 04:30:36.  Using number 26.
+Market: DEN - FLL from 03/20/2015 00:00:00 to 03/30/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:30:54Z; CRSLogID at 92423189.
+ &gt; Transaction took 17833ms.
+
+Verifying the GDS.
+
+ Search response contains AirOffers/AirProducts from Service Provider other than Sabre.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:US***US
+TUID inside for Loop: 6509
+BFSHistory Request sent:        10/01/2014 04:30:56.
+BFSHistory response received: 10/01/2014 04:31:00.  Using number 69.
+Market: BOS - ASE from 03/04/2015 00:00:00 to 03/09/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:29Z; CRSLogID at 92423335.
+ &gt; Transaction took 28677ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92423356.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:EFCAAFA9FB844FD5BB431A80BF0D0340
+ There are 85 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 9d8ccbb04136836b90b4ca8b74b47933-3-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:31:40Z; CRSLogID at 92423666.
+ &gt; Transaction took 6898ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:EFCAAFA9FB844FD5BB431A80BF0D0340
+BFS PC message found at CRSLogID 92423705.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:EFCAAFA9FB844FD5BB431A80BF0D0340
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:31:44Z; CRSLogID at 92423789.
+ &gt; Transaction took 71ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:31:45Z; CRSLogID at 92423795.
+ &gt; Transaction took 134ms.
+
+ARL: 100027856
+baseNet amount 561.86 and now changed to 551.86 in purchase request.
+baseGross amount 561.86 and now changed to 551.86 in purchase request.
+booking step: OnePhaseTwoStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 04:31:58Z; CRSLogID at 92423808.
+ &gt; Transaction took 12384ms.
+
+The purchase failed because of: PriceChange
+&gt;&gt;&gt;&gt;&gt;&gt;Verify AirFareDetails in response
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:01Z; CRSLogID at 92423990.
+ &gt; Transaction took 1801ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:EFCAAFA9FB844FD5BB431A80BF0D0340
+Start verify GetDetails cache update for price change/ schedule change.
+Validtions for price change/ schedule change passed!</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d5e141f3-e58f-40ec-9e94-516bfc794f69" parentExecutionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:00:10.3815211" startTime="2014-10-01T04:32:02.4219009-07:00" endTime="2014-10-01T04:32:12.7969327-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 6508
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = MXP:LHR:LHR
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:JFK:SIN
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 6509
+BFSHistory Request sent:        10/01/2014 04:32:02.
+BFSHistory response received: 10/01/2014 04:32:04.  Using number 0.
+Market: SJU - DCA from 04/06/2015 00:00:00 to 04/13/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:10Z; CRSLogID at 92424092.
+ &gt; Transaction took 6025ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92424114.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:BA4950042FAA48998025A1417A3CCBF9
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: f51ebb10498e0055bfdd948d7c3be08a-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:12Z; CRSLogID at 92424174.
+ &gt; Transaction took 928ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at PriceScheduleChange.PriceScheduleChangeTestCases.PriceChangeTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceScheduleChange.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8a8c6af2-517c-476b-af72-d31eb8474bb0" parentExecutionId="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" testId="980806de-d474-d84e-cda9-c4e990c80c0b" testName="PriceChangeTest" computerName="WIN-B3M5SP1197C" duration="00:01:06.1210039" startTime="2014-10-01T04:32:12.7969327-07:00" endTime="2014-10-01T04:33:18.9219332-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fe2be6-80fb-4d5e-887e-8ba88c0dde12" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 6509
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BHX:BRS:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = AMS:KBP:PEK:MAA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 6510
+BFSHistory Request sent:        10/01/2014 04:32:12.
+BFSHistory response received: 10/01/2014 04:32:14.  Using number 21.
+Market: JFK - MCO from 08/07/2015 00:00:00 to 08/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:22Z; CRSLogID at 92424221.
+ &gt; Transaction took 8218ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92424240.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:162F521BEEBD49AFB7E12C81BD0FE463
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 54e06e1d4e4df752752e44b04a268b7b-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:27Z; CRSLogID at 92424350.
+ &gt; Transaction took 4951ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92424359.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:AMS***BHX
+TUID inside for Loop: 6511
+BFSHistory Request sent:        10/01/2014 04:32:28.
+BFSHistory response received: 10/01/2014 04:32:29.  Using number 36.
+Market: AZO - RSW from 02/09/2015 00:00:00 to 02/19/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:43Z; CRSLogID at 92424411.
+ &gt; Transaction took 13746ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92424427.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:BB8D5CC579E3459A823A7519AFBAE6BC
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 1a9a3c6e418da60b57861086aff13fa9-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:54Z; CRSLogID at 92424621.
+ &gt; Transaction took 10683ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:BB8D5CC579E3459A823A7519AFBAE6BC
+BFS PC message found at CRSLogID 92424729.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:BB8D5CC579E3459A823A7519AFBAE6BC
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:32:59Z; CRSLogID at 92424815.
+ &gt; Transaction took 69ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:32:59Z; CRSLogID at 92424818.
+ &gt; Transaction took 156ms.
+
+ARL: 100027861
+baseNet amount 238 and now changed to 228 in purchase request.
+baseGross amount 238 and now changed to 228 in purchase request.
+booking step: OnePhaseTwoStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 04:33:16Z; CRSLogID at 92424824.
+ &gt; Transaction took 15901ms.
+
+The purchase failed because of: PriceChange
+&gt;&gt;&gt;&gt;&gt;&gt;Verify AirFareDetails in response
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:33:18Z; CRSLogID at 92425037.
+ &gt; Transaction took 991ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:BB8D5CC579E3459A823A7519AFBAE6BC
+Start verify GetDetails cache update for price change/ schedule change.
+Validtions for price change/ schedule change passed!</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

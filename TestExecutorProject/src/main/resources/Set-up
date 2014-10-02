@@ -1,0 +1,4 @@
+Build project
+paste jar in target machine
+set the pathsWhereTrxGo to <AirInterfaceCodeBase>\v1.0\TestResults\paralellrun
+add ms-test to path

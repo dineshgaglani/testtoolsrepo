@@ -2,6 +2,8 @@ package com.expedia.aggregator.trx;
 
 import com.expedia.aggregator.data.*;
 import com.google.common.io.Files;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import sun.misc.IOUtils;
 
 import javax.xml.bind.JAXB;
@@ -20,10 +22,16 @@ import java.util.List;
  */
 public class TrxAggregator extends ParallelAggregator<TestRunType> {
 
+    static Logger LOGGER = LoggerFactory.getLogger(TrxAggregator.class);
+
     public void aggregateTrxFiles(List<File> trxFiles, String mergedFileLocation) throws Exception{
         List<TestRunType> testRuns = new ArrayList<TestRunType>();
+        LOGGER.info("Merging the following files");
+        int fileIndex = 0;
         for(File trxFile : trxFiles) {
+            LOGGER.info("Index {}, file name {}", fileIndex, trxFile.getName());
             testRuns.add(getTestRunFromFile(trxFile));
+            fileIndex++;
         }
         TestRunType mergedTestRun = mergeElements(testRuns);
         convertMergedTrxToFile(mergedTestRun, mergedFileLocation);

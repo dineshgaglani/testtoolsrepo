@@ -1,11 +1,15 @@
 package com.expedia.airawat.test.executor.service;
 
+import com.expedia.aggregator.trx.TrxAggregator;
 import com.expedia.airawat.test.executor.engine.TestExecutor;
+import com.expedia.airawat.test.executor.service.configs.Paths;
 import com.expedia.airawat.test.executor.service.objects.TestExecutionRequest;
 import com.expedia.airawat.test.executor.service.objects.TestExecutorResponse;
 
 import javax.ws.rs.*;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -13,6 +17,12 @@ import java.util.List;
  */
 @Path("/testexecutorservice")
 public class ExecutorServiceResource {
+
+    private Paths paths;
+
+    public ExecutorServiceResource(Paths paths) {
+        this.paths = paths;
+    }
 
     @Path("/json")
     @POST
@@ -64,6 +74,7 @@ public class ExecutorServiceResource {
     public void runTVATests(TestExecutionRequest executionRequest) {
         TestExecutor testExecutor = new TestExecutor();
         String executorFilePath = ServiceUtils.getTVARegressionExecutorFilePath();
+        TrxAggregator trxAggregator = new TrxAggregator();
         if(executionRequest.getExecutorLocation() != null && !executionRequest.getExecutorLocation().isEmpty()) {
             executorFilePath = executionRequest.getExecutorLocation();
         }
@@ -73,68 +84,97 @@ public class ExecutorServiceResource {
         preTestSet.add(preTestName);
         List<List<String>> preTestSuite = new ArrayList<List<String>>();
         preTestSuite.add(preTestSet);
-        List<List<String>> testSuite = new ArrayList<List<String>>();
-        List<String> testNamesSet1 = new ArrayList<String>();
-        List<String> testNamesSet2 = new ArrayList<String>();
+        List<List<String>> regressionTestSuite = new ArrayList<List<String>>();
+        List<List<String>> purchaseTestSuite = new ArrayList<List<String>>();
 
-        testNamesSet1.add("OldSearchNewPrice");
-        testNamesSet1.add("NewSearchOldPrice");
-        testNamesSet1.add("FareRuleUseBFS");
-        testNamesSet1.add("FareRuleMultiFBC");
-        testNamesSet1.add("FareRuleToGDS");
-        testNamesSet1.add("GetDetails");
-        testNamesSet1.add("Verify");
-        testNamesSet1.add("SearchV3GetDetailsV1");
-        testNamesSet1.add("BFSUnsupportedSearchV4GetDetailsV2");
-        testNamesSet1.add("SearchV4GetDetailsV2");
-        testNamesSet1.add("OBFeeNotRequestedInGetDetailsRegressionTest");
-        testNamesSet1.add("ProgressiveResponseRoundTrip");
-        testNamesSet1.add("SingleResponseMultiDestination");
-        testNamesSet1.add("ProgressiveResponseMultiDestination");
-        testNamesSet1.add("BFSUnsupportedSerchV5Test");
-        testNamesSet1.add("OBFeeGetDetailsRegressionTest");
-        testNamesSet1.add("SingleResponseOneWayTrip");
-        testNamesSet1.add("SingleResponseRoundTrip");
-        testNamesSet1.add("ProgressiveResponseOneWayTrip");
-        testNamesSet1.add("SearchV5WithOBFeeRegressionTest");
-        testNamesSet1.add("SeatMap");
-        testNamesSet1.add("CarrierSpecificSearchForNoSupportTF");
-        testNamesSet1.add("TFMetroCodeSearchAndNoDPCPrice");
-        testNamesSet1.add("TFMetroCodeSearchAndNoDPCPriceDepDifferArr");
-        testNamesSet1.add("TFMetroCodeSearch");
-        testNamesSet1.add("NoAirlineSpecificSearch");
-        testNamesSet1.add("TFNoDPCinGetDetails");
-        testNamesSet1.add("FlexMORTFRegressionTest");
-        testNamesSet1.add("FlexMORAmadeusRegressionTest");
-        testNamesSet1.add("BookingWithOBFeeRegressionTest");
-        testNamesSet1.add("OMSBookV2Test_AmadeusTest");
-        testNamesSet1.add("OMSBookV2Test_TravelPortTest");
-        testNamesSet1.add("OMSBookV2TFTest");
-        testNamesSet1.add("OMSBookV2Test_SabreTest");
-        testNamesSet1.add("Book");
-        testNamesSet1.add("BookOMS");
-        testNamesSet1.add("TFRoundTrip");
-        testNamesSet1.add("TFNoDPCinPurchase");
-        testNamesSet1.add("TFStandalone");
-        testNamesSet1.add("TFNoCVVBook");
-        testNamesSet1.add("PriceChangeAtCompletePurchaseTest");
-        testNamesSet1.add("PriceChangeTest");
-        testNamesSet1.add("ScheduleChangeTest");
+        //Add the test sets for the corresponding .dlls
+        List<String> regressionTests = new ArrayList<String>();
+        regressionTests.add("SeatMap");
+        regressionTests.add("FareRuleToGDS");
+        regressionTests.add("FareRuleUseBFS");
+        regressionTests.add("FareRuleMultiFBC");
+        if(paths.isRunCharterForRegression()) {
+            regressionTests.add("CharterBookingTest");
+        }
+        regressionTests.add("NewSearchOldPrice");
+        regressionTests.add("TFMetroCodeSearch");
+        regressionTests.add("CarrierSpecificSearchForNoSupportTF");
+        regressionTests.add("TFMetroCodeSearchAndNoDPCPriceDepDifferArr");
+        regressionTests.add("NoAirlineSpecificSearch");
+        regressionTests.add("TFNoDPCinGetDetails");
+        regressionTests.add("SearchV4GetDetailsV2");
+        regressionTests.add("SearchV3GetDetailsV1");
+        regressionTests.add("TFMetroCodeSearchAndNoDPCPrice");
+        regressionTestSuite.add(regressionTests);
 
-        testNamesSet2.add("CharterBookingTest");
-        testNamesSet2.add("WorldspanMSTests");
-        testNamesSet2.add("SabreMSTests");
-        testNamesSet2.add("AmadeusMSTests");
-        testNamesSet2.add("DirectTicketingMSTest");
+        List<String> regressionTests2 = new ArrayList<String>();
+        regressionTests2.add("OldSearchNewPrice");
+        regressionTests2.add("BFSUnsupportedSerchV5Test");
+        regressionTests2.add("BFSUnsupportedSerchV5Test");
+        regressionTests2.add("Verify");
+        regressionTests2.add("GetDetails");
+        regressionTests2.add("BFSUnsupportedSearchV4GetDetailsV2");
+        //Not running in parallel
+        regressionTests.add("OMSBookV2TFTest");
+        regressionTests.add("Book");
+        regressionTests2.add("OMSBookV2Test_SabreTest");
+        regressionTests2.add("OMSBookV2Test_TravelPortTest");
+        regressionTests2.add("OMSBookV2Test_AmadeusTest");
+        regressionTests2.add("BookOMS");
+        regressionTestSuite.add(regressionTests2);
+        List<String> regressionTests3 = new ArrayList<String>();
+        regressionTests3.add("SabreMSTests");
+        regressionTests3.add("AmadeusMSTests");
+        regressionTests3.add("WorldspanMSTests");
+        regressionTests3.add("DirectTicketingMSTest");
+        regressionTests3.add("TFRoundTrip");
+        regressionTests3.add("TFStandalone");
+        regressionTests3.add("TFRoundTrip");
+        regressionTests3.add("TFNoDPCinPurchase");
+        regressionTests3.add("TFNoCVVBook");
+        regressionTests3.add("PriceChangeTest");
+        regressionTests3.add("ScheduleChangeTest");
+        regressionTests3.add("PriceChangeAtCompletePurcaseTest");
 
-        testSuite.add(testNamesSet1);
-        testSuite.add(testNamesSet2);
+        regressionTestSuite.add(regressionTests3);
+
+        List<String> purchaseTests1 = new ArrayList<String>();
+        purchaseTests1.add("BookingWithOBFeeRegressionTest");
+        purchaseTests1.add("FlexMORAmadeusRegressionTest");
+        purchaseTestSuite.add(purchaseTests1);
+
+        List<String> obFeeTests = new ArrayList<String>();
+        obFeeTests.add("Searchv5withOBFeeRegressionTest");
+        obFeeTests.add("OBFeeNotRequestedInGetDetailsRegressionTest");
+        obFeeTests.add("OBFeeGetDetailsRegressionTest");
+        List<List<String>> obFeeTestSuite = new ArrayList<List<String>>();
+        obFeeTestSuite.add(obFeeTests);
+
+        List<String> fppTests = new ArrayList<String>();
+        fppTests.add("SingleResponseOneWayTrip");
+        fppTests.add("SingleResponseRoundTrip");
+        fppTests.add("ProgressiveResponseRoundTrip");
+        fppTests.add("ProgressiveResponseMultiDestination");
+        fppTests.add("ProgressiveResponseOneWayTrip");
+        fppTests.add("SingleResponseMultiDestination");
+        List<List<String>> fppTestSuite = new ArrayList<List<String>>();
+        fppTestSuite.add(fppTests);
+
         try {
-            testExecutor.executeTests("shell", preTestSuite, executorFilePath + "preregressionexecutor.bat", ".trx", executionRequest.getResultFileLocation());
+            if(paths.isRunPreProdForRegression()) {
+                testExecutor.executeTests("shell", preTestSuite, executorFilePath + "preregressionexecutor.bat", ".trx", executionRequest.getResultFileLocation());
+            }
+
+            String placeWhereAggregatedTRXFilesGo = paths.getPathsWhereTrxGo();
             //Execute tests 5 times, merged file location will be the place where .trx is being read by the tests
             for(int i = 0; i < 5; i++) {
-                testExecutor.executeTests("shell", testSuite, executorFilePath + "regressionexecutor.bat", ".trx", executionRequest.getResultFileLocation());
+                testExecutor.executeTests("shell", regressionTestSuite, executorFilePath + "regressionexecutor.bat", ".trx", executorFilePath + "regressionresult"+i);
+                testExecutor.executeTests("shell", purchaseTestSuite, executorFilePath + "purchaseexecutor.bat", ".trx", executorFilePath + "purchaseresult"+i);
+                testExecutor.executeTests("shell", obFeeTestSuite, executorFilePath + "obfeetestexecutor.bat", ".trx", executorFilePath + "obfeetesresult"+i);
+                testExecutor.executeTests("shell", fppTestSuite, executorFilePath + "fpptestexecutor.bat", ".trx", executorFilePath + "fpptesresult"+i);
+                trxAggregator.aggregateTrxFromFileList(Arrays.asList(new String[]{executorFilePath + "regressionresult" + i, executorFilePath + "purchaseresult" + i, executorFilePath + "obfeetesresult" + i, executorFilePath + "fpptesresult" + i}), placeWhereAggregatedTRXFilesGo + i + ".trx");
             }
+            ServiceUtils.sendEMail(placeWhereAggregatedTRXFilesGo);
         } catch (Exception e) {
             e.printStackTrace();
         }

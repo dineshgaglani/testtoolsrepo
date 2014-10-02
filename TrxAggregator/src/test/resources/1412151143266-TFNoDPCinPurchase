@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e13d7bfd-ff8a-4f03-8d6e-f81dd6eac217" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="39c87452-3eaf-4e54-ad3b-b0c5ce31e34c">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.5312785-07:00" queuing="2014-10-01T04:28:52.2812669-07:00" start="2014-10-01T04:28:52.4845474-07:00" finish="2014-10-01T04:29:19.2813093-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:51.7345462-07:00">
+        <Text>Warning: Test Run deployment issue: Failed to copy file 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\AirTestFramework.dll' to 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll': System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll' because it is being used by another process.</Text>
+        <Exception>System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentHelper.CopyFileOverwrite(String source, String destination)</Exception>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.0312792-07:00">
+        <Text>Warning: Test Run deployment issue: Failed to copy file 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\TestData\TestData_BVT.xml' to 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\TestData\TestData_BVT.xml': System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\TestData\TestData_BVT.xml' because it is being used by another process.</Text>
+        <Exception>System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\TestData\TestData_BVT.xml' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentHelper.CopyFileOverwrite(String source, String destination)</Exception>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2500405-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2500405-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TFNoDPCinPurchase" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="ccc39c06-9aa3-73b9-f170-94b42f5da05a">
+      <Execution timeOut="2147483647" id="9302e6bc-e27c-471b-8afa-400e98e5762e" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFNoDPCinPurchase" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_TFNoDPCTest.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ccc39c06-9aa3-73b9-f170-94b42f5da05a" executionId="9302e6bc-e27c-471b-8afa-400e98e5762e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9302e6bc-e27c-471b-8afa-400e98e5762e" testId="ccc39c06-9aa3-73b9-f170-94b42f5da05a" testName="TFNoDPCinPurchase" computerName="WIN-B3M5SP1197C" duration="00:00:25.4883838" startTime="2014-10-01T04:28:53.2188120-07:00" endTime="2014-10-01T04:29:19.1562507-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9302e6bc-e27c-471b-8afa-400e98e5762e" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="a7dac061-6582-4576-b15e-169aad7acfad" parentExecutionId="9302e6bc-e27c-471b-8afa-400e98e5762e" testId="ccc39c06-9aa3-73b9-f170-94b42f5da05a" testName="TFNoDPCinPurchase" computerName="WIN-B3M5SP1197C" duration="00:00:25.4241323" startTime="2014-10-01T04:28:53.7031300-07:00" endTime="2014-10-01T04:29:19.1252191-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9302e6bc-e27c-471b-8afa-400e98e5762e" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3253
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = EasyJet
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = LGW:LON:LON:LON:LON
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = SXB:DUS:AMS:BFS:ZRH
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3254
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:28:57Z; CRSLogID at 92420385.
+ &gt; Transaction took 3042ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:SXB***LGW
+TUID inside for Loop: 3255
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:02Z; CRSLogID at 92420533.
+ &gt; Transaction took 4788ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:DUS***LON
+TUID inside for Loop: 3256
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:10Z; CRSLogID at 92420935.
+ &gt; Transaction took 7519ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:AMS***LON
+TUID inside for Loop: 3257
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:12Z; CRSLogID at 92421031.
+ &gt; Transaction took 1730ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BFS***LON
+TUID inside for Loop: 3258
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:18Z; CRSLogID at 92421150.
+ &gt; Transaction took 4863ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:ZRH***LON</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.TFNoDPCinPurchase() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 449
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -9,8 +9,13 @@ import java.io.File;
 import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
+import java.util.*;
+import javax.mail.*;
+import javax.mail.internet.*;
+import javax.activation.*;
 
 /**
  * Created by dgaglani on 9/1/14.
@@ -81,6 +86,53 @@ public class ServiceUtils {
             randomKey = generateRandomKey();
         }
         return randomKey;
+    }
+
+    public static void sendEMail(String resultFilePath) {
+        // Recipient's email ID needs to be mentioned.
+        String to = "dgaglani@expedia.com";
+        String to2 = "airawat@expedia.com";
+
+        // Sender's email ID needs to be mentioned
+        String from = "airawat@gmail.com";
+
+        // Assuming you are sending email from localhost
+        String host = "Shost.sea.corp.expecn.com";
+
+        // Get system properties
+        Properties properties = System.getProperties();
+
+        // Setup mail server
+        properties.setProperty("mail.smtp.host", host);
+
+        // Get the default Session object.
+        Session session = Session.getDefaultInstance(properties);
+
+        try{
+            // Create a default MimeMessage object.
+            MimeMessage message = new MimeMessage(session);
+
+            // Set From: header field of the header.
+            message.setFrom(new InternetAddress(from));
+
+            // Set To: header field of the header.
+            message.addRecipient(Message.RecipientType.TO,
+                    new InternetAddress(to));
+            message.addRecipient(Message.RecipientType.TO,
+                    new InternetAddress(to2));
+
+            // Set Subject: header field
+            message.setSubject("Tests completed!");
+
+            // Now set the actual message
+            message.setText("Please find tests at " + resultFilePath);
+
+            // Send message
+            Transport.send(message);
+            System.out.println("Sent message successfully....");
+        }catch (MessagingException mex) {
+            mex.printStackTrace();
+        }
     }
 
 

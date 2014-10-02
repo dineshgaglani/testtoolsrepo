@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="abf84991-92ba-4ad7-a219-0da57846ea9e" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 01:12:24" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="4ac04d97-f9f1-49a6-9c46-b0e2cd179dd7">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 01_12_24[2]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T01:12:24.1882450-07:00" queuing="2014-10-01T01:12:25.2352688-07:00" start="2014-10-01T01:12:25.4382616-07:00" finish="2014-10-01T01:16:00.5007037-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:25.0788297-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:25.0788297-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FareRuleUseBFS" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="94a010ce-5c52-54d4-9628-e4138591c9d1">
+      <Execution timeOut="2147483647" id="483fab2f-3b68-466d-bf6c-35bbb8354903" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleUseBFS" />
+      <DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleUseBFS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="94a010ce-5c52-54d4-9628-e4138591c9d1" executionId="483fab2f-3b68-466d-bf6c-35bbb8354903" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="483fab2f-3b68-466d-bf6c-35bbb8354903" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="WIN-B3M5SP1197C" duration="00:03:31.4358528" startTime="2014-10-01T01:12:25.6102748-07:00" endTime="2014-10-01T01:15:58.7820056-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="483fab2f-3b68-466d-bf6c-35bbb8354903" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="29582f68-7540-4276-bcc2-f83c6cbdb067" parentExecutionId="483fab2f-3b68-466d-bf6c-35bbb8354903" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="WIN-B3M5SP1197C" duration="00:01:59.0397285" startTime="2014-10-01T01:12:27.5007014-07:00" endTime="2014-10-01T01:14:26.5475828-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="483fab2f-3b68-466d-bf6c-35bbb8354903" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2862
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 2863
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:12:27Z; CRSLogID not found.
+Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:US***US
+TUID inside for Loop: 2864
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:13:38Z; CRSLogID at 92244593.
+ &gt; Transaction took 50127ms.
+
+Total AirProducts returned: 243
+Total Published fares returned: 138
+Total Web fares returned: 105
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:NTE***HAM
+TUID inside for Loop: 2865
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:23Z; CRSLogID at 92245585.
+ &gt; Transaction took 44243ms.
+
+Total AirProducts returned: 600
+Total Published fares returned: 575
+Total Web fares returned: 25
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:14:24Z; CRSLogID at 92247114.
+ &gt; Transaction took 63ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92247114.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:14:25Z; CRSLogID at 92247153.
+ &gt; Transaction took 113ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92247153.
+   FareRules message found at 92247114.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7580f800-3767-4590-9628-e920bba8c99c" parentExecutionId="483fab2f-3b68-466d-bf6c-35bbb8354903" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="WIN-B3M5SP1197C" duration="00:00:26.2932861" startTime="2014-10-01T01:14:26.5475828-07:00" endTime="2014-10-01T01:14:52.8288465-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="483fab2f-3b68-466d-bf6c-35bbb8354903" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2863
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 2864
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:26Z; CRSLogID at 92247187.
+ &gt; Transaction took 320ms.
+
+Total AirProducts returned: 186
+Total Published fares returned: 186
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:PEK***BCN
+TUID inside for Loop: 2865
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:27Z; CRSLogID at 92247231.
+ &gt; Transaction took 280ms.
+
+Total AirProducts returned: 191
+Total Published fares returned: 191
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:HKG***VIE
+TUID inside for Loop: 2866
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:50Z; CRSLogID at 92247260.
+ &gt; Transaction took 22584ms.
+
+Total AirProducts returned: 781
+Total Published fares returned: 754
+Total Web fares returned: 27
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:14:51Z; CRSLogID at 92247815.
+ &gt; Transaction took 48ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92247815.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:14:52Z; CRSLogID at 92247837.
+ &gt; Transaction took 69ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92247837.
+   FareRules message found at 92247815.
+Checking whether no GDS call made when use BFS fare rule.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="44c0fbf1-3fec-4b67-9476-d2dd245f472d" parentExecutionId="483fab2f-3b68-466d-bf6c-35bbb8354903" testId="94a010ce-5c52-54d4-9628-e4138591c9d1" testName="FareRuleUseBFS" computerName="WIN-B3M5SP1197C" duration="00:01:05.9229418" startTime="2014-10-01T01:14:52.8288465-07:00" endTime="2014-10-01T01:15:58.7507276-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="483fab2f-3b68-466d-bf6c-35bbb8354903" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2864
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 2865
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:59Z; CRSLogID at 92247863.
+ &gt; Transaction took 6677ms.
+
+Total AirProducts returned: 60
+Total Published fares returned: 60
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 2866
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:11Z; CRSLogID at 92248120.
+ &gt; Transaction took 11227ms.
+
+Total AirProducts returned: 393
+Total Published fares returned: 189
+Total Web fares returned: 6
+Total Naked Net fares returned: 198
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 2867
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:36Z; CRSLogID at 92248710.
+ &gt; Transaction took 24055ms.
+
+Total AirProducts returned: 309
+Total Published fares returned: 182
+Total Web fares returned: 15
+Total Naked Net fares returned: 112
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 2868
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:58Z; CRSLogID at 92249552.
+ &gt; Transaction took 20843ms.
+
+Total AirProducts returned: 223
+Total Published fares returned: 157
+Total Web fares returned: 0
+Total Naked Net fares returned: 66
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No BFS fare fule returned since no &lt;aircommon:AirFareComponentRuleChangePenalty&gt; in searchResponse
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at FareRule.FareRuleCases.FareRuleUseBFS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\FareRule.cs:line 134
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

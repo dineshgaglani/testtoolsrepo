@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d08585e8-05f9-409d-bb35-bfdfb868f665" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 01:12:24" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e09f8dfa-83b3-424a-b8d8-42f038bf4586">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 01_12_24[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T01:12:24.2038305-07:00" queuing="2014-10-01T01:12:26.0007141-07:00" start="2014-10-01T01:12:26.2352551-07:00" finish="2014-10-01T01:14:16.4225809-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:25.2819784-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:25.2819784-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FareRuleToGDS" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="673db015-1a9f-18df-5de9-1d50304030bc">
+      <Execution timeOut="2147483647" id="d864ebe7-70f9-44df-8f08-5c89da14089c" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FareRule.FareRuleCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FareRuleToGDS" />
+      <DataSource connectionString="|DataDirectory|\TestData\FareRule\TestData_FareRuleToGDS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="673db015-1a9f-18df-5de9-1d50304030bc" executionId="d864ebe7-70f9-44df-8f08-5c89da14089c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d864ebe7-70f9-44df-8f08-5c89da14089c" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="WIN-B3M5SP1197C" duration="00:01:46.9979377" startTime="2014-10-01T01:12:26.2352551-07:00" endTime="2014-10-01T01:14:14.3288416-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d864ebe7-70f9-44df-8f08-5c89da14089c" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="f36c13c2-64b8-40d7-a88d-c61bc7bb2256" parentExecutionId="d864ebe7-70f9-44df-8f08-5c89da14089c" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="WIN-B3M5SP1197C" duration="00:00:49.3118488" startTime="2014-10-01T01:12:27.5007014-07:00" endTime="2014-10-01T01:13:16.8132453-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d864ebe7-70f9-44df-8f08-5c89da14089c" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2716
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = KL
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = KL
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 2717
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:12:28Z; CRSLogID not found.
+Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:US***US
+TUID inside for Loop: 2718
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:13:11Z; CRSLogID at 92244591.
+ &gt; Transaction took 23111ms.
+
+Total AirProducts returned: 115
+Total Published fares returned: 115
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:13:13Z; CRSLogID at 92244996.
+ &gt; Transaction took 920ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92244996.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Check the refundable flag and penalty amounts...
+     Update rule text contain penalty amounts:261.00
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:13:15Z; CRSLogID at 92245040.
+ &gt; Transaction took 701ms.
+
+The config UseBFSFareRulesIfAvailable is available for TPID1
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92245040.
+   FareRules message found at 92244996.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Check the refundable flag and penalty amounts...
+     Update rule text contain penalty amounts:261.00
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c209087d-bdc1-4322-bf92-47453976111c" parentExecutionId="d864ebe7-70f9-44df-8f08-5c89da14089c" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="WIN-B3M5SP1197C" duration="00:00:50.2506695" startTime="2014-10-01T01:13:16.8132453-07:00" endTime="2014-10-01T01:14:07.0633120-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d864ebe7-70f9-44df-8f08-5c89da14089c" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2717
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes is either empty or null ! = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = 
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 2718
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:13:33Z; CRSLogID at 92245069.
+ &gt; Transaction took 16739ms.
+
+Total AirProducts returned: 186
+Total Published fares returned: 186
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:13:37Z; CRSLogID at 92245400.
+ &gt; Transaction took 3474ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92245400.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Check the refundable flag and penalty amounts...
+     Update rule text doesn't contain refundable flag
+     Update rule text doesn't contain penalty amounts
+Checking GDS.
+Penalties request FAILED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:13:44Z; CRSLogID at 92245535.
+ &gt; Transaction took 5798ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92245535.
+   FareRules message found at 92245400.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Check the refundable flag and penalty amounts...
+     Update rule text contain penalty amounts:5.00
+Checking GDS.
+Summary request PASSED.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PEK***BCN
+TUID inside for Loop: 2719
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:13:54Z; CRSLogID at 92245797.
+ &gt; Transaction took 8328ms.
+
+Total AirProducts returned: 191
+Total Published fares returned: 191
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the GDS.
+
+TESTING PENALTIES REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:13:58Z; CRSLogID at 92246056.
+ &gt; Transaction took 3383ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92246056.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Check the refundable flag and penalty amounts...
+     Update rule text contain penalty amounts:100.00
+Checking GDS.
+Penalties request PASSED.
+
+TESTING SUMMARY REQUEST.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirFareRule transaction at 2014-10-01 01:14:06Z; CRSLogID at 92246209.
+ &gt; Transaction took 6980ms.
+
+Checking CRSLogs for correct verbs and information.
+   FareRules message found at 92246209.
+   FareRules message found at 92246056.
+Checking response for errors and malformation.
+Checking that ticket time is not updated.
+Check the refundable flag and penalty amounts...
+     Update rule text contain penalty amounts:10.00
+Checking GDS.
+Summary request PASSED.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="94e918bf-1437-4707-a71e-8b83b35824aa" parentExecutionId="d864ebe7-70f9-44df-8f08-5c89da14089c" testId="673db015-1a9f-18df-5de9-1d50304030bc" testName="FareRuleToGDS" computerName="WIN-B3M5SP1197C" duration="00:00:07.2430898" startTime="2014-10-01T01:14:07.0633120-07:00" endTime="2014-10-01T01:14:14.3132628-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d864ebe7-70f9-44df-8f08-5c89da14089c" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 2718
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = LO
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = LO
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 2719
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:08Z; CRSLogID at 92246521.
+ &gt; Transaction took 1260ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 2720
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:10Z; CRSLogID at 92246623.
+ &gt; Transaction took 1216ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 2721
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:11Z; CRSLogID at 92246695.
+ &gt; Transaction took 1083ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 2722
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:13Z; CRSLogID at 92246756.
+ &gt; Transaction took 1765ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at FareRule.FareRuleCases.FareRuleToGDS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\FareRule.cs:line 328
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

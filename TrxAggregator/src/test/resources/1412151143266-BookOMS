@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f2cb13ea-65ff-40df-bd75-1cc48663dc20" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="fea3bbe9-1b5a-445d-aaaa-03deb1dc00af">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.9062734-07:00" queuing="2014-10-01T04:28:52.3908235-07:00" start="2014-10-01T04:28:52.4375546-07:00" finish="2014-10-01T04:37:06.3125563-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="7" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.1406252-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.1406252-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BookOMS" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="e20e6871-af54-7493-f596-e054c12346c6">
+      <Execution timeOut="2147483647" id="e3903d5d-63bf-4fbd-9f36-d96044dcb505" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PriceCheck.PriceCheckCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BookOMS" />
+      <DataSource connectionString="|DataDirectory|\TestData\PriceCheck\TestData_BookOMS.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e20e6871-af54-7493-f596-e054c12346c6" executionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:08:10.7660146" startTime="2014-10-01T04:28:52.7188454-07:00" endTime="2014-10-01T04:37:04.4219043-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" resultType="DataDrivenTest">
+      <Counters error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="7" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="dad080ed-e19a-4549-8c7c-c4defd684d38" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:46.9270303" startTime="2014-10-01T04:28:54.0468781-07:00" endTime="2014-10-01T04:29:40.9688378-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5848
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5849
+BFSHistory Request sent:        10/01/2014 04:28:54.
+BFSHistory response received: 10/01/2014 04:28:55.  Using number 85.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:10Z; CRSLogID at 92420438.
+ &gt; Transaction took 14230ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: c7f204b6487370b95755e582da09f7f1-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:15Z; CRSLogID at 92421049.
+ &gt; Transaction took 4274ms.
+
+BFS XP message found at CRSLogID 92420455.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:C275C46D4ACC4170AAE5FA535A67375D
+BFS PC message found at CRSLogID 92421136.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C275C46D4ACC4170AAE5FA535A67375D
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:29:21Z; CRSLogID at 92421528.
+ &gt; Transaction took 600ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:29:23Z; CRSLogID at 92421644.
+ &gt; Transaction took 482ms.
+
+ARL: 100027848
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:29:30Z; CRSLogID at 92421780.
+ &gt; Transaction took 5739ms.
+
+=====PurchaseV2ResponseValidation
+PNR: SKHKCW
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: SKHKCW
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 92421988.
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92421136.
+BFS PC message found at CRSLogID 92421988.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:C275C46D4ACC4170AAE5FA535A67375D, in clientProfile:C275C46D4ACC4170AAE5FA535A67375D
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C275C46D4ACC4170AAE5FA535A67375D
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKHKCW
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKHKCW' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKHKCW
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKHKCW
+    Starting Cancel Attempt of PNR SKHKCW with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKHKCW
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="4f65423b-7d6a-4f54-90b1-b15dcde40bca" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:07.2568586" startTime="2014-10-01T04:29:40.9688378-07:00" endTime="2014-10-01T04:29:48.2345855-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5849
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5850
+BFSHistory Request sent:        10/01/2014 04:29:40.
+BFSHistory did not return a response. 10/01/2014 04:29:41.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:46Z; CRSLogID at 92422347.
+ &gt; Transaction took 5111ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 92c6fb09483c443fba529fbe1548de71-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:47Z; CRSLogID at 92422467.
+ &gt; Transaction took 584ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.BookOMS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 470
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="28907c68-b186-4ca5-909c-2941650d0d48" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:57.6282223" startTime="2014-10-01T04:29:48.2345855-07:00" endTime="2014-10-01T04:30:45.8595473-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5850
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5851
+BFSHistory Request sent:        10/01/2014 04:29:48.
+BFSHistory response received: 10/01/2014 04:29:49.  Using number 11.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:52Z; CRSLogID at 92422544.
+ &gt; Transaction took 3535ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 0348e3ad403fe55df5fdfe8443f410fc-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:30:02Z; CRSLogID at 92422617.
+ &gt; Transaction took 9086ms.
+
+BFS XP message found at CRSLogID 92422562.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:12ED20DBC0EB40ABA14999F809CE6668
+BFS PC message found at CRSLogID 92422770.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:12ED20DBC0EB40ABA14999F809CE6668
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:30:07Z; CRSLogID at 92422883.
+ &gt; Transaction took 70ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:30:08Z; CRSLogID at 92422897.
+ &gt; Transaction took 234ms.
+
+ARL: 100027852
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:30:36Z; CRSLogID at 92422904.
+ &gt; Transaction took 27067ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9Y45
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: MI9Y45
+=====VerifyPriceCheck()=====
+warning: Too many BFS PC responses found.  Checked range 92421385 through 92423184.
+BFS PriceCheck message found at CRSLogID 92423182.
+ERROR: Price Check first PrcDtl missing fC info.
+According to bug 94380, for 1P cases fc info is empty. So we ingore it till this bug fixed.
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92422770.
+BFS PC message found at CRSLogID 92423073.
+BFS PC message found at CRSLogID 92423182.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:12ED20DBC0EB40ABA14999F809CE6668, in clientProfile:12ED20DBC0EB40ABA14999F809CE6668
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:12ED20DBC0EB40ABA14999F809CE6668
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9Y45
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9Y45' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="072c5160-94de-4c1c-a569-5e3ad7ffb975" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:44.4762951" startTime="2014-10-01T04:30:45.8595473-07:00" endTime="2014-10-01T04:31:30.3281594-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5851
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5852
+BFSHistory Request sent:        10/01/2014 04:30:45.
+BFSHistory response received: 10/01/2014 04:30:46.  Using number 27.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:00Z; CRSLogID at 92423268.
+ &gt; Transaction took 14077ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 60a7890446b80237a90c16bfde58ed4d-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:31:07Z; CRSLogID at 92423340.
+ &gt; Transaction took 6854ms.
+
+BFS XP message found at CRSLogID 92423280.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:518D30ABD4CE4455AD2EFBE61AD07749
+BFS PC message found at CRSLogID 92423379.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:518D30ABD4CE4455AD2EFBE61AD07749
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:31:13Z; CRSLogID at 92423478.
+ &gt; Transaction took 67ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:31:14Z; CRSLogID at 92423484.
+ &gt; Transaction took 64ms.
+
+ARL: 100027854
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:31:21Z; CRSLogID at 92423492.
+ &gt; Transaction took 6558ms.
+
+=====PurchaseV2ResponseValidation
+PNR: HXTAZZ
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: HXTAZZ
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 92423547.
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92423379.
+BFS PC message found at CRSLogID 92423547.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:518D30ABD4CE4455AD2EFBE61AD07749, in clientProfile:518D30ABD4CE4455AD2EFBE61AD07749
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:518D30ABD4CE4455AD2EFBE61AD07749
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXTAZZ
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXTAZZ' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXTAZZ
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXTAZZ
+    Starting Cancel Attempt of PNR HXTAZZ with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXTAZZ
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e272ad75-c01f-4c54-8cec-bfe017741ca8" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:07.5845153" startTime="2014-10-01T04:31:30.3281594-07:00" endTime="2014-10-01T04:31:37.9219187-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5852
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5853
+BFSHistory Request sent:        10/01/2014 04:31:30.
+BFSHistory did not return a response. 10/01/2014 04:31:30.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:36Z; CRSLogID at 92423630.
+ &gt; Transaction took 6069ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: e060fd58427ee926c360f6a8ea8b6a5c-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:31:37Z; CRSLogID at 92423709.
+ &gt; Transaction took 490ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.BookOMS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 470
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="70669bc7-7d73-44cb-9f80-4a911664e231" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:52.3523534" startTime="2014-10-01T04:31:37.9219187-07:00" endTime="2014-10-01T04:32:30.2658395-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5853
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5854
+BFSHistory Request sent:        10/01/2014 04:31:37.
+BFSHistory response received: 10/01/2014 04:31:42.  Using number 83.
+Market: EWR - MCO from 04/02/2015 00:00:00 to 04/06/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:54Z; CRSLogID at 92423764.
+ &gt; Transaction took 12745ms.
+
+Verifying the GDS.
+ There are 154 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 903f38d74fcce34d80a77683a2d26696-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:06Z; CRSLogID at 92423943.
+ &gt; Transaction took 9614ms.
+
+BFS XP message found at CRSLogID 92423777.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:050FECB59B844F6CB5E934DC455E945C
+BFS PC message found at CRSLogID 92424053.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:050FECB59B844F6CB5E934DC455E945C
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:32:13Z; CRSLogID at 92424215.
+ &gt; Transaction took 54ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:32:13Z; CRSLogID at 92424219.
+ &gt; Transaction took 138ms.
+
+ARL: 100027859
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:32:21Z; CRSLogID at 92424243.
+ &gt; Transaction took 7003ms.
+
+=====PurchaseV2ResponseValidation
+PNR: HXXNMZ
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: HXXNMZ
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 92424330.
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92424053.
+BFS PC message found at CRSLogID 92424330.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:050FECB59B844F6CB5E934DC455E945C, in clientProfile:050FECB59B844F6CB5E934DC455E945C
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:050FECB59B844F6CB5E934DC455E945C
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXXNMZ
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXXNMZ' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXXNMZ
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXXNMZ
+    Starting Cancel Attempt of PNR HXXNMZ with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXXNMZ
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8cbf695d-9ed4-4a1c-8496-1b8e8969f8ea" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:17.1472488" startTime="2014-10-01T04:32:30.2658395-07:00" endTime="2014-10-01T04:32:47.4219261-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5854
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5855
+BFSHistory Request sent:        10/01/2014 04:32:30.
+BFSHistory response received: 10/01/2014 04:32:31.  Using number 1.
+Market: BOS - SJU from 03/14/2015 00:00:00 to 03/19/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:36Z; CRSLogID at 92424445.
+ &gt; Transaction took 4892ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: ed62c7f34235d48761e8d1b1163e4af9-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:38Z; CRSLogID at 92424500.
+ &gt; Transaction took 688ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:PEK***BCN
+TUID inside for Loop: 5856
+BFSHistory Request sent:        10/01/2014 04:32:38.
+BFSHistory response received: 10/01/2014 04:32:40.  Using number 2.
+Market: BOS - SJU from 03/14/2015 00:00:00 to 03/19/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:45Z; CRSLogID at 92424549.
+ &gt; Transaction took 5580ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: c77d2aae4a0bf82d6e02a2abebfa2b6e-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:46Z; CRSLogID at 92424657.
+ &gt; Transaction took 416ms.
+
+
+ Response returned an error:The service provider could not obtain a session to the host
+
+
+ Response returned an error:The service provider could not obtain a session to the host</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.BookOMS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 470
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="3e1d6470-e91e-47cf-8c2f-28b05ee8efe4" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:57.0124697" startTime="2014-10-01T04:32:47.4219261-07:00" endTime="2014-10-01T04:33:44.4375817-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5855
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5856
+BFSHistory Request sent:        10/01/2014 04:32:47.
+BFSHistory response received: 10/01/2014 04:32:48.  Using number 1.
+Market: EWR - ORD from 03/27/2015 00:00:00 to 03/27/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:54Z; CRSLogID at 92424675.
+ &gt; Transaction took 5456ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 1a2c519944db07a4bd6b3dbdc174db1e-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:33:07Z; CRSLogID at 92424780.
+ &gt; Transaction took 12669ms.
+
+BFS XP message found at CRSLogID 92424566.
+BFS XP message found at CRSLogID 92424688.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:86CB59AD8F014EEC91F33E6BF979CD9F
+BFS PC message found at CRSLogID 92424669.
+BFS PC message found at CRSLogID 92424893.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:86CB59AD8F014EEC91F33E6BF979CD9F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:33:13Z; CRSLogID at 92424980.
+ &gt; Transaction took 79ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:33:13Z; CRSLogID at 92424989.
+ &gt; Transaction took 138ms.
+
+ARL: 100027862
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:33:35Z; CRSLogID at 92424999.
+ &gt; Transaction took 20317ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9ZAC
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: MI9ZAC
+=====VerifyPriceCheck()=====
+warning: Too many BFS PC responses found.  Checked range 92424549 through 92425165.
+BFS PriceCheck message found at CRSLogID 92425163.
+ERROR: Price Check first PrcDtl missing fC info.
+According to bug 94380, for 1P cases fc info is empty. So we ingore it till this bug fixed.
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92424669.
+BFS PC message found at CRSLogID 92424893.
+BFS PC message found at CRSLogID 92425119.
+BFS PC message found at CRSLogID 92425163.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:86CB59AD8F014EEC91F33E6BF979CD9F, in clientProfile:86CB59AD8F014EEC91F33E6BF979CD9F
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:86CB59AD8F014EEC91F33E6BF979CD9F
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9ZAC
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9ZAC' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="78ef5c50-f831-4914-8ff9-ba7c4cbe178a" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:51.3253910" startTime="2014-10-01T04:33:44.4375817-07:00" endTime="2014-10-01T04:34:35.7657237-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5856
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5857
+BFSHistory Request sent:        10/01/2014 04:33:44.
+BFSHistory response received: 10/01/2014 04:33:48.  Using number 33.
+Market: EWR - LAS from 04/22/2015 00:00:00 to 04/27/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:33:57Z; CRSLogID at 92425286.
+ &gt; Transaction took 9514ms.
+
+Verifying the GDS.
+ There are 90 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 1ccec4a64ed3967c5d881d9c33e8259a-3-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:34:08Z; CRSLogID at 92425367.
+ &gt; Transaction took 9657ms.
+
+BFS XP message found at CRSLogID 92425299.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:C12E8BB66FA749119ED72B57123D0926
+BFS PC message found at CRSLogID 92425433.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C12E8BB66FA749119ED72B57123D0926
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:34:16Z; CRSLogID at 92425544.
+ &gt; Transaction took 56ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:34:17Z; CRSLogID at 92425546.
+ &gt; Transaction took 101ms.
+
+ARL: 100027865
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:34:26Z; CRSLogID at 92425549.
+ &gt; Transaction took 7607ms.
+
+=====PurchaseV2ResponseValidation
+PNR: SKGRPZ
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: SKGRPZ
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 92425814.
+WARNING: Check rounding error for CRSPerPsgrTax: PriceCheck='6976', GetDetails='6976'
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92425433.
+BFS PC message found at CRSLogID 92425814.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:C12E8BB66FA749119ED72B57123D0926, in clientProfile:C12E8BB66FA749119ED72B57123D0926
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C12E8BB66FA749119ED72B57123D0926
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKGRPZ
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKGRPZ' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKGRPZ
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKGRPZ
+    Starting Cancel Attempt of PNR SKGRPZ with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKGRPZ
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b954d1ed-8b27-4037-b3a8-085b20ce8ee1" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:01:20.3913184" startTime="2014-10-01T04:34:35.7657237-07:00" endTime="2014-10-01T04:35:56.1562823-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5857
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:SEA:BOS:LAX:DEN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = ASA:CPH:FRA:BOM:FRA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5858
+BFSHistory Request sent:        10/01/2014 04:34:35.
+BFSHistory did not return a response. 10/01/2014 04:34:36.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: SFO - LAX from 01/29/2015 04:34:36 to 02/08/2015 04:34:36
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:34:47Z; CRSLogID at 92425827.
+ &gt; Transaction took 10767ms.
+
+Verifying the GDS.
+ There are 199 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:ASA***US
+TUID inside for Loop: 5859
+BFSHistory Request sent:        10/01/2014 04:34:49.
+BFSHistory did not return a response. 10/01/2014 04:34:50.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: SEA - DCA from 01/29/2015 04:34:50 to 02/08/2015 04:34:50
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:35:03Z; CRSLogID at 92425959.
+ &gt; Transaction took 13144ms.
+
+Verifying the GDS.
+ There are 199 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:CPH***SEA
+TUID inside for Loop: 5860
+BFSHistory Request sent:        10/01/2014 04:35:05.
+BFSHistory did not return a response. 10/01/2014 04:35:07.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: DFW - SEA from 01/29/2015 04:35:07 to 02/08/2015 04:35:07
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:35:20Z; CRSLogID at 92426211.
+ &gt; Transaction took 12880ms.
+
+Verifying the GDS.
+ There are 527 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:FRA***BOS
+TUID inside for Loop: 5861
+BFSHistory Request sent:        10/01/2014 04:35:22.
+BFSHistory did not return a response. 10/01/2014 04:35:24.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: BOS - SFO from 01/29/2015 04:35:24 to 02/08/2015 04:35:24
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:35:33Z; CRSLogID at 92426347.
+ &gt; Transaction took 9309ms.
+
+Verifying the GDS.
+ There are 43 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:BOM***LAX
+TUID inside for Loop: 5862
+BFSHistory Request sent:        10/01/2014 04:35:34.
+BFSHistory did not return a response. 10/01/2014 04:35:36.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: SEA - MIA from 01/29/2015 04:35:36 to 02/08/2015 04:35:36
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:35:53Z; CRSLogID at 92426419.
+ &gt; Transaction took 17420ms.
+
+Verifying the GDS.
+ There are 188 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:FRA***DEN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.BookOMS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 470
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="38c247ec-b8e1-4d38-ac9f-d7b752025b64" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:44.5593998" startTime="2014-10-01T04:35:56.1562823-07:00" endTime="2014-10-01T04:36:40.7032764-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="10" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5858
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5859
+BFSHistory Request sent:        10/01/2014 04:35:56.
+BFSHistory response received: 10/01/2014 04:35:57.  Using number 0.
+Market: SJU - DCA from 04/06/2015 00:00:00 to 04/13/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:36:04Z; CRSLogID at 92426568.
+ &gt; Transaction took 6121ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 76c1d4e14efdb82ba18ea4b91f34f44e-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:36:10Z; CRSLogID at 92426630.
+ &gt; Transaction took 6141ms.
+
+BFS XP message found at CRSLogID 92425978.
+BFS XP message found at CRSLogID 92426586.
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:C2EA463E96704D58A71C38556169B218
+BFS PC message found at CRSLogID 92426657.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C2EA463E96704D58A71C38556169B218
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:36:17Z; CRSLogID at 92426731.
+ &gt; Transaction took 451ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:36:18Z; CRSLogID at 92426739.
+ &gt; Transaction took 123ms.
+
+ARL: 100027871
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:36:26Z; CRSLogID at 92426744.
+ &gt; Transaction took 7935ms.
+
+=====PurchaseV2ResponseValidation
+PNR: 4CDK7Q
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: 4CDK7Q
+=====VerifyPriceCheck()=====
+BFS PriceCheck message found at CRSLogID 92426790.
+=====VerifyPriceCheck() PASSED=====
+BFS PC message found at CRSLogID 92426657.
+BFS PC message found at CRSLogID 92426790.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:C2EA463E96704D58A71C38556169B218, in clientProfile:C2EA463E96704D58A71C38556169B218
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C2EA463E96704D58A71C38556169B218
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 4CDK7Q
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '4CDK7Q' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1A: 1
+PCC/OID is: LONEX38BB
+    Starting Void Attempt of PNR 4CDK7Q
+    No tickets for this PNR. Proceeding to cancel.
+    Finished Void Attempt of PNR 4CDK7Q
+    Starting Cancel Attempt of PNR 4CDK7Q
+We found credential for this environment to perform login !
+Logging in to Amadeus CRSTPF...
+Execute command : RT 4CDK7Q
+Execute command : MD
+Execute command : XI
+Execute command : RF PNRKiller
+Execute command : ET
+Execute command : RT 4CDK7Q
+    This PNR was canceled by tool.
+    Finished Cancel Attempt of PNR 4CDK7Q
+Log off Amadeus CRSTPF...
+Voided and cancelled.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="65dea47b-a7ca-4c36-ac59-5669fb1e5b88" parentExecutionId="e3903d5d-63bf-4fbd-9f36-d96044dcb505" testId="e20e6871-af54-7493-f596-e054c12346c6" testName="BookOMS" computerName="WIN-B3M5SP1197C" duration="00:00:23.6759646" startTime="2014-10-01T04:36:40.7032764-07:00" endTime="2014-10-01T04:37:04.3908062-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3903d5d-63bf-4fbd-9f36-d96044dcb505" dataRowInfo="11" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 5859
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = LHR:LHR:LHR
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:BOM:MCT:YVR
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 5860
+BFSHistory Request sent:        10/01/2014 04:36:40.
+BFSHistory did not return a response. 10/01/2014 04:36:41.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: MSP - BOS from 01/29/2015 04:36:41 to 02/08/2015 04:36:41
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:36:48Z; CRSLogID at 92426820.
+ &gt; Transaction took 7256ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:US***LHR
+TUID inside for Loop: 5861
+BFSHistory Request sent:        10/01/2014 04:36:49.
+BFSHistory did not return a response. 10/01/2014 04:36:51.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: DFW - ORD from 01/29/2015 04:36:51 to 02/08/2015 04:36:51
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:36:56Z; CRSLogID at 92426840.
+ &gt; Transaction took 5278ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:BOM***LHR
+TUID inside for Loop: 5862
+BFSHistory Request sent:        10/01/2014 04:36:57.
+BFSHistory did not return a response. 10/01/2014 04:36:58.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: LAX - DFW from 01/29/2015 04:36:58 to 02/08/2015 04:36:58
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:37:03Z; CRSLogID at 92426868.
+ &gt; Transaction took 5793ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:No Search Offer found for requested fare type.
+OD Pair Used:MCT***LHR</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at PriceCheck.PriceCheckCases.BookOMS() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\PriceCheck.cs:line 470
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

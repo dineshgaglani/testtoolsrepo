@@ -1,0 +1,2157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b0d8681a-2088-4d88-9c03-3eb8140a72f4" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 03:29:00" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e07a73a9-9afe-4343-828b-20f4faf7e41d">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 03_29_00[4]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T03:29:00.2500350-07:00" queuing="2014-10-01T03:29:01.8438456-07:00" start="2014-10-01T03:29:01.9218946-07:00" finish="2014-10-01T03:52:10.1408638-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" error="0" failed="13" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:01.8281453-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:01.8281453-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchV3GetDetailsV1" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="4481888d-2ac0-c5ba-0e24-d6d592d76359">
+      <Execution timeOut="2147483647" id="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchV3GetDetailsV1" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV3GetDetailsV1\TestData_SearchV3GetDetailsV1.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" executionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:23:04.4080644" startTime="2014-10-01T03:29:01.8908186-07:00" endTime="2014-10-01T03:52:09.9688495-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" resultType="DataDrivenTest">
+      <Counters error="0" failed="12" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="1fa43107-2c2a-4354-b2d5-cb9eaa075ce1" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:49.9651123" startTime="2014-10-01T03:29:05.5939692-07:00" endTime="2014-10-01T03:30:55.5625655-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8759
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT;CNN;INF;SRC
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8760
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:29:06Z; CRSLogID not found.
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 8761
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:29:34Z; CRSLogID at 92391870.
+ &gt; Transaction took 23074ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92392043.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:D966E476EC6844A5949B842915F73C85
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:29:54Z; CRSLogID at 92392146.
+ &gt; Transaction took 18445ms.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (504) Gateway Timeout.</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b6b98036-1e9a-450a-8de8-35df84461299" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:30.4988036" startTime="2014-10-01T03:30:55.5625655-07:00" endTime="2014-10-01T03:32:26.0625907-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8760
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT;CNN;INF;SRC
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8761
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:31:04Z; CRSLogID at 92393061.
+ &gt; Transaction took 9354ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393078.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:FE9833411C384618AFBC1142D1F506BE
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:31:16Z; CRSLogID at 92393154.
+ &gt; Transaction took 10164ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:FE9833411C384618AFBC1142D1F506BE
+BFS PC message found at CRSLogID 92393199.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:FE9833411C384618AFBC1142D1F506BE
+AirSegmentData message found at CRSLogID 92392268.
+AirSegmentData message found at CRSLogID 92393164.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92393161
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:PEK***BCN
+TUID inside for Loop: 8762
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:31:35Z; CRSLogID at 92393426.
+ &gt; Transaction took 9094ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393439.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:612DDE355E4A47EEB7F4AA36F1134E2D
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:31:43Z; CRSLogID at 92393567.
+ &gt; Transaction took 6814ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:612DDE355E4A47EEB7F4AA36F1134E2D
+BFS PC message found at CRSLogID 92393624.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:612DDE355E4A47EEB7F4AA36F1134E2D
+AirSegmentData message found at CRSLogID 92393576.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92393575
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:HKG***VIE
+TUID inside for Loop: 8763
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:32:05Z; CRSLogID at 92393931.
+ &gt; Transaction took 5819ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393944.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:6783B69A5C374DC681F64E156BD609BA
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:32:12Z; CRSLogID at 92394021.
+ &gt; Transaction took 6778ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:6783B69A5C374DC681F64E156BD609BA
+BFS PC message found at CRSLogID 92394085.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:6783B69A5C374DC681F64E156BD609BA
+AirSegmentData message found at CRSLogID 92394030.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92394029
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:BUD***ZRH
+TUID inside for Loop: 8764
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:32:22Z; CRSLogID at 92394234.
+ &gt; Transaction took 1175ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:GRU***LCW</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b1111bbd-2ee5-47ad-b4fa-bf6d807714bd" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:02:33.9184963" startTime="2014-10-01T03:32:26.0625907-07:00" endTime="2014-10-01T03:34:59.9688364-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8761
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8762
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:32:30Z; CRSLogID at 92394314.
+ &gt; Transaction took 4305ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393439.
+BFS XP message found at CRSLogID 92394330.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:4CEC80F16ADA42C697624C7D30094DC7
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:32:35Z; CRSLogID at 92394456.
+ &gt; Transaction took 3033ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:4CEC80F16ADA42C697624C7D30094DC7
+BFS PC message found at CRSLogID 92393624.
+BFS PC message found at CRSLogID 92394499.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:4CEC80F16ADA42C697624C7D30094DC7
+AirSegmentData message found at CRSLogID 92393576.
+AirSegmentData message found at CRSLogID 92394469.
+Error Parsing Flight Price TO Response at LogId 92394466
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 8763
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:32:51Z; CRSLogID at 92394663.
+ &gt; Transaction took 5754ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393944.
+BFS XP message found at CRSLogID 92394691.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B8F2EA83779E4A16860AEA83533CDF0E
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:33:05Z; CRSLogID at 92394742.
+ &gt; Transaction took 11355ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B8F2EA83779E4A16860AEA83533CDF0E
+BFS PC message found at CRSLogID 92394085.
+BFS PC message found at CRSLogID 92394821.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B8F2EA83779E4A16860AEA83533CDF0E
+AirSegmentData message found at CRSLogID 92394030.
+AirSegmentData message found at CRSLogID 92394765.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Object reference not set to an instance of an object.
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 8764
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:33:30Z; CRSLogID at 92395006.
+ &gt; Transaction took 8868ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92395019.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:27305E5531D3459FBF5DE6EF096A4D85
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:33:48Z; CRSLogID at 92395078.
+ &gt; Transaction took 17101ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:27305E5531D3459FBF5DE6EF096A4D85
+BFS PC message found at CRSLogID 92395132.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:27305E5531D3459FBF5DE6EF096A4D85
+AirSegmentData message found at CRSLogID 92395087.
+Error Parsing Flight Price TO Response at LogId 92395085
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 8765
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:34:04Z; CRSLogID at 92395292.
+ &gt; Transaction took 7281ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92395308.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:4745E0C54AF5420A8EB4872481AC6936
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:34:55Z; CRSLogID at 92395398.
+ &gt; Transaction took 50903ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:4745E0C54AF5420A8EB4872481AC6936
+BFS PC message found at CRSLogID 92396228.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:4745E0C54AF5420A8EB4872481AC6936
+AirSegmentData message found at CRSLogID 92395407.
+Error Parsing Flight Price TO Response at LogId 92395406
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="6a7869ea-3b47-4c3a-93db-689ca021811b" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:44.3628801" startTime="2014-10-01T03:34:59.9688364-07:00" endTime="2014-10-01T03:36:44.3437902-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8762
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;CNN;INS;SRC
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8763
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:35:00Z; CRSLogID at 92394742.
+ &gt; Transaction took 476ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 8764
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:35:12Z; CRSLogID at 92396334.
+ &gt; Transaction took 11203ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92396350.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:058E721ED727475192F95020D6BF3C95
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:35:19Z; CRSLogID at 92396415.
+ &gt; Transaction took 5814ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:058E721ED727475192F95020D6BF3C95
+BFS PC message found at CRSLogID 92396476.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:058E721ED727475192F95020D6BF3C95
+AirSegmentData message found at CRSLogID 92395087.
+AirSegmentData message found at CRSLogID 92396438.
+Error Parsing Flight Price TO Response at LogId 92396436
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:NTE***HAM
+TUID inside for Loop: 8765
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:35:32Z; CRSLogID at 92396603.
+ &gt; Transaction took 5952ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92396628.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:39BEAF3B99F343F984DE5187A8EE6C6D
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:35:41Z; CRSLogID at 92396722.
+ &gt; Transaction took 7826ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:39BEAF3B99F343F984DE5187A8EE6C6D
+BFS PC message found at CRSLogID 92396228.
+BFS PC message found at CRSLogID 92396771.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:39BEAF3B99F343F984DE5187A8EE6C6D
+AirSegmentData message found at CRSLogID 92395407.
+AirSegmentData message found at CRSLogID 92396749.
+Error Parsing Flight Price TO Response at LogId 92396748
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:LGB***IAH
+TUID inside for Loop: 8766
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:36:14Z; CRSLogID at 92396838.
+ &gt; Transaction took 27523ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92396861.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B229EEA889D84CD1BA4465E53A129BBE
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:36:25Z; CRSLogID at 92397236.
+ &gt; Transaction took 6656ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B229EEA889D84CD1BA4465E53A129BBE
+BFS PC message found at CRSLogID 92397301.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B229EEA889D84CD1BA4465E53A129BBE
+AirSegmentData message found at CRSLogID 92397259.
+Error Parsing Flight Price TO Response at LogId 92397257
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:GDL***LAS
+TUID inside for Loop: 8767
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:36:35Z; CRSLogID at 92397388.
+ &gt; Transaction took 3947ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92397402.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:8D9511D6E047452D95C9E1E8A12AF1E6
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:36:39Z; CRSLogID at 92397455.
+ &gt; Transaction took 3853ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:8D9511D6E047452D95C9E1E8A12AF1E6
+BFS PC message found at CRSLogID 92397500.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:8D9511D6E047452D95C9E1E8A12AF1E6
+AirSegmentData message found at CRSLogID 92397482.
+Error Parsing Flight Price TO Response at LogId 92397481
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:VPS***ORF</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e04f8ff6-3428-488f-92ee-ba13d2f1d8af" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:31.9154236" startTime="2014-10-01T03:36:44.3437902-07:00" endTime="2014-10-01T03:38:16.2501288-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8763
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8764
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:36:54Z; CRSLogID at 92397567.
+ &gt; Transaction took 10468ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92397580.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:ED20B380FB3348C6B93AA6E52625A477
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:37:02Z; CRSLogID at 92397719.
+ &gt; Transaction took 6594ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:ED20B380FB3348C6B93AA6E52625A477
+BFS PC message found at CRSLogID 92397775.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:ED20B380FB3348C6B93AA6E52625A477
+AirSegmentData message found at CRSLogID 92396438.
+AirSegmentData message found at CRSLogID 92397731.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92397730
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:PEK***BCN
+TUID inside for Loop: 8765
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:37:20Z; CRSLogID at 92397940.
+ &gt; Transaction took 12665ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92397983.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:DFB61537873D4E06B0A2A69B07AD4DB7
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:37:31Z; CRSLogID at 92398084.
+ &gt; Transaction took 9112ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:DFB61537873D4E06B0A2A69B07AD4DB7
+BFS PC message found at CRSLogID 92398139.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:DFB61537873D4E06B0A2A69B07AD4DB7
+AirSegmentData message found at CRSLogID 92396749.
+AirSegmentData message found at CRSLogID 92398096.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92398095
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:HKG***VIE
+TUID inside for Loop: 8766
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:38:04Z; CRSLogID at 92398274.
+ &gt; Transaction took 27499ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92398299.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:27871BD86B1B4D0DBBD756FE1391FD8E
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:38:09Z; CRSLogID at 92398632.
+ &gt; Transaction took 3071ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:27871BD86B1B4D0DBBD756FE1391FD8E
+BFS PC message found at CRSLogID 92398654.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:27871BD86B1B4D0DBBD756FE1391FD8E
+AirSegmentData message found at CRSLogID 92397259.
+AirSegmentData message found at CRSLogID 92398641.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92398639
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:BUD***ZRH
+TUID inside for Loop: 8767
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:38:15Z; CRSLogID at 92398771.
+ &gt; Transaction took 923ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:GRU***LCW</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="238f7655-39c5-468c-bfd8-649de5335527" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:02:58.1869849" startTime="2014-10-01T03:38:16.2501288-07:00" endTime="2014-10-01T03:41:14.4375549-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8764
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;SRC;CNN;INF
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8765
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:38:33Z; CRSLogID at 92398806.
+ &gt; Transaction took 17132ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92398820.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:5B3B6DFD7795404CB19BB03D51F1385E
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:38:48Z; CRSLogID at 92399088.
+ &gt; Transaction took 12254ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:5B3B6DFD7795404CB19BB03D51F1385E
+BFS PC message found at CRSLogID 92399198.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:5B3B6DFD7795404CB19BB03D51F1385E
+AirSegmentData message found at CRSLogID 92398096.
+AirSegmentData message found at CRSLogID 92399100.
+Error Parsing Flight Price TO Response at LogId 92399097
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 8766
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:39:22Z; CRSLogID at 92399298.
+ &gt; Transaction took 27757ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92399315.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:64BB229C7D474164A016C22787C642EE
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:39:40Z; CRSLogID at 92399735.
+ &gt; Transaction took 15919ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:64BB229C7D474164A016C22787C642EE
+BFS PC message found at CRSLogID 92399985.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:64BB229C7D474164A016C22787C642EE
+AirSegmentData message found at CRSLogID 92398641.
+AirSegmentData message found at CRSLogID 92399811.
+Error Parsing Flight Price TO Response at LogId 92399803
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 8767
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:40:15Z; CRSLogID at 92400093.
+ &gt; Transaction took 30037ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92400107.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:4DB9533273D042B5A25BA709E622E26B
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:40:22Z; CRSLogID at 92400415.
+ &gt; Transaction took 6883ms.
+
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.IsTrue failed. Error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+ID 92400426.
+
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 8768
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:40:53Z; CRSLogID at 92400458.
+ &gt; Transaction took 30580ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92400471.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:5D364F18196947E7838010B1F59AC7B2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:41:09Z; CRSLogID at 92400867.
+ &gt; Transaction took 14259ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:5D364F18196947E7838010B1F59AC7B2
+BFS PC message found at CRSLogID 92401011.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:5D364F18196947E7838010B1F59AC7B2
+AirSegmentData message found at CRSLogID 92400876.
+Error Parsing Flight Price TO Response at LogId 92400875
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="3a20d7d4-579d-4994-9f30-19f7d37860fc" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:04:17.0817573" startTime="2014-10-01T03:41:14.4375549-07:00" endTime="2014-10-01T03:45:31.5158327-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8765
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;CNN;INF;SRC
+	departurefrom = US:IAD:CLE:SEA:IND
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:KWI:LAS:PVR:PHL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8766
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:41:14Z; CRSLogID at 92399735.
+ &gt; Transaction took 403ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 8767
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:41:35Z; CRSLogID at 92401115.
+ &gt; Transaction took 19777ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92401128.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:EF8DCB1868FD4C44B1F951FF121D72DF
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:42:12Z; CRSLogID at 92401363.
+ &gt; Transaction took 35618ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:EF8DCB1868FD4C44B1F951FF121D72DF
+BFS PC message found at CRSLogID 92401496.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:EF8DCB1868FD4C44B1F951FF121D72DF
+AirSegmentData message found at CRSLogID 92400427.
+AirSegmentData message found at CRSLogID 92401390.
+Error Parsing Flight Price TO Response at LogId 92401389
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:KWI***IAD
+TUID inside for Loop: 8768
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:42:43Z; CRSLogID at 92401906.
+ &gt; Transaction took 24594ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92401918.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:2B9083AA23044CD3872025A355125A74
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:43:52Z; CRSLogID at 92402174.
+ &gt; Transaction took 66323ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:2B9083AA23044CD3872025A355125A74
+BFS PC message found at CRSLogID 92402534.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:2B9083AA23044CD3872025A355125A74
+AirSegmentData message found at CRSLogID 92400876.
+AirSegmentData message found at CRSLogID 92402229.
+Error Parsing Flight Price TO Response at LogId 92402228
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:LAS***CLE
+TUID inside for Loop: 8769
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:44:21Z; CRSLogID at 92403306.
+ &gt; Transaction took 22163ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92403322.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:7F6E1B7901CE48608D2DF422B1AD2BC1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:44:57Z; CRSLogID at 92403598.
+ &gt; Transaction took 33398ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:7F6E1B7901CE48608D2DF422B1AD2BC1
+BFS PC message found at CRSLogID 92403840.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:7F6E1B7901CE48608D2DF422B1AD2BC1
+AirSegmentData message found at CRSLogID 92403629.
+Error Parsing Flight Price TO Response at LogId 92403627
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:PVR***SEA
+TUID inside for Loop: 8770
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:45:16Z; CRSLogID at 92404402.
+ &gt; Transaction took 12844ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92404416.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B3B168298393407296E596712366DF2E
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:45:26Z; CRSLogID at 92404552.
+ &gt; Transaction took 8608ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B3B168298393407296E596712366DF2E
+BFS PC message found at CRSLogID 92404656.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B3B168298393407296E596712366DF2E
+AirSegmentData message found at CRSLogID 92404599.
+ASD Error: Distance Travelled mismatch. Expected: 0 	Actual: 608
+ASD Error: Distance Travelled mismatch. Expected: 0 	Actual: 608
+Error Parsing Flight Price TO Response at LogId 92404598
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:PHL***IND</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d52bc78c-6432-4f75-b791-83a151fb8221" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:30.7346310" startTime="2014-10-01T03:45:31.5158327-07:00" endTime="2014-10-01T03:47:02.2500255-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8766
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;SRC;CNN;INF
+	departurefrom = MXP:LHR:LHR
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:JFK:SIN
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8767
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:45:44Z; CRSLogID at 92404867.
+ &gt; Transaction took 13230ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92404878.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:05BA6F44BE1340D69183424D5FE38030
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:45:52Z; CRSLogID at 92405038.
+ &gt; Transaction took 7517ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:05BA6F44BE1340D69183424D5FE38030
+BFS PC message found at CRSLogID 92405098.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:05BA6F44BE1340D69183424D5FE38030
+AirSegmentData message found at CRSLogID 92405048.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92405046
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:PEK***MXP
+TUID inside for Loop: 8768
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:46:12Z; CRSLogID at 92405390.
+ &gt; Transaction took 15566ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92405405.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:8E8EED4A528B4838A42B7362D21A9F88
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:46:20Z; CRSLogID at 92405635.
+ &gt; Transaction took 5928ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:8E8EED4A528B4838A42B7362D21A9F88
+BFS PC message found at CRSLogID 92405680.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:8E8EED4A528B4838A42B7362D21A9F88
+AirSegmentData message found at CRSLogID 92405644.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92405643
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:JFK***LHR
+TUID inside for Loop: 8769
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:46:41Z; CRSLogID at 92405809.
+ &gt; Transaction took 14884ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92405827.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:E990CBAC02804ED5BDF5A5C44151A5D1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:46:56Z; CRSLogID at 92405982.
+ &gt; Transaction took 13007ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:E990CBAC02804ED5BDF5A5C44151A5D1
+BFS PC message found at CRSLogID 92406079.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:E990CBAC02804ED5BDF5A5C44151A5D1
+AirSegmentData message found at CRSLogID 92405993.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92405990
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:SIN***LHR</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a52bfdb4-d05d-46a0-a538-b2e0b40de135" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:52.1962498" startTime="2014-10-01T03:47:02.2500255-07:00" endTime="2014-10-01T03:48:54.4531616-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8767
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = BHX:BRS:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = AMS:KBP:PEK:MAA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8768
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:47:20Z; CRSLogID at 92406192.
+ &gt; Transaction took 18065ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92406204.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B0BD50ACED7F44B2855409D01C650482
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:47:28Z; CRSLogID at 92406397.
+ &gt; Transaction took 5570ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B0BD50ACED7F44B2855409D01C650482
+BFS PC message found at CRSLogID 92406433.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B0BD50ACED7F44B2855409D01C650482
+AirSegmentData message found at CRSLogID 92405644.
+AirSegmentData message found at CRSLogID 92406420.
+Error Parsing Flight Price TO Response at LogId 92406417
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:AMS***BHX
+TUID inside for Loop: 8769
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:47:46Z; CRSLogID at 92406450.
+ &gt; Transaction took 13295ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92406467.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B255C7BAF5054C0B94BF05FE6816F921
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:47:51Z; CRSLogID at 92406680.
+ &gt; Transaction took 3562ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B255C7BAF5054C0B94BF05FE6816F921
+BFS PC message found at CRSLogID 92406079.
+BFS PC message found at CRSLogID 92406732.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B255C7BAF5054C0B94BF05FE6816F921
+AirSegmentData message found at CRSLogID 92405993.
+AirSegmentData message found at CRSLogID 92406703.
+Error Parsing Flight Price TO Response at LogId 92406700
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:KBP***BRS
+TUID inside for Loop: 8770
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:48:11Z; CRSLogID at 92406836.
+ &gt; Transaction took 15071ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92406856.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:A2B7E025AD544CD5916D51C9DD51A60B
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:48:17Z; CRSLogID at 92407158.
+ &gt; Transaction took 4370ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:A2B7E025AD544CD5916D51C9DD51A60B
+BFS PC message found at CRSLogID 92407223.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:A2B7E025AD544CD5916D51C9DD51A60B
+AirSegmentData message found at CRSLogID 92407179.
+Error Parsing Flight Price TO Response at LogId 92407178
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:PEK***LHR
+TUID inside for Loop: 8771
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:48:39Z; CRSLogID at 92407278.
+ &gt; Transaction took 18164ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92407289.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:FB5AB0B1516948EA9CAD072F5D181812
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:48:50Z; CRSLogID at 92407505.
+ &gt; Transaction took 9495ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:FB5AB0B1516948EA9CAD072F5D181812
+BFS PC message found at CRSLogID 92407579.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:FB5AB0B1516948EA9CAD072F5D181812
+AirSegmentData message found at CRSLogID 92407516.
+Error Parsing Flight Price TO Response at LogId 92407514
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:MAA***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="ad089791-01fe-4dda-b159-0a93f7252302" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:07.0583470" startTime="2014-10-01T03:48:54.4531616-07:00" endTime="2014-10-01T03:50:01.5158380-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8768
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT;SRC
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8769
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:PANIC: Departure and arrival cities are the same.
+OD Pair Used:US***US
+TUID inside for Loop: 8770
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:48:59Z; CRSLogID at 92407669.
+ &gt; Transaction took 4129ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:49:05Z; CRSLogID at 92407817.
+ &gt; Transaction took 5473ms.
+
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.IsTrue failed. Error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+
+OD Pair Used:NTE***HAM
+TUID inside for Loop: 8771
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:49:22Z; CRSLogID at 92407914.
+ &gt; Transaction took 16553ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:49:29Z; CRSLogID at 92408222.
+ &gt; Transaction took 5520ms.
+
+AirSegmentData message found at CRSLogID 92407516.
+AirSegmentData message found at CRSLogID 92408294.
+Error Parsing Flight Price TO Response at LogId 92408293
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:LGB***IAH
+TUID inside for Loop: 8772
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:49:35Z; CRSLogID at 92408367.
+ &gt; Transaction took 4345ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:49:39Z; CRSLogID at 92408397.
+ &gt; Transaction took 3988ms.
+
+AirSegmentData message found at CRSLogID 92408406.
+Error Parsing Flight Price TO Response at LogId 92408405
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:GDL***LAS
+TUID inside for Loop: 8773
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:49:55Z; CRSLogID at 92408434.
+ &gt; Transaction took 14388ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:50:00Z; CRSLogID at 92408547.
+ &gt; Transaction took 4551ms.
+
+AirSegmentData message found at CRSLogID 92408576.
+Error Parsing Flight Price TO Response at LogId 92408575
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:VPS***ORF</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="fba980d9-684f-4db9-a51c-396847ee7e80" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:00:50.7996558" startTime="2014-10-01T03:50:01.5158380-07:00" endTime="2014-10-01T03:50:52.3125781-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="10" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8769
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Amadeus
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT
+	departurefrom = BCN:VIE:ZRH:LCW
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PEK:HKG:BUD:GRU
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8770
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:50:08Z; CRSLogID at 92408623.
+ &gt; Transaction took 7136ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:50:15Z; CRSLogID at 92408686.
+ &gt; Transaction took 6758ms.
+
+AirSegmentData message found at CRSLogID 92407179.
+AirSegmentData message found at CRSLogID 92407831.
+AirSegmentData message found at CRSLogID 92408697.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92408695
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:PEK***BCN
+TUID inside for Loop: 8771
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:50:26Z; CRSLogID at 92408863.
+ &gt; Transaction took 9131ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:50:34Z; CRSLogID at 92409069.
+ &gt; Transaction took 7926ms.
+
+AirSegmentData message found at CRSLogID 92407516.
+AirSegmentData message found at CRSLogID 92408294.
+AirSegmentData message found at CRSLogID 92409084.
+ASD Error: DepartureTerminalString mismatch. Expected:  	Actual: 3
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92409082
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:HKG***VIE
+TUID inside for Loop: 8772
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:50:42Z; CRSLogID at 92409287.
+ &gt; Transaction took 5321ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:50:49Z; CRSLogID at 92409386.
+ &gt; Transaction took 6370ms.
+
+AirSegmentData message found at CRSLogID 92408406.
+AirSegmentData message found at CRSLogID 92409402.
+An exception was thrown during XElement parse of "EtsFlightPrice (to amdsp)" TRVC crslog at LogId 92409400
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifyAmadeusPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 2885
+OD Pair Used:BUD***ZRH
+TUID inside for Loop: 8773
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:50:51Z; CRSLogID at 92409522.
+ &gt; Transaction took 995ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:GRU***LCW</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e5266ff7-b945-4c67-80ce-81272f41bc88" parentExecutionId="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" testId="4481888d-2ac0-c5ba-0e24-d6d592d76359" testName="SearchV3GetDetailsV1" computerName="WIN-B3M5SP1197C" duration="00:01:17.6200123" startTime="2014-10-01T03:50:52.3125781-07:00" endTime="2014-10-01T03:52:09.9375598-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6cb07ba-a2a0-4a66-8fa6-24959d2ba49f" dataRowInfo="11" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 8770
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT;SRC
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 8771
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:50:57Z; CRSLogID at 92409552.
+ &gt; Transaction took 5497ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:51:05Z; CRSLogID at 92409636.
+ &gt; Transaction took 6514ms.
+
+AirSegmentData message found at CRSLogID 92408294.
+AirSegmentData message found at CRSLogID 92409084.
+AirSegmentData message found at CRSLogID 92409649.
+Error Parsing Flight Price TO Response at LogId 92409647
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 8772
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:51:14Z; CRSLogID at 92409726.
+ &gt; Transaction took 7581ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:51:20Z; CRSLogID at 92409806.
+ &gt; Transaction took 5100ms.
+
+AirSegmentData message found at CRSLogID 92408406.
+AirSegmentData message found at CRSLogID 92409402.
+AirSegmentData message found at CRSLogID 92409818.
+Error Parsing Flight Price TO Response at LogId 92409815
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 8773
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:51:30Z; CRSLogID at 92409894.
+ &gt; Transaction took 7833ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:51:41Z; CRSLogID at 92409990.
+ &gt; Transaction took 9602ms.
+
+AirSegmentData message found at CRSLogID 92408576.
+AirSegmentData message found at CRSLogID 92410002.
+Error Parsing Flight Price TO Response at LogId 92410000
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 8774
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:51:50Z; CRSLogID at 92410200.
+ &gt; Transaction took 8040ms.
+
+Verifying the GDS.
+No BFSGUID for MultiDest
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:52:07Z; CRSLogID at 92410320.
+ &gt; Transaction took 16932ms.
+
+AirSegmentData message found at CRSLogID 92410333.
+Error Parsing Flight Price TO Response at LogId 92410332
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV1ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV1ResponseValidation.cs:line 1423
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV3GetDetailsV1.SearchV3GetDetailsV1Cases.SearchV3GetDetailsV1() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV3GetDetailsV1.cs:line 164
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

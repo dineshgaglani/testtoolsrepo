@@ -1,25 +1,27 @@
 package com.expedia.airawat.test.executor.service;
 
 
+import com.expedia.airawat.test.executor.service.configs.Paths;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
 import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created by dgaglani on 8/31/14.
  */
 public class TestExecutorDropwizardServiceConfiguration extends Configuration {
 
-   /* @NotEmpty
-    private int portNumber;
 
+    @NotNull
+    @Valid
     @JsonProperty
-    public int getPortNumber() {
-        return portNumber;
+    private Paths paths;
+
+    public Paths getPaths() {
+        return paths;
     }
 
-    @JsonProperty
-    public void setPortNumber(int portNumber) {
-        this.portNumber = portNumber;
-    }*/
 }

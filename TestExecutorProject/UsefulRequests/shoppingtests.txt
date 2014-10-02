@@ -1,0 +1,41 @@
+{
+  "testRunnerType": "shell",
+  "testsList": [
+    [
+      "CarrierSpecificSearchForNoSupportTF",
+      "FareRuleMultiFBC",
+      "FareRuleUseBFS",
+      "NoAirlineSpecificSearch",
+      "SeatMap",
+      "TFMetroCodeSearchAndNoDPCPriceDepDifferArr",
+      "TFNoDPCinGetDetails",
+      "NewSearchOldPrice",
+      "FareRuleToGDS",
+      "TFMetroCodeSearch"
+     ],
+     [
+       "OldSearchNewPrice",
+      "TFMetroCodeSearchAndNoDPCPrice",
+      "Verify",
+      "GetDetails",
+      "SearchV4GetDetailsV2",
+      "SearchV3GetDetailsV1",
+      "BFSUnsupportedSearchV4GetDetailsV2",
+      "SingleResponseOneWayTrip",
+      "SearchV5WithOBFeeRegressionTest",
+      "OBFeeNotRequestedInGetDetailsRegressionTest"
+    ],
+   [
+      "SingleResponseRoundTrip",
+      "ProgressiveResponseRoundTrip",
+      "ProgressiveResponseMultiDestination",
+      "ProgressiveResponseOneWayTrip",
+      "OBFeeGetDetailsRegressionTest",
+      "BFSUnsupportedSerchV5Test",
+      "SingleResponseMultiDestination"
+    ]
+  ],
+  "executorLocation": "c:\\tvaregressionexecutor.bat",
+  "resultFileLocation":"c:\\Users\\dgaglani\\NewSearchOldPrice.trx",
+  "resultFileType": ".trx"
+}

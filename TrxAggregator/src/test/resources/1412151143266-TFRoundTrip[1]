@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="edf54847-d592-491e-a790-33bce5de2d08" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:51" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="0659d1ac-a426-401a-b979-6fdff5c50f37">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_51[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:51.2657965-07:00" queuing="2014-10-01T04:28:52.3595408-07:00" start="2014-10-01T04:28:52.4375546-07:00" finish="2014-10-01T04:29:44.2346349-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2658082-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2658082-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TFRoundTrip" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="c6420a3c-5c43-b33d-a1a0-33e56c08de07">
+      <Execution timeOut="2147483647" id="d5903df1-7bd6-4a74-8496-db61818251f8" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFRoundTrip" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_TFRoundTrip.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" executionId="d5903df1-7bd6-4a74-8496-db61818251f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:50.2509807" startTime="2014-10-01T04:28:52.7188454-07:00" endTime="2014-10-01T04:29:43.9218823-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" resultType="DataDrivenTest">
+      <Counters error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="3ce8b1c0-bff2-4970-a267-73f93315b311" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:10.5052030" startTime="2014-10-01T04:28:53.7031300-07:00" endTime="2014-10-01T04:29:04.2188405-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3253
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = AirAsia
+	airlinecodes = 
+	Flight Number = 
+	tpid = MY
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = KUL:KUL:DMK:DMK:BKK
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = BKK:HKG:KCH:PEN:SIN
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3254
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:28:55Z; CRSLogID at 92420385.
+ &gt; Transaction took 1790ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BKK***KUL
+TUID inside for Loop: 3255
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:28:58Z; CRSLogID at 92420476.
+ &gt; Transaction took 1740ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:HKG***KUL
+TUID inside for Loop: 3256
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:00Z; CRSLogID at 92420586.
+ &gt; Transaction took 1456ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KCH***DMK
+TUID inside for Loop: 3257
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:01Z; CRSLogID at 92420663.
+ &gt; Transaction took 1556ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PEN***DMK
+TUID inside for Loop: 3258
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:03Z; CRSLogID at 92420753.
+ &gt; Transaction took 1684ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:SIN***BKK</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="fc0757a7-41de-43d9-ad0e-880fd449c7eb" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:12.1330291" startTime="2014-10-01T04:29:04.2188405-07:00" endTime="2014-10-01T04:29:16.3595394-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3254
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = AirAsia
+	airlinecodes = 
+	Flight Number = 
+	tpid = MY
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INS;INS
+	departurefrom = KUL:KUL:DMK:DMK:BKK
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = BKK:HKG:KCH:PEN:SIN
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3255
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:07Z; CRSLogID at 92420830.
+ &gt; Transaction took 3251ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BKK***KUL
+TUID inside for Loop: 3256
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:09Z; CRSLogID at 92420935.
+ &gt; Transaction took 1516ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:HKG***KUL
+TUID inside for Loop: 3257
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:11Z; CRSLogID at 92421012.
+ &gt; Transaction took 1358ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KCH***DMK
+TUID inside for Loop: 3258
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:13Z; CRSLogID at 92421080.
+ &gt; Transaction took 1132ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PEN***DMK
+TUID inside for Loop: 3259
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:15Z; CRSLogID at 92421209.
+ &gt; Transaction took 1523ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:SIN***BKK</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b2685bc0-b43b-4afd-a169-a476ec15619a" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:09.3119438" startTime="2014-10-01T04:29:16.3595394-07:00" endTime="2014-10-01T04:29:25.6718858-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3255
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = AirAsia
+	airlinecodes = 
+	Flight Number = 
+	tpid = ID
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CGK:DPS:DPS:CGK:CGK
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = HKG:KUL:CGK:PER:MFM
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3256
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:18Z; CRSLogID at 92421292.
+ &gt; Transaction took 1897ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:HKG***CGK
+TUID inside for Loop: 3257
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:21Z; CRSLogID at 92421498.
+ &gt; Transaction took 2682ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KUL***DPS
+TUID inside for Loop: 3258
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:22Z; CRSLogID at 92421619.
+ &gt; Transaction took 231ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:CGK***DPS
+TUID inside for Loop: 3259
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:23Z; CRSLogID at 92421675.
+ &gt; Transaction took 289ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PER***CGK
+TUID inside for Loop: 3260
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:24Z; CRSLogID at 92421756.
+ &gt; Transaction took 701ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:MFM***CGK</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="73b05240-d693-4c10-bc2c-2bf0969f88dd" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:06.0562375" startTime="2014-10-01T04:29:25.6718858-07:00" endTime="2014-10-01T04:29:31.7188554-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3256
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = AirAsia
+	airlinecodes = 
+	Flight Number = 
+	tpid = ID
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT;SRC;CHD;INF
+	departurefrom = CGK:DPS:DPS:CGK:CGK
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = HKG:KUL:CGK:PER:MFM
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3257
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:25Z; CRSLogID at 92421789.
+ &gt; Transaction took 187ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:HKG***CGK
+TUID inside for Loop: 3258
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:27Z; CRSLogID at 92421851.
+ &gt; Transaction took 544ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KUL***DPS
+TUID inside for Loop: 3259
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:28Z; CRSLogID at 92421910.
+ &gt; Transaction took 192ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:CGK***DPS
+TUID inside for Loop: 3260
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:29Z; CRSLogID at 92421945.
+ &gt; Transaction took 530ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PER***CGK
+TUID inside for Loop: 3261
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:31Z; CRSLogID at 92421994.
+ &gt; Transaction took 672ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:MFM***CGK</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="5db4095f-8ba5-4896-8e30-15838c44083b" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:04.9265750" startTime="2014-10-01T04:29:31.7188554-07:00" endTime="2014-10-01T04:29:36.6562673-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3257
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = AirAsia
+	airlinecodes = 
+	Flight Number = 
+	tpid = ID
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT;ADT
+	departurefrom = CGK:DPS:DPS:CGK:CGK
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = HKG:KUL:CGK:PER:MFM
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3258
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:31Z; CRSLogID at 92422015.
+ &gt; Transaction took 176ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:HKG***CGK
+TUID inside for Loop: 3259
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:32Z; CRSLogID at 92422038.
+ &gt; Transaction took 164ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KUL***DPS
+TUID inside for Loop: 3260
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:33Z; CRSLogID at 92422070.
+ &gt; Transaction took 197ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:CGK***DPS
+TUID inside for Loop: 3261
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:34Z; CRSLogID at 92422094.
+ &gt; Transaction took 519ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:PER***CGK
+TUID inside for Loop: 3262
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:35Z; CRSLogID at 92422154.
+ &gt; Transaction took 608ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:MFM***CGK</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0bc774e4-e4e7-4a7d-9f54-80c349f7767c" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:05.8349471" startTime="2014-10-01T04:29:36.6562673-07:00" endTime="2014-10-01T04:29:42.4845835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3258
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = JetStar
+	airlinecodes = 
+	Flight Number = 
+	tpid = AU
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CNN;INF
+	departurefrom = SYD:MEL:MEL:BNE:BNE
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = BNE:BNE:ADL:ADL:MEL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3259
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:37Z; CRSLogID at 92422201.
+ &gt; Transaction took 1282ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BNE***SYD
+TUID inside for Loop: 3260
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:39Z; CRSLogID at 92422277.
+ &gt; Transaction took 1443ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BNE***MEL
+TUID inside for Loop: 3261
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:42Z; CRSLogID at 92422323.
+ &gt; Transaction took 1311ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="82b93dfd-ccd5-4ad0-8341-2a19243a08ba" parentExecutionId="d5903df1-7bd6-4a74-8496-db61818251f8" testId="c6420a3c-5c43-b33d-a1a0-33e56c08de07" testName="TFRoundTrip" computerName="WIN-B3M5SP1197C" duration="00:00:01.4045991" startTime="2014-10-01T04:29:42.4845835-07:00" endTime="2014-10-01T04:29:43.8908547-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5903df1-7bd6-4a74-8496-db61818251f8" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3259
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = JetStar
+	airlinecodes = 
+	Flight Number = 
+	tpid = AU
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CNN;INS
+	departurefrom = SYD:MEL:MEL:BNE:BNE
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = BNE:BNE:ADL:ADL:MEL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3260
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:42Z; CRSLogID at 92422389.
+ &gt; Transaction took 434ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at LCCBook.TFCases.TFRoundTrip() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 153
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

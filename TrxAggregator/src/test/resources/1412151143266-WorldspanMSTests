@@ -1,0 +1,3655 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="31cc2ee7-89d8-4da2-b5c0-cb150a4ea75a" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="44694151-0c9e-41e0-bdc1-cde219576bc7">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.9531584-07:00" queuing="2014-10-01T04:28:52.3595408-07:00" start="2014-10-01T04:28:52.4688114-07:00" finish="2014-10-01T05:25:38.5781602-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+Enable/Disable ticketing logic called
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2812669-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2968747-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WorldspanMSTests" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae">
+      <Execution timeOut="2147483647" id="b9375e39-eefa-401f-8151-ce490616a452" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchToTicket.SearchToTicketMSTests, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorldspanMSTests" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchToTicket\TestData_SearchToTicketWorldspan.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" executionId="b9375e39-eefa-401f-8151-ce490616a452" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:56:37.4637268" startTime="2014-10-01T04:28:52.4845474-07:00" endTime="2014-10-01T05:25:34.2657981-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="5" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="e6fe1a4e-1a2b-4fd4-9f4f-ca1732722514" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:02:24.8028254" startTime="2014-10-01T04:28:56.8125564-07:00" endTime="2014-10-01T04:31:21.6249960-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7483
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7484
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:01Z; CRSLogID at 92420498.
+ &gt; Transaction took 4204ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 55a5b0ac4042a91337e67088f9cf3922-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:05Z; CRSLogID at 92420756.
+ &gt; Transaction took 3011ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:29:07Z; CRSLogID at 92420898.
+ &gt; Transaction took 73ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:29:08Z; CRSLogID at 92420930.
+ &gt; Transaction took 291ms.
+
+ARL: 100027846
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:29:29Z; CRSLogID at 92420984.
+ &gt; Transaction took 19699ms.
+
+=====PurchaseV2ResponseValidation
+PNR: 2I9Y4Z
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: 2I9Y4Z
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266220 BookingItemID 77156 and AirBookingDatabaseID 8 and in database we found BookingID 15266220 BookingItemID 77156 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoGoutam Robinson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:31:13Z; CRSLogID at 92423417.
+ &gt; Transaction took 4978ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: 2I9Y4Z
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266220 BookingItemID 77156 and AirBookingDatabaseID 8 and in database we found BookingID 15266220 BookingItemID 77156 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse FAILED: 
+
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:31:20Z; CRSLogID at 92423486.
+ &gt; Transaction took 5124ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9Y4Z
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9Y4Z' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027846[2I9Y4Z] &gt;&gt; 1
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e9c775bc-4987-4250-a41c-3231ca6b7796" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:06:17.1002554" startTime="2014-10-01T04:31:21.6249960-07:00" endTime="2014-10-01T04:37:38.7345731-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7484
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INF;INF
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7485
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:32Z; CRSLogID at 92423551.
+ &gt; Transaction took 10871ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 6e272b4f42cbe767bd9a60ba3b309aaa-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:31:42Z; CRSLogID at 92423653.
+ &gt; Transaction took 9700ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:31:45Z; CRSLogID at 92423797.
+ &gt; Transaction took 50ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:31:46Z; CRSLogID at 92423806.
+ &gt; Transaction took 134ms.
+
+ARL: 100027857
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:32:16Z; CRSLogID at 92423812.
+ &gt; Transaction took 29866ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9Y59
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: MI9Y59
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266224 BookingItemID 77160 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77160 and BookingDatabaseId 8
+In Response BookingID is 15266224 BookingItemID 77161 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77161 and BookingDatabaseId 8
+In Response BookingID is 15266224 BookingItemID 77162 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77162 and BookingDatabaseId 8
+In Response BookingID is 15266224 BookingItemID 77163 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77163 and BookingDatabaseId 8
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 5 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 6 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoGrace Williams
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:37:32Z; CRSLogID at 92426986.
+ &gt; Transaction took 2520ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9Y59
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266224 BookingItemID 77160 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77160 and BookingDatabaseId 8
+In Response BookingID is 15266224 BookingItemID 77161 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77161 and BookingDatabaseId 8
+In Response BookingID is 15266224 BookingItemID 77162 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77162 and BookingDatabaseId 8
+In Response BookingID is 15266224 BookingItemID 77163 and AirBookingDatabaseID 8 and in database we found BookingID 15266224 BookingItemID 77163 and BookingDatabaseId 8
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 5 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 6 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse FAILED: 
+
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:37:38Z; CRSLogID at 92427007.
+ &gt; Transaction took 5347ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9Y59
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9Y59' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027857[MI9Y59] &gt;&gt; 1
+T: 100027857[MI9Y59] &gt;&gt; 2
+T: 100027857[MI9Y59] &gt;&gt; 3
+T: 100027857[MI9Y59] &gt;&gt; 4
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7ae64785-37b1-4410-bc5a-5b8b82fdf7dc" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:03:14.7390671" startTime="2014-10-01T04:37:38.7345731-07:00" endTime="2014-10-01T04:40:53.4688734-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7485
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INS;INS
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7486
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:37:52Z; CRSLogID at 92427026.
+ &gt; Transaction took 13472ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: ac97395d447ca3026bd611ab5d30b035-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:37:57Z; CRSLogID at 92427094.
+ &gt; Transaction took 4704ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:38:00Z; CRSLogID at 92427154.
+ &gt; Transaction took 66ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:38:01Z; CRSLogID at 92427156.
+ &gt; Transaction took 89ms.
+
+ARL: 100027872
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:38:31Z; CRSLogID at 92427158.
+ &gt; Transaction took 28898ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9ZBS
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: MI9ZBS
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266234 BookingItemID 77174 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77174 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77175 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77175 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77176 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77176 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77177 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77177 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77178 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77178 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77179 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77179 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoHarbhajan Perry
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:40:44Z; CRSLogID at 92427744.
+ &gt; Transaction took 6783ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9ZBS
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266234 BookingItemID 77174 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77174 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77175 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77175 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77176 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77176 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77177 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77177 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77178 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77178 and BookingDatabaseId 8
+In Response BookingID is 15266234 BookingItemID 77179 and AirBookingDatabaseID 8 and in database we found BookingID 15266234 BookingItemID 77179 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse FAILED: 
+
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:40:52Z; CRSLogID at 92427783.
+ &gt; Transaction took 7077ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9ZBS
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9ZBS' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027872[MI9ZBS] &gt;&gt; 1
+T: 100027872[MI9ZBS] &gt;&gt; 2
+T: 100027872[MI9ZBS] &gt;&gt; 3
+T: 100027872[MI9ZBS] &gt;&gt; 4
+T: 100027872[MI9ZBS] &gt;&gt; 5
+T: 100027872[MI9ZBS] &gt;&gt; 6
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="80cbe287-3f67-4685-be77-597839a34db0" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:24:21.8583909" startTime="2014-10-01T04:40:53.4688734-07:00" endTime="2014-10-01T05:05:15.3281935-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7486
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = package
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CNN;INF
+	departurefrom = BHX:BRS:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = AMS:KBP:PEK:MAA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7487
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:41:05Z; CRSLogID at 92427795.
+ &gt; Transaction took 11595ms.
+
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 200
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:41:06.
+BFSHistory response received: 10/01/2014 04:41:07.  Using number 85.
+Market: PIT - MIA from 06/24/2015 00:00:00 to 07/01/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:41:22Z; CRSLogID at 92427864.
+ &gt; Transaction took 14813ms.
+
+Total AirProducts returned: 6
+Total Published fares returned: 6
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 6
+Total Published fares returned: 6
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 24
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:41:23Z; CRSLogID at 92427907.
+ &gt; Transaction took 852ms.
+
+
+ Response returned an error:    ERR58  INVALID FORMAT               
+
+ Response returned an error:ID 92427916.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 3
+BFSHistory Request sent:        10/01/2014 04:41:24.
+BFSHistory response received: 10/01/2014 04:41:25.  Using number 63.
+Market: IAH - HNL from 03/17/2015 00:00:00 to 03/21/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:41:44Z; CRSLogID at 92427920.
+ &gt; Transaction took 19099ms.
+
+Total AirProducts returned: 140
+Total Published fares returned: 140
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 140
+Total Published fares returned: 140
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 512
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:42:01Z; CRSLogID at 92427960.
+ &gt; Transaction took 15897ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 2855.00
+ Response Base-Total Amount 2785.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 282.00
+ Response Tax-Total Amount 280.50
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 571.00 for PTC = adult
+ Response Base per PTC Amount 557.00 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 56.40 for PTC = adult
+ Response Tax per PTC Amount 56.10 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 571.00 for PTC = senior
+ Response Base per PTC Amount 557.00 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 56.40 for PTC = senior
+ Response Tax per PTC Amount 56.10 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 571.00 for PTC = child
+ Response Base per PTC Amount 557.00 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 56.40 for PTC = child
+ Response Tax per PTC Amount 56.10 for PTC = child
+CostTransaction Base Amount for infant in lap looks good.
+ Base Amount 0.00 for PTC = infant in lap
+CostTransaction Tax Amount for infant in lap looks good.
+ Tax Amount 0.00 for PTC = infant in lap
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  Q
+ Response AirBookingCode:  Q
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  S
+ Response AirBookingCode:  S
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  V
+ Response AirBookingCode:  K
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  V
+ Response AirBookingCode:  K
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  V
+ Response AirBookingCode:  K
+
+ We'll go on this booking if the price change
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:42:31Z; CRSLogID at 92428043.
+ &gt; Transaction took 28690ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:42:53Z; CRSLogID at 92428082.
+ &gt; Transaction took 21639ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027877
+PNR: 2I9ZDB
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 3
+No updates to AirFareDetails table for the PTC: SRC
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Audrey Moore
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Goutam Clark
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Harbhajan Robinson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Kohli Martinez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sehwag Rodriguez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Zaheer Garcia
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:48:11Z; CRSLogID at 92429037.
+ &gt; Transaction took 10326ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:48:13Z; CRSLogID at 92429087.
+ &gt; Transaction took 96ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:48:59Z; CRSLogID at 92429091.
+ &gt; Transaction took 46368ms.
+
+GhostCard ARL: 100027885
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9ZDB
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9ZDB' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027877[2I9ZDB] &gt;&gt; 1
+T: 100027877[2I9ZDB] &gt;&gt; 2
+T: 100027877[2I9ZDB] &gt;&gt; 3
+T: 100027877[2I9ZDB] &gt;&gt; 4
+T: 100027877[2I9ZDB] &gt;&gt; 5
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:AMS***BHX
+TUID inside for Loop: 7488
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:49:02Z; CRSLogID at 92429252.
+ &gt; Transaction took 505ms.
+
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 200
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:49:02.
+BFSHistory response received: 10/01/2014 04:49:03.  Using number 63.
+Market: SAN - SLC from 07/30/2015 00:00:00 to 08/07/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:49:24Z; CRSLogID at 92429257.
+ &gt; Transaction took 20720ms.
+
+Total AirProducts returned: 134
+Total Published fares returned: 43
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 91
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 134
+Total Published fares returned: 43
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 91
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 295
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:49:27Z; CRSLogID at 92429583.
+ &gt; Transaction took 2464ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92429593.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 3
+BFSHistory Request sent:        10/01/2014 04:49:27.
+BFSHistory response received: 10/01/2014 04:49:28.  Using number 19.
+Market: PHL - MCO from 07/28/2015 00:00:00 to 08/01/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:49:41Z; CRSLogID at 92429609.
+ &gt; Transaction took 13355ms.
+
+Total AirProducts returned: 109
+Total Published fares returned: 109
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 109
+Total Published fares returned: 109
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 309
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:49:45Z; CRSLogID at 92429645.
+ &gt; Transaction took 3294ms.
+
+
+ Response returned an error:UNA 2 BK ALT- DIRECT ACCESS TIME OUT    
+
+ Response returned an error:ID 92429652.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 4
+BFSHistory Request sent:        10/01/2014 04:49:46.
+BFSHistory response received: 10/01/2014 04:49:47.  Using number 14.
+Market: JFK - MCO from 08/02/2015 00:00:00 to 08/23/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:03Z; CRSLogID at 92429671.
+ &gt; Transaction took 16023ms.
+
+WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:KBP***BRS
+TUID inside for Loop: 7489
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:04Z; CRSLogID at 92429791.
+ &gt; Transaction took 590ms.
+
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 200
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:50:05.
+BFSHistory response received: 10/01/2014 04:50:06.  Using number 66.
+Market: SAN - SLC from 07/30/2015 00:00:00 to 08/07/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:07Z; CRSLogID at 92429796.
+ &gt; Transaction took 704ms.
+
+Total AirProducts returned: 134
+Total Published fares returned: 43
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 91
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 134
+Total Published fares returned: 43
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 91
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 295
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:50:11Z; CRSLogID at 92429814.
+ &gt; Transaction took 2377ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92429823.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 3
+BFSHistory Request sent:        10/01/2014 04:50:11.
+BFSHistory response received: 10/01/2014 04:50:12.  Using number 25.
+Market: PIT - CLT from 07/04/2015 00:00:00 to 07/11/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:30Z; CRSLogID at 92429828.
+ &gt; Transaction took 17385ms.
+
+Total AirProducts returned: 153
+Total Published fares returned: 55
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 98
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 153
+Total Published fares returned: 55
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 98
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 294
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:50:32Z; CRSLogID at 92429876.
+ &gt; Transaction took 905ms.
+
+
+ Response returned an error:    ERR58  INVALID FORMAT               
+
+ Response returned an error:ID 92429885.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 4
+BFSHistory Request sent:        10/01/2014 04:50:32.
+BFSHistory response received: 10/01/2014 04:50:33.  Using number 99.
+Market: TPA - EWR from 07/17/2015 00:00:00 to 07/23/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:51Z; CRSLogID at 92429889.
+ &gt; Transaction took 18477ms.
+
+Total AirProducts returned: 65
+Total Published fares returned: 65
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 65
+Total Published fares returned: 65
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 206
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:50:59Z; CRSLogID at 92429978.
+ &gt; Transaction took 6519ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 890.00
+ Response Base-Total Amount 3595.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 175.50
+ Response Tax-Total Amount 378.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 178.00 for PTC = adult
+ Response Base per PTC Amount 719.00 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 35.10 for PTC = adult
+ Response Tax per PTC Amount 75.60 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 178.00 for PTC = senior
+ Response Base per PTC Amount 719.00 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 35.10 for PTC = senior
+ Response Tax per PTC Amount 75.60 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 178.00 for PTC = child
+ Response Base per PTC Amount 719.00 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 35.10 for PTC = child
+ Response Tax per PTC Amount 75.60 for PTC = child
+CostTransaction Base Amount for infant in lap looks good.
+ Base Amount 0.00 for PTC = infant in lap
+CostTransaction Tax Amount for infant in lap looks good.
+ Tax Amount 0.00 for PTC = infant in lap
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  N
+ Response AirBookingCode:  B
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  E
+ Response AirBookingCode:  E
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  E
+ Response AirBookingCode:  E
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:51:17Z; CRSLogID at 92430095.
+ &gt; Transaction took 17450ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:51:42Z; CRSLogID at 92430155.
+ &gt; Transaction took 24717ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027891
+PNR: 2I9ZHQ
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+No updates to AirFareDetails table for the PTC: CHD
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Benjamin Brown
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Grace Jones
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Nora Davis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Audrey Miller
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Jack Wilson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Ethan Moore
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:56:56Z; CRSLogID at 92430521.
+ &gt; Transaction took 6346ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:56:57Z; CRSLogID at 92430539.
+ &gt; Transaction took 110ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:57:35Z; CRSLogID at 92430541.
+ &gt; Transaction took 37962ms.
+
+GhostCard ARL: 100027892
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9ZHQ
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9ZHQ' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027891[2I9ZHQ] &gt;&gt; 1
+T: 100027891[2I9ZHQ] &gt;&gt; 2
+T: 100027891[2I9ZHQ] &gt;&gt; 3
+T: 100027891[2I9ZHQ] &gt;&gt; 4
+T: 100027891[2I9ZHQ] &gt;&gt; 5
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:PEK***LHR
+TUID inside for Loop: 7490
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:57:37Z; CRSLogID at 92430604.
+ &gt; Transaction took 684ms.
+
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 58
+Total Published fares returned: 11
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 200
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:57:37.
+BFSHistory response received: 10/01/2014 04:57:38.  Using number 26.
+Market: HNL - KOA from 08/08/2015 00:00:00 to 08/11/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:57:53Z; CRSLogID at 92430608.
+ &gt; Transaction took 14292ms.
+
+Total AirProducts returned: 192
+Total Published fares returned: 192
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 192
+Total Published fares returned: 192
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 491
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:58:01Z; CRSLogID at 92430630.
+ &gt; Transaction took 7675ms.
+
+
+ Response returned an error:Found no eticketable itineraries, so returning empty response.
+
+
+ Response returned an error:Error pricing itinerary.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 3
+BFSHistory Request sent:        10/01/2014 04:58:01.
+BFSHistory response received: 10/01/2014 04:58:02.  Using number 40.
+Market: SAN - SLC from 08/02/2015 00:00:00 to 08/08/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:58:19Z; CRSLogID at 92430647.
+ &gt; Transaction took 16678ms.
+
+Total AirProducts returned: 162
+Total Published fares returned: 89
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 73
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 162
+Total Published fares returned: 89
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 73
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 431
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:58:24Z; CRSLogID at 92431295.
+ &gt; Transaction took 3768ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92431314.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 4
+BFSHistory Request sent:        10/01/2014 04:58:24.
+BFSHistory response received: 10/01/2014 04:58:25.  Using number 4.
+Market: LAS - SFO from 03/09/2015 00:00:00 to 03/10/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:58:41Z; CRSLogID at 92431546.
+ &gt; Transaction took 15849ms.
+
+Total AirProducts returned: 166
+Total Published fares returned: 117
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 49
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 166
+Total Published fares returned: 117
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 49
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+...Exclude Carriers are: HV O2 UM B6 MA JK GJ MD TM J2 0D AP LV ZI M7 SD ZK Z6 OL YT X7 VE UY U5 SE R7 PK PF P5 OC M5 LB K8 JQ JB H2 A6 9H 8P 8O LT V7 DJ M9 9F 6A JZ 4U W9 RC J0 D3 B3 BJ 3L AH DT FL HS IC M3 T7 X3 AI RB CU IR LN LW RA S2 TF W5 YK SV QZ 3Y GI EO 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 NM D8 Q8 B2 4N 5J 8M 6D SJ 2S 2P DG ZJ 4Q I8 WP PW MP R5 C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID7.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 297
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:58:49Z; CRSLogID at 92432125.
+ &gt; Transaction took 4787ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 635.00
+ Response Base-Total Amount 1860.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 134.50
+ Response Tax-Total Amount 226.50
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 127.00 for PTC = adult
+ Response Base per PTC Amount 372.00 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.90 for PTC = adult
+ Response Tax per PTC Amount 45.30 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 127.00 for PTC = senior
+ Response Base per PTC Amount 372.00 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.90 for PTC = senior
+ Response Tax per PTC Amount 45.30 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 127.00 for PTC = child
+ Response Base per PTC Amount 372.00 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.90 for PTC = child
+ Response Tax per PTC Amount 45.30 for PTC = child
+CostTransaction Base Amount for infant in lap looks good.
+ Base Amount 0.00 for PTC = infant in lap
+CostTransaction Tax Amount for infant in lap looks good.
+ Tax Amount 0.00 for PTC = infant in lap
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode:  K
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  K
+ Response AirBookingCode:  B
+
+ We'll go on this booking if the price change
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:59:03Z; CRSLogID at 92432316.
+ &gt; Transaction took 13245ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:59:22Z; CRSLogID at 92432855.
+ &gt; Transaction took 19056ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027893
+PNR: 2I9ZJN
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+No updates to AirFareDetails table for the PTC: CHD
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Kohli Martinez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Goutam Garcia
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sehwag Robinson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Yuvaraj Thompson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Harbhajan Clark
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sachin Martin
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:04:38Z; CRSLogID at 92434047.
+ &gt; Transaction took 4880ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 05:04:40Z; CRSLogID at 92434057.
+ &gt; Transaction took 269ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:05:11Z; CRSLogID at 92434059.
+ &gt; Transaction took 30857ms.
+
+GhostCard ARL: 100027894
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9ZJN
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9ZJN' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027893[2I9ZJN] &gt;&gt; 1
+T: 100027893[2I9ZJN] &gt;&gt; 2
+T: 100027893[2I9ZJN] &gt;&gt; 3
+T: 100027893[2I9ZJN] &gt;&gt; 4
+T: 100027893[2I9ZJN] &gt;&gt; 5
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:MAA***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.WorldspanMSTests() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 645
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e3189c2d-52d1-4dee-a805-cb35c79abe13" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:15:36.9056033" startTime="2014-10-01T05:05:15.3281935-07:00" endTime="2014-10-01T05:20:52.2345930-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7487
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = package
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CNN;INS
+	departurefrom = BHX:BRS:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = AMS:KBP:PEK:MAA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7488
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:05:35Z; CRSLogID at 92434098.
+ &gt; Transaction took 20272ms.
+
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 177
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 05:05:36.
+BFSHistory response received: 10/01/2014 05:05:37.  Using number 89.
+Market: CVG - RSW from 02/12/2015 00:00:00 to 02/16/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:06:01Z; CRSLogID at 92434121.
+ &gt; Transaction took 24401ms.
+
+Total AirProducts returned: 84
+Total Published fares returned: 84
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 84
+Total Published fares returned: 84
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 336
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 05:06:10Z; CRSLogID at 92434147.
+ &gt; Transaction took 7367ms.
+
+
+ CostTransactionRecord base looks good.
+ Request Base-Total Amount 1668.00
+ Response Base-Total Amount 1668.00
+
+ CostTransactionRecord tax looks good.
+ Request Tax-Total Amount 281.40
+ Response Tax-Total Amount 281.40
+CostTransaction Base Amount for adult looks good.
+ Base Amount 278.00 for PTC = adult
+CostTransaction Tax Amount for adult looks good.
+ Tax Amount 46.90 for PTC = adult
+CostTransaction Base Amount for senior looks good.
+ Base Amount 278.00 for PTC = senior
+CostTransaction Tax Amount for senior looks good.
+ Tax Amount 46.90 for PTC = senior
+CostTransaction Base Amount for child looks good.
+ Base Amount 278.00 for PTC = child
+CostTransaction Tax Amount for child looks good.
+ Tax Amount 46.90 for PTC = child
+CostTransaction Base Amount for infant in seat looks good.
+ Base Amount 278.00 for PTC = infant in seat
+CostTransaction Tax Amount for infant in seat looks good.
+ Tax Amount 46.90 for PTC = infant in seat
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  G
+ Response AirBookingCode:  G
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  G
+ Response AirBookingCode:  G
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  G
+ Response AirBookingCode:  G
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  G
+ Response AirBookingCode:  G
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 05:06:27Z; CRSLogID at 92434164.
+ &gt; Transaction took 16237ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:06:49Z; CRSLogID at 92434174.
+ &gt; Transaction took 21894ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027895
+PNR: MI9ZLE
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+No updates to AirFareDetails table for the PTC: SRC
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Benjamin Brown
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Grace Davis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Nora Miller
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Audrey Wilson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Jack Moore
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Eden Jones
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:09:09Z; CRSLogID at 92434258.
+ &gt; Transaction took 9733ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 05:09:11Z; CRSLogID at 92434270.
+ &gt; Transaction took 186ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:09:52Z; CRSLogID at 92434272.
+ &gt; Transaction took 39940ms.
+
+GhostCard ARL: 100027896
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9ZLE
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9ZLE' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027895[MI9ZLE] &gt;&gt; 1
+T: 100027895[MI9ZLE] &gt;&gt; 2
+T: 100027895[MI9ZLE] &gt;&gt; 3
+T: 100027895[MI9ZLE] &gt;&gt; 4
+T: 100027895[MI9ZLE] &gt;&gt; 5
+T: 100027895[MI9ZLE] &gt;&gt; 6
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:AMS***BHX
+TUID inside for Loop: 7489
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:09:54Z; CRSLogID at 92434489.
+ &gt; Transaction took 338ms.
+
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 177
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 05:09:54.
+BFSHistory response received: 10/01/2014 05:09:56.  Using number 57.
+Market: PHL - TPA from 05/21/2015 00:00:00 to 05/25/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:10:14Z; CRSLogID at 92434493.
+ &gt; Transaction took 17914ms.
+
+Total AirProducts returned: 63
+Total Published fares returned: 63
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 63
+Total Published fares returned: 63
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 155
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 05:10:20Z; CRSLogID at 92434519.
+ &gt; Transaction took 5841ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 930.00
+ Response Base-Total Amount 816.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 174.00
+ Response Tax-Total Amount 165.60
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 155.00 for PTC = adult
+ Response Base per PTC Amount 136.00 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 29.00 for PTC = adult
+ Response Tax per PTC Amount 27.60 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 155.00 for PTC = senior
+ Response Base per PTC Amount 136.00 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 29.00 for PTC = senior
+ Response Tax per PTC Amount 27.60 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 155.00 for PTC = child
+ Response Base per PTC Amount 136.00 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 29.00 for PTC = child
+ Response Tax per PTC Amount 27.60 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 155.00 for PTC = infant in seat
+ Response Base per PTC Amount 136.00 for PTC = infant in seat
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 29.00 for PTC = infant in seat
+ Response Tax per PTC Amount 27.60 for PTC = infant in seat
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  S
+ Response AirBookingCode:  Q
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  Q
+ Response AirBookingCode:  Q
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 05:10:38Z; CRSLogID at 92434536.
+ &gt; Transaction took 17343ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:10:59Z; CRSLogID at 92434545.
+ &gt; Transaction took 19898ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027897
+PNR: MI9ZMF
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+No updates to AirFareDetails table for the PTC: SRC
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Jack Anderson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Eden Thomas
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Audrey Taylor
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sachin Jackson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Yuvaraj White
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Nora Moore
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:12:44Z; CRSLogID at 92434627.
+ &gt; Transaction took 5185ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 05:12:47Z; CRSLogID at 92434638.
+ &gt; Transaction took 291ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:13:23Z; CRSLogID at 92434640.
+ &gt; Transaction took 33318ms.
+
+GhostCard ARL: 100027898
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9ZMF
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9ZMF' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027897[MI9ZMF] &gt;&gt; 1
+T: 100027897[MI9ZMF] &gt;&gt; 2
+T: 100027897[MI9ZMF] &gt;&gt; 3
+T: 100027897[MI9ZMF] &gt;&gt; 4
+T: 100027897[MI9ZMF] &gt;&gt; 5
+T: 100027897[MI9ZMF] &gt;&gt; 6
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:KBP***BRS
+TUID inside for Loop: 7490
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:13:24Z; CRSLogID at 92434679.
+ &gt; Transaction took 350ms.
+
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 177
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 05:13:25.
+BFSHistory response received: 10/01/2014 05:13:26.  Using number 31.
+Market: SFO - LAS from 04/12/2015 00:00:00 to 04/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:13:46Z; CRSLogID at 92434683.
+ &gt; Transaction took 20453ms.
+
+Total AirProducts returned: 118
+Total Published fares returned: 118
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 118
+Total Published fares returned: 118
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 313
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 05:13:51Z; CRSLogID at 92434708.
+ &gt; Transaction took 4501ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 732.00
+ Response Base-Total Amount 2214.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 159.60
+ Response Tax-Total Amount 270.60
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 122.00 for PTC = adult
+ Response Base per PTC Amount 369.00 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.60 for PTC = adult
+ Response Tax per PTC Amount 45.10 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 122.00 for PTC = senior
+ Response Base per PTC Amount 369.00 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.60 for PTC = senior
+ Response Tax per PTC Amount 45.10 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 122.00 for PTC = child
+ Response Base per PTC Amount 369.00 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.60 for PTC = child
+ Response Tax per PTC Amount 45.10 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 122.00 for PTC = infant in seat
+ Response Base per PTC Amount 369.00 for PTC = infant in seat
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 26.60 for PTC = infant in seat
+ Response Tax per PTC Amount 45.10 for PTC = infant in seat
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  K
+ Response AirBookingCode:  L
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  K
+ Response AirBookingCode:  B
+
+ We'll go on this booking if the price change
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 05:14:11Z; CRSLogID at 92434725.
+ &gt; Transaction took 18559ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:14:30Z; CRSLogID at 92434734.
+ &gt; Transaction took 18360ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027899
+PNR: MI9ZM3
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+No updates to AirFareDetails table for the PTC: CHD
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Zaheer Lewis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Harbhajan Rodriguez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Goutam Lee
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Dhoni Clark
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Kohli Robinson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sehwag Walker
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:16:15Z; CRSLogID at 92435006.
+ &gt; Transaction took 5619ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 05:16:18Z; CRSLogID at 92435017.
+ &gt; Transaction took 188ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:16:48Z; CRSLogID at 92435019.
+ &gt; Transaction took 28068ms.
+
+GhostCard ARL: 100027900
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9ZM3
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9ZM3' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027899[MI9ZM3] &gt;&gt; 1
+T: 100027899[MI9ZM3] &gt;&gt; 2
+T: 100027899[MI9ZM3] &gt;&gt; 3
+T: 100027899[MI9ZM3] &gt;&gt; 4
+T: 100027899[MI9ZM3] &gt;&gt; 5
+T: 100027899[MI9ZM3] &gt;&gt; 6
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:PEK***LHR
+TUID inside for Loop: 7491
+
+===========
+Attempt: 1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:16:49Z; CRSLogID at 92435058.
+ &gt; Transaction took 309ms.
+
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the result count.
+Total AirProducts returned: 53
+Total Published fares returned: 6
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 46
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV O2 UM B6 MA JK 0D MD TM J2 AP LV ZI M7 SD Z6 YT X3 OL W9 UY PF OC M3 K8 JQ J0 HS A6 9B LT V7 DJ 3L 9F 2N FL NM P5 PK PW QZ R7 RA RB RC S2 SE SV TF U5 VE W5 WP X7 YK ZK DO IC IR JB JZ LB LN LW GI H2 3Y 4N 6A 8M 8O 8P 9H AH AI B3 BJ CU D3 DT EO M5 IT GY T7 TE M9 9G IP 2T QH R8 ZC Q4 NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 B2 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP C9 5L QI CF 3B A9 YQ B8 UE FB F9 JA U8 JM LC QG SI WS RQ U4 0Y FQ RT EC PM FY DL AA NW EY CX JL NK  for TSPID16.
+WARNING: No Exclude Carrier list returned from DB for TSPID75
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 177
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: TravelPort
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 05:16:50.
+BFSHistory response received: 10/01/2014 05:16:51.  Using number 33.
+Market: CAK - SAT from 04/15/2015 00:00:00 to 04/19/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:17:12Z; CRSLogID at 92435062.
+ &gt; Transaction took 20497ms.
+
+Total AirProducts returned: 31
+Total Published fares returned: 31
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 31
+Total Published fares returned: 31
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 124
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 05:17:13Z; CRSLogID at 92435084.
+ &gt; Transaction took 1018ms.
+
+
+ Response returned an error:ER101 - UNABLE TO PRICE AS BOOKED OR BY 
+
+ Response returned an error:ID 92435094.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 3
+BFSHistory Request sent:        10/01/2014 05:17:14.
+BFSHistory response received: 10/01/2014 05:17:15.  Using number 34.
+Market: BDL - SFO from 02/13/2015 00:00:00 to 03/17/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:17:35Z; CRSLogID at 92435098.
+ &gt; Transaction took 20029ms.
+
+Total AirProducts returned: 58
+Total Published fares returned: 58
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 58
+Total Published fares returned: 58
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 0
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV TU 4D EN O2 UM B6 MA JK 9M VF QV B8 OL PX NX 3K 9K 3S 0D MD TM J2 AP LV ZI M7 SD YT X3 W9 UY PK OC M3 JQ J0 HS LT G3 V7 DJ M9 3L U5 LB S2 JA NM FL M5 9F 8M 6A P5 ZK R7 LW AI IR A6 K8 JB B2 8P 9H B3 EO PF PW Z6 SE T7 VE 4N H2 WP X7 8O Q4 SV RB AH CU LN RA TF W5 YK DT QZ 3Y GI BJ IC JZ RC D3 2N DO 9B IT GY TE 9G IP 2T QH R8 ZC NE JS FG UF Z2 K6 JT MZ 7P IW KH EM A8 P6 D8 Q8 4U 5J 6D SJ 2S 2P DG ZJ 4Q I8 MP R5 C9 5L QI CF 3B A9 YQ UE FB F9 U8 JM LC QG SI KP WS RQ U4 0Y FQ RT IZ EC PM FY ST DL AA NW EY CX JL NK  for TSPID1.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 227
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 05:17:43Z; CRSLogID at 92435122.
+ &gt; Transaction took 7492ms.
+
+
+ CostTransactionRecord base looks good.
+ Request Base-Total Amount 1956.00
+ Response Base-Total Amount 1956.00
+
+ CostTransactionRecord tax looks good.
+ Request Tax-Total Amount 292.20
+ Response Tax-Total Amount 292.20
+CostTransaction Base Amount for adult looks good.
+ Base Amount 326.00 for PTC = adult
+CostTransaction Tax Amount for adult looks good.
+ Tax Amount 48.70 for PTC = adult
+CostTransaction Base Amount for senior looks good.
+ Base Amount 326.00 for PTC = senior
+CostTransaction Tax Amount for senior looks good.
+ Tax Amount 48.70 for PTC = senior
+CostTransaction Base Amount for child looks good.
+ Base Amount 326.00 for PTC = child
+CostTransaction Tax Amount for child looks good.
+ Tax Amount 48.70 for PTC = child
+CostTransaction Base Amount for infant in seat looks good.
+ Base Amount 326.00 for PTC = infant in seat
+CostTransaction Tax Amount for infant in seat looks good.
+ Tax Amount 48.70 for PTC = infant in seat
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  W
+ Response AirBookingCode:  W
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  W
+ Response AirBookingCode:  W
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  W
+ Response AirBookingCode:  W
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 05:18:03Z; CRSLogID at 92435139.
+ &gt; Transaction took 18934ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:18:24Z; CRSLogID at 92435149.
+ &gt; Transaction took 20902ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027901
+PNR: 2I9ZNU
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+Sequence contains no elements
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+No updates to AirFareDetails table for the PTC: CHD
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Ethan Williams
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Benjamin Jones
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Grace Brown
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Nora Davis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Audrey Miller
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Jack Wilson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+Retrieve the PNR and look for Confirmed status and ticket number ==&gt; 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:20:08Z; CRSLogID at 92435394.
+ &gt; Transaction took 4522ms.
+
+Retrived PNR doesn't show Ticket response string and confirmed book status
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 05:20:10Z; CRSLogID at 92435405.
+ &gt; Transaction took 152ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 05:20:51Z; CRSLogID at 92435407.
+ &gt; Transaction took 39337ms.
+
+GhostCard ARL: 100027902
+GhostCard PNR: 
+Ooops.. failed to store the ARL in ARLRepository. Error: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9ZNU
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9ZNU' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027901[2I9ZNU] &gt;&gt; 1
+T: 100027901[2I9ZNU] &gt;&gt; 2
+T: 100027901[2I9ZNU] &gt;&gt; 3
+T: 100027901[2I9ZNU] &gt;&gt; 4
+T: 100027901[2I9ZNU] &gt;&gt; 5
+T: 100027901[2I9ZNU] &gt;&gt; 6
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test Failed
+OD Pair Used:MAA***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.WorldspanMSTests() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 645
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="9c61c01f-c2a9-4177-ad78-33a7b0a42e0a" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:52.3086012" startTime="2014-10-01T05:20:52.2345930-07:00" endTime="2014-10-01T05:22:44.5469076-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7488
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT;ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7489
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:20:57Z; CRSLogID at 92435446.
+ &gt; Transaction took 4769ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 516ae7bf42eab7bf14005a89f396e2c3-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 05:21:00Z; CRSLogID at 92435471.
+ &gt; Transaction took 3541ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 05:21:02Z; CRSLogID at 92435497.
+ &gt; Transaction took 69ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 05:21:03Z; CRSLogID at 92435499.
+ &gt; Transaction took 219ms.
+
+ARL: 100027903
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 05:21:25Z; CRSLogID at 92435501.
+ &gt; Transaction took 21296ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9ZOI
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: MI9ZOI
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266258 BookingItemID 77214 and AirBookingDatabaseID 8 and in database we found BookingID 15266258 BookingItemID 77214 and BookingDatabaseId 8
+In Response BookingID is 15266258 BookingItemID 77215 and AirBookingDatabaseID 8 and in database we found BookingID 15266258 BookingItemID 77215 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoJack Jackson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 05:22:39Z; CRSLogID at 92435552.
+ &gt; Transaction took 3561ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9ZOI
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266258 BookingItemID 77214 and AirBookingDatabaseID 8 and in database we found BookingID 15266258 BookingItemID 77214 and BookingDatabaseId 8
+In Response BookingID is 15266258 BookingItemID 77215 and AirBookingDatabaseID 8 and in database we found BookingID 15266258 BookingItemID 77215 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse FAILED: 
+
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:22:43Z; CRSLogID at 92435564.
+ &gt; Transaction took 3570ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9ZOI
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9ZOI' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027903[MI9ZOI] &gt;&gt; 1
+T: 100027903[MI9ZOI] &gt;&gt; 2
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="eae6803a-0693-4267-805d-c2791e63274e" parentExecutionId="b9375e39-eefa-401f-8151-ce490616a452" testId="63abfe4c-0b44-caf2-0b7a-c2b64ef985ae" testName="WorldspanMSTests" computerName="WIN-B3M5SP1197C" duration="00:02:49.6926698" startTime="2014-10-01T05:22:44.5469076-07:00" endTime="2014-10-01T05:25:34.2345771-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9375e39-eefa-401f-8151-ce490616a452" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7489
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Web
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = KGW:LHR
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = NCE:CDG
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7490
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:22:45Z; CRSLogID at 92435575.
+ &gt; Transaction took 771ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:NCE***KGW
+TUID inside for Loop: 7491
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 05:23:09Z; CRSLogID at 92435591.
+ &gt; Transaction took 23852ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: c2e101eb44cae75afd6f91ac41a1107c-2-2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 05:23:22Z; CRSLogID at 92435613.
+ &gt; Transaction took 11070ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 05:23:23Z; CRSLogID at 92435639.
+ &gt; Transaction took 52ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 05:23:24Z; CRSLogID at 92435641.
+ &gt; Transaction took 100ms.
+
+ARL: 100027904
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 05:23:51Z; CRSLogID at 92435643.
+ &gt; Transaction took 26366ms.
+
+=====PurchaseV2ResponseValidation
+PNR: 2I9ZOX
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: 2I9ZOX
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266259 BookingItemID 77216 and AirBookingDatabaseID 8 and in database we found BookingID 15266259 BookingItemID 77216 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Object reference not set to an instance of an object.
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoGrace Williams
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+***WARNING: there are no EnableIntineraryInfo entries for TPID=3
+No CAT16 validation will be done
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 05:25:29Z; CRSLogID at 92435869.
+ &gt; Transaction took 3006ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: 2I9ZOX
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266259 BookingItemID 77216 and AirBookingDatabaseID 8 and in database we found BookingID 15266259 BookingItemID 77216 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse FAILED: 
+
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 05:25:33Z; CRSLogID at 92435880.
+ &gt; Transaction took 2850ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9ZOX
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9ZOX' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+T: 100027904[2I9ZOX] &gt;&gt; 1
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

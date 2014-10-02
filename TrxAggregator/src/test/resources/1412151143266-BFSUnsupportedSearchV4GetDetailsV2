@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4adfc262-9d75-4416-86a9-9fe66e1c9e94" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 03:28:59" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="33f8bb89-1eda-4599-818d-46f73fa3d966">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 03_28_59[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T03:28:59.9063077-07:00" queuing="2014-10-01T03:29:01.8125567-07:00" start="2014-10-01T03:29:01.8595663-07:00" finish="2014-10-01T03:32:41.3438036-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:01.8125567-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:01.8125567-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BFSUnsupportedSearchV4GetDetailsV2" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4">
+      <Execution timeOut="2147483647" id="cb23f19f-e034-4d60-88f5-e526b4cf2398" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BFSUnsupportedSearchV4GetDetailsV2" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV4GetDetailsV2\TestData_SearchV4GetDetailsV2.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="BFSUnsupported" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" executionId="cb23f19f-e034-4d60-88f5-e526b4cf2398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb23f19f-e034-4d60-88f5-e526b4cf2398" testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" testName="BFSUnsupportedSearchV4GetDetailsV2" computerName="WIN-B3M5SP1197C" duration="00:03:36.5510060" startTime="2014-10-01T03:29:02.0000331-07:00" endTime="2014-10-01T03:32:40.9531397-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb23f19f-e034-4d60-88f5-e526b4cf2398" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="c49b52c7-5ed2-4aba-a69c-bc7f4ac32fe6" parentExecutionId="cb23f19f-e034-4d60-88f5-e526b4cf2398" testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" testName="BFSUnsupportedSearchV4GetDetailsV2" computerName="WIN-B3M5SP1197C" duration="00:03:14.1093004" startTime="2014-10-01T03:29:04.4218744-07:00" endTime="2014-10-01T03:32:18.5469487-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb23f19f-e034-4d60-88f5-e526b4cf2398" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9836
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 9837
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:29:29Z; CRSLogID at 92391856.
+ &gt; Transaction took 24688ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92391906.
+BFS XP message found at CRSLogID 92391920.
+ERROR: BFS GUID != AirProviderGUID, please investigate,BFSGUID:F7F8C3D34EAE4F40911F7C695F058BB3,AirProviderGUID:372268CB4D8E42549FCA13A433CAC79E
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92391929
+Verifying the result count by fare.
+Total AirOffers returned: 43
+   Total Published fares returned: 43
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 92391854 through 92392131.
+There are 43 Air Product(s) with the Published FareTypes
+offer Token:6c5e7eac4fff64163fa78b8dfe31bec7-13-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:29:57Z; CRSLogID at 92392137.
+ &gt; Transaction took 23735ms.
+
+ERROR: BFSGUID != GetDetailGUID, please investigate,BFSGUID:F7F8C3D34EAE4F40911F7C695F058BB3,GetDetailGUID:372268CB4D8E42549FCA13A433CAC79E
+BFS PC message found at CRSLogID 92392253.
+BFS PC message found at CRSLogID 92392327.
+ERROR: BFSGUID != pcBFSGUID, please investigate,BFSGUID:F7F8C3D34EAE4F40911F7C695F058BB3,pcBFSGUID:372268CB4D8E42549FCA13A433CAC79E
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+
+ AirBookingCode verification in GetDetails failed, GetDetails response it is B, Search response it is S
+
+ AirBookingCode verification in GetDetails failed, GetDetails response it is B, Search response it is S
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+
+ total baseNet verification in Getdetials failed, GetDetails response it is 367.00, Search response it is 142.00
+
+ total baseGross verification in Getdetials failed, GetDetails response it is 367.00, Search response it is 142.00
+
+ total taxNet verification in Getdetials failed, GetDetails response it is 54.50, Search response it is 37.70
+
+ total taxGross verification in Getdetials failed, GetDetails response it is 54.50, Search response it is 37.70
+Pass the case when Fare Type not changed.
+AirSegmentData message found at CRSLogID 92392223.
+AirSegmentData message found at CRSLogID 92392261.
+Error Parsing Flight Price TO Response at LogId 92392260
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV2ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV2ResponseValidation.cs:line 1795
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 9838
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:30:47Z; CRSLogID at 92392683.
+ &gt; Transaction took 16184ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92392607.
+BFS XP message found at CRSLogID 92392742.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B8633D97AA2547398FD4518B1F1A005C
+ There are 40 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92392752
+Verifying the result count by fare.
+Total AirOffers returned: 229
+   Total Published fares returned: 183
+   Total Web fares returned: 6
+   Total Naked Net fares returned: 40
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Air products with outbound airport/city code different from search request!
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 92392490 through 92392924.
+There are 183 Air Product(s) with the Published FareTypes
+offer Token:f7c9793f4d1553b4b954b681a1603006-56-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:31:03Z; CRSLogID at 92392958.
+ &gt; Transaction took 13138ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B8633D97AA2547398FD4518B1F1A005C
+BFS PC message found at CRSLogID 92392959.
+BFS PC message found at CRSLogID 92393108.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B8633D97AA2547398FD4518B1F1A005C
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+AirSegmentData message found at CRSLogID 92392799.
+AirSegmentData message found at CRSLogID 92392995.
+Error Parsing Flight Price TO Response at LogId 92392993
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at Expedia.AirInterface.Test.Framework.Validation.GetDetailsV2ResponseValidation.VerifySabreTravelPortPrice() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Validation\GetDetailsV2ResponseValidation.cs:line 1795
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 9839
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:31:31Z; CRSLogID at 92393203.
+ &gt; Transaction took 20644ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393224.
+BFS XP message found at CRSLogID 92393229.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:1C708AE374444A2F95967CE5B8BAD5B1
+ There are 17 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92393237
+Verifying the result count by fare.
+Total AirOffers returned: 214
+   Total Published fares returned: 194
+   Total Web fares returned: 3
+   Total Naked Net fares returned: 17
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 92393194 through 92393495.
+There are 194 Air Product(s) with the Published FareTypes
+offer Token:3f2a4c314b5b08b7d87dc6a6b3390251-195-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:31:40Z; CRSLogID at 92393519.
+ &gt; Transaction took 6778ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92393537.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 9840
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:31:58Z; CRSLogID at 92393727.
+ &gt; Transaction took 14764ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393746.
+BFS XP message found at CRSLogID 92393915.
+ERROR: BFS GUID != AirProviderGUID, please investigate,BFSGUID:2F976F4C7551441CAA010CF9C528B59D,AirProviderGUID:E99FC783942543FFA75CA87732F90ADD
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92393749
+Verifying the result count by fare.
+Total AirOffers returned: 143
+   Total Published fares returned: 143
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 92393727 through 92393919.
+There are 143 Air Product(s) with the Published FareTypes
+offer Token:cdc1d67c413ab4209ed571afec99007d-25-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:32:11Z; CRSLogID at 92393949.
+ &gt; Transaction took 11019ms.
+
+ERROR: BFSGUID != GetDetailGUID, please investigate,BFSGUID:2F976F4C7551441CAA010CF9C528B59D,GetDetailGUID:E99FC783942543FFA75CA87732F90ADD
+BFS PC message found at CRSLogID 92394103.
+ERROR: BFSGUID != pcBFSGUID, please investigate,BFSGUID:2F976F4C7551441CAA010CF9C528B59D,pcBFSGUID:E99FC783942543FFA75CA87732F90ADD
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+AirSegmentData message found at CRSLogID 92393958.
+AirSegmentData message found at CRSLogID 92394186.
+ASD Error: FlightNumber mismatch. Expected 1390 	Actual: 1394
+ASD Error: AccumulatedDuration mismatch. Expected: 65 	Actual: 60
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Input string was not in a correct format.
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.BFSUnsupportedSearchV4GetDetailsV2() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 245
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="01c9660e-2625-49aa-8b6a-2caeb1423dbe" parentExecutionId="cb23f19f-e034-4d60-88f5-e526b4cf2398" testId="4adefe8c-7e94-87e1-d4dc-0f16c40db2e4" testName="BFSUnsupportedSearchV4GetDetailsV2" computerName="WIN-B3M5SP1197C" duration="00:00:22.3881211" startTime="2014-10-01T03:32:18.5469487-07:00" endTime="2014-10-01T03:32:40.9219815-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb23f19f-e034-4d60-88f5-e526b4cf2398" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 9837
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 9838
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:32:26Z; CRSLogID at 92394215.
+ &gt; Transaction took 8173ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92394227.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:A26B18A0ACBE4BA3B007C4AB036043D6
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92394230
+Verifying the result count by fare.
+Total AirOffers returned: 36
+   Total Published fares returned: 36
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+warning: Too many BFS XP responses found.  Checked range 92392594 through 92394327.
+There are 36 Air Product(s) with the Published FareTypes
+offer Token:9feb5f324c0450cd65e393b45f209a2c-26-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:32:34Z; CRSLogID at 92394382.
+ &gt; Transaction took 4517ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:A26B18A0ACBE4BA3B007C4AB036043D6
+BFS PC message found at CRSLogID 92394483.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:A26B18A0ACBE4BA3B007C4AB036043D6
+======Comparing Search response and GetDetails response.=======
+
+ Comparing Itinerary.
+Comparing AirTravelerCategoryList.
+Comparing AirBookingInstruction.
+Comparing AirFareInstruction.
+Comparing AirFulfillmentMethod.
+Comparing TransactionRecord.
+AirSegmentData message found at CRSLogID 92394404.
+Error Parsing Flight Price TO Response at LogId 92394438</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (502) Bad Gateway.</Message>
+              <StackTrace>   at SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.BFSUnsupportedSearchV4GetDetailsV2() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV4GetDetailsV2.cs:line 245
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

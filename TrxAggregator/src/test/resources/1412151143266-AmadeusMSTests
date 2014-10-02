@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1d3f66e8-e3cc-47a6-a228-7c35a4a4cc3b" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="905a113d-d027-468d-a410-e66189f353a6">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.6562690-07:00" queuing="2014-10-01T04:28:52.2500405-07:00" start="2014-10-01T04:28:52.3595408-07:00" finish="2014-10-01T04:28:58.7499985-07:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+Enable/Disable ticketing logic called
+CRS Log Service Down
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.1718792-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.1718792-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AmadeusMSTests" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="a121377d-6740-1110-8c08-76c72debf2b1">
+      <Execution timeOut="2147483647" id="e1a2a3b0-dc00-440d-9e5e-bb5ba1a0152d" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchToTicket.SearchToTicketMSTests, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AmadeusMSTests" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchToTicket\TestData_SearchToTicketAmadeus.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a121377d-6740-1110-8c08-76c72debf2b1" executionId="e1a2a3b0-dc00-440d-9e5e-bb5ba1a0152d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e1a2a3b0-dc00-440d-9e5e-bb5ba1a0152d" testId="a121377d-6740-1110-8c08-76c72debf2b1" testName="AmadeusMSTests" computerName="WIN-B3M5SP1197C" startTime="2014-10-01T04:28:52.4062730-07:00" endTime="2014-10-01T04:28:56.9848510-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1a2a3b0-dc00-440d-9e5e-bb5ba1a0152d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Registry value not Reset!!</Message>
+          <StackTrace>   at Expedia.AirInterface.Test.Framework.Util.TravelServerRegistry.refreshRegistryToPickUpChanges() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\AirTestFramework\Util\RegistryAccess.cs:line 131
+   at SearchToTicket.SearchToTicketMSTests.updateETicket(AirConfiguration dtTravelServerConfigInstance, Boolean enableETicket) in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 861
+   at SearchToTicket.SearchToTicketMSTests.MyClassInitialize(TestContext testContext) in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 271
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

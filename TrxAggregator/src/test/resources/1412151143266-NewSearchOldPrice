@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="edb5e5b0-703b-4806-ba76-8e4e03e51ce8" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 01:12:25" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c60c2a39-923e-451b-9cc1-256fb11b26eb">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 01_12_25[4]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T01:12:25.5165445-07:00" queuing="2014-10-01T01:12:26.4069772-07:00" start="2014-10-01T01:12:26.5945527-07:00" finish="2014-10-01T01:15:42.1257381-07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:26.3602428-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:26.3602428-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NewSearchOldPrice" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="8312bfc7-cb34-771d-5b71-bf9fa9f906d8">
+      <Execution timeOut="2147483647" id="b15ba2c3-5fbb-4d69-94d5-cff8b33fc2a1" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Compatibility.CompatibilityCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewSearchOldPrice" />
+      <DataSource connectionString="|DataDirectory|\TestData\Compatibility\TestData_Compatibility.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" executionId="b15ba2c3-5fbb-4d69-94d5-cff8b33fc2a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b15ba2c3-5fbb-4d69-94d5-cff8b33fc2a1" testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" testName="NewSearchOldPrice" computerName="WIN-B3M5SP1197C" duration="00:03:14.7163829" startTime="2014-10-01T01:12:26.6102578-07:00" endTime="2014-10-01T01:15:42.0477894-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b15ba2c3-5fbb-4d69-94d5-cff8b33fc2a1" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="a8bdac05-67b9-4f38-b5e0-9b151ba0022c" parentExecutionId="b15ba2c3-5fbb-4d69-94d5-cff8b33fc2a1" testId="8312bfc7-cb34-771d-5b71-bf9fa9f906d8" testName="NewSearchOldPrice" computerName="WIN-B3M5SP1197C" duration="00:03:14.5208527" startTime="2014-10-01T01:12:27.5007014-07:00" endTime="2014-10-01T01:15:42.0165530-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b15ba2c3-5fbb-4d69-94d5-cff8b33fc2a1" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 1734
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 1735
+BFSHistory Request sent:        10/01/2014 01:12:27.
+BFSHistory response received: 10/01/2014 01:12:32.  Using number 78.
+Market: PVD - MCO from 03/07/2015 00:00:00 to 03/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:13:31Z; CRSLogID at 92244339.
+ &gt; Transaction took 58707ms.
+
+Verifying the GDS.
+There are 636 Air Product(s) with the All FareTypes
+offer Token:c5bd60a84564c3b064ecab8a990588dd-129-1
+Sending request to end point : http://chelairtvapn02/airinterface/rest/v1_0_0/ProcessMsg
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 01:15:41Z; CRSLogID not found.
+Compatibility:NewSearchOldPriceTest is successful</StdOut>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

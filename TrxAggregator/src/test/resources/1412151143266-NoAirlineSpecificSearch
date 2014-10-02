@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1675cd71-b816-4035-bbbb-cdcfd894e573" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 01:12:25" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="570f2c3e-b2eb-424d-8ad1-64db017a40d5">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 01_12_25[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T01:12:25.4069680-07:00" queuing="2014-10-01T01:12:26.2507543-07:00" start="2014-10-01T01:12:26.5164964-07:00" finish="2014-10-01T01:16:40.3288609-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:25.8445233-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T01:12:25.8445233-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NoAirlineSpecificSearch" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="d934b214-7768-032f-2f6b-921333a4ace1">
+      <Execution timeOut="2147483647" id="996e6ffa-8f90-4021-93cb-12d101681c9a" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LCCBook.TFCases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoAirlineSpecificSearch" />
+      <DataSource connectionString="|DataDirectory|\TestData\LCCBookTests\TestData_CarrierSpecificSearchForNoSupportTF.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d934b214-7768-032f-2f6b-921333a4ace1" executionId="996e6ffa-8f90-4021-93cb-12d101681c9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="996e6ffa-8f90-4021-93cb-12d101681c9a" testId="d934b214-7768-032f-2f6b-921333a4ace1" testName="NoAirlineSpecificSearch" computerName="WIN-B3M5SP1197C" duration="00:04:12.9078827" startTime="2014-10-01T01:12:26.5945527-07:00" endTime="2014-10-01T01:16:40.2352680-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996e6ffa-8f90-4021-93cb-12d101681c9a" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="8c5206fd-4630-4f30-8a80-0127d70dff8a" parentExecutionId="996e6ffa-8f90-4021-93cb-12d101681c9a" testId="d934b214-7768-032f-2f6b-921333a4ace1" testName="NoAirlineSpecificSearch" computerName="WIN-B3M5SP1197C" duration="00:02:58.9133822" startTime="2014-10-01T01:12:27.5319917-07:00" endTime="2014-10-01T01:15:26.4538804-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996e6ffa-8f90-4021-93cb-12d101681c9a" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3734
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = 
+	airlinecodes = JQ
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = JQ
+	passengerlist = ADT
+	departurefrom = LGW:LON:LON:LON:LON
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = SXB:DUS:AMS:BFS:ZRH
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3735
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:12:33Z; CRSLogID at 92244222.
+ &gt; Transaction took 5410ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:SXB***LGW
+TUID inside for Loop: 3736
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:13:59Z; CRSLogID at 92244440.
+ &gt; Transaction took 78940ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:DUS***LON
+TUID inside for Loop: 3737
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:35Z; CRSLogID at 92246285.
+ &gt; Transaction took 34227ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:AMS***LON
+TUID inside for Loop: 3738
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:14:51Z; CRSLogID at 92247455.
+ &gt; Transaction took 14075ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BFS***LON
+TUID inside for Loop: 3739
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:23Z; CRSLogID at 92247828.
+ &gt; Transaction took 31577ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:ZRH***LON</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.NoAirlineSpecificSearch() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 625
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0486a28e-567f-4849-b613-83c7c774bba3" parentExecutionId="996e6ffa-8f90-4021-93cb-12d101681c9a" testId="d934b214-7768-032f-2f6b-921333a4ace1" testName="NoAirlineSpecificSearch" computerName="WIN-B3M5SP1197C" duration="00:01:13.7528677" startTime="2014-10-01T01:15:26.4538804-07:00" endTime="2014-10-01T01:16:40.2038682-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996e6ffa-8f90-4021-93cb-12d101681c9a" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 3735
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelFusion
+	tfairline = 
+	airlinecodes = JQ
+	Flight Number = 
+	tpid = WWTEUK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = All
+	triptype = RoundTrip
+	airlinecodes = JQ
+	passengerlist = ADT
+	departurefrom = LON:LGW:LON:LON:LON
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CGN:SXB:DUS:AMS:BFS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 3736
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:35Z; CRSLogID at 92249308.
+ &gt; Transaction took 8604ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:CGN***LON
+TUID inside for Loop: 3737
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:42Z; CRSLogID at 92249504.
+ &gt; Transaction took 6980ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:SXB***LGW
+TUID inside for Loop: 3738
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:15:58Z; CRSLogID at 92249696.
+ &gt; Transaction took 15269ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:DUS***LON
+TUID inside for Loop: 3739
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:16:24Z; CRSLogID at 92250131.
+ &gt; Transaction took 25755ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:AMS***LON
+TUID inside for Loop: 3740
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 01:16:39Z; CRSLogID at 92250971.
+ &gt; Transaction took 13693ms.
+
+Verifying the GDS.
+
+ Search response does not contain AirOffers/AirProducts from TravelFusion.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:
+OD Pair Used:BFS***LON</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at LCCBook.TFCases.NoAirlineSpecificSearch() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\LCCBookTests.cs:line 625
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -5,6 +5,8 @@ import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 import javax.xml.bind.JAXBContext;
 import java.io.File;
@@ -19,6 +21,7 @@ import java.util.concurrent.Executors;
 public abstract class ParallelAggregator<T> {
 
     ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(100));
+    static Logger LOGGER = LoggerFactory.getLogger(ParallelAggregator.class);
 
     /*
         Merges elements and provides a single consolidated element
@@ -37,20 +40,24 @@ public abstract class ParallelAggregator<T> {
         }
         //using the ancient for because I need to skip 2 elements at a time, please tell me there is a better idea than this!!!
         for(int i = 0; i < elements.size(); i = i+2) {
+            LOGGER.info("Aggregating index {} with {}", i, i+1);
             //Checking the second element in case the list has odd number elements
             //Setting second element to null if i is at the last element
             T secondElement = i == (elements.size() - 1) ? null : elements.get(i + 1);
             if(!isThreaded) {
+                LOGGER.info("Aggregating in serial mode");
                 mergedElements.add(mergeElements(elements.get(i), secondElement));
             }
             else {
                 //Threaded
+                LOGGER.info("Aggregating in Parallel mode");
                 listenableFutureMergedElements.add(executorService.submit(new RunnableMergeElements(elements.get(i), secondElement)));
             }
         }
         if(isThreaded) {
             mergedElements = Futures.allAsList(listenableFutureMergedElements).get();
         }
+        LOGGER.info("Set completed!!\n");
         return mergeElements(mergedElements);
     }
 

@@ -41,8 +41,10 @@ server:
     #statsdServerPort: 8125
 
 #Feature Enabled Configuration
-#featureCategory:
-   #interlineEnabled: true
+paths:
+   runPreProdForRegression: false
+   runCharterForRegression: false
+   pathsWhereTrxGo: c:\\resultTrx\\
    #blackListingEnabled: true
    #splitticketingEnabled: false
 

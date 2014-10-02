@@ -1,0 +1,3865 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c5c88f1a-8d19-4148-b61d-602668043917" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6032102e-0f80-487a-929f-60e587261f73">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[2]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.5625439-07:00" queuing="2014-10-01T04:28:52.1718792-07:00" start="2014-10-01T04:28:52.3437865-07:00" finish="2014-10-01T04:52:46.1250266-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="17" executed="17" passed="12" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+Enable/Disable ticketing logic called
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.1406252-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.1406252-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SabreMSTests" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="c4fd1cab-2c37-5b40-a523-1456cdfac63d">
+      <Execution timeOut="2147483647" id="d5862002-cc5b-42c5-9d3f-b85e2367efa7" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchToTicket.SearchToTicketMSTests, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SabreMSTests" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchToTicket\TestData_SearchToTicketSabre.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" executionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:23:45.4466950" startTime="2014-10-01T04:28:52.3595408-07:00" endTime="2014-10-01T04:52:42.2500679-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" resultType="DataDrivenTest">
+      <Counters error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="12" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="b15c3a05-580c-4c9c-83e1-1bd8ba3ef04d" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:04:46.9660903" startTime="2014-10-01T04:28:56.8125564-07:00" endTime="2014-10-01T04:33:43.7968807-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7180
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = OneWay
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7181
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:28:57Z; CRSLogID not found.
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 7182
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:01Z; CRSLogID at 92420542.
+ &gt; Transaction took 3000ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 9ee60b304cc7baf6accd40ac4a153299-3-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:09Z; CRSLogID at 92420712.
+ &gt; Transaction took 7390ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:29:11Z; CRSLogID at 92421054.
+ &gt; Transaction took 65ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:29:12Z; CRSLogID at 92421112.
+ &gt; Transaction took 690ms.
+
+ARL: 100027847
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:29:26Z; CRSLogID at 92421203.
+ &gt; Transaction took 12596ms.
+
+=====PurchaseV2ResponseValidation
+Test case failed with the price change, Please re-run the test case.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test case failed with ScheduleChange happend
+OD Pair Used:NTE***HAM
+TUID inside for Loop: 7183
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:42Z; CRSLogID at 92421889.
+ &gt; Transaction took 14243ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 187b66f44e27713becaf3c8d61a957ce-5-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:49Z; CRSLogID at 92422398.
+ &gt; Transaction took 6149ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:29:50Z; CRSLogID at 92422576.
+ &gt; Transaction took 116ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:29:51Z; CRSLogID at 92422594.
+ &gt; Transaction took 228ms.
+
+ARL: 100027851
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:29:58Z; CRSLogID at 92422602.
+ &gt; Transaction took 5966ms.
+
+=====PurchaseV2ResponseValidation
+PNR: SKHLUY
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: SKHLUY
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 16181285 BookingItemID 2727393 and AirBookingDatabaseID 7 and in database we found BookingID 16181285 BookingItemID 2727393 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoNora Jones
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+
+WARNING: BFS Failure Code: 4 Description: ItineraryInfo pricing returned no results
+WARNING: Penalty amounts not available, cannot be checked
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Ticketing completed successfully
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for ticketing.
+
+==&gt; Verify DB Updates to AirTicket table
+==&gt; Verify DB Updates to AirTicketCoupon table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+
+&gt;&gt;&gt;&gt;&gt;Verifying PNR updates.
+
+Sabre Environment: CERT
+Logging in to Sabre CRSTPF...
+*SKHLUY
+
+ 1.1JONES/AIRAUTONORA*ADT
+ 1 US 482S 30DEC T IAHPHX HK1   300P  453P /DCUS*EYJSK1 /E
+ 2 US5524S 30DEC T PHXLGB HK1   555P  611P /DCUS*EYJSK1 /E
+OPERATED BY US AIRWAYS EXPRESS-MESA AIRLINES
+ 3  OTH ZZ 01AUG J GK1  IAH/INFO/RETENTION
+TKT/TIME LIMIT
+  1.T-01OCT-3STC*AAS
+PHONES
+  1.LAS404-728-8787-A EXPEDIA TRAVEL/1161727
+  2.LAS1-123-1234123-H
+CUSTOMER NUMBER - 931000    
+INVOICED 
+PRICE QUOTE RECORD EXISTS
+FREQUENT TRAVELER DATA EXISTS *FF TO DISPLAY ALL
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+GENERAL FACTS
+  2.OSI YY CTCM 11231234123
+REMARKS
+  1..U*1-DGAGLANI�EXPEDIA.COM
+  2..U*5-01/AP DOM/E0/1/0
+  3..U*2-1086313112/7183
+  4..U*49-LANG ID 1033
+  5..U*42-USD0.00////
+  6.TEXT
+  7.H-EXPEDIA TEST PNR
+  8.R�TEST.PURCHASE.1234999987654341
+  9.R�E.
+ 10./VE LE
+ 11./.
+ 12./333 108TH AVE NE
+ 13./.
+ 14./BELLEVUE/98004
+ 15./WA/US
+ 16.Q-3J7A30DEC/0600A-411/011
+ 17.H-XACT VALIDATING CARRIER IS US
+ 18..U*37-
+ 19..U*38-
+ 20.-CK
+ 21.XXTAW3J7A01OCT410/
+ 22..U*89-EXPEDIA GTP TICKETING COMPLETED 1OCT 432
+ACCOUNTING DATA
+  1.  US�7473465323/    .00/     188.83/  35.27/ONE/CA 1.1JONES
+       AIRAUTONORA/1/D/E
+RECEIVED FROM - 3J7A
+3J7A.3J7A*AAS 0629/01OCT14 SKHLUY H
+
+
+Log off Sabre CRSTPF...
+CHECK: U89 ticketing update on PNR
+CHECK: UDID1 changes
+CHECK: UDID5 changes
+CHECK: Rentention segment
+CHECK: Customer Number
+PANIC: Unknown fare type or purchase path
+Sabre Environment: CERT
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:33:40Z; CRSLogID at 92425175.
+ &gt; Transaction took 2001ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: SKHLUY
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 16181285 BookingItemID 2727393 and AirBookingDatabaseID 7 and in database we found BookingID 16181285 BookingItemID 2727393 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse FAILED: 
+
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:33:42Z; CRSLogID at 92425218.
+ &gt; Transaction took 559ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKHLUY
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKHLUY' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+S: 100027851[SKHLUY] &gt;&gt; 1
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKHLUY
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKHLUY
+    Starting Cancel Attempt of PNR SKHLUY with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKHLUY
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="dd36222e-d356-4f80-90f8-ecba88241d78" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:00:00.8930498" startTime="2014-10-01T04:33:43.7968807-07:00" endTime="2014-10-01T04:33:44.6875730-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7181
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7182
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:33:43Z; CRSLogID not found.
+ERROR: Invalid airportcode length received</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 401
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a3527312-3c9e-4f85-a6a4-e63f5795644a" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:57.5297173" startTime="2014-10-01T04:33:44.6875730-07:00" endTime="2014-10-01T04:35:42.2188165-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7182
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INF;INF
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7183
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:33:44Z; CRSLogID at 92425218.
+ &gt; Transaction took 23ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 7184
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:33:54Z; CRSLogID at 92425257.
+ &gt; Transaction took 9474ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 2fa8b15a4d7549c7a822f38d1c2491f6-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:34:01Z; CRSLogID at 92425316.
+ &gt; Transaction took 6593ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:34:04Z; CRSLogID at 92425429.
+ &gt; Transaction took 53ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:34:05Z; CRSLogID at 92425443.
+ &gt; Transaction took 101ms.
+
+ARL: 100027864
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:34:21Z; CRSLogID at 92425453.
+ &gt; Transaction took 15422ms.
+
+=====PurchaseV2ResponseValidation
+Test case failed with the price change, Please re-run the test case.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test case failed with ScheduleChange happend
+OD Pair Used:NTE***HAM
+TUID inside for Loop: 7185
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:34:41Z; CRSLogID at 92425755.
+ &gt; Transaction took 18971ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: ce69f8e4447227b0516f119e1a8c094c-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:35:04Z; CRSLogID at 92425908.
+ &gt; Transaction took 21909ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:35:09Z; CRSLogID at 92426236.
+ &gt; Transaction took 106ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:35:10Z; CRSLogID at 92426244.
+ &gt; Transaction took 116ms.
+
+ARL: 100027867
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:35:30Z; CRSLogID at 92426271.
+ &gt; Transaction took 17227ms.
+
+=====PurchaseV2ResponseValidation
+PNR: HXYZYG
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: HXYZYG
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 16181292 BookingItemID 2727409 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727409 and BookingDatabaseId 7
+In Response BookingID is 16181292 BookingItemID 2727410 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727410 and BookingDatabaseId 7
+In Response BookingID is 16181292 BookingItemID 2727411 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727411 and BookingDatabaseId 7
+In Response BookingID is 16181292 BookingItemID 2727412 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727412 and BookingDatabaseId 7
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 5 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 6 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoSachin Martin
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+
+CAT 16 Exception: RefundAllowedBoolean looks wrongExpedia.AirInterface.Test.Framework.Util.DB.AirTransactionV2.AirFareComponent
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:35:38Z; CRSLogID at 92426456.
+ &gt; Transaction took 1329ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: HXYZYG
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 16181292 BookingItemID 2727409 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727409 and BookingDatabaseId 7
+In Response BookingID is 16181292 BookingItemID 2727410 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727410 and BookingDatabaseId 7
+In Response BookingID is 16181292 BookingItemID 2727411 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727411 and BookingDatabaseId 7
+In Response BookingID is 16181292 BookingItemID 2727412 and AirBookingDatabaseID 7 and in database we found BookingID 16181292 BookingItemID 2727412 and BookingDatabaseId 7
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 5 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 6 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:35:40Z; CRSLogID at 92426463.
+ &gt; Transaction took 815ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXYZYG
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXYZYG' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXYZYG
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXYZYG
+    Starting Cancel Attempt of PNR HXYZYG with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXYZYG
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d054f22a-40ee-4aff-aa06-89459e7a0656" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:00:49.3157222" startTime="2014-10-01T04:35:42.2188165-07:00" endTime="2014-10-01T04:36:31.5313162-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7183
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INS;INS
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7184
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:35:42Z; CRSLogID at 92425453.
+ &gt; Transaction took 33ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 7185
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:35:53Z; CRSLogID at 92426473.
+ &gt; Transaction took 10211ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 49bb49a74d338dfbcd87a3a773b53347-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:36:01Z; CRSLogID at 92426473.
+ &gt; Transaction took 6343ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:36:06Z; CRSLogID at 92426473.
+ &gt; Transaction took 2458ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:36:08Z; CRSLogID at 92426473.
+ &gt; Transaction took 111ms.
+
+ARL: 100027870
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:36:20Z; CRSLogID at 92426473.
+ &gt; Transaction took 11731ms.
+
+=====PurchaseV2ResponseValidation
+PNR: SKIEGC
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: SKIEGC
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 16181294 BookingItemID 2727414 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727414 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727415 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727415 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727416 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727416 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727417 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727417 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727418 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727418 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727419 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727419 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoGoutam Robinson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+
+CAT 16 Exception: No entry logged for GAG14AKS ADT IAH AUS
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:36:28Z; CRSLogID at 92426473.
+ &gt; Transaction took 1631ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: SKIEGC
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 16181294 BookingItemID 2727414 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727414 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727415 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727415 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727416 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727416 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727417 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727417 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727418 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727418 and BookingDatabaseId 7
+In Response BookingID is 16181294 BookingItemID 2727419 and AirBookingDatabaseID 7 and in database we found BookingID 16181294 BookingItemID 2727419 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:36:30Z; CRSLogID at 92426473.
+ &gt; Transaction took 588ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKIEGC
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKIEGC' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKIEGC
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKIEGC
+    Starting Cancel Attempt of PNR SKIEGC with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKIEGC
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="52660afd-be97-450d-b570-9f5e46d5c918" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:00:37.0385666" startTime="2014-10-01T04:36:31.5313162-07:00" endTime="2014-10-01T04:37:08.5625400-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7184
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CHD;INF
+	departurefrom = US
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = EUR
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7185
+BFSHistory Request sent:        10/01/2014 04:36:31.
+BFSHistory response received: 10/01/2014 04:36:32.  Using number 88.
+Market: DEN - ARN from 06/24/2015 00:00:00 to 07/01/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:36:56Z; CRSLogID at 92426473.
+ &gt; Transaction took 23465ms.
+
+Verifying the GDS.
+ There are 2 Product with AirMarketReferenceMarkupContext
+Search Offer Token: b1a27b25406c1bbd514468a063cad164-13-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:37:05Z; CRSLogID at 92426473.
+ &gt; Transaction took 7345ms.
+
+
+ Response returned an error:No available flights as requested.
+
+ Response returned an error:No available flights as requested.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:EUR***US</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 401
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="76b3dba9-a0a7-4347-a9c7-8166d020a7fd" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:23.3874919" startTime="2014-10-01T04:37:08.5625400-07:00" endTime="2014-10-01T04:38:31.9531603-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7185
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INF;INF
+	departurefrom = US:SEA:BOS:LAX:DEN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = ASA:CPH:FRA:BOM:FRA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7186
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:37:08Z; CRSLogID not found.
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:ASA***US
+TUID inside for Loop: 7187
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:37:19Z; CRSLogID at 92426925.
+ &gt; Transaction took 10620ms.
+
+Verifying the GDS.
+ There are 72 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 15f4792c4198120fb07414b1573bbff5-34-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:37:31Z; CRSLogID at 92426947.
+ &gt; Transaction took 10422ms.
+
+
+ Response returned an error:No available flights as requested.
+
+ Response returned an error:No available flights as requested.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:CPH***SEA
+TUID inside for Loop: 7188
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:37:43Z; CRSLogID at 92427001.
+ &gt; Transaction took 11281ms.
+
+Verifying the GDS.
+ There are 195 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 03b674944282d6db235d79a25de823c2-47-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:37:56Z; CRSLogID at 92427051.
+ &gt; Transaction took 12370ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:FRA***BOS
+TUID inside for Loop: 7189
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:38:11Z; CRSLogID at 92427140.
+ &gt; Transaction took 14329ms.
+
+Verifying the GDS.
+ There are 3 Product with AirMarketReferenceMarkupContext
+Search Offer Token: fc63c22744aa376bb1a7c7b35188dcb1-65-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:38:15Z; CRSLogID at 92427172.
+ &gt; Transaction took 3065ms.
+
+
+ Response returned an error:Unknown or unexpected WPNCB response during rebook PNR requests
+
+
+ Response returned an error:Unknown or unexpected WPNCB response during rebook PNR requests
+
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:BOM***LAX
+TUID inside for Loop: 7190
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:38:28Z; CRSLogID at 92427199.
+ &gt; Transaction took 12236ms.
+
+Verifying the GDS.
+ There are 22 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 709c65ea47a353a501980c8ffabdb17f-70-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:38:31Z; CRSLogID at 92427235.
+ &gt; Transaction took 2566ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:FRA***DEN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 401
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="475b2692-27d6-4809-8749-a2a8db785e93" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:05.6377346" startTime="2014-10-01T04:38:31.9531603-07:00" endTime="2014-10-01T04:39:37.5938312-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7186
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = AirNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INS;INS
+	departurefrom = US:SEA:BOS:LAX:DEN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = ASA:CPH:FRA:BOM:FRA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7187
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:38:32Z; CRSLogID at 92426947.
+ &gt; Transaction took 27ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:ASA***US
+TUID inside for Loop: 7188
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:38:52Z; CRSLogID at 92427271.
+ &gt; Transaction took 19659ms.
+
+Verifying the GDS.
+ There are 5 Product with AirMarketReferenceMarkupContext
+Search Offer Token: ed362f944e5412a18048f4b8e1ed2efd-120-8
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:38:59Z; CRSLogID at 92427293.
+ &gt; Transaction took 6359ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:39:02Z; CRSLogID at 92427333.
+ &gt; Transaction took 57ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:39:02Z; CRSLogID at 92427335.
+ &gt; Transaction took 100ms.
+
+ARL: 100027873
+booking step: TwoPhase
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 04:39:14Z; CRSLogID at 92427337.
+ &gt; Transaction took 10058ms.
+
+PNR: SKGGVO
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+PNR: SKGGVO
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 16181301 BookingItemID 2727440 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727440 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727441 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727441 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727442 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727442 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727443 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727443 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727444 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727444 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727445 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727445 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CommitPurchase transaction at 2014-10-01 04:39:23Z; CRSLogID at 92427372.
+ &gt; Transaction took 7941ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+MbUnit.FrameworkNo updates to AirOriginDestination table
+Intermittent LINQ issue, same code works sometimes; investigating further for any break through, making this validation optional for now
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoSehwag Thompson
+==&gt; Verify DB Updates to AirTraveler table
+Object reference not set to an instance of an object.
+
+CAT 16 Exception: RefundAllowedBoolean looks wrongExpedia.AirInterface.Test.Framework.Util.DB.AirTransactionV2.AirFareComponent
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:39:30Z; CRSLogID at 92427596.
+ &gt; Transaction took 2769ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: SKGGVO
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 16181301 BookingItemID 2727440 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727440 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727441 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727441 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727442 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727442 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727443 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727443 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727444 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727444 and BookingDatabaseId 7
+In Response BookingID is 16181301 BookingItemID 2727445 and AirBookingDatabaseID 7 and in database we found BookingID 16181301 BookingItemID 2727445 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:39:33Z; CRSLogID at 92427603.
+ &gt; Transaction took 1725ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKGGVO
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKGGVO' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J9A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKGGVO
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKGGVO
+    Starting Cancel Attempt of PNR SKGGVO with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKGGVO
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="77b51206-68fd-49dd-8a36-62f08cc176a2" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:31.7616993" startTime="2014-10-01T04:39:37.5938312-07:00" endTime="2014-10-01T04:41:09.3595790-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7187
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = package
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CHD;INF
+	departurefrom = US:IAD:CLE:SEA:IND
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:KWI:LAS:PVR:PHL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7188
+
+===========
+Attempt: 1
+BFSHistory Request sent:        10/01/2014 04:39:37.
+BFSHistory response received: 10/01/2014 04:39:41.  Using number 86.
+Market: DAL - LAS from 05/08/2015 00:00:00 to 05/11/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:39:54Z; CRSLogID at 92427623.
+ &gt; Transaction took 12736ms.
+
+Total AirProducts returned: 519
+Total Published fares returned: 456
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 63
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 519
+Total Published fares returned: 456
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 63
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 2649
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:39:59Z; CRSLogID at 92427645.
+ &gt; Transaction took 2502ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:40:00.
+BFSHistory response received: 10/01/2014 04:40:04.  Using number 67.
+Market: SEA - LGB from 07/02/2015 00:00:00 to 07/04/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:40:25Z; CRSLogID at 92427664.
+ &gt; Transaction took 20439ms.
+
+Total AirProducts returned: 648
+Total Published fares returned: 644
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 4
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 648
+Total Published fares returned: 644
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 4
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 3420
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:40:30Z; CRSLogID at 92427692.
+ &gt; Transaction took 3167ms.
+
+
+ CostTransactionRecord base looks good.
+ Request Base-Total Amount 1004.70
+ Response Base-Total Amount 1004.70
+
+ CostTransactionRecord tax looks good.
+ Request Tax-Total Amount 216.30
+ Response Tax-Total Amount 216.30
+CostTransaction Base Amount for adult looks good.
+ Base Amount 200.94 for PTC = adult
+CostTransaction Tax Amount for adult looks good.
+ Tax Amount 43.26 for PTC = adult
+CostTransaction Base Amount for senior looks good.
+ Base Amount 200.94 for PTC = senior
+CostTransaction Tax Amount for senior looks good.
+ Tax Amount 43.26 for PTC = senior
+CostTransaction Base Amount for child looks good.
+ Base Amount 200.94 for PTC = child
+CostTransaction Tax Amount for child looks good.
+ Tax Amount 43.26 for PTC = child
+CostTransaction Base Amount for infant in lap looks good.
+ Base Amount 0.00 for PTC = infant in lap
+CostTransaction Tax Amount for infant in lap looks good.
+ Tax Amount 0.00 for PTC = infant in lap
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode: K
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode: K
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:40:36Z; CRSLogID at 92427711.
+ &gt; Transaction took 4309ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:40:45Z; CRSLogID at 92427739.
+ &gt; Transaction took 7145ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027874
+PNR: HXZRRF
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseAirTrip()
+=====ValidateResponseAirTrip() PASSED
+=====ValidateResponseBookingInstructions()
+=====ValidateResponseBookingInstructions() PASSED.
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+=====Verifying Book Response:Pass.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+Number of FareComponents Returned for the PTC CNN is: 2
+Number of FareComponents Returned for the PTC INF is: 2
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Audrey Taylor
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Jack Moore
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Eden Anderson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Benjamin Jones
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Ethan Brown
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Grace Davis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+
+CAT 16 Exception: No entry logged for OCOSPEC JCB SEA CPH
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:40:56Z; CRSLogID at 92427812.
+ &gt; Transaction took 142ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:41:06Z; CRSLogID at 92427814.
+ &gt; Transaction took 9766ms.
+
+GhostCard ARL: 100027875
+GhostCard PNR: SKJRCN
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXZRRF
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXZRRF' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3K0A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXZRRF
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXZRRF
+    Starting Cancel Attempt of PNR HXZRRF with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXZRRF
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0f4c8f3f-00c3-4862-9338-40a5aa64c525" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:31.8398072" startTime="2014-10-01T04:41:09.3595790-07:00" endTime="2014-10-01T04:42:41.2032608-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7188
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = package
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INF;INF
+	departurefrom = US:IAD:CLE:SEA:IND
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:KWI:LAS:PVR:PHL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7189
+
+===========
+Attempt: 1
+BFSHistory Request sent:        10/01/2014 04:41:09.
+BFSHistory response received: 10/01/2014 04:41:14.  Using number 21.
+Market: BOS - ORD from 06/12/2015 00:00:00 to 06/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:41:35Z; CRSLogID at 92427886.
+ &gt; Transaction took 21353ms.
+
+Total AirProducts returned: 1467
+Total Published fares returned: 1272
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 195
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 1467
+Total Published fares returned: 1272
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 195
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 4954
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: Sabre
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:41:37.
+BFSHistory response received: 10/01/2014 04:41:41.  Using number 14.
+Market: PHL - HDN from 02/07/2015 00:00:00 to 02/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:41:48Z; CRSLogID at 92427941.
+ &gt; Transaction took 6375ms.
+
+Total AirProducts returned: 173
+Total Published fares returned: 169
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 4
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 173
+Total Published fares returned: 169
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 4
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 901
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:41:51Z; CRSLogID at 92427970.
+ &gt; Transaction took 3135ms.
+
+
+ CostTransactionRecord base looks good.
+ Request Base-Total Amount 1786.04
+ Response Base-Total Amount 1786.04
+
+ CostTransactionRecord tax looks good.
+ Request Tax-Total Amount 314.76
+ Response Tax-Total Amount 314.76
+CostTransaction Base Amount for adult looks good.
+ Base Amount 446.51 for PTC = adult
+CostTransaction Tax Amount for adult looks good.
+ Tax Amount 78.69 for PTC = adult
+CostTransaction Base Amount for senior looks good.
+ Base Amount 446.51 for PTC = senior
+CostTransaction Tax Amount for senior looks good.
+ Tax Amount 78.69 for PTC = senior
+CostTransaction Base Amount for infant in lap looks good.
+ Base Amount 0.00 for PTC = infant in lap
+CostTransaction Tax Amount for infant in lap looks good.
+ Tax Amount 0.00 for PTC = infant in lap
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  S
+ Response AirBookingCode: S
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  S
+ Response AirBookingCode: S
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  S
+ Response AirBookingCode: S
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  S
+ Response AirBookingCode: S
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:41:57Z; CRSLogID at 92427989.
+ &gt; Transaction took 5789ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:42:23Z; CRSLogID at 92428022.
+ &gt; Transaction took 24981ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027876
+PNR: HXZWPW
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseAirTrip()
+=====ValidateResponseAirTrip() PASSED
+=====ValidateResponseBookingInstructions()
+=====ValidateResponseBookingInstructions() PASSED.
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+=====Verifying Book Response:Pass.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+Number of FareComponents Returned for the PTC INF is: 2
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Ethan Johnson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Benjamin Williams
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Grace Jones
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Noah Brown
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Nora Davis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+=&gt;For Traveler Audrey Miller
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+
+CAT 16 Exception: No entry logged for SCA21AFN ADT PHL HDN
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:42:31Z; CRSLogID at 92428075.
+ &gt; Transaction took 129ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:42:40Z; CRSLogID at 92428077.
+ &gt; Transaction took 8178ms.
+
+GhostCard ARL: 100027878
+GhostCard PNR: HXULED
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXZWPW
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXZWPW' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3K0A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXZWPW
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXZWPW
+    Starting Cancel Attempt of PNR HXZWPW with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXZWPW
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7e67a740-68f0-4749-8957-5dec5083a5f3" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:36.6124937" startTime="2014-10-01T04:42:41.2032608-07:00" endTime="2014-10-01T04:44:17.8125645-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7189
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = package
+	faretype = PackageNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;CHD;INS
+	departurefrom = US
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = eur
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7190
+
+===========
+Attempt: 1
+BFSHistory Request sent:        10/01/2014 04:42:41.
+BFSHistory response received: 10/01/2014 04:42:42.  Using number 84.
+Market: DEN - HEL from 07/01/2015 00:00:00 to 07/08/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:43:02Z; CRSLogID at 92428134.
+ &gt; Transaction took 19681ms.
+
+Total AirProducts returned: 289
+Total Published fares returned: 166
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 123
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 289
+Total Published fares returned: 166
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 123
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 1513
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:43:11Z; CRSLogID at 92428179.
+ &gt; Transaction took 8799ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+Verify response failed.  Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:43:11.
+BFSHistory response received: 10/01/2014 04:43:12.  Using number 34.
+Market: DEN - ARN from 06/05/2015 00:00:00 to 06/12/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:43:36Z; CRSLogID at 92428228.
+ &gt; Transaction took 23179ms.
+
+Total AirProducts returned: 230
+Total Published fares returned: 169
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 61
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 230
+Total Published fares returned: 169
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 61
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 1234
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:43:43Z; CRSLogID at 92428247.
+ &gt; Transaction took 6001ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 6414.00
+ Response Base-Total Amount 4560.00
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 508.20
+ Response Tax-Total Amount 502.20
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 1069.00 for PTC = adult
+ Response Base per PTC Amount 760.00 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 84.70 for PTC = adult
+ Response Tax per PTC Amount 83.70 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 1069.00 for PTC = senior
+ Response Base per PTC Amount 760.00 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 84.70 for PTC = senior
+ Response Tax per PTC Amount 83.70 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 1069.00 for PTC = child
+ Response Base per PTC Amount 760.00 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 84.70 for PTC = child
+ Response Tax per PTC Amount 83.70 for PTC = child
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 1069.00 for PTC = infant in seat
+ Response Base per PTC Amount 760.00 for PTC = infant in seat
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 84.70 for PTC = infant in seat
+ Response Tax per PTC Amount 83.70 for PTC = infant in seat
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  T
+ Response AirBookingCode: S
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  T
+ Response AirBookingCode: S
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  T
+ Response AirBookingCode: S
+
+ We'll go on this booking if the price change
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  T
+ Response AirBookingCode: S
+
+ We'll go on this booking if the price change
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:43:48Z; CRSLogID at 92428281.
+ &gt; Transaction took 5072ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:43:52Z; CRSLogID at 92428310.
+ &gt; Transaction took 4019ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027879
+PNR: HXZCDM
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseAirTrip()
+=====ValidateResponseAirTrip() PASSED
+=====ValidateResponseBookingInstructions()
+=====ValidateResponseBookingInstructions() PASSED.
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+=====Verifying Book Response:Pass.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+No updates to AirFareDetails table for the PTC: ADT
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC CHD
+No updates to AirSegmentPricingAssociation table for PTC INS
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC CHD
+No updates to AirSegmentPricingAssociation table for PTC INS
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC CHD
+No updates to AirSegmentPricingAssociation table for PTC INS
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC CHD
+No updates to AirSegmentPricingAssociation table for PTC INS
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Yuvaraj Martin
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sehwag Harris
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Sachin Thompson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Kohli White
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Eden Garcia
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Goutam Jackson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+
+CAT 16 Exception: No entry logged for SCOECON JCB DEN ARN
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:43:58Z; CRSLogID at 92428337.
+ &gt; Transaction took 139ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:44:16Z; CRSLogID at 92428339.
+ &gt; Transaction took 16867ms.
+
+GhostCard ARL: 100027880
+GhostCard PNR: HXZDNP
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXZCDM
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXZCDM' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3K0A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXZCDM
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXZCDM
+    Starting Cancel Attempt of PNR HXZCDM with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXZCDM
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e10fd0fb-6302-4603-bec0-06cf7cf359b4" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:25.8414985" startTime="2014-10-01T04:44:17.8125645-07:00" endTime="2014-10-01T04:45:43.6562628-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="10" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7190
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = package
+	faretype = PackageNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INF;INF
+	departurefrom = US:MAN:JFK:ORD:BOS
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = SNN:CPH:MBJ:AMS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7191
+
+===========
+Attempt: 1
+BFSHistory Request sent:        10/01/2014 04:44:17.
+BFSHistory did not return a response. 10/01/2014 04:44:18.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: MIA - SFO from 01/29/2015 04:44:18 to 02/08/2015 04:44:18
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:44:28Z; CRSLogID at 92428426.
+ &gt; Transaction took 9564ms.
+
+Total AirProducts returned: 669
+Total Published fares returned: 506
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 163
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 669
+Total Published fares returned: 506
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 163
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 2611
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:44:42Z; CRSLogID at 92428640.
+ &gt; Transaction took 13193ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 1757.52
+ Response Base-Total Amount 1171.68
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 355.08
+ Response Tax-Total Amount 256.64
+CostTransaction Base Amount for adult looks good.
+ Base Amount 292.92 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 64.18 for PTC = adult
+ Response Tax per PTC Amount 64.16 for PTC = adult
+CostTransaction Base Amount for senior looks good.
+ Base Amount 292.92 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 64.18 for PTC = senior
+ Response Tax per PTC Amount 64.16 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 292.92 for PTC = infant in lap
+ Response Base per PTC Amount 0.00 for PTC = infant in lap
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 49.18 for PTC = infant in lap
+ Response Tax per PTC Amount 0.00 for PTC = infant in lap
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode: K
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode: K
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode: K
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  K
+ Response AirBookingCode: K
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:44:58Z; CRSLogID at 92428670.
+ &gt; Transaction took 15485ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:45:21Z; CRSLogID at 92428705.
+ &gt; Transaction took 22449ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027881
+PNR: HXVRCT
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseAirTrip()
+=====ValidateResponseAirTrip() PASSED
+=====ValidateResponseBookingInstructions()
+=====ValidateResponseBookingInstructions() PASSED.
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+=====Verifying Book Response:Pass.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+No updates to AirFareDetails table for the PTC: ADT
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC INF
+No updates to AirSegmentPricingAssociation table for PTC INF
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Dhoni Hall
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Zaheer Walker
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Aswin Lee
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Harbhajan Lewis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Goutam Rodriguez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+=&gt;For Traveler Kohli Allen
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+INF with 0.0 -- Check if OrderLineItemType is 'U'
+
+CAT 16 Exception: No entry logged for KAA14AXN JCB MIA SFO
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:45:27Z; CRSLogID at 92428736.
+ &gt; Transaction took 96ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:45:41Z; CRSLogID at 92428738.
+ &gt; Transaction took 13868ms.
+
+GhostCard ARL: 100027882
+GhostCard PNR: SKHUTC
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXVRCT
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXVRCT' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3K0A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXVRCT
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXVRCT
+    Starting Cancel Attempt of PNR HXVRCT with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXVRCT
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1487b6c4-c499-4b5f-9fc2-a406314fe71a" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:41.6308315" startTime="2014-10-01T04:45:43.6562628-07:00" endTime="2014-10-01T04:47:25.2813076-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="11" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7191
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = package
+	faretype = PackageNet
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INS;INS
+	departurefrom = US:MAN:JFK:ORD:BOS
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = SNN:CPH:MBJ:AMS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7192
+
+===========
+Attempt: 1
+BFSHistory Request sent:        10/01/2014 04:45:43.
+BFSHistory did not return a response. 10/01/2014 04:45:44.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: MSP - SEA from 01/29/2015 04:45:44 to 02/08/2015 04:45:44
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:45:55Z; CRSLogID at 92428780.
+ &gt; Transaction took 10947ms.
+
+Total AirProducts returned: 283
+Total Published fares returned: 258
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 25
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 283
+Total Published fares returned: 258
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 25
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 1210
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - PackageNet found from GDS: Sabre
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:45:56.
+BFSHistory did not return a response. 10/01/2014 04:45:57.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: SEA - JFK from 01/29/2015 04:45:57 to 02/08/2015 04:45:57
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:46:13Z; CRSLogID at 92428798.
+ &gt; Transaction took 16565ms.
+
+Total AirProducts returned: 1487
+Total Published fares returned: 1344
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 143
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 1487
+Total Published fares returned: 1344
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 143
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 5941
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - PackageNet found from GDS: Sabre
+Cannot continue.
+
+===========
+Attempt: 3
+BFSHistory Request sent:        10/01/2014 04:46:15.
+BFSHistory did not return a response. 10/01/2014 04:46:16.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: DFW - SFO from 01/29/2015 04:46:16 to 02/08/2015 04:46:16
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:46:38Z; CRSLogID at 92428816.
+ &gt; Transaction took 22011ms.
+
+Total AirProducts returned: 1836
+Total Published fares returned: 1336
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 500
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 1836
+Total Published fares returned: 1336
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 500
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 5940
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:46:42Z; CRSLogID at 92428834.
+ &gt; Transaction took 2755ms.
+
+
+ CostTransactionRecord base looks good.
+ Request Base-Total Amount 1285.98
+ Response Base-Total Amount 1285.98
+
+ CostTransactionRecord tax looks good.
+ Request Tax-Total Amount 265.62
+ Response Tax-Total Amount 265.62
+CostTransaction Base Amount for adult looks good.
+ Base Amount 214.33 for PTC = adult
+CostTransaction Tax Amount for adult looks good.
+ Tax Amount 44.27 for PTC = adult
+CostTransaction Base Amount for senior looks good.
+ Base Amount 214.33 for PTC = senior
+CostTransaction Tax Amount for senior looks good.
+ Tax Amount 44.27 for PTC = senior
+CostTransaction Base Amount for infant in seat looks good.
+ Base Amount 214.33 for PTC = infant in seat
+CostTransaction Tax Amount for infant in seat looks good.
+ Tax Amount 44.27 for PTC = infant in seat
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  G
+ Response AirBookingCode: G
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  G
+ Response AirBookingCode: G
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:46:51Z; CRSLogID at 92428858.
+ &gt; Transaction took 4125ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:47:10Z; CRSLogID at 92428887.
+ &gt; Transaction took 19346ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027883
+PNR: SKHWNK
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseAirTrip()
+=====ValidateResponseAirTrip() PASSED
+=====ValidateResponseBookingInstructions()
+=====ValidateResponseBookingInstructions() PASSED.
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+=====Verifying Book Response:Pass.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+No updates to AirFareDetails table for the PTC: ADT
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC INS
+No updates to AirSegmentPricingAssociation table for PTC INS
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC ADT
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC SRC
+No updates to AirSegmentPricingAssociation table for PTC INS
+No updates to AirSegmentPricingAssociation table for PTC INS
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Munaf King
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Irfan Hernandez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Aswin Yong
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Dhoni Allen
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Zaheer Hall
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Harbhajan Walker
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+
+CAT 16 Exception: No entry logged for GRA21AKS JCB DFW SFO
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:47:17Z; CRSLogID at 92428917.
+ &gt; Transaction took 100ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:47:23Z; CRSLogID at 92428919.
+ &gt; Transaction took 5492ms.
+
+GhostCard ARL: 100027884
+GhostCard PNR: HXVUFC
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKHWNK
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKHWNK' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3K0A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKHWNK
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKHWNK
+    Starting Cancel Attempt of PNR SKHWNK with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKHWNK
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1e95deb3-47ea-489a-b7d3-078a5264fb98" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:37.8616011" startTime="2014-10-01T04:47:25.2813076-07:00" endTime="2014-10-01T04:49:03.1408652-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="12" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7192
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = package
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;SRC;INS;INS
+	departurefrom = US:IAD:CLE:SEA:IND
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:KWI:LAS:PVR:PHL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7193
+
+===========
+Attempt: 1
+BFSHistory Request sent:        10/01/2014 04:47:25.
+BFSHistory response received: 10/01/2014 04:47:29.  Using number 99.
+Market: IAH - LAS from 03/26/2015 00:00:00 to 03/31/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:47:36Z; CRSLogID at 92428960.
+ &gt; Transaction took 7185ms.
+
+Total AirProducts returned: 371
+Total Published fares returned: 273
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 97
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 371
+Total Published fares returned: 273
+Total Web fares returned: 1
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 97
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 1065
+Verifying only requested passenger types are returned.
+Verifying fare type.
+EXCEPTION during Verify request creation: In search response, no flights found with fare type - Published found from GDS: Sabre
+Cannot continue.
+
+===========
+Attempt: 2
+BFSHistory Request sent:        10/01/2014 04:47:37.
+BFSHistory response received: 10/01/2014 04:47:41.  Using number 34.
+Market: MSP - TPA from 03/12/2015 00:00:00 to 03/17/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:47:51Z; CRSLogID at 92428980.
+ &gt; Transaction took 9795ms.
+
+Total AirProducts returned: 563
+Total Published fares returned: 512
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 51
+Total LowCost fares returned: 0
+
+Verifying the result count.
+Total AirProducts returned: 563
+Total Published fares returned: 512
+Total Web fares returned: 0
+Total Naked Net fares returned: 0
+Total White Label fares returned: 0
+Total Package Net fares returned: 51
+Total LowCost fares returned: 0
+
+Verifying the departure and arrival locations in the legs.
+Verifying the chaining of locations in the segments of each leg.
+Verifying that no excluded carriers are in the results.
+...Exclude Carriers are: HV OL AP O2 J5 JZ 5L CO JK MP 0D LN QA P1 2V 2E 9F ZI T7 B8 4N UH NE IR DJ RB PK S0 7D NT 6A A6 WB WN QN JQ P5 TC U2 U5 UM 8O 8P 8U AK LB 2R B3 H3 U8 TE 9B V7 NC HZ ZJ C9 QI 3B KA EC T4 JA EQ 5C UO FQ RT 2I YV JU UT DL AA NW EY CX JL NK  for TSPID16.
+Verifying the departure time in results.
+Verifying the requested cabin type is returned.
+Results for requested cabin type: 2333
+Verifying only requested passenger types are returned.
+Verifying fare type.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirVerify transaction at 2014-10-01 04:48:04Z; CRSLogID at 92428998.
+ &gt; Transaction took 11826ms.
+
+
+ CostTransactionRecord verification in the Verify Response failed
+Base-Total Amount mismatch between the Verify Request and Response
+ Request Base-Total Amount 1663.20
+ Response Base-Total Amount 1495.80
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax-Total Amount mismatch between the Verify Request and Response
+ Request Tax-Total Amount 294.00
+ Response Tax-Total Amount 281.40
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 277.20 for PTC = adult
+ Response Base per PTC Amount 249.30 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 49.00 for PTC = adult
+ Response Tax per PTC Amount 46.90 for PTC = adult
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 277.20 for PTC = senior
+ Response Base per PTC Amount 249.30 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 49.00 for PTC = senior
+ Response Tax per PTC Amount 46.90 for PTC = senior
+
+ CostTransactionRecord verification in the Verify Response failed
+Base per PTC Amount mismatch between the Verify Request and Response
+ Request Base per PTC Amount 277.20 for PTC = infant in seat
+ Response Base per PTC Amount 249.30 for PTC = infant in seat
+
+ CostTransactionRecord verification in the Verify Response failed
+Tax per PTC Amount mismatch between the Verify Request and Response
+ Request Tax per PTC Amount 49.00 for PTC = infant in seat
+ Response Tax per PTC Amount 46.90 for PTC = infant in seat
+CostTransactionRecord verification failed! We'll go on this booking if the fareType do not change
+The faretype is not changed in verifyResponse, so go on this booking...
+
+ AirBookingSegmentRequest.AirBookingCode looks good.
+ Request AirBookingCode:  W
+ Response AirBookingCode: W
+
+ AirBookingSegmentRequest.AirBookingCode verification in the Verify Response failed.
+ Request AirBookingCode:  W
+ Response AirBookingCode: V
+
+ We'll go on this booking if the price change
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirReserve transaction at 2014-10-01 04:48:24Z; CRSLogID at 92429048.
+ &gt; Transaction took 20255ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:48:46Z; CRSLogID at 92429141.
+ &gt; Transaction took 21001ms.
+
+REMEMBER TO VOID AND CANCEL!
+ARL: 100027886
+PNR: SKJIML
+
+&gt;&gt;&gt;&gt;&gt;Verifying Book Response.
+
+=====ValidateResponseAirTrip()
+=====ValidateResponseAirTrip() PASSED
+=====ValidateResponseBookingInstructions()
+=====ValidateResponseBookingInstructions() PASSED.
+=====ValidateResponseCostTransactionRecord()
+=====ValidateResponseCostTransactionRecord() PASSED.
+=====ValidateResponseTravelerList()
+=====ValidateResponseTravelerList() PASSED.
+=====Verifying Book Response:Pass.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Number of FareComponents Returned for the PTC ADT is: 2
+Number of FareComponents Returned for the PTC SRC is: 2
+Number of FareComponents Returned for the PTC INS is: 2
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler Dhoni Walker
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Zaheer Lee
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Harbhajan Hall
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Aswin Lewis
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Goutam Rodriguez
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+=&gt;For Traveler Kohli Clark
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+==&gt; Verify DB Updates to AirOrderLineItemDetail table
+==&gt; Verify DB Updates to AirOrderLineItemDetailStatus table
+=&gt; Check OrderLineItemType DB update
+
+CAT 16 Exception: No entry logged for W21XL ADT MSP TPA
+Failure in CAT 16 data update: OPTIONAL
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirCreateRecordLocator transaction at 2014-10-01 04:48:53Z; CRSLogID at 92429180.
+ &gt; Transaction took 91ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirBook transaction at 2014-10-01 04:49:01Z; CRSLogID at 92429183.
+ &gt; Transaction took 6388ms.
+
+GhostCard ARL: 100027887
+GhostCard PNR: HXVZSP
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKJIML
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKJIML' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3K0A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKJIML
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKJIML
+    Starting Cancel Attempt of PNR SKJIML with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKJIML
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="44b47c7f-e36b-4a30-96cd-ee82f48a2a85" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:03.1583393" startTime="2014-10-01T04:49:03.1408652-07:00" endTime="2014-10-01T04:50:06.2969404-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="13" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7193
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT;ADT
+	departurefrom = US:HAM:IAH:LAS:ORF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:NTE:LGB:GDL:VPS
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7194
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:49:05Z; CRSLogID not found.
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 7195
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:49:09Z; CRSLogID at 92429279.
+ &gt; Transaction took 3310ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 8945a54a4bfb5d3a278e67968d883188-3-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:49:14Z; CRSLogID at 92429300.
+ &gt; Transaction took 5025ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:49:15Z; CRSLogID at 92429348.
+ &gt; Transaction took 49ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:49:16Z; CRSLogID at 92429350.
+ &gt; Transaction took 89ms.
+
+ARL: 100027888
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:49:27Z; CRSLogID at 92429352.
+ &gt; Transaction took 11042ms.
+
+=====PurchaseV2ResponseValidation
+Test case failed with the price change, Please re-run the test case.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test case failed with ScheduleChange happend
+OD Pair Used:NTE***HAM
+TUID inside for Loop: 7196
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:49:41Z; CRSLogID at 92429599.
+ &gt; Transaction took 13893ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 1ec5936d4d31e14f45c891ba154ee97b-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:49:50Z; CRSLogID at 92429653.
+ &gt; Transaction took 7845ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:49:51Z; CRSLogID at 92429733.
+ &gt; Transaction took 48ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:49:51Z; CRSLogID at 92429735.
+ &gt; Transaction took 85ms.
+
+ARL: 100027889
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:49:57Z; CRSLogID at 92429737.
+ &gt; Transaction took 5048ms.
+
+=====PurchaseV2ResponseValidation
+PNR: SKJOBB
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: SKJOBB
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 16181306 BookingItemID 2727453 and AirBookingDatabaseID 7 and in database we found BookingID 16181306 BookingItemID 2727453 and BookingDatabaseId 7
+In Response BookingID is 16181306 BookingItemID 2727454 and AirBookingDatabaseID 7 and in database we found BookingID 16181306 BookingItemID 2727454 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoHarbhajan Perry
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+
+WARNING: BFS Failure Code: 4 Description: ItineraryInfo pricing returned no results
+WARNING: Penalty amounts not available, cannot be checked
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:50:02Z; CRSLogID at 92429779.
+ &gt; Transaction took 1336ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: SKJOBB
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 16181306 BookingItemID 2727453 and AirBookingDatabaseID 7 and in database we found BookingID 16181306 BookingItemID 2727453 and BookingDatabaseId 7
+In Response BookingID is 16181306 BookingItemID 2727454 and AirBookingDatabaseID 7 and in database we found BookingID 16181306 BookingItemID 2727454 and BookingDatabaseId 7
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:50:04Z; CRSLogID at 92429786.
+ &gt; Transaction took 628ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of SKJOBB
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'SKJOBB' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR SKJOBB
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR SKJOBB
+    Starting Cancel Attempt of PNR SKJOBB with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR SKJOBB
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a875aee8-7691-4ad1-b541-4f18690e0842" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:01:45.1834629" startTime="2014-10-01T04:50:06.2969404-07:00" endTime="2014-10-01T04:51:51.4845363-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="14" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7194
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Web
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;SRC;CHD;INF
+	departurefrom = US:DCA:CMH:SFO:SMF
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US:LAS:SMF:SJD:GDL
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7195
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:06Z; CRSLogID at 92429352.
+ &gt; Transaction took 36ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:US***US
+TUID inside for Loop: 7196
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:50:23Z; CRSLogID at 92429800.
+ &gt; Transaction took 15591ms.
+
+Verifying the GDS.
+ There are 2 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 0b843bd84a1d19ae7955869ca3f48ccb-73-2
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:51:01Z; CRSLogID at 92429858.
+ &gt; Transaction took 36903ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:51:05Z; CRSLogID at 92429858.
+ &gt; Transaction took 60ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:51:06Z; CRSLogID at 92429858.
+ &gt; Transaction took 211ms.
+
+ARL: 100027890
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:51:39Z; CRSLogID at 92429858.
+ &gt; Transaction took 32167ms.
+
+=====PurchaseV2ResponseValidation
+PNR: HXVJET
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+PNR: HXVJET
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 16181310 BookingItemID 2727464 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727464 and BookingDatabaseId 7
+In Response BookingID is 16181310 BookingItemID 2727465 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727465 and BookingDatabaseId 7
+In Response BookingID is 16181310 BookingItemID 2727466 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727466 and BookingDatabaseId 7
+In Response BookingID is 16181310 BookingItemID 2727467 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727467 and BookingDatabaseId 7
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 5 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Verify total price in TransactionRecord and IBDInformation...
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book.
+
+==&gt; Verify DB Updates to AirRecord table
+Validating AirRecord records:
+==&gt; Verify DB Updates to AirEvent table
+==&gt; Verify DB Updates to AirProductBooked table
+ Equal assertion failed: [[UNK]]!=[[CNF]]
+Failure in update to AirProductBooked table during booking
+==&gt; Verify DB Updates to AirFareDetail
+==&gt; Verify DB Updates to AirFareComponent
+==&gt; Verify DB Updates to AirFareCostComponent
+==&gt; Verify DB Updates to AirFarePricingUnit
+Object reference not set to an instance of an object.
+==&gt; Verify DB Updates to AirOriginDestination table
+==&gt; Verify DB Updates to AirSegment table
+==&gt; Verify DB Updates to AirLeg table
+==&gt; Verify DB Updates to AirSegmentAttribute table
+==&gt; Verify DB Updates to AirSegmentPricingAssociation table
+==&gt; Verify DB Updates to AirPayment table
+=&gt;For Traveler AirAutoAswin Jackson
+==&gt; Verify DB Updates to AirTraveler table
+==&gt; Verify DB Updates to AirTravelerProductBookedAssociation table
+==&gt; Verify DB Updates to AirOrderLineItem table
+DB update to AirOrderLineItem is in-correct for PurchangeV2, tracking!
+
+WARNING: BFS Failure Code: 4 Description: ItineraryInfo pricing returned no results
+WARNING: Penalty amounts not available, cannot be checked
+
+&gt;&gt;&gt;&gt;&gt;Verifying DB updates for Book Fail.
+
+
+&gt;&gt;&gt;&gt;&gt;Verifying ticketing.
+
+Sabre Environment: CERT
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Connection : Server = AirConfiguration.db.FarmG.sb.karmalab.net; Database = AirConfiguration_FarmG; Trusted_Connection = Yes; Connection Timeout=120; 
+Ooops.. failed to store the ARL in ARLRepository. Error: The HTTP service located at http://chelairtools001.karmalab.net/ARLService/Service1.svc is unavailable.  This could be because the service is too busy or because no endpoint was found listening at the specified address. Please ensure that the address is correct and try accessing the service again later.
+This is not test case failure, proceed!!
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 04:51:47Z; CRSLogID at 92429858.
+ &gt; Transaction took 1141ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: HXVJET
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 16181310 BookingItemID 2727464 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727464 and BookingDatabaseId 7
+In Response BookingID is 16181310 BookingItemID 2727465 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727465 and BookingDatabaseId 7
+In Response BookingID is 16181310 BookingItemID 2727466 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727466 and BookingDatabaseId 7
+In Response BookingID is 16181310 BookingItemID 2727467 and AirBookingDatabaseID 7 and in database we found BookingID 16181310 BookingItemID 2727467 and BookingDatabaseId 7
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 5 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+Verify total price in TransactionRecord and IBDInformation...
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirRetrieve transaction at 2014-10-01 04:51:49Z; CRSLogID at 92429858.
+ &gt; Transaction took 683ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of HXVJET
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'HXVJET' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1s: 1
+PCC/OID is: 3J7A
+Logging in to Sabre CRSTPF...
+    Starting Void Attempt of PNR HXVJET
+    This PNR did not contain the 'EXPEDIA TEST PNR' tag.
+    Finished Void Attempt of PNR HXVJET
+    Starting Cancel Attempt of PNR HXVJET with TicketState NotExpediaTestPNRTicket
+    This PNR has not been voided, so it will not be canceled.
+    Finished Cancel Attempt of PNR HXVJET
+Log off Sabre CRSTPF...
+PLEASE VOID AND CANCEL MANUALLY</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e323fdfb-299f-4eab-901f-9f12bbb92257" parentExecutionId="d5862002-cc5b-42c5-9d3f-b85e2367efa7" testId="c4fd1cab-2c37-5b40-a523-1456cdfac63d" testName="SabreMSTests" computerName="WIN-B3M5SP1197C" duration="00:00:50.7311948" startTime="2014-10-01T04:51:51.4845363-07:00" endTime="2014-10-01T04:52:42.2188061-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5862002-cc5b-42c5-9d3f-b85e2367efa7" dataRowInfo="15" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7195
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = WhiteLabel
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = US:IAD:JFK:SFO:BCN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = LAS:LAS:BCN:ORD
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7196
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:51:51Z; CRSLogID at 92429858.
+ &gt; Transaction took 53ms.
+
+ERROR: Invalid airportcode length received
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR response.
+OD Pair Used:LAS***US
+TUID inside for Loop: 7197
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:51:59Z; CRSLogID at 92430225.
+ &gt; Transaction took 6709ms.
+
+Verifying the GDS.
+ There are 122 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Token is empty, Can not run the test because specified fare could not be found in the search response.
+OD Pair Used:LAS***IAD
+TUID inside for Loop: 7198
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:52:27Z; CRSLogID at 92430246.
+ &gt; Transaction took 27318ms.
+
+Verifying the GDS.
+ There are 108 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Token is empty, Can not run the test because specified fare could not be found in the search response.
+OD Pair Used:BCN***JFK
+TUID inside for Loop: 7199
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:52:39Z; CRSLogID at 92430268.
+ &gt; Transaction took 11368ms.
+
+Verifying the GDS.
+ There are 222 Product with AirMarketReferenceMarkupContext
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Token is empty, Can not run the test because specified fare could not be found in the search response.
+OD Pair Used:ORD***SFO
+TUID inside for Loop: 7200
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Index was outside the bounds of the array.
+OD Pair Used:ORD***SFO</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.SabreMSTests() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 401
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

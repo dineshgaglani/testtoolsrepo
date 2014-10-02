@@ -17,7 +17,7 @@ public class TestExecutorServiceApplication extends Application<TestExecutorDrop
 
     @Override
     public void run(TestExecutorDropwizardServiceConfiguration testExecutorDropwizardServiceConfiguration, Environment environment) throws Exception {
-        ExecutorServiceResource executorServiceResource = new ExecutorServiceResource();
+        ExecutorServiceResource executorServiceResource = new ExecutorServiceResource(testExecutorDropwizardServiceConfiguration.getPaths());
         environment.jersey().register(executorServiceResource);
     }
 

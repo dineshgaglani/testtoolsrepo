@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fecfbf21-5324-435b-8718-c067bda666cd" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 04:28:50" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ab60411c-6e66-412e-aadf-c9c26126a599">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T04:28:50.9375427-07:00" queuing="2014-10-01T04:28:52.2968747-07:00" start="2014-10-01T04:28:52.4845474-07:00" finish="2014-10-01T04:33:49.7500664-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" error="0" failed="11" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+Enable/Disable ticketing logic called
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.0000233-07:00">
+        <Text>Warning: Test Run deployment issue: Failed to copy file 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\AirTestFramework.dll' to 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll': System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll' because it is being used by another process.</Text>
+        <Exception>System.IO.IOException: The process cannot access the file 'c:\dgaglani\dgaglani_WIN-B3M5SP1197C 2014-10-01 04_28_50[3]\Out\AirTestFramework.dll' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentHelper.CopyFileOverwrite(String source, String destination)</Exception>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2812669-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T04:28:52.2812669-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DirectTicketingMSTest" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="2c2ace38-b146-fed0-bebb-8c92aba0ee75">
+      <Execution timeOut="2147483647" id="f9ab9888-8160-451b-be4f-3a99abde0087" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchToTicket.SearchToTicketMSTests, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DirectTicketingMSTest" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchToTicket\TestData_DirectTicketing.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" executionId="f9ab9888-8160-451b-be4f-3a99abde0087" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:04:44.0179782" startTime="2014-10-01T04:28:53.2188120-07:00" endTime="2014-10-01T04:33:43.9531724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" resultType="DataDrivenTest">
+      <Counters error="0" failed="10" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="ef474c57-dab0-40f9-bbb4-43fe250867ee" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:30.3137943" startTime="2014-10-01T04:28:59.9531302-07:00" endTime="2014-10-01T04:29:30.2814551-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7536
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7537
+BFSHistory Request sent:        10/01/2014 04:29:00.
+BFSHistory response received: 10/01/2014 04:29:16.  Using number 20.
+Market: COR - NAT from 03/10/2015 00:00:00 to 03/19/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:22Z; CRSLogID at 92421297.
+ &gt; Transaction took 5505ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 4a18cca5477702341aeefcbbbc53d2fb-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:28Z; CRSLogID at 92421722.
+ &gt; Transaction took 5260ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:CSA***CSA</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="830c0e7c-5aaa-400d-8ffb-332f2da6a0c9" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:15.7151892" startTime="2014-10-01T04:29:30.2814551-07:00" endTime="2014-10-01T04:29:46.0000040-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7537
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;SRC
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7538
+BFSHistory Request sent:        10/01/2014 04:29:30.
+BFSHistory response received: 10/01/2014 04:29:34.  Using number 13.
+Market: GIG - AEP from 03/08/2015 00:00:00 to 03/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:38Z; CRSLogID at 92422118.
+ &gt; Transaction took 3655ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 3853d3b2495eb8db7e788ab1392c839c-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:29:45Z; CRSLogID at 92422267.
+ &gt; Transaction took 6332ms.
+
+
+ Response returned an error:No available flights as requested.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d3802546-b420-406f-a277-9fdb022e8865" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:01:16.5864466" startTime="2014-10-01T04:29:46.0000040-07:00" endTime="2014-10-01T04:31:02.5781680-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7538
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;CHD
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7539
+BFSHistory Request sent:        10/01/2014 04:29:46.
+BFSHistory response received: 10/01/2014 04:29:50.  Using number 32.
+Market: AEP - SSA from 02/15/2015 00:00:00 to 02/22/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:29:56Z; CRSLogID at 92422578.
+ &gt; Transaction took 6362ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 75e2c07e4b4956d7d5112cb8c5c2bfba-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:30:24Z; CRSLogID at 92422703.
+ &gt; Transaction took 26867ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:30:26Z; CRSLogID at 92423079.
+ &gt; Transaction took 44ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:30:29Z; CRSLogID at 92423090.
+ &gt; Transaction took 135ms.
+
+ARL: 100027853
+booking step: OnePhaseOneStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 04:31:00Z; CRSLogID at 92423096.
+ &gt; Transaction took 29996ms.
+
+=====PurchaseV2ResponseValidation
+Test case failed with the price change, Please re-run the test case.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test case failed with ScheduleChange happend
+OD Pair Used:CSA***CSA</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="99052ad2-5eb0-4c51-b03b-d2b532c923be" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:21.1358424" startTime="2014-10-01T04:31:02.5781680-07:00" endTime="2014-10-01T04:31:23.7189026-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7539
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;INS
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7540
+BFSHistory Request sent:        10/01/2014 04:31:02.
+BFSHistory response received: 10/01/2014 04:31:06.  Using number 26.
+Market: GIG - AEP from 03/08/2015 00:00:00 to 03/14/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:10Z; CRSLogID at 92423386.
+ &gt; Transaction took 4023ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 0ae81ce848f314fb25f2d69c0fb5446d-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:31:23Z; CRSLogID at 92423464.
+ &gt; Transaction took 11295ms.
+
+
+ Response returned an error:No available flights as requested.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="683305cb-9ed3-4715-96ee-8418e78a7a6d" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:26.2529796" startTime="2014-10-01T04:31:23.7189026-07:00" endTime="2014-10-01T04:31:49.9688489-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7540
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;INF
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7541
+BFSHistory Request sent:        10/01/2014 04:31:23.
+BFSHistory response received: 10/01/2014 04:31:28.  Using number 54.
+Market: COR - MCZ from 12/19/2014 00:00:00 to 12/26/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:44Z; CRSLogID at 92423610.
+ &gt; Transaction took 15795ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: cb3a6f3d4f07c80ca23658a575b98aa1-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:31:49Z; CRSLogID at 92423791.
+ &gt; Transaction took 4753ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="146d24ef-3772-4bc5-bb76-d9528ff52c6a" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:26.7119354" startTime="2014-10-01T04:31:49.9688489-07:00" endTime="2014-10-01T04:32:16.6875967-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7541
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7542
+BFSHistory Request sent:        10/01/2014 04:31:50.
+BFSHistory response received: 10/01/2014 04:31:54.  Using number 59.
+Market: ASU - GRU from 11/02/2014 00:00:00 to 11/18/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:31:56Z; CRSLogID at 92423908.
+ &gt; Transaction took 2251ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 94e9ca3e4b995f90ca1a05baf1b1f8d3-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:03Z; CRSLogID at 92423956.
+ &gt; Transaction took 6336ms.
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 04:32:04Z; CRSLogID at 92424107.
+ &gt; Transaction took 49ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 04:32:05Z; CRSLogID at 92424120.
+ &gt; Transaction took 92ms.
+
+ARL: 100027858
+booking step: OnePhaseTwoStep
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 04:32:15Z; CRSLogID at 92424133.
+ &gt; Transaction took 9216ms.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="711fa486-45c6-4c81-820e-b37613a28b31" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:27.8328698" startTime="2014-10-01T04:32:16.6875967-07:00" endTime="2014-10-01T04:32:44.5158081-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7542
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;SRC
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7543
+BFSHistory Request sent:        10/01/2014 04:32:16.
+BFSHistory response received: 10/01/2014 04:32:20.  Using number 15.
+Market: AEP - SSA from 02/21/2015 00:00:00 to 02/28/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:26Z; CRSLogID at 92424312.
+ &gt; Transaction took 5544ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: e0ddf2b743abc48868bc26b2228478f1-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:32:43Z; CRSLogID at 92424387.
+ &gt; Transaction took 16665ms.
+
+
+ Response returned an error:No available flights as requested.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7fd8deef-5018-4a77-8e9c-1bc4e11a3cbf" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:22.9436861" startTime="2014-10-01T04:32:44.5158081-07:00" endTime="2014-10-01T04:33:07.4531694-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7543
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;CHD
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7544
+BFSHistory Request sent:        10/01/2014 04:32:44.
+BFSHistory response received: 10/01/2014 04:32:49.  Using number 17.
+Market: ASU - REC from 12/27/2014 00:00:00 to 01/07/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:32:54Z; CRSLogID at 92424694.
+ &gt; Transaction took 5332ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 105f24b64b5f3b5f1fe2f6a3f5b67e58-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:33:06Z; CRSLogID at 92424784.
+ &gt; Transaction took 12003ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="346cd73a-f4a3-4170-b0ab-9f39d6b4fb70" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:11.4452937" startTime="2014-10-01T04:33:07.4531694-07:00" endTime="2014-10-01T04:33:18.9063005-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7544
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;INS
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7545
+BFSHistory Request sent:        10/01/2014 04:33:07.
+BFSHistory response received: 10/01/2014 04:33:11.  Using number 63.
+Market: ASU - GRU from 03/28/2015 00:00:00 to 04/06/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:33:14Z; CRSLogID at 92424962.
+ &gt; Transaction took 2200ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: b826543b47390ed08c67bbbf56f04f98-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:33:18Z; CRSLogID at 92424995.
+ &gt; Transaction took 4367ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a09d5a8f-c6a2-4212-a9fe-b40e7f5b57a6" parentExecutionId="f9ab9888-8160-451b-be4f-3a99abde0087" testId="2c2ace38-b146-fed0-bebb-8c92aba0ee75" testName="DirectTicketingMSTest" computerName="WIN-B3M5SP1197C" duration="00:00:25.0172667" startTime="2014-10-01T04:33:18.9063005-07:00" endTime="2014-10-01T04:33:43.9219128-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9ab9888-8160-451b-be4f-3a99abde0087" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 7545
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Sabre
+	tfairline = 
+	airlinecodes = JJ
+	Flight Number = 
+	tpid = US
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = JJ
+	passengerlist = ADT;INF
+	departurefrom = CSA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = CSA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 7546
+BFSHistory Request sent:        10/01/2014 04:33:18.
+BFSHistory response received: 10/01/2014 04:33:23.  Using number 24.
+Market: GIG - SCL from 12/02/2014 00:00:00 to 12/07/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 04:33:38Z; CRSLogID at 92425098.
+ &gt; Transaction took 15690ms.
+
+Verifying the GDS.
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: bc6904044df61679cce71c8de13d287a-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 04:33:43Z; CRSLogID at 92425183.
+ &gt; Transaction took 4118ms.
+
+
+ Response returned an error:The flights you have selected are not available. Please select alternate flights and then try to reserve again.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (403) Forbidden.</Message>
+              <StackTrace>   at SearchToTicket.SearchToTicketMSTests.DirectTicketingMSTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchToTicket.cs:line 750
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

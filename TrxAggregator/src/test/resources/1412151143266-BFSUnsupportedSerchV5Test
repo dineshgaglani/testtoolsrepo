@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f51d822d-753c-4da3-9bdb-2214fa4a5347" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 03:28:59" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="1f66cf73-7c77-492d-b829-a7f34ca19085">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 03_28_59[1]" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T03:28:59.5000321-07:00" queuing="2014-10-01T03:29:00.8908253-07:00" start="2014-10-01T03:29:00.9531461-07:00" finish="2014-10-01T03:31:09.7499960-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="3" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:00.3438949-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:00.3438949-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BFSUnsupportedSerchV5Test" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="c04c5728-002e-06d8-797c-c577e20633e7">
+      <Execution timeOut="2147483647" id="915c1cd7-6835-4098-ac55-a734e44a4087" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SearchV5.SearchV5Cases, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BFSUnsupportedSerchV5Test" />
+      <DataSource connectionString="|DataDirectory|\TestData\SearchV5\TestData_BFSUnsupportedSearchV5.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c04c5728-002e-06d8-797c-c577e20633e7" executionId="915c1cd7-6835-4098-ac55-a734e44a4087" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="915c1cd7-6835-4098-ac55-a734e44a4087" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="WIN-B3M5SP1197C" duration="00:01:57.9117818" startTime="2014-10-01T03:29:01.0002585-07:00" endTime="2014-10-01T03:31:07.3908361-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915c1cd7-6835-4098-ac55-a734e44a4087" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="c9eccd5b-0812-4a70-b292-59eadb62f5c4" parentExecutionId="915c1cd7-6835-4098-ac55-a734e44a4087" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="WIN-B3M5SP1197C" duration="00:00:55.2315433" startTime="2014-10-01T03:29:09.5158626-07:00" endTime="2014-10-01T03:30:04.7500393-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915c1cd7-6835-4098-ac55-a734e44a4087" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 15713
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes is either empty or null ! = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = 
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 15714
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:29:35Z; CRSLogID at 92391872.
+ &gt; Transaction took 23752ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92392068.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:6C3E36309E374379A03735C14E7FE87F
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92392071
+Verifying the result count total and by fare.
+Total AirOffers returned: 36
+   Total Published fares returned: 36
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+There are 36 Air Product(s) with the Published FareTypes
+offer Token:v5-de02d8a64340bc848da83b99362cbfd1-4-6-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:30:00Z; CRSLogID at 92392165.
+ &gt; Transaction took 22186ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:6C3E36309E374379A03735C14E7FE87F
+BFS PC message found at CRSLogID 92392383.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:6C3E36309E374379A03735C14E7FE87F</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7f5bbdb8-aae9-4328-84ec-ea5c01a66ac9" parentExecutionId="915c1cd7-6835-4098-ac55-a734e44a4087" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="WIN-B3M5SP1197C" duration="00:00:33.2160685" startTime="2014-10-01T03:30:04.7500393-07:00" endTime="2014-10-01T03:30:37.9687981-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915c1cd7-6835-4098-ac55-a734e44a4087" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 15714
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes is either empty or null ! = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	airlinecodes = 
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 15715
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:30:28Z; CRSLogID at 92392492.
+ &gt; Transaction took 23378ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92392576.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:4B1AC907CE1E4167ADFD7264A31C6BDD
+ There are 0 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+It is BFS unsupported routes, Verify downlevel message...
+Downlevel call send to GDS at crslog ID: 92392583
+Verifying the result count total and by fare.
+Total AirOffers returned: 36
+   Total Published fares returned: 36
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 0
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+There are 36 Air Product(s) with the Published FareTypes
+offer Token:v5-612b86c944900846ba0b3a9c4a7da484-4-6-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:30:33Z; CRSLogID at 92392663.
+ &gt; Transaction took 3745ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:4B1AC907CE1E4167ADFD7264A31C6BDD
+BFS PC message found at CRSLogID 92392725.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:4B1AC907CE1E4167ADFD7264A31C6BDD</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="17bc08ca-5430-49da-86a0-05da837bf39b" parentExecutionId="915c1cd7-6835-4098-ac55-a734e44a4087" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="WIN-B3M5SP1197C" duration="00:00:19.0721949" startTime="2014-10-01T03:30:37.9687981-07:00" endTime="2014-10-01T03:30:57.0468929-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915c1cd7-6835-4098-ac55-a734e44a4087" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 15715
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Trisept
+	tfairline = 
+	airlinecodes = B-
+	Flight Number = 
+	tpid = US
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Charter
+	triptype = RoundTrip
+	airlinecodes = B-
+	passengerlist = ADT
+	departurefrom = US
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = MEX
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 15716
+BFSHistory Request sent:        10/01/2014 03:30:38.
+BFSHistory response received: 10/01/2014 03:30:39.  Using number 5.
+Market: MKE - CUN from 02/18/2015 00:00:00 to 02/24/2015 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:30:48Z; CRSLogID at 92392794.
+ &gt; Transaction took 9206ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92392874.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:BBC0E9E10D00455EA08654B1043C4730
+ There are 1 Product with AirMarketReferenceMarkupContext
+
+ Verify downlevel search......
+Downlevel call send to GDS at crslog ID: 92392867
+Verifying the result count total and by fare.
+Total AirOffers returned: 1
+   Total Published fares returned: 0
+   Total Web fares returned: 0
+   Total Naked Net fares returned: 0
+   Total White Label fares returned: 0
+   Total Package Net fares returned: 0
+   Total Charter fares returned: 1
+   Total Low Cost fares returned: 0
+
+Verifying the number of OriginDestination pairs in each itinerary.
+Verifying outbound airports.
+Verifying inbound airports.
+Verifying departure dates.
+Verifying only include carriers are returned.
+Verifying the presence of an air offer token.
+Verifying the requested cabin type is returned.
+Verifying only requested passenger types are returned.
+Verifying that excluded carriers are not present in results.
+Verifying purchase path.
+There are 1 Air Product(s) with the Charter FareTypes
+offer Token:v5-5be498c0403036a67e27948a4f28e29a-0-0-128
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:30:52Z; CRSLogID at 92392956.
+ &gt; Transaction took 2653ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:BBC0E9E10D00455EA08654B1043C4730
+BFS PC message found at CRSLogID 92392990.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:BBC0E9E10D00455EA08654B1043C4730</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="21ac31b5-38a5-4014-91c9-27417ce7bec7" parentExecutionId="915c1cd7-6835-4098-ac55-a734e44a4087" testId="c04c5728-002e-06d8-797c-c577e20633e7" testName="BFSUnsupportedSerchV5Test" computerName="WIN-B3M5SP1197C" duration="00:00:10.3233410" startTime="2014-10-01T03:30:57.0468929-07:00" endTime="2014-10-01T03:31:07.3596081-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915c1cd7-6835-4098-ac55-a734e44a4087" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 15716
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = Logibro
+	tfairline = 
+	airlinecodes = WG
+	Flight Number = 
+	tpid = CA
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Charter
+	triptype = RoundTrip
+	airlinecodes = WG
+	passengerlist = ADT
+	departurefrom = CA
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = US
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 15717
+BFSHistory Request sent:        10/01/2014 03:30:57.
+BFSHistory did not return a response. 10/01/2014 03:30:57.
+... getting hardcoded market, since BFSHistory didn't return a market.
+Market: YYT - DFW from 01/29/2015 03:30:58 to 02/08/2015 03:30:58
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:31:04Z; CRSLogID at 92393083.
+ &gt; Transaction took 6643ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. ERROR response.
+OD Pair Used:US***CA</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at SearchV5.SearchV5Cases.BFSUnsupportedSerchV5Test() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\SearchV5.cs:line 138
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

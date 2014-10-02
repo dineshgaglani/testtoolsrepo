@@ -1,0 +1,2957 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ad5899b0-343c-4ffb-a0eb-7e465064c5d0" name="dgaglani@WIN-B3M5SP1197C 2014-10-01 03:28:59" runUser="SEA\dgaglani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b6b3fa77-1127-488a-b054-7cf92b1a11d2">
+    <Deployment userDeploymentRoot="c:\dgaglani" useDefaultDeploymentRoot="false" runDeploymentRoot="dgaglani_WIN-B3M5SP1197C 2014-10-01 03_28_59" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T03:28:59.2345366-07:00" queuing="2014-10-01T03:29:00.8908253-07:00" start="2014-10-01T03:29:00.9688104-07:00" finish="2014-10-01T03:53:41.8125419-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="1" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>CRS Log Service Running
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:00.2968806-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Administration' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="WIN-B3M5SP1197C" outcome="Warning" timestamp="2014-10-01T03:29:00.2968806-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Noemax.WCFX' directly or indirectly referenced by the test container 'c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OMSBookV2Test_TravelPortTest" storage="c:\dgaglani\tcoe-master\tcoe-master\gulfstreamtestcollection\products\airinterfacetests\v1.0\regression\bin\debug\regression.dll" id="f75369fc-bafe-91ac-54f4-e98e8ddfc462">
+      <Execution timeOut="2147483647" id="6f8f657f-1966-42e5-b648-df1ed31ce3c8" />
+      <DeploymentItems>
+        <DeploymentItem filename="TestData" outputDirectory="TestData" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/dgaglani/TCOE-master/TCOE-master/GulfstreamTestCollection/products/AirInterfaceTests/v1.0/Regression/bin/Debug/Regression.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OMSPurchaseV2.OMSBookV2MSTest, Regression, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OMSBookV2Test_TravelPortTest" />
+      <DataSource connectionString="|DataDirectory|\TestData\OMSPurchaseV2\TestData_OMSPurchaseV2.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="TravelPortTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" executionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:24:30.4335129" startTime="2014-10-01T03:29:01.0002585-07:00" endTime="2014-10-01T03:53:39.7968774-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" resultType="DataDrivenTest">
+      <Counters error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="fc91d069-2c0a-4041-9da4-1943e0ea714c" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:00:31.6846453" startTime="2014-10-01T03:29:09.3908182-07:00" endTime="2014-10-01T03:29:41.0781913-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4572
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = True
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Web
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = KGW:LHR
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = NCE:CDG
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4573
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:29:29Z; CRSLogID at 92391874.
+ &gt; Transaction took 18111ms.
+
+ERROR: WrappedLegacyMSTError: Error Number 29 - Error String: No flights that satisfy the request were found.</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. The remote server returned an error: (504) Gateway Timeout.</Message>
+              <StackTrace>   at OMSPurchaseV2.OMSBookV2MSTest.OMSBookV2Test_TravelPortTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\OMSPurchaseV2.cs:line 1205
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="2fa335cb-5660-4d6b-927c-311d85b5dfb6" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:07:20.5186323" startTime="2014-10-01T03:29:41.0781913-07:00" endTime="2014-10-01T03:37:01.5937971-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4573
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = True
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;SRC;CHD;INF
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4574
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:30:14Z; CRSLogID at 92392178.
+ &gt; Transaction took 33754ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92392352.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:C62EBE0BED6A4BF89DD62906E7D841F9
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 9a5224f24ec534e8ae0dee9dd171c91c-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:30:40Z; CRSLogID at 92392526.
+ &gt; Transaction took 24699ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:C62EBE0BED6A4BF89DD62906E7D841F9
+BFS PC message found at CRSLogID 92392778.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C62EBE0BED6A4BF89DD62906E7D841F9
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:30:48Z; CRSLogID at 92392930.
+ &gt; Transaction took 405ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:30:49Z; CRSLogID at 92392942.
+ &gt; Transaction took 723ms.
+
+ARL: 100027787
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:31:24Z; CRSLogID at 92392980.
+ &gt; Transaction took 33929ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9YIX
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266172 BookingItemID 77025 and AirBookingDatabaseID 8 and in database we found BookingID 15266172 BookingItemID 77025 and BookingDatabaseId 8
+In Response BookingID is 15266172 BookingItemID 77026 and AirBookingDatabaseID 8 and in database we found BookingID 15266172 BookingItemID 77026 and BookingDatabaseId 8
+In Response BookingID is 15266172 BookingItemID 77027 and AirBookingDatabaseID 8 and in database we found BookingID 15266172 BookingItemID 77027 and BookingDatabaseId 8
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 4 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:459.00 for total
+Code: baseGross Amount:459.00 for total
+Code: taxNet Amount:115.50 for total
+Code: taxGross Amount:115.50 for total
+Code: AY Amount:20.40000 for total
+Code: US Amount:34.50000 for total
+Code: ZP Amount:30.00000 for total
+Code: XF Amount:30.60000 for total
+Code: baseGross Amount:153.00 for adult
+Code: baseNet Amount:153.00 for adult
+Code: taxGross Amount:38.50 for adult
+Code: taxNet Amount:38.50 for adult
+Code: AY Amount:6.80000 for adult
+Code: US Amount:11.50000 for adult
+Code: ZP Amount:10.00000 for adult
+Code: XF Amount:10.20000 for adult
+Code: baseGross Amount:153.00 for senior
+Code: baseNet Amount:153.00 for senior
+Code: taxGross Amount:38.50 for senior
+Code: taxNet Amount:38.50 for senior
+Code: AY Amount:6.80000 for senior
+Code: US Amount:11.50000 for senior
+Code: ZP Amount:10.00000 for senior
+Code: XF Amount:10.20000 for senior
+Code: baseGross Amount:153.00 for child
+Code: baseNet Amount:153.00 for child
+Code: taxGross Amount:38.50 for child
+Code: taxNet Amount:38.50 for child
+Code: AY Amount:6.80000 for child
+Code: US Amount:11.50000 for child
+Code: ZP Amount:10.00000 for child
+Code: XF Amount:10.20000 for child
+Code: baseGross Amount:0.00 for infant in lap
+Code: baseNet Amount:0.00 for infant in lap
+Code: taxGross Amount:0.00 for infant in lap
+Code: taxNet Amount:0.00 for infant in lap
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AY, Amount: 6.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: US, Amount: 11.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZP, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: XF, Amount: 10.2000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AY, Amount: 6.8000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: US, Amount: 11.5000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZP, Amount: 10.0000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: XF, Amount: 10.2000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AY, Amount: 6.8000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: US, Amount: 11.5000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZP, Amount: 10.0000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: XF, Amount: 10.2000 
+
+
+191.50
+191.50
+191.50
+
+PNR: MI9YIX
+BFS PC message found at CRSLogID 92392778.
+BFS PC message found at CRSLogID 92393188.
+BFS PC message found at CRSLogID 92393405.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:C62EBE0BED6A4BF89DD62906E7D841F9, in clientProfile:C62EBE0BED6A4BF89DD62906E7D841F9
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C62EBE0BED6A4BF89DD62906E7D841F9
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:31:34Z; CRSLogID at 92393496.
+ &gt; Transaction took 3229ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YIX
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266172 BookingItemID 77025 and AirBookingDatabaseID 8 and in database we found BookingID 15266172 BookingItemID 77025 and BookingDatabaseId 8
+In Response BookingID is 15266172 BookingItemID 77026 and AirBookingDatabaseID 8 and in database we found BookingID 15266172 BookingItemID 77026 and BookingDatabaseId 8
+In Response BookingID is 15266172 BookingItemID 77027 and AirBookingDatabaseID 8 and in database we found BookingID 15266172 BookingItemID 77027 and BookingDatabaseId 8
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 4 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027787, Bookingid:15266172
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YIX
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YIX' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 4575
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:32:06Z; CRSLogID at 92393659.
+ &gt; Transaction took 24983ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92393690.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:E3FB6A6147474AADAA7F9FBB2D609410
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 87304eed486aafb8d77b07aba2fd664d-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:32:25Z; CRSLogID at 92394050.
+ &gt; Transaction took 18374ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:E3FB6A6147474AADAA7F9FBB2D609410
+BFS PC message found at CRSLogID 92394275.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:E3FB6A6147474AADAA7F9FBB2D609410
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:32:31Z; CRSLogID at 92394446.
+ &gt; Transaction took 105ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:32:32Z; CRSLogID at 92394462.
+ &gt; Transaction took 158ms.
+
+ARL: 100027791
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:33:11Z; CRSLogID at 92394485.
+ &gt; Transaction took 37989ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9YJZ
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266175 BookingItemID 77038 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77038 and BookingDatabaseId 8
+In Response BookingID is 15266175 BookingItemID 77039 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77039 and BookingDatabaseId 8
+In Response BookingID is 15266175 BookingItemID 77040 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77040 and BookingDatabaseId 8
+In Response BookingID is 15266175 BookingItemID 77041 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77041 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:587.00 for total
+Code: baseGross Amount:587.00 for total
+Code: taxNet Amount:887.84 for total
+Code: taxGross Amount:887.84 for total
+Code: GB Amount:207.00000 for total
+Code: UB Amount:179.84000 for total
+Code: YQ Amount:456.60000 for total
+Code: PZ Amount:1.80000 for total
+Code: AE Amount:37.80000 for total
+Code: TP Amount:2.40000 for total
+Code: ZR Amount:2.40000 for total
+Code: baseGross Amount:199.00 for adult
+Code: baseNet Amount:199.00 for adult
+Code: taxGross Amount:272.76 for adult
+Code: taxNet Amount:272.76 for adult
+Code: GB Amount:69.00000 for adult
+Code: UB Amount:44.96000 for adult
+Code: YQ Amount:144.00000 for adult
+Code: PZ Amount:0.60000 for adult
+Code: AE Amount:12.60000 for adult
+Code: TP Amount:0.80000 for adult
+Code: ZR Amount:0.80000 for adult
+Code: baseGross Amount:199.00 for senior
+Code: baseNet Amount:199.00 for senior
+Code: taxGross Amount:272.76 for senior
+Code: taxNet Amount:272.76 for senior
+Code: GB Amount:69.00000 for senior
+Code: UB Amount:44.96000 for senior
+Code: YQ Amount:144.00000 for senior
+Code: PZ Amount:0.60000 for senior
+Code: AE Amount:12.60000 for senior
+Code: TP Amount:0.80000 for senior
+Code: ZR Amount:0.80000 for senior
+Code: baseGross Amount:149.00 for child
+Code: baseNet Amount:149.00 for child
+Code: taxGross Amount:272.76 for child
+Code: taxNet Amount:272.76 for child
+Code: GB Amount:69.00000 for child
+Code: UB Amount:44.96000 for child
+Code: YQ Amount:144.00000 for child
+Code: PZ Amount:0.60000 for child
+Code: AE Amount:12.60000 for child
+Code: TP Amount:0.80000 for child
+Code: ZR Amount:0.80000 for child
+Code: baseGross Amount:40.00 for infant in lap
+Code: baseNet Amount:40.00 for infant in lap
+Code: taxGross Amount:69.56 for infant in lap
+Code: taxNet Amount:69.56 for infant in lap
+Code: UB Amount:44.96000 for infant in lap
+Code: YQ Amount:24.60000 for infant in lap
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 44.9600 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 144.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: PZ, Amount: 0.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AE, Amount: 12.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: TP, Amount: 0.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZR, Amount: 0.8000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 44.9600 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 144.0000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: PZ, Amount: 0.6000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AE, Amount: 12.6000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: TP, Amount: 0.8000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZR, Amount: 0.8000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 44.9600 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 24.6000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 44.9600 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 144.0000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: PZ, Amount: 0.6000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AE, Amount: 12.6000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: TP, Amount: 0.8000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZR, Amount: 0.8000 
+
+
+471.76
+471.76
+421.76
+109.56
+
+PNR: MI9YJZ
+BFS PC message found at CRSLogID 92394275.
+BFS PC message found at CRSLogID 92394804.
+BFS PC message found at CRSLogID 92394953.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:E3FB6A6147474AADAA7F9FBB2D609410, in clientProfile:E3FB6A6147474AADAA7F9FBB2D609410
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:E3FB6A6147474AADAA7F9FBB2D609410
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:33:20Z; CRSLogID at 92394984.
+ &gt; Transaction took 2021ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YJZ
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266175 BookingItemID 77038 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77038 and BookingDatabaseId 8
+In Response BookingID is 15266175 BookingItemID 77039 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77039 and BookingDatabaseId 8
+In Response BookingID is 15266175 BookingItemID 77040 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77040 and BookingDatabaseId 8
+In Response BookingID is 15266175 BookingItemID 77041 and AirBookingDatabaseID 8 and in database we found BookingID 15266175 BookingItemID 77041 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027791, Bookingid:15266175
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YJZ
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YJZ' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 4576
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:34:37Z; CRSLogID at 92395421.
+ &gt; Transaction took 30692ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92395447.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:0949B3AFA1C04FFDBC340674FAEFE9B9
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: ab04227c4e90e5b899b0c8bb7d29b76e-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:34:52Z; CRSLogID at 92396060.
+ &gt; Transaction took 14426ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92396082.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 4577
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:35:25Z; CRSLogID at 92396253.
+ &gt; Transaction took 32417ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92396269.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:65D550831DE7477FB6610EF35308718F
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 6db92d86478a4994dc3c7598a1f71f63-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:35:46Z; CRSLogID at 92396629.
+ &gt; Transaction took 19384ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:65D550831DE7477FB6610EF35308718F
+BFS PC message found at CRSLogID 92396743.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:65D550831DE7477FB6610EF35308718F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:35:52Z; CRSLogID at 92396918.
+ &gt; Transaction took 72ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:35:53Z; CRSLogID at 92396928.
+ &gt; Transaction took 259ms.
+
+ARL: 100027798
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:36:52Z; CRSLogID at 92396945.
+ &gt; Transaction took 58533ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9Y8V
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266179 BookingItemID 77054 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77054 and BookingDatabaseId 8
+In Response BookingID is 15266179 BookingItemID 77055 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77055 and BookingDatabaseId 8
+In Response BookingID is 15266179 BookingItemID 77056 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77056 and BookingDatabaseId 8
+In Response BookingID is 15266179 BookingItemID 77057 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77057 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:573.00 for total
+Code: baseGross Amount:573.00 for total
+Code: taxNet Amount:995.16 for total
+Code: taxGross Amount:995.16 for total
+Code: GB Amount:207.00000 for total
+Code: UB Amount:45.96000 for total
+Code: YQ Amount:522.00000 for total
+Code: DE Amount:18.30000 for total
+Code: RA Amount:96.60000 for total
+Code: CA Amount:42.90000 for total
+Code: SQ Amount:55.20000 for total
+Code: RC Amount:7.20000 for total
+Code: baseGross Amount:185.00 for adult
+Code: baseNet Amount:185.00 for adult
+Code: taxGross Amount:326.52 for adult
+Code: taxNet Amount:326.52 for adult
+Code: GB Amount:69.00000 for adult
+Code: UB Amount:15.32000 for adult
+Code: YQ Amount:174.00000 for adult
+Code: DE Amount:6.10000 for adult
+Code: RA Amount:32.20000 for adult
+Code: CA Amount:14.30000 for adult
+Code: SQ Amount:13.80000 for adult
+Code: RC Amount:1.80000 for adult
+Code: baseGross Amount:185.00 for senior
+Code: baseNet Amount:185.00 for senior
+Code: taxGross Amount:326.52 for senior
+Code: taxNet Amount:326.52 for senior
+Code: GB Amount:69.00000 for senior
+Code: UB Amount:15.32000 for senior
+Code: YQ Amount:174.00000 for senior
+Code: DE Amount:6.10000 for senior
+Code: RA Amount:32.20000 for senior
+Code: CA Amount:14.30000 for senior
+Code: SQ Amount:13.80000 for senior
+Code: RC Amount:1.80000 for senior
+Code: baseGross Amount:185.00 for child
+Code: baseNet Amount:185.00 for child
+Code: taxGross Amount:326.52 for child
+Code: taxNet Amount:326.52 for child
+Code: GB Amount:69.00000 for child
+Code: UB Amount:15.32000 for child
+Code: YQ Amount:174.00000 for child
+Code: DE Amount:6.10000 for child
+Code: RA Amount:32.20000 for child
+Code: CA Amount:14.30000 for child
+Code: SQ Amount:13.80000 for child
+Code: RC Amount:1.80000 for child
+Code: baseGross Amount:18.00 for infant in lap
+Code: baseNet Amount:18.00 for infant in lap
+Code: taxGross Amount:15.60 for infant in lap
+Code: taxNet Amount:15.60 for infant in lap
+Code: SQ Amount:13.80000 for infant in lap
+Code: RC Amount:1.80000 for infant in lap
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 15.3200 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 174.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: DE, Amount: 6.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RA, Amount: 32.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CA, Amount: 14.3000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 15.3200 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 174.0000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: DE, Amount: 6.1000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RA, Amount: 32.2000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CA, Amount: 14.3000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: CNN AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 15.3200 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 174.0000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: DE, Amount: 6.1000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RA, Amount: 32.2000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CA, Amount: 14.3000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: SRC AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+
+
+511.52
+511.52
+511.52
+33.60
+
+PNR: MI9Y8V
+BFS PC message found at CRSLogID 92396743.
+BFS PC message found at CRSLogID 92397345.
+BFS PC message found at CRSLogID 92397667.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:65D550831DE7477FB6610EF35308718F, in clientProfile:65D550831DE7477FB6610EF35308718F
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:65D550831DE7477FB6610EF35308718F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:36:59Z; CRSLogID at 92397743.
+ &gt; Transaction took 2453ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9Y8V
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266179 BookingItemID 77054 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77054 and BookingDatabaseId 8
+In Response BookingID is 15266179 BookingItemID 77055 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77055 and BookingDatabaseId 8
+In Response BookingID is 15266179 BookingItemID 77056 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77056 and BookingDatabaseId 8
+In Response BookingID is 15266179 BookingItemID 77057 and AirBookingDatabaseID 8 and in database we found BookingID 15266179 BookingItemID 77057 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027798, Bookingid:15266179
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9Y8V
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9Y8V' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at OMSPurchaseV2.OMSBookV2MSTest.OMSBookV2Test_TravelPortTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\OMSPurchaseV2.cs:line 1205
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="96e53b8e-d552-4553-9282-3c79aa3b1061" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:05:02.6645931" startTime="2014-10-01T03:37:01.5937971-07:00" endTime="2014-10-01T03:42:04.2658518-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4574
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = True
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT;ADT;INS
+	departurefrom = BHX:BRS:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = AMS:KBP:PEK:MAA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4575
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:37:22Z; CRSLogID at 92397819.
+ &gt; Transaction took 21311ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92397835.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:58B94C7F21464393835C1C221CD635B5
+ There are 14 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 45eb750d40dc2d54e1be719382208278-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:37:31Z; CRSLogID at 92398098.
+ &gt; Transaction took 7432ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:58B94C7F21464393835C1C221CD635B5
+BFS PC message found at CRSLogID 92398199.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:58B94C7F21464393835C1C221CD635B5
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:37:37Z; CRSLogID at 92398270.
+ &gt; Transaction took 257ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:37:38Z; CRSLogID at 92398292.
+ &gt; Transaction took 467ms.
+
+ARL: 100027803
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 03:38:04Z; CRSLogID at 92398315.
+ &gt; Transaction took 25227ms.
+
+PNR: MI9YLO
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CompletePurchase transaction at 2014-10-01 03:38:38Z; CRSLogID at 92398624.
+ &gt; Transaction took 32290ms.
+
+PNR: MI9YLO
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in CompletePurchaseResponse
+In Response BookingID is 15266181 BookingItemID 77062 and AirBookingDatabaseID 8 and in database we found BookingID 15266181 BookingItemID 77062 and BookingDatabaseId 8
+In Response BookingID is 15266181 BookingItemID 77063 and AirBookingDatabaseID 8 and in database we found BookingID 15266181 BookingItemID 77063 and BookingDatabaseId 8
+In Response BookingID is 15266181 BookingItemID 77064 and AirBookingDatabaseID 8 and in database we found BookingID 15266181 BookingItemID 77064 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:84.00 for total
+Code: baseGross Amount:84.00 for total
+Code: taxNet Amount:206.94 for total
+Code: taxGross Amount:206.94 for total
+Code: GB Amount:39.00000 for total
+Code: UB Amount:36.84000 for total
+Code: CJ Amount:30.00000 for total
+Code: RN Amount:36.30000 for total
+Code: VV Amount:4.80000 for total
+Code: YR Amount:60.00000 for total
+Code: baseGross Amount:28.00 for adult
+Code: baseNet Amount:28.00 for adult
+Code: taxGross Amount:68.98 for adult
+Code: taxNet Amount:68.98 for adult
+Code: GB Amount:13.00000 for adult
+Code: UB Amount:12.28000 for adult
+Code: CJ Amount:10.00000 for adult
+Code: RN Amount:12.10000 for adult
+Code: VV Amount:1.60000 for adult
+Code: YR Amount:20.00000 for adult
+Code: baseGross Amount:28.00 for infant in seat
+Code: baseNet Amount:28.00 for infant in seat
+Code: taxGross Amount:68.98 for infant in seat
+Code: taxNet Amount:68.98 for infant in seat
+Code: GB Amount:13.00000 for infant in seat
+Code: UB Amount:12.28000 for infant in seat
+Code: CJ Amount:10.00000 for infant in seat
+Code: RN Amount:12.10000 for infant in seat
+Code: VV Amount:1.60000 for infant in seat
+Code: YR Amount:20.00000 for infant in seat
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+
+
+96.98
+96.98
+96.98
+
+BFS PC message found at CRSLogID 92398199.
+BFS PC message found at CRSLogID 92398579.
+BFS PC message found at CRSLogID 92399112.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:58B94C7F21464393835C1C221CD635B5, in clientProfile:58B94C7F21464393835C1C221CD635B5
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:58B94C7F21464393835C1C221CD635B5
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:38:46Z; CRSLogID at 92399155.
+ &gt; Transaction took 2682ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YLO
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266181 BookingItemID 77062 and AirBookingDatabaseID 8 and in database we found BookingID 15266181 BookingItemID 77062 and BookingDatabaseId 8
+In Response BookingID is 15266181 BookingItemID 77063 and AirBookingDatabaseID 8 and in database we found BookingID 15266181 BookingItemID 77063 and BookingDatabaseId 8
+In Response BookingID is 15266181 BookingItemID 77064 and AirBookingDatabaseID 8 and in database we found BookingID 15266181 BookingItemID 77064 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027803, Bookingid:15266181
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+*************ERROR**************Fare Type did not match between the Prepare Purchase Req and the AirBooking DB.*************
+
+&gt;&gt;&gt;&gt;&gt;****END Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;End of comparison verification for ARL: 100027803, Bookingid:15266181
+
+Code: baseNet Amount:84.00 for total
+Code: baseGross Amount:84.00 for total
+Code: taxNet Amount:206.94 for total
+Code: taxGross Amount:206.94 for total
+Code: baseNet Amount:28.00 for adult
+Code: baseGross Amount:28.00 for adult
+Code: taxNet Amount:68.98 for adult
+Code: taxGross Amount:68.98 for adult
+Code: GB Amount:13.00000 for adult
+Code: UB Amount:12.28000 for adult
+Code: CJ Amount:10.00000 for adult
+Code: RN Amount:12.10000 for adult
+Code: VV Amount:1.60000 for adult
+Code: YR Amount:20.00000 for adult
+Code: baseNet Amount:28.00 for infant in seat
+Code: baseGross Amount:28.00 for infant in seat
+Code: taxNet Amount:68.98 for infant in seat
+Code: taxGross Amount:68.98 for infant in seat
+Code: GB Amount:13.00000 for infant in seat
+Code: UB Amount:12.28000 for infant in seat
+Code: CJ Amount:10.00000 for infant in seat
+Code: RN Amount:12.10000 for infant in seat
+Code: VV Amount:1.60000 for infant in seat
+Code: YR Amount:20.00000 for infant in seat
+Code: GB Amount:39.00000 for total
+Code: UB Amount:36.84000 for total
+Code: CJ Amount:30.00000 for total
+Code: RN Amount:36.30000 for total
+Code: VV Amount:4.80000 for total
+Code: YR Amount:60.00000 for total
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 12.2800 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 10.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 12.1000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 20.0000 
+
+&gt;&gt;&gt;&gt;&gt;Starting the AirBooking Verification for ARL: 100027803, Bookingid:15266181
+
+
+&gt;&gt;&gt;&gt;Checking the DB updates to Booking table
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+Failure in update to Booking tables
+
+&gt;&gt;&gt;&gt;&gt; Checking the DB updates to BookingTraveler
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+Failure in update to BookingTraveler
+Validating BookingID, BookingItemID in AirBooking database
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YLO
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YLO' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:AMS***BHX
+TUID inside for Loop: 4576
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:39:05Z; CRSLogID at 92399234.
+ &gt; Transaction took 16619ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92399254.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:79B0F94561CD4EA9BA49EFA9075DCB98
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: ea5019a046cf3bee1838b89f5cb9295b-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:39:17Z; CRSLogID at 92399407.
+ &gt; Transaction took 10712ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:79B0F94561CD4EA9BA49EFA9075DCB98
+BFS PC message found at CRSLogID 92399478.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:79B0F94561CD4EA9BA49EFA9075DCB98
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:39:23Z; CRSLogID at 92399620.
+ &gt; Transaction took 687ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:39:23Z; CRSLogID at 92399687.
+ &gt; Transaction took 185ms.
+
+ARL: 100027806
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 03:39:42Z; CRSLogID at 92399718.
+ &gt; Transaction took 18648ms.
+
+PNR: MI9YMC
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CompletePurchase transaction at 2014-10-01 03:40:00Z; CRSLogID at 92400076.
+ &gt; Transaction took 16999ms.
+
+PNR: MI9YMC
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in CompletePurchaseResponse
+In Response BookingID is 15266183 BookingItemID 77069 and AirBookingDatabaseID 8 and in database we found BookingID 15266183 BookingItemID 77069 and BookingDatabaseId 8
+In Response BookingID is 15266183 BookingItemID 77070 and AirBookingDatabaseID 8 and in database we found BookingID 15266183 BookingItemID 77070 and BookingDatabaseId 8
+In Response BookingID is 15266183 BookingItemID 77071 and AirBookingDatabaseID 8 and in database we found BookingID 15266183 BookingItemID 77071 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:625.00 for total
+Code: baseGross Amount:625.00 for total
+Code: taxNet Amount:551.31 for total
+Code: taxGross Amount:551.31 for total
+Code: GB Amount:39.00000 for total
+Code: UB Amount:55.71000 for total
+Code: YQ Amount:328.20000 for total
+Code: BE Amount:85.80000 for total
+Code: UA Amount:7.50000 for total
+Code: UD Amount:3.60000 for total
+Code: YK Amount:31.50000 for total
+Code: baseGross Amount:223.00 for adult
+Code: baseNet Amount:223.00 for adult
+Code: taxGross Amount:183.77 for adult
+Code: taxNet Amount:183.77 for adult
+Code: GB Amount:13.00000 for adult
+Code: UB Amount:18.57000 for adult
+Code: YQ Amount:109.40000 for adult
+Code: BE Amount:28.60000 for adult
+Code: UA Amount:2.50000 for adult
+Code: UD Amount:1.20000 for adult
+Code: YK Amount:10.50000 for adult
+Code: baseGross Amount:179.00 for infant in seat
+Code: baseNet Amount:179.00 for infant in seat
+Code: taxGross Amount:183.77 for infant in seat
+Code: taxNet Amount:183.77 for infant in seat
+Code: GB Amount:13.00000 for infant in seat
+Code: UB Amount:18.57000 for infant in seat
+Code: YQ Amount:109.40000 for infant in seat
+Code: BE Amount:28.60000 for infant in seat
+Code: UA Amount:2.50000 for infant in seat
+Code: UD Amount:1.20000 for infant in seat
+Code: YK Amount:10.50000 for infant in seat
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+
+
+406.77
+406.77
+362.77
+
+BFS PC message found at CRSLogID 92399478.
+BFS PC message found at CRSLogID 92400019.
+BFS PC message found at CRSLogID 92400224.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:79B0F94561CD4EA9BA49EFA9075DCB98, in clientProfile:79B0F94561CD4EA9BA49EFA9075DCB98
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:79B0F94561CD4EA9BA49EFA9075DCB98
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:40:08Z; CRSLogID at 92400269.
+ &gt; Transaction took 2831ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YMC
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266183 BookingItemID 77069 and AirBookingDatabaseID 8 and in database we found BookingID 15266183 BookingItemID 77069 and BookingDatabaseId 8
+In Response BookingID is 15266183 BookingItemID 77070 and AirBookingDatabaseID 8 and in database we found BookingID 15266183 BookingItemID 77070 and BookingDatabaseId 8
+In Response BookingID is 15266183 BookingItemID 77071 and AirBookingDatabaseID 8 and in database we found BookingID 15266183 BookingItemID 77071 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027806, Bookingid:15266183
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+*************ERROR**************Fare Type did not match between the Prepare Purchase Req and the AirBooking DB.*************
+
+&gt;&gt;&gt;&gt;&gt;****END Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;End of comparison verification for ARL: 100027806, Bookingid:15266183
+
+Code: baseNet Amount:625.00 for total
+Code: baseGross Amount:625.00 for total
+Code: taxNet Amount:551.31 for total
+Code: taxGross Amount:551.31 for total
+Code: baseNet Amount:223.00 for adult
+Code: baseGross Amount:223.00 for adult
+Code: taxNet Amount:183.77 for adult
+Code: taxGross Amount:183.77 for adult
+Code: GB Amount:13.00000 for adult
+Code: UB Amount:18.57000 for adult
+Code: YQ Amount:109.40000 for adult
+Code: BE Amount:28.60000 for adult
+Code: UA Amount:2.50000 for adult
+Code: UD Amount:1.20000 for adult
+Code: YK Amount:10.50000 for adult
+Code: baseNet Amount:179.00 for infant in seat
+Code: baseGross Amount:179.00 for infant in seat
+Code: taxNet Amount:183.77 for infant in seat
+Code: taxGross Amount:183.77 for infant in seat
+Code: GB Amount:13.00000 for infant in seat
+Code: UB Amount:18.57000 for infant in seat
+Code: YQ Amount:109.40000 for infant in seat
+Code: BE Amount:28.60000 for infant in seat
+Code: UA Amount:2.50000 for infant in seat
+Code: UD Amount:1.20000 for infant in seat
+Code: YK Amount:10.50000 for infant in seat
+Code: GB Amount:39.00000 for total
+Code: UB Amount:55.71000 for total
+Code: YQ Amount:328.20000 for total
+Code: BE Amount:85.80000 for total
+Code: UA Amount:7.50000 for total
+Code: UD Amount:3.60000 for total
+Code: YK Amount:31.50000 for total
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 13.0000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 18.5700 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 109.4000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: BE, Amount: 28.6000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UA, Amount: 2.5000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UD, Amount: 1.2000 
+PassengerTypeCode: INS AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YK, Amount: 10.5000 
+
+&gt;&gt;&gt;&gt;&gt;Starting the AirBooking Verification for ARL: 100027806, Bookingid:15266183
+
+
+&gt;&gt;&gt;&gt;Checking the DB updates to Booking table
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+Failure in update to Booking tables
+
+&gt;&gt;&gt;&gt;&gt; Checking the DB updates to BookingTraveler
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+Failure in update to BookingTraveler
+Validating BookingID, BookingItemID in AirBooking database
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YMC
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YMC' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:KBP***BRS
+TUID inside for Loop: 4577
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:40:29Z; CRSLogID at 92400335.
+ &gt; Transaction took 19355ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92400350.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:DD7A0E0021B3499C8C5FB4E411DD1A48
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 74f75fec4882e344bfaa0592d1515a9d-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:40:41Z; CRSLogID at 92400561.
+ &gt; Transaction took 11810ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:DD7A0E0021B3499C8C5FB4E411DD1A48
+BFS PC message found at CRSLogID 92400635.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:DD7A0E0021B3499C8C5FB4E411DD1A48
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:40:46Z; CRSLogID at 92400715.
+ &gt; Transaction took 107ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:40:47Z; CRSLogID at 92400720.
+ &gt; Transaction took 224ms.
+
+ARL: 100027808
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 03:41:07Z; CRSLogID at 92400738.
+ &gt; Transaction took 19452ms.
+
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test case failed with ScheduleChange happened
+OD Pair Used:PEK***LHR
+TUID inside for Loop: 4578
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:41:33Z; CRSLogID at 92401023.
+ &gt; Transaction took 24245ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92401038.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:1F702BC7301F49208CF33CAE7B5C5A30
+ There are 54 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 30fbbd4146645c9f9f577f8d8eca4d7b-52-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:41:46Z; CRSLogID at 92401323.
+ &gt; Transaction took 12540ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:1F702BC7301F49208CF33CAE7B5C5A30
+BFS PC message found at CRSLogID 92401414.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:1F702BC7301F49208CF33CAE7B5C5A30
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:41:51Z; CRSLogID at 92401499.
+ &gt; Transaction took 130ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:41:55Z; CRSLogID at 92401503.
+ &gt; Transaction took 3130ms.
+
+ARL: 100027810
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 03:42:03Z; CRSLogID at 92401557.
+ &gt; Transaction took 8380ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92401580.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. prepare purchase failed with error in response
+OD Pair Used:MAA***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at OMSPurchaseV2.OMSBookV2MSTest.OMSBookV2Test_TravelPortTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\OMSPurchaseV2.cs:line 1205
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="df356d93-e4c6-4e73-9014-4ede7fb18894" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:05:14.0046450" startTime="2014-10-01T03:42:04.2658518-07:00" endTime="2014-10-01T03:47:18.2658685-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4575
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = True
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = MultiDest
+	passengerlist = ADT;ADT;INF
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4576
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:42:13Z; CRSLogID at 92401688.
+ &gt; Transaction took 9006ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92401701.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:0FB987E181544F18ABAC33FA35157C6F
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 19f964ab42926ef030e628b72834aca3-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:42:25Z; CRSLogID at 92401837.
+ &gt; Transaction took 11277ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:0FB987E181544F18ABAC33FA35157C6F
+BFS PC message found at CRSLogID 92401941.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:0FB987E181544F18ABAC33FA35157C6F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:42:31Z; CRSLogID at 92401992.
+ &gt; Transaction took 59ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:42:32Z; CRSLogID at 92402007.
+ &gt; Transaction took 152ms.
+
+ARL: 100027812
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:43:00Z; CRSLogID at 92402013.
+ &gt; Transaction took 27705ms.
+
+=====PurchaseV2ResponseValidation
+PNR: 2I9YNV
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266187 BookingItemID 77084 and AirBookingDatabaseID 8 and in database we found BookingID 15266187 BookingItemID 77084 and BookingDatabaseId 8
+In Response BookingID is 15266187 BookingItemID 77085 and AirBookingDatabaseID 8 and in database we found BookingID 15266187 BookingItemID 77085 and BookingDatabaseId 8
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 3 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:284.00 for total
+Code: baseGross Amount:284.00 for total
+Code: taxNet Amount:75.40 for total
+Code: taxGross Amount:75.40 for total
+Code: AY Amount:13.60000 for total
+Code: US Amount:21.40000 for total
+Code: ZP Amount:20.00000 for total
+Code: XF Amount:20.40000 for total
+Code: PM Amount:0.00000 for total
+Code:  C Amount:0.00000 for total
+Code: baseGross Amount:142.00 for adult
+Code: baseNet Amount:142.00 for adult
+Code: taxGross Amount:37.70 for adult
+Code: taxNet Amount:37.70 for adult
+Code: AY Amount:6.80000 for adult
+Code: US Amount:10.70000 for adult
+Code: ZP Amount:10.00000 for adult
+Code: XF Amount:10.20000 for adult
+Code: baseGross Amount:0.00 for infant in lap
+Code: baseNet Amount:0.00 for infant in lap
+Code: taxGross Amount:0.00 for infant in lap
+Code: taxNet Amount:0.00 for infant in lap
+Code: PM Amount:0.00000 for infant in lap
+Code:  C Amount:0.00000 for infant in lap
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AY, Amount: 6.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: US, Amount: 10.7000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZP, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: XF, Amount: 10.2000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: PM, Amount: 0.0000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode:  C, Amount: 0.0000 
+
+
+179.70
+179.70
+
+PNR: 2I9YNV
+BFS PC message found at CRSLogID 92401941.
+BFS PC message found at CRSLogID 92402253.
+BFS PC message found at CRSLogID 92402354.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:0FB987E181544F18ABAC33FA35157C6F, in clientProfile:0FB987E181544F18ABAC33FA35157C6F
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:0FB987E181544F18ABAC33FA35157C6F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:43:07Z; CRSLogID at 92402393.
+ &gt; Transaction took 2593ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: 2I9YNV
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266187 BookingItemID 77084 and AirBookingDatabaseID 8 and in database we found BookingID 15266187 BookingItemID 77084 and BookingDatabaseId 8
+In Response BookingID is 15266187 BookingItemID 77085 and AirBookingDatabaseID 8 and in database we found BookingID 15266187 BookingItemID 77085 and BookingDatabaseId 8
+Warning: Untickted INF In Response with AirTravelerReferenceIndex 3 , hence we will skip validation of BookingID, BookingItemID and AirBookingDatabaseID for this traveller
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027812, Bookingid:15266187
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9YNV
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9YNV' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 4577
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:43:27Z; CRSLogID at 92402474.
+ &gt; Transaction took 18796ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92402488.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:35FA1BCEFD2E44AAAE95AC8353ED4DB4
+ There are 42 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 4ce510de49ef08f7d6c2de91c4cd4386-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:43:36Z; CRSLogID at 92402793.
+ &gt; Transaction took 7638ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:35FA1BCEFD2E44AAAE95AC8353ED4DB4
+BFS PC message found at CRSLogID 92402892.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:35FA1BCEFD2E44AAAE95AC8353ED4DB4
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:43:42Z; CRSLogID at 92403036.
+ &gt; Transaction took 137ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:43:43Z; CRSLogID at 92403047.
+ &gt; Transaction took 260ms.
+
+ARL: 100027816
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:44:22Z; CRSLogID at 92403061.
+ &gt; Transaction took 38621ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9YOJ
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266190 BookingItemID 77094 and AirBookingDatabaseID 8 and in database we found BookingID 15266190 BookingItemID 77094 and BookingDatabaseId 8
+In Response BookingID is 15266190 BookingItemID 77095 and AirBookingDatabaseID 8 and in database we found BookingID 15266190 BookingItemID 77095 and BookingDatabaseId 8
+In Response BookingID is 15266190 BookingItemID 77096 and AirBookingDatabaseID 8 and in database we found BookingID 15266190 BookingItemID 77096 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:672.00 for total
+Code: baseGross Amount:672.00 for total
+Code: taxNet Amount:521.28 for total
+Code: taxGross Amount:521.28 for total
+Code: GB Amount:138.00000 for total
+Code: UB Amount:134.88000 for total
+Code: YQ Amount:220.00000 for total
+Code: AE Amount:25.20000 for total
+Code: TP Amount:1.60000 for total
+Code: ZR Amount:1.60000 for total
+Code: baseGross Amount:320.00 for adult
+Code: baseNet Amount:320.00 for adult
+Code: taxGross Amount:238.16 for adult
+Code: taxNet Amount:238.16 for adult
+Code: GB Amount:69.00000 for adult
+Code: UB Amount:44.96000 for adult
+Code: YQ Amount:110.00000 for adult
+Code: AE Amount:12.60000 for adult
+Code: TP Amount:0.80000 for adult
+Code: ZR Amount:0.80000 for adult
+Code: baseGross Amount:32.00 for infant in lap
+Code: baseNet Amount:32.00 for infant in lap
+Code: taxGross Amount:44.96 for infant in lap
+Code: taxNet Amount:44.96 for infant in lap
+Code: UB Amount:44.96000 for infant in lap
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 44.9600 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 110.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AE, Amount: 12.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: TP, Amount: 0.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZR, Amount: 0.8000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 44.9600 
+
+
+558.16
+558.16
+76.96
+
+PNR: MI9YOJ
+BFS PC message found at CRSLogID 92402892.
+BFS PC message found at CRSLogID 92403253.
+BFS PC message found at CRSLogID 92403582.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:35FA1BCEFD2E44AAAE95AC8353ED4DB4, in clientProfile:35FA1BCEFD2E44AAAE95AC8353ED4DB4
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:35FA1BCEFD2E44AAAE95AC8353ED4DB4
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:44:29Z; CRSLogID at 92403639.
+ &gt; Transaction took 1833ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YOJ
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266190 BookingItemID 77094 and AirBookingDatabaseID 8 and in database we found BookingID 15266190 BookingItemID 77094 and BookingDatabaseId 8
+In Response BookingID is 15266190 BookingItemID 77095 and AirBookingDatabaseID 8 and in database we found BookingID 15266190 BookingItemID 77095 and BookingDatabaseId 8
+In Response BookingID is 15266190 BookingItemID 77096 and AirBookingDatabaseID 8 and in database we found BookingID 15266190 BookingItemID 77096 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027816, Bookingid:15266190
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YOJ
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YOJ' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 4578
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:44:55Z; CRSLogID at 92403710.
+ &gt; Transaction took 24171ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92403728.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:CDEE9A580BE54FF7AA1502F08C7FEB29
+ There are 18 Product with AirMarketReferenceMarkupContext
+Search Offer Token: f233bd72445355ead3e85798fc2854c5-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:45:08Z; CRSLogID at 92404261.
+ &gt; Transaction took 13010ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:CDEE9A580BE54FF7AA1502F08C7FEB29
+BFS PC message found at CRSLogID 92404446.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:CDEE9A580BE54FF7AA1502F08C7FEB29
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:45:13Z; CRSLogID at 92404512.
+ &gt; Transaction took 47ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:45:14Z; CRSLogID at 92404516.
+ &gt; Transaction took 92ms.
+
+ARL: 100027821
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:45:36Z; CRSLogID at 92404518.
+ &gt; Transaction took 22152ms.
+
+=====PurchaseV2ResponseValidation
+Test case failed with the price change, Please re-run the test case.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Assert.Fail failed. Test case failed with ScheduleChange happend
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 4579
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:45:58Z; CRSLogID at 92404937.
+ &gt; Transaction took 20930ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92404952.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:1F9BA07078AF4DF38973AEB8F8A7011F
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: d318711b4b1e874cf50497b319d42291-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:46:09Z; CRSLogID at 92405441.
+ &gt; Transaction took 10472ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:1F9BA07078AF4DF38973AEB8F8A7011F
+BFS PC message found at CRSLogID 92405610.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:1F9BA07078AF4DF38973AEB8F8A7011F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:46:15Z; CRSLogID at 92405648.
+ &gt; Transaction took 71ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:46:15Z; CRSLogID at 92405650.
+ &gt; Transaction took 140ms.
+
+ARL: 100027824
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:47:09Z; CRSLogID at 92405655.
+ &gt; Transaction took 53009ms.
+
+=====PurchaseV2ResponseValidation
+PNR: 2I9YPE
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266194 BookingItemID 77106 and AirBookingDatabaseID 8 and in database we found BookingID 15266194 BookingItemID 77106 and BookingDatabaseId 8
+In Response BookingID is 15266194 BookingItemID 77107 and AirBookingDatabaseID 8 and in database we found BookingID 15266194 BookingItemID 77107 and BookingDatabaseId 8
+In Response BookingID is 15266194 BookingItemID 77108 and AirBookingDatabaseID 8 and in database we found BookingID 15266194 BookingItemID 77108 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:304.00 for total
+Code: baseGross Amount:304.00 for total
+Code: taxNet Amount:664.40 for total
+Code: taxGross Amount:664.40 for total
+Code: GB Amount:138.00000 for total
+Code: UB Amount:23.20000 for total
+Code: FR Amount:25.00000 for total
+Code: QX Amount:24.00000 for total
+Code: CA Amount:28.60000 for total
+Code: SQ Amount:41.40000 for total
+Code: CJ Amount:11.20000 for total
+Code: RN Amount:10.40000 for total
+Code: VV Amount:3.20000 for total
+Code: RC Amount:5.40000 for total
+Code: YR Amount:354.00000 for total
+Code: baseGross Amount:145.00 for adult
+Code: baseNet Amount:145.00 for adult
+Code: taxGross Amount:324.40 for adult
+Code: taxNet Amount:324.40 for adult
+Code: GB Amount:69.00000 for adult
+Code: UB Amount:11.60000 for adult
+Code: FR Amount:12.50000 for adult
+Code: QX Amount:12.00000 for adult
+Code: CA Amount:14.30000 for adult
+Code: SQ Amount:13.80000 for adult
+Code: CJ Amount:5.60000 for adult
+Code: RN Amount:5.20000 for adult
+Code: VV Amount:1.60000 for adult
+Code: RC Amount:1.80000 for adult
+Code: YR Amount:177.00000 for adult
+Code: baseGross Amount:14.00 for infant in lap
+Code: baseNet Amount:14.00 for infant in lap
+Code: taxGross Amount:15.60 for infant in lap
+Code: taxNet Amount:15.60 for infant in lap
+Code: SQ Amount:13.80000 for infant in lap
+Code: RC Amount:1.80000 for infant in lap
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 11.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: FR, Amount: 12.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: QX, Amount: 12.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CA, Amount: 14.3000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CJ, Amount: 5.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RN, Amount: 5.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: VV, Amount: 1.6000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YR, Amount: 177.0000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: INF AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+
+
+469.40
+469.40
+29.60
+
+PNR: 2I9YPE
+BFS PC message found at CRSLogID 92405610.
+BFS PC message found at CRSLogID 92405894.
+BFS PC message found at CRSLogID 92406245.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:1F9BA07078AF4DF38973AEB8F8A7011F, in clientProfile:1F9BA07078AF4DF38973AEB8F8A7011F
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:1F9BA07078AF4DF38973AEB8F8A7011F
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:47:16Z; CRSLogID at 92406297.
+ &gt; Transaction took 2430ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: 2I9YPE
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266194 BookingItemID 77106 and AirBookingDatabaseID 8 and in database we found BookingID 15266194 BookingItemID 77106 and BookingDatabaseId 8
+In Response BookingID is 15266194 BookingItemID 77107 and AirBookingDatabaseID 8 and in database we found BookingID 15266194 BookingItemID 77107 and BookingDatabaseId 8
+In Response BookingID is 15266194 BookingItemID 77108 and AirBookingDatabaseID 8 and in database we found BookingID 15266194 BookingItemID 77108 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027824, Bookingid:15266194
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9YPE
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9YPE' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at OMSPurchaseV2.OMSBookV2MSTest.OMSBookV2Test_TravelPortTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\OMSPurchaseV2.cs:line 1205
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="dd36a54e-e676-4691-b70a-3f58f1982a6e" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:00:54.4658969" startTime="2014-10-01T03:47:18.2658685-07:00" endTime="2014-10-01T03:48:12.7345753-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4576
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = True
+	isRollBack = True
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = PackagePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = BHX:BRS:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = AMS:KBP:PEK:MAA
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4577
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:47:42Z; CRSLogID at 92406351.
+ &gt; Transaction took 23842ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92406363.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:B463E2764C564BAEA6F0ACA0BC40EE76
+ There are 9 Product with AirMarketReferenceMarkupContext
+Search Offer Token: d5e5d64e4a34e094d932a7b833b9cc6a-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:47:48Z; CRSLogID at 92406650.
+ &gt; Transaction took 3823ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:B463E2764C564BAEA6F0ACA0BC40EE76
+BFS PC message found at CRSLogID 92406692.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:B463E2764C564BAEA6F0ACA0BC40EE76
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:47:52Z; CRSLogID at 92406765.
+ &gt; Transaction took 77ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:47:53Z; CRSLogID at 92406773.
+ &gt; Transaction took 96ms.
+
+ARL: 100027827
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; PreparePurchase transaction at 2014-10-01 03:48:07Z; CRSLogID at 92406779.
+ &gt; Transaction took 13313ms.
+
+PNR: 2I9YP3
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; RollbackPreparedPurchase transaction at 2014-10-01 03:48:11Z; CRSLogID at 92407082.
+ &gt; Transaction took 4183ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9YP3
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9YP3' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8ebb7674-06b2-4964-9300-b36117960be4" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:02:44.4589108" startTime="2014-10-01T03:48:12.7345753-07:00" endTime="2014-10-01T03:50:57.2031240-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4577
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4578
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:48:20Z; CRSLogID at 92407140.
+ &gt; Transaction took 7554ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92407167.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:7F5BAA07DC55422F98767215F8AD4099
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 99d8da0b499f78d7a48210932cbe88a1-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:48:24Z; CRSLogID at 92407262.
+ &gt; Transaction took 3688ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:7F5BAA07DC55422F98767215F8AD4099
+BFS PC message found at CRSLogID 92407319.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:7F5BAA07DC55422F98767215F8AD4099
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:48:28Z; CRSLogID at 92407371.
+ &gt; Transaction took 93ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:48:29Z; CRSLogID at 92407375.
+ &gt; Transaction took 127ms.
+
+ARL: 100027829
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:48:49Z; CRSLogID at 92407406.
+ &gt; Transaction took 19385ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9YQU
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266197 BookingItemID 77114 and AirBookingDatabaseID 8 and in database we found BookingID 15266197 BookingItemID 77114 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:153.00 for total
+Code: baseGross Amount:153.00 for total
+Code: taxNet Amount:38.50 for total
+Code: taxGross Amount:38.50 for total
+Code: AY Amount:6.80000 for total
+Code: US Amount:11.50000 for total
+Code: ZP Amount:10.00000 for total
+Code: XF Amount:10.20000 for total
+Code: baseGross Amount:153.00 for adult
+Code: baseNet Amount:153.00 for adult
+Code: taxGross Amount:38.50 for adult
+Code: taxNet Amount:38.50 for adult
+Code: AY Amount:6.80000 for adult
+Code: US Amount:11.50000 for adult
+Code: ZP Amount:10.00000 for adult
+Code: XF Amount:10.20000 for adult
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AY, Amount: 6.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: US, Amount: 11.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZP, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: XF, Amount: 10.2000 
+
+
+191.50
+
+PNR: MI9YQU
+BFS PC message found at CRSLogID 92407319.
+BFS PC message found at CRSLogID 92407500.
+BFS PC message found at CRSLogID 92407612.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:7F5BAA07DC55422F98767215F8AD4099, in clientProfile:7F5BAA07DC55422F98767215F8AD4099
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:7F5BAA07DC55422F98767215F8AD4099
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:48:56Z; CRSLogID at 92407660.
+ &gt; Transaction took 2593ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YQU
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266197 BookingItemID 77114 and AirBookingDatabaseID 8 and in database we found BookingID 15266197 BookingItemID 77114 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027829, Bookingid:15266197
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YQU
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YQU' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 4579
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:49:14Z; CRSLogID at 92407773.
+ &gt; Transaction took 16461ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92407802.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:338AF7A3357A4118A732761DF8DF17CC
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 95bd2b974ecc0c114c628081dface0dc-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:49:22Z; CRSLogID at 92408035.
+ &gt; Transaction took 6907ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92408044.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 4580
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:49:41Z; CRSLogID at 92408247.
+ &gt; Transaction took 18057ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92408275.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:F1D2FA2F16E145B1A600EA5F417C1F77
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 7a56704542af9e112f987cb31c73d11e-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:49:48Z; CRSLogID at 92408452.
+ &gt; Transaction took 6466ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92408462.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 4581
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:50:05Z; CRSLogID at 92408500.
+ &gt; Transaction took 16102ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92408513.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:16732B0C11544B5BBB87CEF26C680856
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: af82523040fc7f68997fa8bbd0aa4469-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:50:16Z; CRSLogID at 92408659.
+ &gt; Transaction took 10351ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:16732B0C11544B5BBB87CEF26C680856
+BFS PC message found at CRSLogID 92408775.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:16732B0C11544B5BBB87CEF26C680856
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:50:20Z; CRSLogID at 92408918.
+ &gt; Transaction took 64ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:50:20Z; CRSLogID at 92408932.
+ &gt; Transaction took 95ms.
+
+ARL: 100027832
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:50:45Z; CRSLogID at 92408945.
+ &gt; Transaction took 23778ms.
+
+=====PurchaseV2ResponseValidation
+PNR: 2I9YRS
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266199 BookingItemID 77119 and AirBookingDatabaseID 8 and in database we found BookingID 15266199 BookingItemID 77119 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:185.00 for total
+Code: baseGross Amount:185.00 for total
+Code: taxNet Amount:326.52 for total
+Code: taxGross Amount:326.52 for total
+Code: GB Amount:69.00000 for total
+Code: UB Amount:15.32000 for total
+Code: YQ Amount:174.00000 for total
+Code: DE Amount:6.10000 for total
+Code: RA Amount:32.20000 for total
+Code: CA Amount:14.30000 for total
+Code: SQ Amount:13.80000 for total
+Code: RC Amount:1.80000 for total
+Code: baseGross Amount:185.00 for adult
+Code: baseNet Amount:185.00 for adult
+Code: taxGross Amount:326.52 for adult
+Code: taxNet Amount:326.52 for adult
+Code: GB Amount:69.00000 for adult
+Code: UB Amount:15.32000 for adult
+Code: YQ Amount:174.00000 for adult
+Code: DE Amount:6.10000 for adult
+Code: RA Amount:32.20000 for adult
+Code: CA Amount:14.30000 for adult
+Code: SQ Amount:13.80000 for adult
+Code: RC Amount:1.80000 for adult
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 15.3200 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 174.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: DE, Amount: 6.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RA, Amount: 32.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CA, Amount: 14.3000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+
+
+511.52
+
+PNR: 2I9YRS
+BFS PC message found at CRSLogID 92408775.
+BFS PC message found at CRSLogID 92409286.
+BFS PC message found at CRSLogID 92409450.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:16732B0C11544B5BBB87CEF26C680856, in clientProfile:16732B0C11544B5BBB87CEF26C680856
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:16732B0C11544B5BBB87CEF26C680856
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:50:52Z; CRSLogID at 92409507.
+ &gt; Transaction took 2712ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: 2I9YRS
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266199 BookingItemID 77119 and AirBookingDatabaseID 8 and in database we found BookingID 15266199 BookingItemID 77119 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027832, Bookingid:15266199
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of 2I9YRS
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = '2I9YRS' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at OMSPurchaseV2.OMSBookV2MSTest.OMSBookV2Test_TravelPortTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\OMSPurchaseV2.cs:line 1205
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="dc672ac8-213c-4b48-be3c-3680ff971a2e" parentExecutionId="6f8f657f-1966-42e5-b648-df1ed31ce3c8" testId="f75369fc-bafe-91ac-54f4-e98e8ddfc462" testName="OMSBookV2Test_TravelPortTest" computerName="WIN-B3M5SP1197C" duration="00:02:42.5674634" startTime="2014-10-01T03:50:57.2031240-07:00" endTime="2014-10-01T03:53:39.7658424-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f8f657f-1966-42e5-b648-df1ed31ce3c8" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>TUID: 4578
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Inside Cumulative Result Logic&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+
+Starting Test Data construction
+Following Test Data can be used for this test case	
+	execute = True
+	dosearch = True
+	doverify = False
+	TransactionComponentRequestList = empty
+	dobooking = False
+	isPassPTC = False
+	isRollBack = False
+	isFraud = False
+	gds = TravelPort
+	tfairline = 
+	airlinecodes = 
+	Flight Number = 
+	tpid = UK
+	path = StandalonePath
+	purchasetype = standalone
+	faretype = Published
+	triptype = RoundTrip
+	passengerlist = ADT
+	departurefrom = CLT:LHR:LHR:MAN
+	departurefromdate = 10/23/2014 12:00:00 AM
+	arrivalto = PIT:DXB:KIX:YYZ
+	arrivaltodate = 11/2/2014 12:00:00 AM
+	optional = empty
+	progresponsepattern = empty
+	progressiveresponseidstring = empty
+	maxnumberofstopscount = empty
+	FlightInfoRequestList = empty
+	issplitticketing = False
+	splitgds = Sabre
+	splitairlinecodes = 
+	availabilityref = 0
+	associatedtraveleridentifier = False
+	positive = False
+	simpleamount = 0
+	bagsquantity = -1
+	orderedquantity = 0
+	totalpriceamount = 0
+	prindex = 1
+	srindex = 1
+	odindex = 1
+	segindex = 1
+	legindex = 1
+Not Using fresh ODs from JSON
+End of Test Data construction
+
+TUID inside for Loop: 4579
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:51:06Z; CRSLogID at 92409602.
+ &gt; Transaction took 9354ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92409615.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:4D50611DB9D34538A5DB98D06E8ED3F7
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 37f8d4de4bee535571a8cbb6ea7c81da-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:51:10Z; CRSLogID at 92409712.
+ &gt; Transaction took 3642ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:4D50611DB9D34538A5DB98D06E8ED3F7
+BFS PC message found at CRSLogID 92409759.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:4D50611DB9D34538A5DB98D06E8ED3F7
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:51:15Z; CRSLogID at 92409804.
+ &gt; Transaction took 80ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:51:16Z; CRSLogID at 92409812.
+ &gt; Transaction took 115ms.
+
+ARL: 100027835
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:51:42Z; CRSLogID at 92409830.
+ &gt; Transaction took 25307ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9YSG
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266201 BookingItemID 77124 and AirBookingDatabaseID 8 and in database we found BookingID 15266201 BookingItemID 77124 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:153.00 for total
+Code: baseGross Amount:153.00 for total
+Code: taxNet Amount:38.50 for total
+Code: taxGross Amount:38.50 for total
+Code: AY Amount:6.80000 for total
+Code: US Amount:11.50000 for total
+Code: ZP Amount:10.00000 for total
+Code: XF Amount:10.20000 for total
+Code: baseGross Amount:153.00 for adult
+Code: baseNet Amount:153.00 for adult
+Code: taxGross Amount:38.50 for adult
+Code: taxNet Amount:38.50 for adult
+Code: AY Amount:6.80000 for adult
+Code: US Amount:11.50000 for adult
+Code: ZP Amount:10.00000 for adult
+Code: XF Amount:10.20000 for adult
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: AY, Amount: 6.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: US, Amount: 11.5000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: ZP, Amount: 10.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: XF, Amount: 10.2000 
+
+
+191.50
+
+PNR: MI9YSG
+BFS PC message found at CRSLogID 92409759.
+BFS PC message found at CRSLogID 92409984.
+BFS PC message found at CRSLogID 92410204.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:4D50611DB9D34538A5DB98D06E8ED3F7, in clientProfile:4D50611DB9D34538A5DB98D06E8ED3F7
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:4D50611DB9D34538A5DB98D06E8ED3F7
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:51:51Z; CRSLogID at 92410288.
+ &gt; Transaction took 3957ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9YSG
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266201 BookingItemID 77124 and AirBookingDatabaseID 8 and in database we found BookingID 15266201 BookingItemID 77124 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027835, Bookingid:15266201
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9YSG
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9YSG' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:PIT***CLT
+TUID inside for Loop: 4580
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:52:10Z; CRSLogID at 92410344.
+ &gt; Transaction took 17987ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92410360.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:EB041462399142A98F970531F9DCD9E5
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 7ce901484b4f1e05e95bf8b799d9f83f-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:52:18Z; CRSLogID at 92410566.
+ &gt; Transaction took 7287ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92410581.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:DXB***LHR
+TUID inside for Loop: 4581
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:52:36Z; CRSLogID at 92410647.
+ &gt; Transaction took 17382ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92410659.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:123479F056D34745AF42762AC243A098
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 9d6866a9400e7caa18c6fe93f316251e-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:52:42Z; CRSLogID at 92410823.
+ &gt; Transaction took 4716ms.
+
+
+ Response returned an error:UNA 2 BK ALT- SEGMENTS NOT AVAILABLE    
+
+ Response returned an error:ID 92410837.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:ERROR: Error in response.
+OD Pair Used:KIX***LHR
+TUID inside for Loop: 4582
+10/23/2014 00:00:00
+11/02/2014 00:00:00
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirSearch transaction at 2014-10-01 03:52:57Z; CRSLogID at 92410896.
+ &gt; Transaction took 14602ms.
+
+Verifying the GDS.
+BFS XP message found at CRSLogID 92410912.
+Verify BFSGUID == AirProviderGUID, pass.BFSGUID:C96703E9F2A44829BEA0A4F33E2DFEC7
+ There are 0 Product with AirMarketReferenceMarkupContext
+Search Offer Token: 6bdcbc914a6f45539211eb9931e8b72a-2-1
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; AirGetDetails transaction at 2014-10-01 03:53:03Z; CRSLogID at 92411077.
+ &gt; Transaction took 4693ms.
+
+Verify BFSGUID== GetDetailGUID, pass.BFSGUID:C96703E9F2A44829BEA0A4F33E2DFEC7
+BFS PC message found at CRSLogID 92411134.
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C96703E9F2A44829BEA0A4F33E2DFEC7
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; GetOrderProcess transaction at 2014-10-01 03:53:07Z; CRSLogID at 92411162.
+ &gt; Transaction took 49ms.
+
+
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; CreateRecord transaction at 2014-10-01 03:53:07Z; CRSLogID at 92411164.
+ &gt; Transaction took 100ms.
+
+ARL: 100027837
+booking step: 
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Purchase transaction at 2014-10-01 03:53:32Z; CRSLogID at 92411166.
+ &gt; Transaction took 23762ms.
+
+=====PurchaseV2ResponseValidation
+PNR: MI9Y9F
+=====ValidateResponseAirItinerary()
+=====ValidateResponseAirItinerary() PASSED
+=====ValidateBookingInstructions()
+=====ValidateBookingInstructions() PASSED.
+=====ValidateResponseTransactionRecord()
+=====ValidateResponseTransactionRecord() PASSED.
+=====PurchaseV2ResponseValidation PASSED
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in PurchaseResponse
+In Response BookingID is 15266202 BookingItemID 77125 and AirBookingDatabaseID 8 and in database we found BookingID 15266202 BookingItemID 77125 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+Code: baseNet Amount:185.00 for total
+Code: baseGross Amount:185.00 for total
+Code: taxNet Amount:326.52 for total
+Code: taxGross Amount:326.52 for total
+Code: GB Amount:69.00000 for total
+Code: UB Amount:15.32000 for total
+Code: YQ Amount:174.00000 for total
+Code: DE Amount:6.10000 for total
+Code: RA Amount:32.20000 for total
+Code: CA Amount:14.30000 for total
+Code: SQ Amount:13.80000 for total
+Code: RC Amount:1.80000 for total
+Code: baseGross Amount:185.00 for adult
+Code: baseNet Amount:185.00 for adult
+Code: taxGross Amount:326.52 for adult
+Code: taxNet Amount:326.52 for adult
+Code: GB Amount:69.00000 for adult
+Code: UB Amount:15.32000 for adult
+Code: YQ Amount:174.00000 for adult
+Code: DE Amount:6.10000 for adult
+Code: RA Amount:32.20000 for adult
+Code: CA Amount:14.30000 for adult
+Code: SQ Amount:13.80000 for adult
+Code: RC Amount:1.80000 for adult
+
+ Validating the DB 
+
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: GB, Amount: 69.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: UB, Amount: 15.3200 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: YQ, Amount: 174.0000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: DE, Amount: 6.1000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RA, Amount: 32.2000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: CA, Amount: 14.3000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: SQ, Amount: 13.8000 
+PassengerTypeCode: ADT AirFareCostComponentType : D  AirFareCostComponentLinkType: J AirFareCostComponentCode: RC, Amount: 1.8000 
+
+
+511.52
+
+PNR: MI9Y9F
+BFS PC message found at CRSLogID 92411134.
+BFS PC message found at CRSLogID 92411362.
+BFS PC message found at CRSLogID 92411516.
+BFSGUID in fc and clientProfile are the same,BFSGUID in fc:C96703E9F2A44829BEA0A4F33E2DFEC7, in clientProfile:C96703E9F2A44829BEA0A4F33E2DFEC7
+Verify BFSGUID== pcBFSGUID, pass.BFSGUID:C96703E9F2A44829BEA0A4F33E2DFEC7
+Sending request to end point : 
+We got OK response from the server
+
+ &gt; Retrieve transaction at 2014-10-01 03:53:38Z; CRSLogID at 92411592.
+ &gt; Transaction took 1627ms.
+
+
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse 
+PNR: MI9Y9F
+Verifying OrderLineItemList validation for BookingID,BookingItemID and AirBookingDatabaseID in Retrieve!
+In Response BookingID is 15266202 BookingItemID 77125 and AirBookingDatabaseID 8 and in database we found BookingID 15266202 BookingItemID 77125 and BookingDatabaseId 8
+OrderLineItemList Verification for BookingID,BookingItemID and AirBookingDatabaseID passed !
+&gt;&gt;&gt;&gt;&gt;Validate OrderRetrieveResponse: PASSED
+
+&gt;&gt;&gt;&gt;&gt;Starting the comparison verification for ARL: 100027837, Bookingid:15266202
+
+
+&gt;&gt;&gt;&gt;&gt;*****Comparing purchase path between ABD and ATP***********
+
+&gt;&gt;&gt;&gt;ERROR: Purchase path comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;*************Comparing Fare Type between ABD and ATP*************
+ERROR: Fare type comparison between ABD and ATP failed.
+
+&gt;&gt;&gt;&gt;&gt;***************Comparing the Booking Amount(Total), Commissions Amount (if GDS based), and Markup(for Merchant Fare/Charter)******
+Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+
+&gt;&gt;&gt;&gt;&gt;****Start Message level validation*******
+
+&gt;&gt;&gt;&gt;&gt;Attempting void and cancel of MI9Y9F
+server name = AirTransactionPartition.db.FarmG.sb.karmalab.net
+database name = AirTransactionPartition_FarmG
+
+EXECUTING QUERY (1): select distinct ap.AirRecordLocator, ap.AirProviderLocator, ap.BookingProviderAgencyOfficeCode, ar.createDate, ap.AirBookingProviderCode, ar.TravelProductID, ar.TUID from airTran.AirProductBooked ap inner join airTran.AirRecord ar on ap.AirRecordLocator = ar.AirRecordLocator and ap.AirProviderLocator = 'MI9Y9F' and ar.createDate &gt;= '2014-09-30 00:00:00' and ar.createDate &lt;= '2014-10-01 23:59:59' where ap.AirProviderLocator != ''
+
+PNRs found on 1P: 1
+PCC/OID is: 0OC
+EXCEPTION CAUGHT!
+PLEASE VOID AND CANCEL MANUALLY
+Exception Message: Void cannot be implemented in WorldspanCRSTPF.
+Hipchat Response:System.Byte[]
+****************Test Exception Message ********************:Cannot open database "AirBookingEuro" requested by the login. The login failed.
+Login failed for user 'SEA\dgaglani'.
+OD Pair Used:YYZ***MAN</StdOut>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Test was failed for all the test data</Message>
+              <StackTrace>   at OMSPurchaseV2.OMSBookV2MSTest.OMSBookV2Test_TravelPortTest() in C:\dgaglani\TCOE-master\TCOE-master\GulfstreamTestCollection\products\AirInterfaceTests\v1.0\Regression\OMSPurchaseV2.cs:line 1205
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>
