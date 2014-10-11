@@ -35,11 +35,14 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
         }
         TestRunType mergedTestRun = mergeElements(testRuns);
         convertMergedTrxToFile(mergedTestRun, mergedFileLocation);
+
     }
 
     public void convertMergedTrxToFile(TestRunType mergedTestRun, String mergedFileLocation) throws Exception {
         Marshaller marshaller = JAXBContext.newInstance(TestRunType.class).createMarshaller();
+        LOGGER.info("Converting merged testRun to file!!");
         marshaller.marshal(mergedTestRun, new File(mergedFileLocation));
+        LOGGER.info("Saved file at location {}", mergedFileLocation);
     }
 
     public TestRunType getTestRunFromFile(File trxFile) throws Exception{
@@ -47,8 +50,14 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
         String trxContents = Files.toString(trxFile, Charset.defaultCharset());
         String trxContentsFiltered = removeInvalidCharsFromString(trxContents);
         StringReader trxContentsStringReader = new StringReader(trxContentsFiltered);
-        JAXBElement<TestRunType> testRunTypeJAXBElement = (JAXBElement<TestRunType>)jaxbContext.createUnmarshaller().unmarshal(trxContentsStringReader);
-        return testRunTypeJAXBElement.getValue();
+        Object unMarshalledTestRun = jaxbContext.createUnmarshaller().unmarshal(trxContentsStringReader);
+        if (unMarshalledTestRun instanceof JAXBElement) {
+            JAXBElement<TestRunType> testRunTypeJAXBElement = (JAXBElement<TestRunType>)unMarshalledTestRun;
+            return testRunTypeJAXBElement.getValue();
+        }
+        else {
+            return (TestRunType)unMarshalledTestRun;
+        }
     }
 
 
@@ -75,27 +84,50 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
         CountersType result1Counters = (CountersType)resultSummary1.getCountersOrOutputOrRunInfos().get(0);
         CountersType result2Counters = (CountersType)resultSummary2.getCountersOrOutputOrRunInfos().get(0);
         mergeCounters(result1Counters, result2Counters);
-        mergeTestDefinitions(elementToMerge1, elementToMerge2);
-        return elementToMerge1;
-    }
 
-    public void mergeTestDefinitions(TestRunType elementToMerge1, TestRunType elementToMerge2) {
+        //TODO - Move to configuration driven
         if(getTestEntries(elementToMerge1).getTestEntry().size() < getTestEntries(elementToMerge2).getTestEntry().size()) {
             //Merging the smaller with the bigger
             TestRunType temp = elementToMerge1;
             elementToMerge1 = elementToMerge2;
             elementToMerge2 = temp;
         }
+        mergeTestDefinitions(elementToMerge1, elementToMerge2);
+
+        //This block also for logging only
+        LOGGER.info("After merging first trx contains the following definitions: ");
+        for (Object unitTestsFromFirstTrx : getTestDefinitions(elementToMerge1).getUnitTestOrUnitTestElementOrManualTest()) {
+            UnitTestType unitTest = ((JAXBElement<UnitTestType>)unitTestsFromFirstTrx).getValue();
+            LOGGER.info("First trx contains unit test with name: {} and id: {}", unitTest.getName(), unitTest.getId());
+        }
+
+        //This block also for logging only
+        LOGGER.info("After merging first trx contains the following test entries: ");
+        for (TestEntryType testEntryFromFirstTrx : getTestEntries(elementToMerge1).getTestEntry()) {
+            LOGGER.info("First trx contains test entry with id: {}", testEntryFromFirstTrx.getTestId());
+        }
+        return elementToMerge1;
+    }
+
+    public void mergeTestDefinitions(TestRunType elementToMerge1, TestRunType elementToMerge2) {
         int testDefinitionUnitTestPosition = 0;
         TestRunType.TestDefinitions definitions1 = getTestDefinitions(elementToMerge1);
         TestRunType.TestDefinitions definitions2 = getTestDefinitions(elementToMerge2);
+        //This block only for logging, no functional use
+        for (Object unitTestsFromFirstTrx : definitions1.getUnitTestOrUnitTestElementOrManualTest()) {
+            UnitTestType unitTest = ((JAXBElement<UnitTestType>)unitTestsFromFirstTrx).getValue();
+            LOGGER.info("First trx contains unit test with name: {} and id: {}", unitTest.getName(), unitTest.getId());
+        }
+
         for(Object unitTestFromSecondTrx : definitions2.getUnitTestOrUnitTestElementOrManualTest()) {
             definitions1.getUnitTestOrUnitTestElementOrManualTest().add(unitTestFromSecondTrx);
             UnitTestType unitTest = ((JAXBElement<UnitTestType>)unitTestFromSecondTrx).getValue();
             //Merge the corresponding test entry
-            String testEntryExecutionId = unitTest.getId();
+            String testEntryTestId = unitTest.getId();
+            LOGGER.info("Retrieving unit test with name {}  and id {} from second trx", unitTest.getName(), unitTest.getId());
             TestEntriesType testEntriesFromSecondTrx = getTestEntries(elementToMerge2);
-            TestEntryType testEntryFromSecondTrx = getTestEntryByTestId(testEntryExecutionId, testDefinitionUnitTestPosition, testEntriesFromSecondTrx);
+            TestEntryType testEntryFromSecondTrx = getTestEntryByTestId(testEntryTestId, testDefinitionUnitTestPosition, testEntriesFromSecondTrx);
+            LOGGER.info("Retrieving test entry with test id {} from second trx", testEntryFromSecondTrx.getTestId());
             TestEntriesType testEntriesFromFirstTrx = getTestEntries(elementToMerge1);
             testEntriesFromFirstTrx.getTestEntry().add(testEntryFromSecondTrx);
             //Merge the corresponding unit test result
@@ -105,6 +137,8 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
             testResultsFromFirstTrx.getUnitTestResultOrGenericTestResultOrTestResult().add(secondTrxUnitTestResult);
             testDefinitionUnitTestPosition++;
         }
+
+
     }
 
     public ResultsType getResultsType(TestRunType testRun) {
@@ -115,13 +149,13 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
         return (TestEntriesType)testRun.getTestRunConfigurationOrTestSettingsOrResultSummary().get(5);
     }
 
-    public TestEntryType getTestEntryByTestId(String executionId, int positionOfUnitTest, TestEntriesType testEntries) {
+    public TestEntryType getTestEntryByTestId(String testEntryTestId, int positionOfUnitTest, TestEntriesType testEntries) {
         //This should ideally be found at position of unit test, but just in case it is not found, searching linearly..
-        if (testEntries.getTestEntry().get(positionOfUnitTest).getTestId().equals(executionId)) {
+        if (testEntries.getTestEntry().get(positionOfUnitTest).getTestId().equals(testEntryTestId)) {
             return testEntries.getTestEntry().get(positionOfUnitTest);
         } else {
             for(TestEntryType testEntry : testEntries.getTestEntry()) {
-                if(testEntry.getExecutionId().equals(executionId)) {
+                if(testEntry.getTestId().equals(testEntryTestId)) {
                     return testEntry;
                 }
             }

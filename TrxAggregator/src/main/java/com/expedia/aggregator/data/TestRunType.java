@@ -152,7 +152,7 @@ import org.w3c.dom.Element;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "TestRunType", propOrder = {
+@XmlType(name = "TestRun", propOrder = {
     "testRunConfigurationOrTestSettingsOrResultSummary"
 })
 @XmlRootElement

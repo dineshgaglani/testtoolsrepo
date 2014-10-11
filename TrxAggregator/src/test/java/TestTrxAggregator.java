@@ -18,7 +18,7 @@ public class TestTrxAggregator {
     @Test
     public void testAggregateTrx() throws Exception {
         String folderPath = "/Users/dgaglani/Desktop/tasks/Airawat/TrxAggregator/src/test/resources/";
-        String mergedFileLocation = folderPath + "mergedTrx.trx";
+        String mergedFileLocation = folderPath + "mergedTrx1.trx";
         TrxAggregator trxAggregator = new TrxAggregator();
         trxAggregator.aggregateTrxFiles(Utils.getTrxFilesFromFolder(folderPath), mergedFileLocation);
      }
