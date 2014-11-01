@@ -79,12 +79,6 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
 
     @Override
     public TestRunType performMerge(TestRunType elementToMerge1, TestRunType elementToMerge2) {
-        TestRunType.ResultSummary resultSummary1 = getResultsSummary(elementToMerge1);
-        TestRunType.ResultSummary resultSummary2 = getResultsSummary(elementToMerge2);
-        CountersType result1Counters = (CountersType)resultSummary1.getCountersOrOutputOrRunInfos().get(0);
-        CountersType result2Counters = (CountersType)resultSummary2.getCountersOrOutputOrRunInfos().get(0);
-        mergeCounters(result1Counters, result2Counters);
-
         //TODO - Move to configuration driven
         if(getTestEntries(elementToMerge1).getTestEntry().size() < getTestEntries(elementToMerge2).getTestEntry().size()) {
             //Merging the smaller with the bigger
@@ -92,9 +86,14 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
             elementToMerge1 = elementToMerge2;
             elementToMerge2 = temp;
         }
+        TestRunType.ResultSummary resultSummary1 = getResultsSummary(elementToMerge1);
+        TestRunType.ResultSummary resultSummary2 = getResultsSummary(elementToMerge2);
+        CountersType result1Counters = (CountersType)resultSummary1.getCountersOrOutputOrRunInfos().get(0);
+        CountersType result2Counters = (CountersType)resultSummary2.getCountersOrOutputOrRunInfos().get(0);
+        mergeCounters(result1Counters, result2Counters);
         mergeTestDefinitions(elementToMerge1, elementToMerge2);
 
-        //This block also for logging only
+        //This block also for logging only, TODO - run based on logging level
         LOGGER.info("After merging first trx contains the following definitions: ");
         for (Object unitTestsFromFirstTrx : getTestDefinitions(elementToMerge1).getUnitTestOrUnitTestElementOrManualTest()) {
             UnitTestType unitTest = ((JAXBElement<UnitTestType>)unitTestsFromFirstTrx).getValue();
@@ -187,6 +186,7 @@ public class TrxAggregator extends ParallelAggregator<TestRunType> {
 
     public void mergeCounters(CountersType result1Counters, CountersType result2Counters) {
         //<Counters total="20" executed="20" error="0" failed="20" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+        LOGGER.info("Trx one has total {} and trx two has total {} ", result1Counters.getTotal(), result2Counters.getTotal());
         result1Counters.setTotal(result1Counters.getTotal() + result2Counters.getTotal());
         result1Counters.setExecuted(result1Counters.getExecuted() + result2Counters.getExecuted());
         result1Counters.setError(result1Counters.getError() + result2Counters.getError());
