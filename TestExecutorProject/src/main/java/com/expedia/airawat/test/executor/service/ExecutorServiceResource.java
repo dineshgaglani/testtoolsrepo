@@ -5,6 +5,9 @@ import com.expedia.airawat.test.executor.engine.TestExecutor;
 import com.expedia.airawat.test.executor.service.configs.Paths;
 import com.expedia.airawat.test.executor.service.objects.TestExecutionRequest;
 import com.expedia.airawat.test.executor.service.objects.TestExecutorResponse;
+import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.ws.rs.*;
 import java.lang.reflect.Array;
@@ -23,6 +26,8 @@ public class ExecutorServiceResource {
     public ExecutorServiceResource(Paths paths) {
         this.paths = paths;
     }
+
+    static Logger LOGGER = LoggerFactory.getLogger(ExecutorServiceResource.class);
 
     @Path("/json")
     @POST
@@ -97,31 +102,33 @@ public class ExecutorServiceResource {
             regressionTests.add("CharterBookingTest");
         }
         regressionTests.add("NewSearchOldPrice");
-        regressionTests.add("TFMetroCodeSearch");
-        regressionTests.add("CarrierSpecificSearchForNoSupportTF");
-        regressionTests.add("TFMetroCodeSearchAndNoDPCPriceDepDifferArr");
         regressionTests.add("NoAirlineSpecificSearch");
         regressionTests.add("TFNoDPCinGetDetails");
-        regressionTests.add("SearchV4GetDetailsV2");
+        regressionTests.add("SearchV4GetDetailsV2.SearchV4GetDetailsV2Casaes.SearchV4GetDetailsV2");
         regressionTests.add("SearchV3GetDetailsV1");
-        regressionTests.add("TFMetroCodeSearchAndNoDPCPrice");
+        //Separate or run only LCCBook.TFCases.TFMetroCodeSearch
+        regressionTests.add("LCCBook.TFCases.TFMetroCodeSearch");
+        //regressionTests.add("TFMetroCodeSearchAndNoDPCPriceDepDifferArr");
+        //regressionTests.add("LCCBook.TFCases.TFMetroCodeSearchAndNoDPCPrice");
         regressionTestSuite.add(regressionTests);
 
         List<String> regressionTests2 = new ArrayList<String>();
         regressionTests2.add("OldSearchNewPrice");
         regressionTests2.add("BFSUnsupportedSerchV5Test");
-        regressionTests2.add("BFSUnsupportedSerchV5Test");
         regressionTests2.add("Verify");
-        regressionTests2.add("GetDetails");
+        regressionTests2.add("PriceCheck.PriceCheckCases.GetDetails");
         regressionTests2.add("BFSUnsupportedSearchV4GetDetailsV2");
-        //Not running in parallel
-        regressionTests.add("OMSBookV2TFTest");
-        regressionTests.add("Book");
+        regressionTests2.add("OMSBookV2TFTest");
+        regressionTests2.add("CarrierSpecificSearchForNoSupportTF");
         regressionTests2.add("OMSBookV2Test_SabreTest");
         regressionTests2.add("OMSBookV2Test_TravelPortTest");
         regressionTests2.add("OMSBookV2Test_AmadeusTest");
-        regressionTests2.add("BookOMS");
+        regressionTests2.add("OMSBookV2Test_POSLaunchTest");
+        //separate or run only PriceCheck.PriceCheckCases.Book
+        //regressionTests2.add("BookOMS");
+        regressionTests2.add("PriceCheck.PriceCheckCases.Book");
         regressionTestSuite.add(regressionTests2);
+
         List<String> regressionTests3 = new ArrayList<String>();
         regressionTests3.add("SabreMSTests");
         regressionTests3.add("AmadeusMSTests");
@@ -129,12 +136,12 @@ public class ExecutorServiceResource {
         regressionTests3.add("DirectTicketingMSTest");
         regressionTests3.add("TFRoundTrip");
         regressionTests3.add("TFStandalone");
-        regressionTests3.add("TFRoundTrip");
         regressionTests3.add("TFNoDPCinPurchase");
         regressionTests3.add("TFNoCVVBook");
-        regressionTests3.add("PriceChangeTest");
-        regressionTests3.add("ScheduleChangeTest");
-        regressionTests3.add("PriceChangeAtCompletePurcaseTest");
+        //separate or run only ScheduleChangeTest
+        regressionTests3.add("PriceScheduleChange.PriceScheduleChangeTestCases.PriceChangeTest");
+        regressionTests3.add("PriceScheduleChange.PriceScheduleChangeTestCases.ScheduleChangeTest");
+        regressionTests3.add("PriceScheduleChange.PriceScheduleChangeTestCases.PriceChangeAtCompletePurchaseTest");
 
         regressionTestSuite.add(regressionTests3);
 
@@ -167,12 +174,24 @@ public class ExecutorServiceResource {
 
             String placeWhereAggregatedTRXFilesGo = paths.getPathsWhereTrxGo();
             //Execute tests 5 times, merged file location will be the place where .trx is being read by the tests
-            for(int i = 0; i < 5; i++) {
-                testExecutor.executeTests("shell", regressionTestSuite, executorFilePath + "regressionexecutor.bat", ".trx", executorFilePath + "regressionresult"+i);
-                testExecutor.executeTests("shell", purchaseTestSuite, executorFilePath + "purchaseexecutor.bat", ".trx", executorFilePath + "purchaseresult"+i);
-                testExecutor.executeTests("shell", obFeeTestSuite, executorFilePath + "obfeetestexecutor.bat", ".trx", executorFilePath + "obfeetesresult"+i);
-                testExecutor.executeTests("shell", fppTestSuite, executorFilePath + "fpptestexecutor.bat", ".trx", executorFilePath + "fpptesresult"+i);
+            for(int i = 0; i < 2 ; i++) {
+                LOGGER.info("Starting execution for the {} th time ", i);
+                LOGGER.info("Executing regression suite for the {} th time ", i);
+                testExecutor.executeTests("shell", regressionTestSuite, executorFilePath + "regressionexecutor.bat", ".trx", executorFilePath + "regressionresult" + i);
+                LOGGER.info("regression suite for the {} th time complete", i);
+                LOGGER.info("Executing purchase suite for the {} th time ", i);
+                testExecutor.executeTests("shell", purchaseTestSuite, executorFilePath + "purchaseexecutor.bat", ".trx", executorFilePath + "purchaseresult" + i);
+                LOGGER.info("purchase suite for the {} th time complete", i);
+                LOGGER.info("Executing obfee suite for the {} th time ", i);
+                testExecutor.executeTests("shell", obFeeTestSuite, executorFilePath + "obfeetestexecutor.bat", ".trx", executorFilePath + "obfeetesresult" + i);
+                LOGGER.info("obfee suite for the {} th time complete", i);
+                LOGGER.info("Executing fpp suite for the {} th time ", i);
+                testExecutor.executeTests("shell", fppTestSuite, executorFilePath + "fpptestexecutor.bat", ".trx", executorFilePath + "fpptesresult" + i);
+                LOGGER.info("fpp suite for the {} th time complete", i);
+                LOGGER.info("Aggregating trxs for individual suites");
+                //Major Hack - Added the .trx (only here) at the end for reasons that will change mankind forever(this was the only quick fix that I could think of - DONOT REMOVE THE .trx EXTENSION HERE and DONOT ADD IT IN THE PREVIOUS STEPS!!)
                 trxAggregator.aggregateTrxFromFileList(Arrays.asList(new String[]{executorFilePath + "regressionresult" + i, executorFilePath + "purchaseresult" + i, executorFilePath + "obfeetesresult" + i, executorFilePath + "fpptesresult" + i}), placeWhereAggregatedTRXFilesGo + i + ".trx");
+                LOGGER.info("Aggregated trxs for individual suites placed at {}", placeWhereAggregatedTRXFilesGo + i + ".trx");
             }
             ServiceUtils.sendEMail(placeWhereAggregatedTRXFilesGo);
         } catch (Exception e) {
