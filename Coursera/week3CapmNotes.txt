@@ -1,0 +1,12 @@
+Rf + Beta(E(Rm) - Rf)
+
+If beta is negative 
+
+and return on market portfolio > Risk free return then the equation for CAPM results in a negative value
+
+but if return on market portfolio < Risk free return then the equation for CAPM results in a positive value
+
+so for negative beta:
+low value of market portfolio results in postive CAPM
+High value of market portfolio results in negative CAPM
+And cov(returns from market portfolio, return from target equity) is -ve and so they move in opposite directions
