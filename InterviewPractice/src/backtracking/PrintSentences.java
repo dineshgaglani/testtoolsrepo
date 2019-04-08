@@ -11,14 +11,14 @@ public class PrintSentences {
         List<String> words = Arrays.asList(new String[] {"I", "am", "a", "simple", "man", "new", "word"});
         String splitSentence = "I am a simple man";
         String splitSentenceActual = splitIt(noSpSentence, words);
-        assert (splitSentence.equals(splitSentenceActual));
+        System.out.println(splitSentence.equals(splitSentenceActual));
 
         //Splitting from first does not form last word, then backtracking forms it
         noSpSentence = "abcde";
         words = Arrays.asList(new String[] {"a", "b", "c", "cde"});
         splitSentence = "a b cde";
         splitSentenceActual = splitIt(noSpSentence, words);
-        assert (splitSentence.equals(splitSentenceActual));
+        System.out.println(splitSentence.equals(splitSentenceActual));
 
 //        String s = String.format("Used %s again and %s again", "replace", "replace");
 //        System.out.println(s);
@@ -26,13 +26,13 @@ public class PrintSentences {
 
     private static String splitIt(String noSpSentence, List<String> words) {
         List<String> collector = new ArrayList<>();
-        splitItBackTrack(noSpSentence, words, collector, 0);
+        splitItBackTrack(noSpSentence, words, collector);
         StringBuilder resWords = new StringBuilder();
         collector.forEach(s -> resWords.append(s));
         return resWords.toString();
     }
 
-    private static void splitItBackTrack(String noSpSentence, List<String> words, List<String> collector, int startPos) {
+    private static void splitItBackTrack(String noSpSentence, List<String> words, List<String> collector) {
         if (noSpSentence.length() == 0) {
             StringBuilder resWords = new StringBuilder();
             collector.forEach(s -> resWords.append(s));
@@ -47,7 +47,9 @@ public class PrintSentences {
             if (isValidWord(split.split(" ")[0], words)) {
                 //We pass whatever is after the space
                 collector.add(split.split(" ")[0]);
-                splitItBackTrack(split.split(" ")[1], words, collector, i + 1);
+                if (split.split(" ").length > 1) {
+                    splitItBackTrack(split.split(" ")[1], words, collector);
+                }
                 //Unchoose
                 if (collector.size() > 0) {
                     collector.remove(collector.size() - 1);

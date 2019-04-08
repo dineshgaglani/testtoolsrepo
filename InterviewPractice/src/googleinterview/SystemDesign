@@ -1,0 +1,38 @@
+I did not say all of this, it was mostly  by the interviewer
+Provide a feasibility study for offline maps:
+
+Given that I have to build an app that would store all locations of a given city locally, how would I go about it.
+So, first consideration would be analyze how much data needs to be stored. Data would ideally be stored as strings
+so we need to find out how many strings we can store.
+1 char in a string = 4 bytes
+assuming a string would contain 25 chars = 100 bytes
+1 kb of data contains 10^3 bytes so 10 strings in 1 kb
+so, 10,000 strings in 1 MB, so 10^7 in 1GB. lets consider this our limit since we store data offline on the map
+Now, we have the size of the list of locations, we need to know if we can accommodate ALL areas of interest in a city
+by using 1GB of space or should we increase space needed.
+For this we need to make assumptions about how much data we need for a city.
+So if we assume that per stretch of 200m we have 4 locations, so a block of 200 * 200 will have 16 locations (screwed up
+here and said 8 locations in the interview), and we assume that the city is 20 kms stretch on one side, so that is
+(20 * 10^3)/2 * 10^2 = 100 * 4 = 400 locations for 1 stretch of city. square this for to get locations for the entire city
+400 * 400 = 4 ^ 10^4. So assuming we only have 4 locations of interest per stretch we have more than enough with 1 GB
+Now, assuming we collect all the locations we need and make a list.
+Now what else do we need. We need the location coordinates of every item in the list (another 8 bytes, making each value 1008 Bytes)
+So, now that we have the lat long for every entry, we need to identify the closest N entries given a co-ordinate
+They cannot be sorted by lat and long because these are 2 dimensions.
+So, we decide to divide the lat longs into cells, with each cell having a group of location entries.
+We have a job that processes in the background which lat long belongs to which cell.
+The cell has its diagonal coordinates and every lat long that falls within a cell's diagonal coordinates will belong to that cell
+We keep a mapping of cell to list of locations in a cell object
+When a user opens the app, we receive his lat long, we already have to lat long to cell pre-processed map because otherwise
+we will have to sift through all cells to find which cell this user is currently in.
+So from the latlong to cell map we get the cell we should be in and from the cell we get all the entries needed for
+to render the map.
+
+Takeaway for offline system design questions: offline system design mostly involves storing on a single machine or device
+so partitioning is not an option. In this case we need to identify mostly how much disk memory we need to use.
+Also if too much disk is being used then the amount of working memory (RAM) will also need to be analyzed (which we did
+not do in this explanation) We also need to identify the data structures that will best accommodate our scenario and solve
+our problem. The background processes also need to be separated from fore-ground processes. We also need to make certain
+assumptions about a smaller scale of the system we are modelling for (our system is a city in this case, and our assumptions were how big the city is
+and how many locations of interest are required (this is an assumption) per small stretch (this is reducing the scale))
+

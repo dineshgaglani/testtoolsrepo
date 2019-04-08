@@ -26,8 +26,8 @@ package trees;
         Then as we return do the same for the right
 
         We need to keep in mind that the inorder array has to be trimmed to include only the elements left of the node
-        that was just created so that we don't have to keep track of when to return back from the recursion.
-        And include only right of target in inorder should be included when recursing for the right,
+        (while calling for left subtree) that was just created so that we don't have to keep track of when to return
+        back from the recursion. And include only right of target in inorder should be included when recursing for the right,
         also when we go right pre-order needs to stripped by 2 places since 1 is already made part of the left node.
  */
 public class Reconstruction {

@@ -52,8 +52,8 @@ public class DeserializationOfTree {
          For 3 the next subtree is null and we return and assign to left of 3 and we go right, after which we assign
          left of 4 as null and 5 as right of 4 and return 4 to be assigned as right of 3
 
-         Mistake was I wasn't returning on null and wasn't recursing for left and right, also on 1 we must be returned
-         the index so it must be passed by reference
+         Mistake was I wasn't returning on null and wasn't recursing for left and right,
+         also on 1 we must be returned the index so it must be passed by reference
      */
     public void serialize(Node node, List<Integer> serializedCollector) {
         if (node == null) {

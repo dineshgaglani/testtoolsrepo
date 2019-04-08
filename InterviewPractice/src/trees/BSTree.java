@@ -154,7 +154,7 @@ public class BSTree {
     }
 
     public int transformToGreaterSum (Node node) {
-        //We need to provide the root with all of right sub-tree's sum and not just the right of right.
+        // We need to provide the root with all of right sub-tree's sum and not just the right of right.
         // But the key will only have the right subtrees sum
         // TODO - and the left nodes will have the root and the root's right nodes' sum
         // The caller node (if he called right side) will need to get both sums however,

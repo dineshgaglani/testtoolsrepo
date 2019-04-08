@@ -38,6 +38,9 @@ package backtracking;
            1 2 21
 
 21 -> 2
+
+We cannot do memoization with this implementation because we need the index (the index of each character in the encoded
+will need to act as the key for the memoization map) - Revisit this again to add memoization
  */
 public class NumEncodings {
 
