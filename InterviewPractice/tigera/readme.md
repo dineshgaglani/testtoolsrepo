@@ -4,12 +4,7 @@ docker build . -t tigeraassignmentimage
 Starting a container for the image: \
 docker run -p 8000:8000 tigeraassignmentimage
 
-Running the test: \
-pip install requests \
-cd tigeraassignment \
-python testjokeapi
-
-On the host machine shell, type the below lines \
+To run the blackbox test, on the host machine shell, type the below lines \
 pip install pytest
 pytest testjokeapi.py
 
