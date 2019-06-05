@@ -1,0 +1,11 @@
+Data structures:
+
+Heaps: Heaps have to add the new element to the end of the heap, so the array in which the heap will be stored in will be bigger than the heap size,
+the heap size is tracked by size variable and not array length.
+
+Max/Min Queues: Max/Min queues are easiest implemented as arrays, and using circular array method
+
+Circular array: To distinguish between array full and array empty a size variable is needed. Subtracting tail - head will either leave an empty spot or
+will fail at first insertion
+
+Always always always check for repeating substring on string based questions (a string that partially starts with some other following string , example: a, an, another)

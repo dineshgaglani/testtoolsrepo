@@ -1,5 +1,7 @@
 package dailyCodingProblem;
 
+import java.util.Arrays;
+
 /*
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
 
@@ -21,15 +23,18 @@ public class Problem12ClimbingStairs {
     private static Integer getCountOfWays(int totalSize, Integer[] denominations) {
 
         Integer[] allStairs = new Integer[totalSize + 1];
-
+        for(int i = 0; i < allStairs.length; i++) {
+            allStairs[i] = 0;
+        }
+        allStairs[0] = 1;
         for (int i = 0; i < allStairs.length; i++) {
             for(Integer denomination : denominations) {
                 if (i + denomination < allStairs.length) {
-                    allStairs[i + denomination] = allStairs[i + denomination] + 1;
+                    allStairs[i + denomination] = allStairs[i + denomination] + allStairs[i];
                 }
             }
         }
 
-        return allStairs[totalSize + 1];
+        return allStairs[totalSize];
     }
 }

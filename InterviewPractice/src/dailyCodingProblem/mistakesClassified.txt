@@ -1,0 +1,31 @@
+Recursion errors:
+    List iteration on recursion:
+        If using counter on recursion, the counter will NOT have retained it's recursed value, it will be equal to its value when
+        this function was called (the changed value on recursion is NOT the value on return), so when iterating lists on recursion
+        keep this in mind.
+        Also remember when to increment or decrement the counter of the wrapper object, if counter is incremented only on recurse call and not
+        on return, then on terminal condition if it is not set and we try to set the wrapper with the return value from the
+        terminal recurse call we will fail with a null pointer exception - improve explanation - revisit
+                This mistake was made in Problem3
+
+        Changing 2 dependent parameters on recurrence, if they are dependent changing one should be enough and depending on one the other can
+        be processed
+        Not checking if input complies with recursion when calling recursive function - This is repeating often
+        Returning null/empty from a terminal condition and depending on that by (iterating) in the calling function.
+            These mistakes were made on problem7
+
+
+Reasoning Errors:
+    Array indexes begin with a postive number, so they can be used everytime a find the smallest +ve number question is asked,
+    (DONOT use when number to find is NOT EXCLUSIVELY positive). The mistake made was that not all positive numbers were placed in their
+    respective indexes. I was first placing negatives and excesses and then going to positives, reasoning error/
+        This mistake was committed in problem4
+
+Iteration vs Recursion Errors:
+    Recursion is creating last object first and assigning it to the caller of the creation, while iteration is creation of an empty object
+    and assigning it a value later. Sometimes it becomes hard to choose which of the two to use. Practicing should build the instinct.
+
+Data structure mistakes:
+    Heaps: Assuming that last element is NULL when adding is a mistake, sometimes one of the middle elements may be null, for example when there are
+    3 'nodes' on the max heap, the middle one may be NULL while the top one may be Max and the right child may be min, so we need to identify
+    how to create a limited heap (how to identify when to 'pop' the max/how to find if the heap is full) - This occurred in problem 18
