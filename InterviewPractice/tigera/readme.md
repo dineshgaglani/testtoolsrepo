@@ -23,6 +23,8 @@ First response returns incorrect for first name \
 First response returns incorrect for last name \
 First response fails \
 
+Please note that the above tests use httppretty based mocks and run along with the build (when the docker image is being created) \
+
 An additional test that did not pass is: non-ASCII character returned in first request
 
 Another black box test that verifies if the server is up is in the testjokeapi.py file
