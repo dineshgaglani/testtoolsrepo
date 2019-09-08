@@ -119,7 +119,8 @@ public class Problem7DecodeString {
 
     public static String valueOf(String numericString) {
         Integer aVal = ('a' - 1);
-        return Character.toString(Integer.parseInt(numericString) + aVal);
+//        return Character.toString(Integer.parseInt(numericString) + aVal);
+        return "";
     }
 
 

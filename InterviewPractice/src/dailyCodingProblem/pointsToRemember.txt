@@ -9,3 +9,8 @@ Circular array: To distinguish between array full and array empty a size variabl
 will fail at first insertion
 
 Always always always check for repeating substring on string based questions (a string that partially starts with some other following string , example: a, an, another)
+
+To speed up 2dimensional grid navigation, create a co-ord object and for neighbors return the list of coords and while checking, iterate the list of neighbor
+coords and catch ArrayIndexOutOfBounds, continue on the catch block. This will save a tonne of time
+
+Delete the element that will cause an infinite recursion before the "explore" stage itself
