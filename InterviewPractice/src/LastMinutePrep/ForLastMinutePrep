@@ -1,0 +1,28 @@
+Last Minute prep means only a month to prepare
+Checklist:
+Cracking the coding interview - all problems 3 times
+InterviewCamp questions - all problems 3 times
+Quick sort, merge sort, Merge sort for K arrays - 3 times each
+Binary tree coordinates - 3 times
+
+If time permits:
+Assignments from ds and algo coursera course
+
+Clear the workspace after interview ends. Leave these notes intact: Write mistakes made during practice here, write interview questions in its respective folder
+
+MergeSort Mistakes:
+1. What args to pass to the recursive functions. - high, lo
+2. What should be the terminal condition. - high <= lo
+3. Why do we have to recurse two times. - second time to split second half
+4. When to call merge (between the 2 recurses or after) - after
+Remember to merge returned array at the end
+
+
+Amazon Coding assessment id: 23280720270314
+23280666481444
+
+
+
+
+
+Quick Sort Mistakes:
