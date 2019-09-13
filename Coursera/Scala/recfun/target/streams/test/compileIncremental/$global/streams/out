@@ -1,0 +1,24 @@
+[0m[[0mdebug[0m] [0m[naha] The recfun.Main$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	prodGeneral, sumInts, cube, sumGeneral, sumCubes, intervalOperationGeneral.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) recfun.Main$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) recfun.Main$.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in C:\Users\Dinesh\Desktop\Courses\Coursera\Scala\recfun\src\test\scala\recfun\PascalSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in C:\Users\Dinesh\Desktop\Courses\Coursera\Scala\recfun\src\test\scala\recfun\CountChangeSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in C:\Users\Dinesh\Desktop\Courses\Coursera\Scala\recfun\src\test\scala\recfun\BalanceSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(recfun.Main$,ModifiedNames(regularNames = prodGeneral, sumInts, cube, sumGeneral, sumCubes, intervalOperationGeneral, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
