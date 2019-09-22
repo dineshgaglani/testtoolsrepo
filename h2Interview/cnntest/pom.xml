@@ -92,12 +92,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.4.2</version>
-                <configuration>
+                <!--<configuration>
                     <environmentVariables>
                         <HUB_PORT>4444</HUB_PORT>
                         <API_KEY>326f3dcc68msh19e51dc3cab32eap128c10jsn1edad8b2f397</API_KEY>
                     </environmentVariables>
-                </configuration>
+                </configuration>-->
             </plugin>
         </plugins>
     </build>

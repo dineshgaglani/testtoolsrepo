@@ -9,9 +9,13 @@ services:
         - "5555:5555"
 
   test:
-    image: maven:3.3-jdk-8
+    image: maven:3.5.3-jdk-8-alpine
     volumes:
-      - cnntest:cnntest
+      - ./cnntest:/cnntest
+    working_dir: /cnntest
+    command: mvn test
+    depends_on:
+      - chrome
     environment:
-      API_KEY: 326f3dcc68msh19e51dc3cab32eap128c10jsn1edad8b2f397
-      HUB_PORT: 4444
+          API_KEY: 326f3dcc68msh19e51dc3cab32eap128c10jsn1edad8b2f397
+          HUB_PORT: chrome:4444

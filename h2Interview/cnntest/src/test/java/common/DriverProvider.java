@@ -26,7 +26,7 @@ public class DriverProvider {
         cap.setVersion("");
         WebDriver remoteDriver = null;
         try {
-            remoteDriver = new RemoteWebDriver(new URL("http://localhost:" + System.getenv("HUB_PORT") + "/wd/hub"), cap);
+            remoteDriver = new RemoteWebDriver(new URL("http://" + System.getenv("HUB_PORT") + "/wd/hub"), cap);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
