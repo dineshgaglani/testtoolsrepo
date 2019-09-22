@@ -1,3 +1,5 @@
+**Getting started**
+
 Tests are driven by cucumber feature files 
 
 `src/test/resources/cnntest/*.feature`
