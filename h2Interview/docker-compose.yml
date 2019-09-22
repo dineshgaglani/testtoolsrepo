@@ -1,0 +1,17 @@
+version: '2'
+services:
+  chrome:
+      image: selenium/standalone-chrome-debug:3.141.59-vanadium
+      volumes:
+        - /dev/shm:/dev/shm
+      ports:
+        - "4444:4444"
+        - "5555:5555"
+
+  test:
+    image: maven:3.3-jdk-8
+    volumes:
+      - cnntest:cnntest
+    environment:
+      API_KEY: 326f3dcc68msh19e51dc3cab32eap128c10jsn1edad8b2f397
+      HUB_PORT: 4444
