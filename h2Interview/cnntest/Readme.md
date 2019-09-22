@@ -32,6 +32,14 @@ package
 
 **BuildNotes**:
 
+To run the test, execute:
+
+`docker-compose up`
+
+from one folder above the readme file
+
+**Additional notes**
+
 Docker container for selenium standalone: 
 
 `docker run -d -p 4444:4444 -p 5900:5900 -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:3.141.59-vanadium`
