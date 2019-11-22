@@ -18,6 +18,12 @@ MergeSort Mistakes:
 Remember to merge returned array at the end
 
 
+
+
+Interviewcamp week 1:
+duplicate evens mistake: Confused between --i and i--, for safety use (i - 1) followed by i--
+
+
 Amazon Coding assessment id: 23280720270314
 23280666481444
 
