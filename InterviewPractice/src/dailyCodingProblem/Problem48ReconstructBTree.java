@@ -1,6 +1,6 @@
 package dailyCodingProblem;
 
-import com.sun.deploy.util.ArrayUtil;
+//import com.sun.deploy.util.ArrayUtil;
 
 import java.util.Arrays;
 
@@ -56,9 +56,9 @@ public class Problem48ReconstructBTree {
             String[] inordersNewLefts = (String[]) Arrays.asList(inorders).subList(0, indexToSplitOn).toArray();
             String[] inordersNewRights = (String[]) Arrays.asList(inorders).subList(indexToSplitOn, inorders.length).toArray();
             if (nextElemIndex < indexToSplitOn) {
-                node.left = getTree(preorders, inordersNewLefts, preOrderElemIndex + 1);
+//                node.left = getTree(preorders, inordersNewLefts, preOrderElemIndex + 1);
             } else {
-                node.right = getTree(preorders, inordersNewRights, preOrderElemIndex + 1);
+//                node.right = getTree(preorders, inordersNewRights, preOrderElemIndex + 1);
             }
         }
         return node;
